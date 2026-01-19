@@ -1,6 +1,77 @@
 {
     "custom_nodes": [
         {
+            "author": "martin-rizzo",
+            "title": "ComfyUI-ZImagePowerNodes",
+            "reference": "https://github.com/martin-rizzo/ComfyUI-ZImagePowerNodes",
+            "files": [
+                "https://github.com/martin-rizzo/ComfyUI-ZImagePowerNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of ComfyUI nodes designed and fine-tuned specifically for the Z-Image model. Pushing the best image generation model to its limits!"
+        },
+        {
+            "author": "0dot77",
+            "title": "comfyui-annotations",
+            "reference": "https://github.com/0dot77/comfyui-annotations",
+            "files": [
+                "https://github.com/0dot77/comfyui-annotations"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight annotation overlay for ComfyUI."
+        },
+        {
+            "author": "isala404",
+            "title": "comfy-workflow-api",
+            "reference": "https://github.com/isala404/comfy-workflow-api",
+            "files": [
+                "https://github.com/isala404/comfy-workflow-api"
+            ],
+            "install_type": "git-clone",
+            "description": "HTTP API for ComfyUI with webhook-based workflow execution."
+        },
+        {
+            "author": "0nikod",
+            "title": "ComfyUI-Metadata-Tools",
+            "reference": "https://github.com/0nikod/ComfyUI-Metadata-Tools",
+            "files": [
+                "https://github.com/0nikod/ComfyUI-Metadata-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Tools about metadata."
+        },
+        {
+            "author": "ethanfel",
+            "title": "ComfyUI-Sharp-Selector",
+            "reference": "https://github.com/ethanfel/ComfyUI-Sharp-Selector",
+            "files": [
+                "https://github.com/ethanfel/ComfyUI-Sharp-Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for sharp frame selection and analysis. (Description by CC)"
+        },
+        {
+            "author": "ato-zen",
+            "title": "ComfyUI-VIBE",
+            "reference": "https://github.com/ato-zen/ComfyUI-VIBE",
+            "files": [
+                "https://github.com/ato-zen/ComfyUI-VIBE"
+            ],
+            "install_type": "git-clone",
+            "description": "Implementation of VIBE (Visual Instruction Based Editor) as a custom node for ComfyUI that enables image editing using natural language instructions leveraging Sana1.5 and Qwen3-VL models."
+        },
+        {
+            "author": "FallenIncursio",
+            "title": "arcenciel-link-comfyui",
+            "reference": "https://github.com/FallenIncursio/arcenciel-link-comfyui",
+            "files": [
+                "https://github.com/FallenIncursio/arcenciel-link-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Bring your ArcEnCiel models straight into ComfyUI with one click. Includes Link Key support, remote worker control, inventory sync, and sidecar generation."
+        },
+
+        {
             "author": "capitan01R",
             "title": "ComfyUI-CapitanFlowMatch",
             "reference": "https://github.com/capitan01R/ComfyUI-CapitanFlowMatch",
@@ -635,57 +706,6 @@
             ],
             "install_type": "git-clone",
             "description": "A dedicated ComfyUI custom node designed to streamline the process of converting transparent images (RGBA) into masks and high-quality mask previews."
-        },
-        {
-            "author": "wallen0322",
-            "title": "ComfyUI-qwenmultianglelight",
-            "reference": "https://github.com/wallen0322/ComfyUI-qwenmultianglelight",
-            "files": [
-                "https://github.com/wallen0322/ComfyUI-qwenmultianglelight"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for 3D lighting angle control, outputs lighting prompts for relighting image generation"
-        },
-
-        {
-            "author": "patientx",
-            "title": "CFZ-SwitchMenu",
-            "reference": "https://github.com/patientx/CFZ-SwitchMenu",
-            "files": [
-                "https://github.com/patientx/CFZ-SwitchMenu"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds a menu button that switches between old and new style ComfyUI menus."
-        },
-        {
-            "author": "Lumiyumi",
-            "title": "LumyINTP",
-            "reference": "https://github.com/Lumiyumi/LumyINTP",
-            "files": [
-                "https://github.com/Lumiyumi/LumyINTP"
-            ],
-            "install_type": "git-clone",
-            "description": "INT+ node for ComfyUI with control after generate style functionality for signal-controlled increment/decrement/randomize operations."
-        },
-        {
-            "author": "MajoorWaldi",
-            "title": "ComfyUI-Majoor-ImageOps",
-            "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-ImageOps",
-            "files": [
-                "https://github.com/MajoorWaldi/ComfyUI-Majoor-ImageOps"
-            ],
-            "install_type": "git-clone",
-            "description": "Essential Nodes Pack for Images Processing for ComfyUI, with a live embedded preview inside the node (no queue) for supported chains."
-        },
-        {
-            "author": "fujitea40",
-            "title": "comfy_exp_preset",
-            "reference": "https://github.com/fujitea40/comfy_exp_preset",
-            "files": [
-                "https://github.com/fujitea40/comfy_exp_preset"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node for expression preset management in ComfyUI, allowing users to preselect expressions and parameters for character animation. (Description by CC)"
         }
     ]
 }

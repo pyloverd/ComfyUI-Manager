@@ -18,6 +18,17 @@
             "title_aux": "mmaker/Color Enhance"
         }
     ],
+    "https://github.com/0nikod/ComfyUI-Metadata-Tools": [
+        [
+            "ImageGetMetadata",
+            "ImageSetMetadata",
+            "LoadImageWithMetadata",
+            "SaveImageWithMetadata"
+        ],
+        {
+            "title_aux": "ComfyUI-Metadata-Tools"
+        }
+    ],
     "https://github.com/0nikod/ComfyUI-Simple-Prompt": [
         [
             "SimplePrompt"
@@ -2149,6 +2160,7 @@
             "INPAINT_MaskedBlur",
             "INPAINT_MaskedFill",
             "INPAINT_ShrinkMask",
+            "INPAINT_StabilizeMask",
             "INPAINT_VAEEncodeInpaintConditioning"
         ],
         {
@@ -6007,6 +6019,7 @@
             "DiffusionModelSelectorNode",
             "LORASelectorNode",
             "ModelGeneratorNode",
+            "PonyPrefixesNode",
             "SamplerGeneratorNode",
             "SchedulerGeneratorNode",
             "StringToFloatNode",
@@ -22579,6 +22592,7 @@
             "Qwen3VLAdvanced",
             "Qwen3VLBasic",
             "Qwen3VLExtraOptions",
+            "ResourceCleaner",
             "Sa2VAAdvanced",
             "Sa2VASegmentationPreset",
             "ShowText",
@@ -25024,6 +25038,14 @@
             "title_aux": "ComfyUI NPNet (Golden Noise)"
         }
     ],
+    "https://github.com/asagi4/comfyui-dynamic-anynode": [
+        [
+            "AnyNode"
+        ],
+        {
+            "title_aux": "comfyui-dynamic-anynode"
+        }
+    ],
     "https://github.com/asagi4/comfyui-prompt-control": [
         [
             "PCAddMaskToCLIP",
@@ -25141,6 +25163,14 @@
         ],
         {
             "title_aux": "comfyui_arcane_style_trans"
+        }
+    ],
+    "https://github.com/ato-zen/ComfyUI-VIBE": [
+        [
+            "VIBE_Editor"
+        ],
+        {
+            "title_aux": "ComfyUI-VIBE"
         }
     ],
     "https://github.com/ato321/ComfyUI-LTXVGuideRebase": [
@@ -29792,11 +29822,13 @@
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
+            "Flux2ProImageNode",
             "Flux2Scheduler",
             "FluxDisableGuidance",
             "FluxGuidance",
             "FluxKontextImageScale",
             "FluxKontextMultiReferenceLatentMethod",
+            "FluxKontextProImageNode",
             "FluxProExpandNode",
             "FluxProFillNode",
             "FluxProUltraImageNode",
@@ -29840,6 +29872,7 @@
             "ImageOnlyCheckpointLoader",
             "ImageOnlyCheckpointSave",
             "ImagePadForOutpaint",
+            "ImageProcessingNode",
             "ImageQuantize",
             "ImageRGBToYUV",
             "ImageRotate",
@@ -30201,6 +30234,7 @@
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
+            "TextProcessingNode",
             "ThresholdMask",
             "TomePatchModel",
             "TopazImageEnhance",
@@ -32777,6 +32811,15 @@
         ],
         {
             "title_aux": "comfyui-videoframenode"
+        }
+    ],
+    "https://github.com/ethanfel/ComfyUI-Sharp-Selector": [
+        [
+            "SharpFrameSelector",
+            "SharpnessAnalyzer"
+        ],
+        {
+            "title_aux": "ComfyUI-Sharp-Selector"
         }
     ],
     "https://github.com/ethanfel/Comfyui-JSON-Manager": [
@@ -35414,6 +35457,8 @@
             "AIIA_CosyVoice_VoiceConversion",
             "AIIA_Dialogue_TTS",
             "AIIA_E2E_Speaker_Diarization",
+            "AIIA_EchoMimicLoader",
+            "AIIA_EchoMimicSampler",
             "AIIA_FloatProcess_InMemory",
             "AIIA_FloatProcess_ToDisk",
             "AIIA_GenerateSpeakerSegments",
@@ -37108,6 +37153,16 @@
         ],
         {
             "title_aux": "ComfyUI-DSD"
+        }
+    ],
+    "https://github.com/isala404/comfy-workflow-api": [
+        [
+            "WebhookReceiver",
+            "WebhookSend",
+            "WebhookTransformer"
+        ],
+        {
+            "title_aux": "comfy-workflow-api"
         }
     ],
     "https://github.com/iwanders/ComfyUI_nodes": [
@@ -40706,14 +40761,27 @@
     ],
     "https://github.com/latentastronaut/comfyui-latent-astronaut-suite": [
         [
+            "BatchLastImage",
+            "ChatterBoxTTS",
+            "ChatterBoxTTSLoader",
+            "ChatterBoxTTSLoaderAuto",
+            "ChatterBoxTTSSimple",
+            "ChatterBoxVC",
+            "ChatterBoxVCLoader",
+            "ChatterBoxVCLoaderAuto",
+            "ChatterBoxVCSimple",
             "ForLoopEnd",
             "ForLoopStart",
             "ImageResizeToTotalPixels",
+            "LLMConfig",
+            "LLMPromptEnhancer",
             "LoraLoaderModelOnlySelector",
             "LoraLoaderSelector",
+            "SizeSelector",
             "StringListCombine",
             "StringListFromText",
-            "StringListIndex"
+            "StringListIndex",
+            "VideoLengthFromBatch"
         ],
         {
             "title_aux": "comfyui-latent-astronaut-suite"
@@ -43538,6 +43606,18 @@
         ],
         {
             "title_aux": "comfyui-previewlatent"
+        }
+    ],
+    "https://github.com/martin-rizzo/ComfyUI-ZImagePowerNodes": [
+        [
+            "EmptyZImageLatentImage",
+            "IllustrationStylePromptEncoder",
+            "PhotoStylePromptEncoder",
+            "SaveImage",
+            "ZSamplerTurbo"
+        ],
+        {
+            "title_aux": "ComfyUI-ZImagePowerNodes"
         }
     ],
     "https://github.com/massao000/ComfyUI_aspect_ratios": [
@@ -53304,8 +53384,8 @@
     ],
     "https://github.com/transcendedhacker/Mode_personal_node": [
         [
-            "NegativeNode",
-            "PromptNode"
+            "NegativePromptNode",
+            "PromptComposerNode"
         ],
         {
             "title_aux": "Mode_personal_node"
@@ -53629,7 +53709,9 @@
             "LatentSmokeSimulation",
             "LatentSwirlNoise",
             "LatentWorleyNoise",
-            "SplitLatentPhaseMagnitude"
+            "PatchifyFlux2Latent",
+            "SplitLatentPhaseMagnitude",
+            "UnpatchifyFlux2Latent"
         ],
         {
             "title_aux": "Skoogeer-Noise"
@@ -57251,6 +57333,7 @@
     ],
     "https://github.com/zhangp365/ComfyUI-utils-nodes": [
         [
+            "AspectRatioSizeNodeOfUtils",
             "BooleanControlOutput",
             "CheckpointLoaderSimpleWithSwitch",
             "ColorCorrectOfUtils",
