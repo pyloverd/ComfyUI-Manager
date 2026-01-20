@@ -338,13 +338,13 @@
         },
         {
             "author": "aledelpho",
-            "title": "Arthemy_Live-Tuner-SDXL-ComfyUI",
+            "title": "Arthemy Live Tuner - SDXL",
             "reference": "https://github.com/aledelpho/Arthemy_Live-Tuner-SDXL-ComfyUI",
             "files": [
                 "https://github.com/aledelpho/Arthemy_Live-Tuner-SDXL-ComfyUI"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI nodes for tweaking SDXL, Illustrious, and NAI models by adjusting U-Net and CLIP slices for granular control."
+            "description": "Advanced live tuning nodes for SDXL, Illustrious, and NAI. Slice U-Net and CLIP into functional areas to adjust intensity of specific components like Layout, Style, or Syntax."
         },
         {
             "author": "bkpaine1",
