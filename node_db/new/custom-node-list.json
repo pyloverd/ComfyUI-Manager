@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "room3dev",
+            "title": "ComfyUI-PixelForge",
+            "id": "comfyui-pixelforge",
+            "reference": "https://github.com/room3dev/ComfyUI-PixelForge",
+            "files": [
+                "https://github.com/room3dev/ComfyUI-PixelForge"
+            ],
+            "install_type": "git-clone",
+            "description": "Dynamic resolution selector and advanced resize nodes with real-time feedback."
+        },
+        {
             "author": "gen1nya",
             "title": "ComfyUI Remote Upscale",
             "id": "remote-upscale",

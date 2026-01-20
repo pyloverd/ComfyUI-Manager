@@ -40114,6 +40114,17 @@
             "description": "High-performance frame IO nodes (WEBP)"
         },
         {
+            "author": "room3dev",
+            "title": "ComfyUI-PixelForge",
+            "id": "comfyui-pixelforge",
+            "reference": "https://github.com/room3dev/ComfyUI-PixelForge",
+            "files": [
+                "https://github.com/room3dev/ComfyUI-PixelForge"
+            ],
+            "install_type": "git-clone",
+            "description": "Dynamic resolution selector and advanced resize nodes with real-time feedback."
+        },
+        {
             "author": "chrishill197724-gif",
             "title": "ComfyUI-Wan22-GGUF-Storyboard",
             "reference": "https://github.com/chrishill197724-gif/ComfyUI-Wan22-GGUF-Storyboard",
@@ -40906,7 +40917,7 @@
                 "https://github.com/shmbatom/Comfyui-Image-Concat"
             ],
             "install_type": "git-clone",
-            "description": "a powerful image concatenation tool for ComfyUI, with True Alpha Channel Support and Multiple Image-block Fill Modes(V1.1 Added 2 draw mode and 2 filename save mode)."
+            "description": "a powerful image concatenation tool for ComfyUI, with True Alpha Channel Support and Multiple Image-block Fill Modes(V1.1 add 1 images input port and 2 draw modes)."
         },
         {
             "author": "solidlime",
@@ -42182,17 +42193,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-		},
-		{
-            "author": "room3dev",
-            "title": "ComfyUI-PixelForge",
-            "id": "comfyui-pixelforge",
-            "reference": "https://github.com/room3dev/ComfyUI-PixelForge",
-            "files": [
-                "https://github.com/room3dev/ComfyUI-PixelForge"
-            ],
-            "install_type": "git-clone",
-            "description": "Dynamic resolution selector and advanced resize nodes with real-time feedback."
-        }
+		}
     ]
 }

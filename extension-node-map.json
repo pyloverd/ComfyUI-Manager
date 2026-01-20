@@ -23402,6 +23402,8 @@
             "ImageToPose",
             "LoadCogVideoXFunLora",
             "LoadCogVideoXFunModel",
+            "LoadQwenImageControlNetInModel",
+            "LoadQwenImageControlNetInPipeline",
             "LoadQwenImageLora",
             "LoadQwenImageModel",
             "LoadQwenImageProcessor",
@@ -23430,6 +23432,8 @@
             "LoadZImageTextEncoderModel",
             "LoadZImageTransformerModel",
             "LoadZImageVAEModel",
+            "QwenImageControlSampler",
+            "QwenImageEditPlusSampler",
             "QwenImageEditSampler",
             "QwenImageT2VSampler",
             "VideoToCanny",
@@ -24041,7 +24045,7 @@
             "ArthemyLiveModelTunerSDXL"
         ],
         {
-            "title_aux": "Arthemy_Live-Tuner-SDXL-ComfyUI"
+            "title_aux": "Arthemy Live Tuner - SDXL"
         }
     ],
     "https://github.com/aleolidev/comfy_kaizen_package": [
@@ -49153,6 +49157,15 @@
         ],
         {
             "title_aux": "ComfyUI-FrameIO"
+        }
+    ],
+    "https://github.com/room3dev/ComfyUI-PixelForge": [
+        [
+            "PixelForge",
+            "PixelForgeResizeImage"
+        ],
+        {
+            "title_aux": "ComfyUI-PixelForge"
         }
     ],
     "https://github.com/roundyyy/ComfyUI-mesh-simplifier": [
