@@ -41796,6 +41796,20 @@
             "install_type": "git-clone",
             "description": "A collection of custom nodes for ComfyUI by Mickmumpitz."
         },
+        {
+            "author": "Xz3r0",
+            "title": "ComfyUI-Xz3r0-Nodes",
+            "reference": "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes",
+            "files": [
+                "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Some custom nodes: XMath, XResolution, XImageSave, XVideoSave, XLatentLoad, XLatentSave ...and more"
+        },
+
+
+
+
 
 
 
