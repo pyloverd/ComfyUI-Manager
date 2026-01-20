@@ -12512,7 +12512,8 @@
     ],
     "https://github.com/shin131002/ComfyUI-Prompt-Preset-Selector": [
         [
-            "PromptPresetSelector"
+            "PromptPresetSelector",
+            "PromptPresetSelectorWithWildcard"
         ],
         {
             "title_aux": "[WIP] ComfyUI-Prompt-Preset-Selector"

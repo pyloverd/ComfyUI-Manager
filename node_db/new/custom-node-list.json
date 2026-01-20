@@ -1,5 +1,15 @@
 {
     "custom_nodes": [
+		{
+            "author": "pixelpainter",
+            "title": "UI-Decorators [SubGraph]",
+            "reference": "https://github.com/pixelpainter/UI-Decorators",
+            "files": [
+                "https://github.com/pixelpainter/UI-Decorators"
+            ],
+            "install_type": "git-clone",
+            "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization. A Note, a Divider, an editable Spacer, and a Title node. Includes color pickers for fonts, font sizing, bold/non-bold text, and background color picker for the note"
+        },
         {
             "author": "Xz3r0",
             "title": "ComfyUI-Xz3r0-Nodes",
@@ -692,76 +702,6 @@
             ],
             "install_type": "git-clone",
             "description": "Interactive 3D interface for selecting camera angles for Qwen-Image-Edit-2511, supporting 96 unique camera angle combinations (8 directions × 4 heights × 3 shot sizes) with multi-selection and visual feedback."
-        },
-        {
-            "author": "advancedtech-sk",
-            "title": "ComfyUI-GROUT",
-            "reference": "https://github.com/advancedtech-sk/ComfyUI-GROUT",
-            "files": [
-                "https://github.com/advancedtech-sk/ComfyUI-GROUT"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes for GROUT (Geometric Reasoning Over Unstructured Tessellations) - a deep learning model for detecting and segmenting grout lines in mosaic images."
-        },
-        {
-            "author": "ato321",
-            "title": "ComfyUI-LTXVGuideRebase",
-            "reference": "https://github.com/ato321/ComfyUI-LTXVGuideRebase",
-            "files": [
-                "https://github.com/ato321/ComfyUI-LTXVGuideRebase"
-            ],
-            "install_type": "git-clone",
-            "description": "Small ComfyUI addon that provides segment-safe utilities for Comfy-Org LTX video nodes."
-        },
-        {
-            "author": "zhangle0013",
-            "title": "comfyui-EmptyImageYesON",
-            "reference": "https://github.com/zhangle0013/comfyui-EmptyImageYesON",
-            "files": [
-                "https://github.com/zhangle0013/comfyui-EmptyImageYesON"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatically disables Load Image nodes without images, useful for workflows with optional reference images. (Description by CC)"
-        },
-        {
-            "author": "Enferlain",
-            "title": "ComfyUI-A1111-cond",
-            "reference": "https://github.com/Enferlain/ComfyUI-A1111-cond",
-            "files": [
-                "https://github.com/Enferlain/ComfyUI-A1111-cond"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that implements A1111-style prompt handling with proper isolation and emphasis math."
-        },
-        {
-            "author": "wanjin123111",
-            "title": "ComfyUI-3D-Human-Pose",
-            "reference": "https://github.com/wanjin123111/ComfyUI-3D-Human-Pose",
-            "files": [
-                "https://github.com/wanjin123111/ComfyUI-3D-Human-Pose"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive 3D camera control node for ComfyUI that precisely controls horizontal, vertical angles and zoom, with output of professional cinematography prompts. (Description by CC)"
-        },
-        {
-            "author": "capitan01R",
-            "title": "Capitan-ConditioningEnhancer",
-            "reference": "https://github.com/capitan01R/Capitan-ConditioningEnhancer",
-            "files": [
-                "https://github.com/capitan01R/Capitan-ConditioningEnhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight post-processing node for Qwen3-4B conditioning in Z-Image Turbo workflows that refines conditioning with per-token normalization, optional self-attention, and MLP refinement. (Description by CC)"
-        },
-        {
-            "author": "tackcrypto1031",
-            "title": "tk_comfyui_img2mask",
-            "reference": "https://github.com/tackcrypto1031/tk_comfyui_img2mask",
-            "files": [
-                "https://github.com/tackcrypto1031/tk_comfyui_img2mask"
-            ],
-            "install_type": "git-clone",
-            "description": "A dedicated ComfyUI custom node designed to streamline the process of converting transparent images (RGBA) into masks and high-quality mask previews."
         }
     ]
 }

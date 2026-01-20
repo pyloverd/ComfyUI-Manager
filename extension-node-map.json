@@ -21655,6 +21655,14 @@
             "title_aux": "Xycuno Oobabooga"
         }
     ],
+    "https://github.com/Xz3r0-M/ComfyUI-Xz3r0-Nodes": [
+        [
+            "XVideoSave"
+        ],
+        {
+            "title_aux": "ComfyUI-Xz3r0-Nodes"
+        }
+    ],
     "https://github.com/YOUR-WORST-TACO/ComfyUI-TacoNodes": [
         [
             "Example",
@@ -35490,6 +35498,7 @@
             "AIIA_FloatProcess_InMemory",
             "AIIA_FloatProcess_ToDisk",
             "AIIA_GenerateSpeakerSegments",
+            "AIIA_ImageSmartCrop",
             "AIIA_PersonaLive_PhotoSampler_InMemory",
             "AIIA_PersonaLive_PhotoSampler_ToDisk",
             "AIIA_Podcast_Script_Parser",
@@ -44201,6 +44210,15 @@
         ],
         {
             "title_aux": "ComfyUI-HF-Model-Downloader"
+        }
+    ],
+    "https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes": [
+        [
+            "BatchColorCorrector",
+            "PreviewBridge"
+        ],
+        {
+            "title_aux": "Mickmumpitz-Nodes"
         }
     ],
     "https://github.com/microbote/ComfyUI-StyledCLIPTextEncode": [
