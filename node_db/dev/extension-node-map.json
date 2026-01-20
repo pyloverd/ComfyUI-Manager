@@ -2681,6 +2681,7 @@
             "RK_Excel_File_State_Looper",
             "RK_ImageViewer",
             "RK_Read_Excel_Row",
+            "RK_Ultra",
             "RK_Write_Text",
             "RK_seed",
             "rk_save_image",
@@ -4717,6 +4718,8 @@
             "AddVideoTextWatermark",
             "GetDeviceType",
             "LoadAudioByUrl",
+            "LoadImageByUrl",
+            "LoadVideoByUrl",
             "SeparateVideoAudio",
             "Wav2Srt"
         ],
@@ -6948,6 +6951,7 @@
             "BatchLatentsNode",
             "BatchMasksNode",
             "BetaSamplingScheduler",
+            "BriaImageEditNode",
             "ByteDanceFirstLastFrameNode",
             "ByteDanceImageEditNode",
             "ByteDanceImageNode",
@@ -7450,6 +7454,7 @@
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
+            "TextEncodeZImageOmni",
             "TextProcessingNode",
             "ThresholdMask",
             "TomePatchModel",
@@ -8714,7 +8719,8 @@
             "XIS_ShapeData",
             "XIS_StringListMerger",
             "XIS_StringSwitch",
-            "XIS_UnpackImages"
+            "XIS_UnpackImages",
+            "XIS_VGMOrchestrator"
         ],
         {
             "title_aux": "Xiser_Nodes [WIP]"
@@ -12800,6 +12806,7 @@
     ],
     "https://github.com/sprited-ai/sprited-comfyui-nodes": [
         [
+            "BiRefNetBackgroundRemoval",
             "FlattenImageList",
             "LoopExtractorNodeV2",
             "LoopExtractorNodeV3",

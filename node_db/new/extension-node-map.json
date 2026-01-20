@@ -693,11 +693,12 @@
     ],
     "https://github.com/5agado/ComfyUI-Sagado-Nodes": [
         [
-            "Film Grain",
-            "Get Num Frames",
-            "Get Resolution",
-            "Image Loader",
-            "Video Loader"
+            "SGD_Call_Ollama",
+            "SGD_Film_Grain",
+            "SGD_Get_Num_Frames",
+            "SGD_Get_Resolution",
+            "SGD_Image_Loader",
+            "SGD_Video_Loader"
         ],
         {
             "title_aux": "Sagado Nodes for ComfyUI"
@@ -3319,6 +3320,9 @@
             "Vigenere",
             "X963KDF_Derive",
             "X963KDF_Verify",
+            "XExchange",
+            "XPrivateKeyFormat",
+            "XPublicKeyFormat",
             "Zigzag"
         ],
         {
@@ -6507,6 +6511,7 @@
             "BoyoVideoPairedSaver",
             "BoyoVideoSaver",
             "BoyoVision",
+            "BoyoVoiceEnhancer",
             "BoyoWhileLoopEnd",
             "BoyoWhileLoopStart",
             "Boyolatent",
@@ -6903,7 +6908,8 @@
     ],
     "https://github.com/Enferlain/ComfyUI-A1111-cond": [
         [
-            "A1111Prompt"
+            "A1111Prompt",
+            "A1111PromptNegative"
         ],
         {
             "title_aux": "ComfyUI-A1111-cond"
@@ -8465,7 +8471,8 @@
     ],
     "https://github.com/GavChap/ComfyUI-SD3LatentSelectRes": [
         [
-            "SD3LatentSelectRes"
+            "SD3LatentSelectRes",
+            "SD3LatentSelectResV2"
         ],
         {
             "title_aux": "ComfyUI-SD3LatentSelectRes"
@@ -18759,6 +18766,7 @@
             "Basic data handling: IntPower",
             "Basic data handling: IntSubtract",
             "Basic data handling: IntToBytes",
+            "Basic data handling: IsConnected",
             "Basic data handling: IsNull",
             "Basic data handling: LessThan",
             "Basic data handling: LessThanOrEqual",
@@ -23561,6 +23569,7 @@
             "GetImagesFromBatchIndexed",
             "GetLatentRangeFromBatch",
             "GetLatentSizeAndCount",
+            "IO_save_image",
             "ImageAddMulti",
             "ImageAndMaskPreview",
             "ImageBatchExtendWithOverlap",
@@ -27287,7 +27296,7 @@
     ],
     "https://github.com/capitan01R/ComfyUI-Flux2Klein-Enhancer": [
         [
-            "Flux2KleinEditController",
+            "Flux2KleinDetailController",
             "Flux2KleinEnhancer"
         ],
         {
@@ -29732,6 +29741,7 @@
             "BatchLatentsNode",
             "BatchMasksNode",
             "BetaSamplingScheduler",
+            "BriaImageEditNode",
             "ByteDanceFirstLastFrameNode",
             "ByteDanceImageEditNode",
             "ByteDanceImageNode",
@@ -30234,6 +30244,7 @@
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
+            "TextEncodeZImageOmni",
             "TextProcessingNode",
             "ThresholdMask",
             "TomePatchModel",
@@ -32815,6 +32826,8 @@
     ],
     "https://github.com/ethanfel/ComfyUI-Sharp-Selector": [
         [
+            "FastAbsoluteSaver",
+            "ParallelSharpnessLoader",
             "SharpFrameSelector",
             "SharpnessAnalyzer"
         ],
@@ -35456,6 +35469,8 @@
             "AIIA_CosyVoice_TTS",
             "AIIA_CosyVoice_VoiceConversion",
             "AIIA_Dialogue_TTS",
+            "AIIA_DittoLoader",
+            "AIIA_DittoSampler",
             "AIIA_E2E_Speaker_Diarization",
             "AIIA_EchoMimicLoader",
             "AIIA_EchoMimicSampler",
@@ -38096,6 +38111,7 @@
     ],
     "https://github.com/joeriben/ai4artsed_comfyui_nodes": [
         [
+            "ai4artsed_clean_prompt_randomizer",
             "ai4artsed_conditioning_fusion",
             "ai4artsed_image_analysis",
             "ai4artsed_openrouter_key",
@@ -39618,6 +39634,7 @@
             "Intrinsic_lora_sampling",
             "JoinStringMulti",
             "JoinStrings",
+            "LTX2AttentionTunerPatch",
             "LTX2AudioLatentNormalizingSampling",
             "LTX2SamplingPreviewOverride",
             "LTX2_NAG",
@@ -39639,6 +39656,7 @@
             "MaskBatchMulti",
             "MaskOrImageToWeight",
             "MergeImageChannels",
+            "ModelMemoryUseReportPatch",
             "ModelPassThrough",
             "ModelPatchTorchSettings",
             "ModelSaveKJ",
@@ -47543,7 +47561,8 @@
     ],
     "https://github.com/princepainter/ComfyUI-PainterLTXV2": [
         [
-            "PainterLTXVtoVideo",
+            "PainterLTX2V",
+            "PainterLTX2VPlus",
             "PainterSamplerLTXV"
         ],
         {
@@ -49912,6 +49931,7 @@
             "CloseUpImageNode",
             "CloseUpNode",
             "ComfyAddSoundtrack",
+            "ComfyImageAudioCSV",
             "ImageSequenceOverlay",
             "ImageTransitionNode",
             "MergeVideoAudioNode",
@@ -51692,6 +51712,7 @@
     "https://github.com/sonnybox/ComfyUI-SuperNodes": [
         [
             "FaceBBoxToMask",
+            "GetCommonAspectRatio",
             "ImageMaskCrop",
             "ImageSizeCalculator",
             "RestoreMaskCrop",
@@ -57204,6 +57225,7 @@
     ],
     "https://github.com/zeeoale/PromptCreatorNode": [
         [
+            "IdentityMixerNode",
             "PromptCreatorNode"
         ],
         {

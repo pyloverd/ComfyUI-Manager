@@ -41740,6 +41740,17 @@
             "install_type": "git-clone",
             "description": "HTTP API for ComfyUI with webhook-based workflow execution."
         },
+        {
+            "author": "gen1nya",
+            "title": "ComfyUI Remote Upscale",
+            "id": "remote-upscale",
+            "reference": "https://github.com/gen1nya/ComfyUI-Remote-Upscale",
+            "files": [
+                "https://github.com/gen1nya/ComfyUI-Remote-Upscale"
+            ],
+            "install_type": "git-clone",
+            "description": "Offload image upscaling to a remote server with a dedicated GPU. Real-time progress streaming via SSE."
+        },
 
 
 
@@ -42148,17 +42159,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-		},
-        {
-            "author": "gen1nya",
-            "title": "ComfyUI Remote Upscale",
-            "id": "remote-upscale",
-            "reference": "https://github.com/gen1nya/ComfyUI-Remote-Upscale",
-            "files": [
-                "https://github.com/gen1nya/ComfyUI-Remote-Upscale"
-            ],
-            "install_type": "git-clone",
-            "description": "Offload image upscaling to a remote server with a dedicated GPU. Real-time progress streaming via SSE."
-        }
+		}
     ]
 }
