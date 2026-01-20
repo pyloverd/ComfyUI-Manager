@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "ah-kun",
-            "title": "ComfyUI-OTP-Auth",
-            "reference": "https://github.com/ah-kun/ComfyUI-OTP-Auth",
-            "files": [
-                "https://github.com/ah-kun/ComfyUI-OTP-Auth"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that adds simple One-Time Password (OTP) authentication using Google Authenticator to prevent unauthorized use on publicly accessible servers."
-        },
-        {
             "author": "pollockjj",
             "title": "ComfyUI-StabilityTest",
             "reference": "https://github.com/pollockjj/ComfyUI-StabilityTest",

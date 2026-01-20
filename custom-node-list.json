@@ -35882,7 +35882,7 @@
                 "https://github.com/rookiestar28/ComfyUI-TranslateGemma"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node for TranslateGemma — Google's open source translation models with 55 languages & multimodal image translation."
+            "description": "A ComfyUI custom node that translates text (including prompts) using Google's open-weight TranslateGemma models."
         },
         {
             "author": "MoonMoon82",
@@ -38434,6 +38434,16 @@
             ],
             "install_type": "git-clone",
             "description": "Fail-safe Google Translate prompt node for ComfyUI (retry + caching)."
+        },
+        {
+            "author": "ah-kun",
+            "title": "ComfyUI-OTP-Auth",
+            "reference": "https://github.com/ah-kun/ComfyUI-OTP-Auth",
+            "files": [
+                "https://github.com/ah-kun/ComfyUI-OTP-Auth"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds simple One-Time Password (OTP) authentication using Google Authenticator to protect publicly accessible ComfyUI instances."
         },
         {
             "author": "Kazama-Suichiku",
@@ -41429,14 +41439,15 @@
             "description": "High-performance ComfyUI nodes optimized for RTX 4090: batch processing, memory management, GPU monitoring"
         },
         {
-            "author": "aadityamundhalia",
-            "title": "ComfyUI-ollama-aditya",
+            "author": "Aditya Mundhalia",
+            "title": "ComfyUI Ollama by Aditya",
+            "id": "comfyui-ollama-aditya",
             "reference": "https://github.com/aadityamundhalia/ComfyUI-ollama-aditya",
             "files": [
                 "https://github.com/aadityamundhalia/ComfyUI-ollama-aditya"
             ],
             "install_type": "git-clone",
-            "description": "Custom ComfyUI node for integrating Ollama LLMs into your image generation workflows."
+            "description": "ComfyUI nodes for integrating Ollama local LLM models with image or text generation workflows."
         },
         {
             "author": "maximilianwicen",
@@ -41750,6 +41761,17 @@
             ],
             "install_type": "git-clone",
             "description": "Offload image upscaling to a remote server with a dedicated GPU. Real-time progress streaming via SSE."
+        },
+        {
+            "author": "Setmaster",
+            "title": "ModelPulse",
+            "id": "modelpulse",
+            "reference": "https://github.com/Setmaster/ComfyUI-ModelPulse",
+            "files": [
+                "https://github.com/Setmaster/ComfyUI-ModelPulse"
+            ],
+            "install_type": "git-clone",
+            "description": "Track model usage frequency to identify abandoned or underutilized models. Shows usage stats, file sizes, and highlights stale models in a sidebar panel."
         },
 
 

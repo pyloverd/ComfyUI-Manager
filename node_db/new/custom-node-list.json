@@ -110,7 +110,7 @@
                 "https://github.com/rookiestar28/ComfyUI-TranslateGemma"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node for TranslateGemma — Google's open source translation models with 55 languages & multimodal image translation."
+            "description": "A ComfyUI custom node that translates text (including prompts) using Google's open-weight TranslateGemma models."
         },
         {
             "author": "BigStationW",
@@ -387,14 +387,26 @@
             "description": "Comprehensive mobile UI enhancement for ComfyUI that transforms the desktop-focused interface into a touch-friendly experience optimized for iPhone, iPad, and Android devices."
         },
         {
-            "author": "aadityamundhalia",
-            "title": "ComfyUI-ollama-aditya",
+            "author": "Aditya Mundhalia",
+            "title": "ComfyUI Ollama by Aditya",
+            "id": "comfyui-ollama-aditya",
             "reference": "https://github.com/aadityamundhalia/ComfyUI-ollama-aditya",
             "files": [
                 "https://github.com/aadityamundhalia/ComfyUI-ollama-aditya"
             ],
             "install_type": "git-clone",
-            "description": "Custom ComfyUI node for integrating Ollama LLMs into your image generation workflows."
+            "description": "ComfyUI nodes for integrating Ollama local LLM models with image or text generation workflows."
+        },
+        {
+            "author": "Setmaster",
+            "title": "ModelPulse",
+            "id": "modelpulse",
+            "reference": "https://github.com/Setmaster/ComfyUI-ModelPulse",
+            "files": [
+                "https://github.com/Setmaster/ComfyUI-ModelPulse"
+            ],
+            "install_type": "git-clone",
+            "description": "Track model usage frequency to identify abandoned or underutilized models. Shows usage stats, file sizes, and highlights stale models in a sidebar panel."
         },
         {
             "author": "maximilianwicen",

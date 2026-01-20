@@ -22793,7 +22793,7 @@
             "OllamaPromptGenerator"
         ],
         {
-            "title_aux": "ComfyUI-ollama-aditya"
+            "title_aux": "ComfyUI Ollama by Aditya"
         }
     ],
     "https://github.com/abdozmantar/ComfyUI-DeepExtract": [
@@ -34442,6 +34442,15 @@
         ],
         {
             "title_aux": "ComfyUI_GMIC"
+        }
+    ],
+    "https://github.com/gen1nya/ComfyUI-Remote-Upscale": [
+        [
+            "RefreshRemoteModels",
+            "RemoteUpscaleImage"
+        ],
+        {
+            "title_aux": "ComfyUI Remote Upscale"
         }
     ],
     "https://github.com/geocine/geocine-comfyui": [
