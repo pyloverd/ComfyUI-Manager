@@ -349,12 +349,13 @@
         {
             "author": "bkpaine1",
             "title": "Halo-Lipsy",
+            "id": "halo-lipsy",
             "reference": "https://github.com/bkpaine1/Halo-Lipsy",
             "files": [
                 "https://github.com/bkpaine1/Halo-Lipsy"
             ],
             "install_type": "git-clone",
-            "description": "Native AMD Unified Memory Lip Sync for ComfyUI"
+            "description": "AMD unified memory lip sync for ComfyUI. Native Wav2Lip inference with no subprocesses - finally works on Strix Halo, ROCm, and all AMD APUs. Features sync tuning, edge blending, and safe tensor casting for unified memory systems."
         },
         {
             "author": "kianthos",
