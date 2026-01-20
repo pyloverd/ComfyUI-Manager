@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "mickmumpitz",
+            "title": "Mickmumpitz-Nodes",
+            "id": "mickmumpitz-nodes",
+            "reference": "https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes",
+            "files": [
+                "https://github.com/mickmumpitz/ComfyUI-Mickmumpitz-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of custom nodes for ComfyUI by Mickmumpitz."
+        },
+        {
             "author": "room3dev",
             "title": "ComfyUI-PixelForge",
             "id": "comfyui-pixelforge",
