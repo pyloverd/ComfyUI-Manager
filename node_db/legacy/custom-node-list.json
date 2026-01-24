@@ -1,5 +1,16 @@
 {
     "custom_nodes": [
+
+        {
+            "author": "tudal",
+            "title": "Hakkun-ComfyUI-nodes [REMOVED]",
+            "reference": "https://github.com/tudal/Hakkun-ComfyUI-nodes",
+            "files": [
+                "https://raw.githubusercontent.com/tudal/Hakkun-ComfyUI-nodes/main/hakkun_nodes.py"
+            ],
+            "install_type": "copy",
+            "description": "Mainly its prompt generating by custom syntax. Prompt Parser, Prompt tags, Random Line, Calculate Upscale, Image size to string, Type Converter, Image Resize To Height/Width, Load Random Image, Load Text"
+        },
         {
             "author": "huyl3-cpu",
             "title": "comfyui_segment_anything_a100 [REMOVED]",
