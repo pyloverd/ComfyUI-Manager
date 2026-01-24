@@ -41712,7 +41712,7 @@
             "install_type": "git-clone",
             "description": "Advanced live tuning nodes for SDXL, Illustrious, and NAI. Slice U-Net and CLIP into functional areas to adjust intensity of specific components like Layout, Style, or Syntax."
         },
-		{
+        {
             "author": "aledelpho",
             "title": "Arthemy Live Tuner - Z-image",
             "reference": "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI",
@@ -41837,7 +41837,17 @@
             "install_type": "git-clone",
             "description": "Second monitor preview for video generations with interactive playback controls, color tools, generation tracking, and workflow-embedded snapshots."
         },
-
+        {
+            "author": "loficoding",
+            "title": "ComfyUI Node HUD",
+            "reference": "https://github.com/loficoding/ComfyUI-Node-HUD",
+            "files": [
+                "https://github.com/loficoding/ComfyUI-Node-HUD"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds a smart I/O status dock to stacked nodes for cleaner layouts.",
+            "tags": ["ui", "layout", "utils"]
+        },
 
 
 
@@ -42239,15 +42249,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-		  "author": "loficoding",
-		  "title": "ComfyUI Node HUD",
-		  "reference": "https://github.com/loficoding/ComfyUI-Node-HUD",
-		  "files": ["https://github.com/loficoding/ComfyUI-Node-HUD"],
-		  "install_type": "git-clone",
-		  "description": "Adds a smart I/O status dock to stacked nodes for cleaner layouts.",
-		  "tags": ["ui", "layout", "utils"]
-		}
+        }
     ]
 }

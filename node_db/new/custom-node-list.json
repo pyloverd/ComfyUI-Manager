@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "aledelpho",
+            "title": "Arthemy Live Tuner - Z-image",
+            "reference": "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI",
+            "files": [
+                "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced real-time control for Z-Image models and Qwen3-4B Text Encoders. These nodes allow you to change your model's weights to boost or lower specific generative phases."
+        },
+        {
             "author": "CrateTools",
             "title": "Preview Video Monitor Pro",
             "id": "preview-video-monitor-pro",
@@ -10,6 +20,17 @@
             ],
             "install_type": "git-clone",
             "description": "Second monitor preview for video generations with interactive playback controls, color tools, generation tracking, and workflow-embedded snapshots."
+        },
+        {
+            "author": "loficoding",
+            "title": "ComfyUI Node HUD",
+            "reference": "https://github.com/loficoding/ComfyUI-Node-HUD",
+            "files": [
+                "https://github.com/loficoding/ComfyUI-Node-HUD"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds a smart I/O status dock to stacked nodes for cleaner layouts.",
+            "tags": ["ui", "layout", "utils"]
         },
         {
             "author": "pixelpainter",
