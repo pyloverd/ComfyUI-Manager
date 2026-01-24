@@ -3842,6 +3842,7 @@
     ],
     "https://github.com/BigStationW/ComfyUi-TextEncodeQwenImageEditAdvanced": [
         [
+            "ConditioningAddImageReference",
             "TextEncodeEditAdvanced"
         ],
         {
@@ -5363,6 +5364,14 @@
         ],
         {
             "title_aux": "ComfyUI-Resolution-Divider"
+        }
+    ],
+    "https://github.com/CrateTools/comfyui-preview-video-monitor": [
+        [
+            "PreviewVideoMonitorPro"
+        ],
+        {
+            "title_aux": "Preview Video Monitor Pro"
         }
     ],
     "https://github.com/Creditas-labs/ComfyUI_Adforge": [
@@ -13944,7 +13953,8 @@
             "Spritesheet Preview",
             "Stabilizer Trim",
             "VideoMaskEditor",
-            "WAN Frame Calculator"
+            "WAN Frame Calculator",
+            "Wan Animate To Video (Pose Strength)"
         ],
         {
             "title_aux": "Link Comfy Nodes"
@@ -20629,6 +20639,15 @@
             "title_aux": "DuoUmiWildcards"
         }
     ],
+    "https://github.com/Urabewe/ComfyUI-AudioTools": [
+        [
+            "AudioEnhancementNode",
+            "AudioNormalizeLUFS"
+        ],
+        {
+            "title_aux": "ComfyUI-AudioTools"
+        }
+    ],
     "https://github.com/Urabewe/ComfyUI-CountS2VExtend": [
         [
             "CountVideoExtendS2VNode"
@@ -24120,6 +24139,17 @@
         ],
         {
             "title_aux": "Arthemy Live Tuner - SDXL"
+        }
+    ],
+    "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI": [
+        [
+            "ArthemyLiveModelTunerZImage",
+            "ArthemyLiveModelTunerZImageLab",
+            "ArthemyQwenLiveTunerZImage",
+            "ArthemyQwenLiveTunerZImageLab"
+        ],
+        {
+            "title_aux": "Arthemy Live Tuner - Z-image"
         }
     ],
     "https://github.com/aleolidev/comfy_kaizen_package": [
@@ -49275,6 +49305,14 @@
             "title_aux": "ComfyUI-FrameIO"
         }
     ],
+    "https://github.com/room3dev/ComfyUI-I2VChainHelper": [
+        [
+            "I2VChainHelper"
+        ],
+        {
+            "title_aux": "ComfyUI-I2VChainHelper"
+        }
+    ],
     "https://github.com/room3dev/ComfyUI-PixelForge": [
         [
             "PixelForge",
@@ -51019,6 +51057,15 @@
         ],
         {
             "title_aux": "ComfyUI LoadImageWithInfo"
+        }
+    ],
+    "https://github.com/sjhddh/ComfyUI-Cyber-Steganography": [
+        [
+            "StegoDecode",
+            "StegoEncode"
+        ],
+        {
+            "title_aux": "ComfyUI-Cyber-Steganography"
         }
     ],
     "https://github.com/skatardude10/ComfyUI-Optical-Realism": [
@@ -54977,6 +55024,14 @@
         ],
         {
             "title_aux": "wlsh_nodes"
+        }
+    ],
+    "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter": [
+        [
+            "PixelArtConverter"
+        ],
+        {
+            "title_aux": "ComfyUI PixelArt Converter"
         }
     ],
     "https://github.com/wanjin123111/ComfyUI-3D-Human-Pose": [
