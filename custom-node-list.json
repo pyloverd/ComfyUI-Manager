@@ -33584,6 +33584,16 @@
             "description": "A simple utility node that counts active Video S2V Extend nodes in your workflow and returns that number plus one. Now you don't have to remember to update the batch number. Just set your extend nodes and go. It was easy to forget so I made this quick and dirty."
         },
         {
+            "author": "Urabewe",
+            "title": "ComfyUI-AudioTools",
+            "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",
+            "files": [
+                "https://github.com/Urabewe/ComfyUI-AudioTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio normalization and enhancement nodes for ComfyUI (LUFS normalization, audio processing utilities)."
+        },
+        {
             "author": "Juste-Leo2",
             "title": "USO Nodes for ComfyUI",
             "reference": "https://github.com/Juste-Leo2/USO_ComfyUI",
@@ -41869,6 +41879,17 @@
             "install_type": "git-clone",
             "description": "Convert images to pixel art using ONNX models."
         },
+        {
+            "author": "sjhddh",
+            "title": "ComfyUI-Cyber-Steganography",
+            "id": "cyber-steganography",
+            "reference": "https://github.com/sjhddh/ComfyUI-Cyber-Steganography",
+            "files": [
+                "https://github.com/sjhddh/ComfyUI-Cyber-Steganography"
+            ],
+            "install_type": "git-clone",
+            "description": "Cyberpunk/Spy-craft steganography nodes for ComfyUI. Hide secret text messages inside AI-generated images using LSB (Least Significant Bit) steganography. Features encryption with optional password key. Nodes: StegoEncode (hide text), StegoDecode (reveal text)."
+        },
 
 
 
@@ -42270,16 +42291,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-            "author": "Urabewe",
-            "title": "ComfyUI-AudioTools",
-            "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",
-            "files": [
-                "https://github.com/Urabewe/ComfyUI-AudioTools"
-           ],
-           "install_type": "git-clone",
-           "description": "Audio normalization and enhancement nodes for ComfyUI (LUFS normalization, audio processing utilities)."
         }
     ]
 }

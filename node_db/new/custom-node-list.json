@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Urabewe",
+            "title": "ComfyUI-AudioTools",
+            "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",
+            "files": [
+                "https://github.com/Urabewe/ComfyUI-AudioTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Audio normalization and enhancement nodes for ComfyUI (LUFS normalization, audio processing utilities)."
+        },
+        {
             "author": "aledelpho",
             "title": "Arthemy Live Tuner - Z-image",
             "reference": "https://github.com/aledelpho/Arthemy_Live-Tuner-ZIT-ComfyUI",
@@ -52,6 +62,17 @@
             ],
             "install_type": "git-clone",
             "description": "Convert images to pixel art using ONNX models."
+        },
+        {
+            "author": "sjhddh",
+            "title": "ComfyUI-Cyber-Steganography",
+            "id": "cyber-steganography",
+            "reference": "https://github.com/sjhddh/ComfyUI-Cyber-Steganography",
+            "files": [
+                "https://github.com/sjhddh/ComfyUI-Cyber-Steganography"
+            ],
+            "install_type": "git-clone",
+            "description": "Cyberpunk/Spy-craft steganography nodes for ComfyUI. Hide secret text messages inside AI-generated images using LSB (Least Significant Bit) steganography. Features encryption with optional password key. Nodes: StegoEncode (hide text), StegoDecode (reveal text)."
         },
         {
             "author": "pixelpainter",
@@ -685,76 +706,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI Blender Wrapper lets you call Blender in headless mode from ComfyUI (or any Python environment), run reusable pipeline stages stored inside files, and pass configs in/out via JSON. It's meant for tech-art / asset-pipeline tasks like cleanup, decimation, unwrap, baking, rigging, etc."
-        },
-        {
-            "author": "calibancode",
-            "title": "ComfyUI-bevvy",
-            "reference": "https://github.com/calibancode/ComfyUI-bevvy",
-            "files": [
-                "https://github.com/calibancode/ComfyUI-bevvy"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node that saves images as WebP."
-        },
-        {
-            "author": "GraftingRayman",
-            "title": "ComfyUI-Games",
-            "reference": "https://github.com/GraftingRayman/ComfyUI-Games",
-            "files": [
-                "https://github.com/GraftingRayman/ComfyUI-Games"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node providing Tetris game functionality. (Description by CC)"
-        },
-        {
-            "author": "aicuai",
-            "title": "comfyui-save-image-watermark",
-            "reference": "https://github.com/aicuai/comfyui-save-image-watermark",
-            "files": [
-                "https://github.com/aicuai/comfyui-save-image-watermark"
-            ],
-            "install_type": "git-clone",
-            "description": "Save images with visible watermarks (logo/text), invisible watermarks (LSB steganography), and metadata embedding. Supports PNG/JPEG/WebP with browser download."
-        },
-        {
-            "author": "migero",
-            "title": "ComfyUI-Equirectangular-Strip",
-            "reference": "https://github.com/migero/ComfyUI-Equirectangular-Strip",
-            "files": [
-                "https://github.com/migero/ComfyUI-Equirectangular-Strip"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI to convert between equirectangular (360°) images and a strip of 6 cube faces (90° FOV each)."
-        },
-        {
-            "author": "SamLiu1000",
-            "title": "ComfyUI_Rabbit-Camera-Perspective",
-            "reference": "https://github.com/SamLiu1000/ComfyUI_Rabbit-Camera-Perspective",
-            "files": [
-                "https://github.com/SamLiu1000/ComfyUI_Rabbit-Camera-Perspective"
-            ],
-            "install_type": "git-clone",
-            "description": "An intuitive prompt previewer ComfyUI node for use with Fal's Multi-View LoRA, optimized for portraits with real-time prompt previews."
-        },
-        {
-            "author": "euan-gwd",
-            "title": "comfyui-character-prompt-builder",
-            "reference": "https://github.com/euan-gwd/comfyui-character-prompt-builder",
-            "files": [
-                "https://github.com/euan-gwd/comfyui-character-prompt-builder"
-            ],
-            "install_type": "git-clone",
-            "description": "A modular character prompt generator for ComfyUI"
-        },
-        {
-            "author": "NickPittas",
-            "title": "ComfyUI_CameraAngleSelector",
-            "reference": "https://github.com/NickPittas/ComfyUI_CameraAngleSelector",
-            "files": [
-                "https://github.com/NickPittas/ComfyUI_CameraAngleSelector"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive 3D interface for selecting camera angles for Qwen-Image-Edit-2511, supporting 96 unique camera angle combinations (8 directions × 4 heights × 3 shot sizes) with multi-selection and visual feedback."
         }
     ]
 }
