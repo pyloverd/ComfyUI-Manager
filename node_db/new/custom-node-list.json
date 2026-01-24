@@ -249,17 +249,6 @@
             "description": "Advanced Text Encode node for ComfyUI with dynamic multi-image reference support."
         },
         {
-            "author": "pixelpainter",
-            "title": "UI-Decorators",
-            "reference": "https://github.com/pixelpainter/UI-Decorators",
-            "files": [
-                "https://github.com/pixelpainter/UI-Decorators"
-            ],
-            "install_type": "git-clone",
-            "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization.All node widgets are linkable and promotable from the SubGraph canvas."
-        },
-
-        {
             "author": "loz2754",
             "title": "AUN ComfyUI Nodes",
             "id": "aun-comfyui-nodes",

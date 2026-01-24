@@ -39789,16 +39789,6 @@
             "install_type": "git-clone",
             "description": "2 nodes for muting or bypassing a node by node ID. They are widget linkable and promotable to a Subgraph node as a switch to mute or bypass a node in it's own Subgraph, or any other Subgraph, or it can be used as a stand alone node anywhere"
         },
-        {
-            "author": "pixelpainter",
-            "title": "UI-Decorators",
-            "reference": "https://github.com/pixelpainter/UI-Decorators",
-            "files": [
-                "https://github.com/pixelpainter/UI-Decorators"
-            ],
-            "install_type": "git-clone",
-            "description": "UI Decorators is a set of 4 nodes to enhance frontside SubGraph usability and organization.All node widgets are linkable and promotable from the SubGraph canvas."
-        },
 		{
             "author": "pixelpainter",
             "title": "UI-Decorators [SubGraph]",
