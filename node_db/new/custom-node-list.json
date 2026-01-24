@@ -33,6 +33,27 @@
             "tags": ["ui", "layout", "utils"]
         },
         {
+            "author": "room3dev",
+            "title": "ComfyUI-I2VChainHelper",
+            "id": "comfyui-i2vchainhelper",
+            "reference": "https://github.com/room3dev/ComfyUI-I2VChainHelper",
+            "files": [
+                "https://github.com/room3dev/ComfyUI-I2VChainHelper"
+            ],
+            "install_type": "git-clone",
+            "description": "Helps filter and trim image batches for I2V chaining by ensuring consistent face identity and eye openness."
+        },
+        {
+            "author": "laowang",
+            "title": "ComfyUI PixelArt Converter",
+            "reference": "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter",
+            "files": [
+                "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter"
+            ],
+            "install_type": "git-clone",
+            "description": "Convert images to pixel art using ONNX models."
+        },
+        {
             "author": "pixelpainter",
             "title": "UI-Decorators [SubGraph]",
             "reference": "https://github.com/pixelpainter/UI-Decorators",
