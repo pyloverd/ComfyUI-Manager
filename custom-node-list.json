@@ -41848,6 +41848,16 @@
             "description": "Adds a smart I/O status dock to stacked nodes for cleaner layouts.",
             "tags": ["ui", "layout", "utils"]
         },
+        {
+            "author": "laowang",
+            "title": "ComfyUI PixelArt Converter",
+            "reference": "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter",
+            "files": [
+                "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter"
+            ],
+            "install_type": "git-clone",
+            "description": "Convert images to pixel art using ONNX models."
+        },
 
 
 
@@ -42249,14 +42259,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-			  "author": "laowang",
-			  "title": "ComfyUI PixelArt Converter",
-			  "reference": "https://github.com/wangyff-code/ComfyUI-PixelArt-Converter",
-			  "files": ["https://github.com/wangyff-code/ComfyUI-PixelArt-Converter"],
-			  "install_type": "git-clone",
-			  "description": "Convert images to pixel art using ONNX models."
-		},
+        }
     ]
 }
