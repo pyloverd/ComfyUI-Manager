@@ -42270,6 +42270,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+		{
+            "author": "Urabewe",
+            "title": "ComfyUI-AudioTools",
+            "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",
+            "files": [
+                "https://github.com/Urabewe/ComfyUI-AudioTools"
+           ],
+           "install_type": "git-clone",
+           "description": "Audio normalization and enhancement nodes for ComfyUI (LUFS normalization, audio processing utilities)."
         }
     ]
 }
