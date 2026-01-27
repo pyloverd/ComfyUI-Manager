@@ -21431,16 +21431,6 @@
             "description": "This is a subset of nodes for ComfyUI that I made just for my own workflow. The nodes support Flux (single conditioning, no negatives) and are just a way of minimizing the noodles. There's no real journey to be made here, just anything that helps me get through the day."
         },
         {
-            "author": "inflamously",
-            "title": "comfyui-prompt-enhancer",
-            "reference": "https://github.com/inflamously/comfyui-prompt-enhancer",
-            "files": [
-                "https://github.com/inflamously/comfyui-prompt-enhancer"
-            ],
-            "install_type": "git-clone",
-            "description": "A crazy node that pragmatically just enhances a given prompt with various descriptions in the hope that the image quality just increase and prompting just gets easier."
-        },
-        {
             "author": "111496583yzy",
             "title": "Jigsaw Puzzle Effect Plugin",
             "reference": "https://github.com/111496583yzy/comfyui-PuzzleCrack-Effect",
@@ -41902,6 +41892,16 @@
             "install_type": "git-clone",
             "description": "Modifed Sampler nodes that allow you to pause/resume generations. For those with older hardware running in CPU mode or old GPUs. Useful for managing thermals."
         },
+        {
+            "author": "mingyi456",
+            "title": "ComfyUI DFloat11 Extended",
+            "reference": "https://github.com/mingyi456/ComfyUI-DFloat11-Extended",
+            "files": [
+                "https://github.com/mingyi456/ComfyUI-DFloat11-Extended"
+            ],
+            "install_type": "git-clone",
+            "description": "Fork of the official DF11 ComfyUI custom node that supports a wider variety of model architectures, and provides fixes for compatibility with recent ComfyUI versions. Also, LoRAs are supported for select model architectures."
+        },
 
 
 
@@ -42302,16 +42302,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "mingyi456",
-            "title": "ComfyUI DFloat11 Extended",
-            "reference": "https://github.com/mingyi456/ComfyUI-DFloat11-Extended",
-            "files": [
-                "https://github.com/mingyi456/ComfyUI-DFloat11-Extended"
-            ],
-            "install_type": "git-clone",
-            "description": "Fork of the official DF11 ComfyUI custom node that supports a wider variety of model architectures, and provides fixes for compatibility with recent ComfyUI versions. Also, LoRAs are supported for select model architectures."
-        },
+        }
     ]
 }

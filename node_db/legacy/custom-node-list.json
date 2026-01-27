@@ -1,6 +1,15 @@
 {
     "custom_nodes": [
-
+        {
+            "author": "inflamously",
+            "title": "comfyui-prompt-enhancer [DEPRECATED]",
+            "reference": "https://github.com/inflamously/comfyui-prompt-enhancer",
+            "files": [
+                "https://github.com/inflamously/comfyui-prompt-enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "A crazy node that pragmatically just enhances a given prompt with various descriptions in the hope that the image quality just increase and prompting just gets easier."
+        },
         {
             "author": "tudal",
             "title": "Hakkun-ComfyUI-nodes [REMOVED]",

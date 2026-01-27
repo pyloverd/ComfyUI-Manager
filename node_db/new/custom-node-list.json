@@ -23,6 +23,16 @@
             "description": "Modifed Sampler nodes that allow you to pause/resume generations. For those with older hardware running in CPU mode or old GPUs. Useful for managing thermals."
         },
         {
+            "author": "mingyi456",
+            "title": "ComfyUI DFloat11 Extended",
+            "reference": "https://github.com/mingyi456/ComfyUI-DFloat11-Extended",
+            "files": [
+                "https://github.com/mingyi456/ComfyUI-DFloat11-Extended"
+            ],
+            "install_type": "git-clone",
+            "description": "Fork of the official DF11 ComfyUI custom node that supports a wider variety of model architectures, and provides fixes for compatibility with recent ComfyUI versions. Also, LoRAs are supported for select model architectures."
+        },
+        {
             "author": "Urabewe",
             "title": "ComfyUI-AudioTools",
             "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",
