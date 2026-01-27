@@ -5265,6 +5265,7 @@
         {
             "author": "bruefire",
             "title": "ComfyUI Sequential Image Loader",
+            "id": "comfyui-sq-imageloader",
             "reference": "https://github.com/bruefire/ComfyUI-SeqImageLoader",
             "files": [
                 "https://github.com/bruefire/ComfyUI-SeqImageLoader"
@@ -41745,6 +41746,17 @@
             "description": "AMD unified memory lip sync for ComfyUI. Native Wav2Lip inference with no subprocesses - finally works on Strix Halo, ROCm, and all AMD APUs. Features sync tuning, edge blending, and safe tensor casting for unified memory systems."
         },
         {
+            "author": "bkpaine1",
+            "title": "Halo-TeaCache",
+            "id": "halo-teacache",
+            "reference": "https://github.com/bkpaine1/Halo-TeaCache",
+            "files": [
+                "https://github.com/bkpaine1/Halo-TeaCache"
+            ],
+            "install_type": "git-clone",
+            "description": "AMD Unified Memory TeaCache for LTX2 (LTXAV). Lean single-file caching for 48-layer dual-stream transformer. Caches both video and audio residuals. No CPU offload - designed for AMD APUs with unified memory. ~35% speedup on cached denoising steps."
+        },
+        {
             "author": "kianthos",
             "title": "Earthbound---All-in-one-ComfyUI-Node",
             "reference": "https://github.com/kianthos/Earthbound---All-in-one-ComfyUI-Node",
@@ -42332,18 +42344,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		    {
-        "author": "bruefire",
-        "title": "ComfyUI Sequential Image Loader",
-        "id": "comfyui-sq-imageloader",
-        "reference": "https://github.com/bruefire/ComfyUI-SeqImageLoader",
-        "files": [
-            "https://github.com/bruefire/ComfyUI-SeqImageLoader"
-        ],
-        "install_type": "git-clone",
-        "description": "This is an extension node for ComfyUI that allows you to load frames from a video in bulk and perform masking and sketching on each frame through a GUI."
-    }
-
+        }
     ]
 }

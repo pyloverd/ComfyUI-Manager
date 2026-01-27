@@ -12,6 +12,17 @@
             "description": "Select one line from the text list with a single click. It dramatically improves the process of switching LoRA or prompts."
         },
         {
+            "author": "bkpaine1",
+            "title": "Halo-TeaCache",
+            "id": "halo-teacache",
+            "reference": "https://github.com/bkpaine1/Halo-TeaCache",
+            "files": [
+                "https://github.com/bkpaine1/Halo-TeaCache"
+            ],
+            "install_type": "git-clone",
+            "description": "AMD Unified Memory TeaCache for LTX2 (LTXAV). Lean single-file caching for 48-layer dual-stream transformer. Caches both video and audio residuals. No CPU offload - designed for AMD APUs with unified memory. ~35% speedup on cached denoising steps."
+        },
+        {
             "author": "gmorks",
             "title": "ComfyUI-WatchPoint",
             "reference": "https://github.com/gmorks/ComfyUI-WatchPoint",
