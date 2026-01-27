@@ -12,6 +12,16 @@
             "description": "Select one line from the text list with a single click. It dramatically improves the process of switching LoRA or prompts."
         },
         {
+            "author": "liewcc",
+            "title": "ComfyUI-Qwen-Canvas",            
+            "reference": "https://github.com/liewcc/ComfyUI-Qwen-Canvas",
+            "files": [
+                "https://github.com/liewcc/ComfyUI-Qwen-Canvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Enforces Qwen's training resolution buckets for precise Latent space generation."
+        },
+        {
             "author": "FNGarvin",
             "title": "ComfyUI Auto Model Downloader",
             "id": "automodeldownloader",
