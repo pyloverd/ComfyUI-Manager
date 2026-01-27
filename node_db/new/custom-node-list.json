@@ -1,6 +1,28 @@
 {
     "custom_nodes": [
         {
+            "author": "FNGarvin",
+            "title": "ComfyUI Auto Model Downloader",
+            "id": "automodeldownloader",
+            "reference": "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader",
+            "files": [
+                "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Convenient, high-speed model downloads directly to your Comfy install with blazing-fast, multi-connection support. No more downloading models to your downloads folder and having to manually move them to the proper folder!"
+        },
+        {
+            "author": "c0dezer019",
+            "title": "Pausable Sampler",
+            "id": "freezeframe",
+            "reference": "https://github.com/c0dezer019/FreezeFrame",
+            "files": [
+                "https://github.com/c0dezer019/FreezeFrame"
+            ],
+            "install_type": "git-clone",
+            "description": "Modifed Sampler nodes that allow you to pause/resume generations. For those with older hardware running in CPU mode or old GPUs. Useful for managing thermals."
+        },
+        {
             "author": "Urabewe",
             "title": "ComfyUI-AudioTools",
             "reference": "https://github.com/Urabewe/ComfyUI-AudioTools",

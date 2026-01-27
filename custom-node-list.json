@@ -38016,17 +38016,6 @@
             "description": "Direct model downloads to your Runod pod with blazing-fast multi-connection support. No more downloading models to your local machine and re-uploading!"
         },
         {
-            "author": "FNGarvin",
-            "title": "ComfyUI Auto Model Downloader",
-            "id": "automodeldownloader",
-            "reference": "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader",
-            "files": [
-                "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader"
-            ],
-            "install_type": "git-clone",
-            "description": "Convenient, high-speed model downloads directly to your Comfy install with blazing-fast, multi-connection support. No more downloading models to your downloads folder and having to manually move them to the proper folder!"
-        },
-        {
             "author": "kjqwer",
             "title": "SmartSaveImage",
             "reference": "https://github.com/kjqwer/SmartSaveImage",
@@ -41891,7 +41880,28 @@
             "install_type": "git-clone",
             "description": "Cyberpunk/Spy-craft steganography nodes for ComfyUI. Hide secret text messages inside AI-generated images using LSB (Least Significant Bit) steganography. Features encryption with optional password key. Nodes: StegoEncode (hide text), StegoDecode (reveal text)."
         },
-
+        {
+            "author": "FNGarvin",
+            "title": "ComfyUI Auto Model Downloader",
+            "id": "automodeldownloader",
+            "reference": "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader",
+            "files": [
+                "https://github.com/FNGarvin/ComfyUI-AutoModelDownloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Convenient, high-speed model downloads directly to your Comfy install with blazing-fast, multi-connection support. No more downloading models to your downloads folder and having to manually move them to the proper folder!"
+        },
+        {
+            "author": "c0dezer019",
+            "title": "Pausable Sampler",
+            "id": "freezeframe",
+            "reference": "https://github.com/c0dezer019/FreezeFrame",
+            "files": [
+                "https://github.com/c0dezer019/FreezeFrame"
+            ],
+            "install_type": "git-clone",
+            "description": "Modifed Sampler nodes that allow you to pause/resume generations. For those with older hardware running in CPU mode or old GPUs. Useful for managing thermals."
+        },
 
 
 
@@ -42292,17 +42302,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-	{
-	    "author": "c0dezer019",
-	    "title": "Pausable Sampler",
-	    "id": "freezeframe",
-	    "reference": "https://github.com/c0dezer019/FreezeFrame",
-	    "files": [
-	    	"https://github.com/c0dezer019/FreezeFrame"
-	    ],
-	    "install_type": "git-clone",
-	    "description": "Modifed Sampler nodes that allow you to pause/resume generations. For those with older hardware running in CPU mode or old GPUs. Useful for managing thermals."
-	}
+        }
     ]
 }
