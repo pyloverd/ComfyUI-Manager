@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "hetima",
+            "title": "ComfyUI-SingleLinePicker",
+            "id": "singlelinepicker",
+            "reference": "https://github.com/hetima/ComfyUI-SingleLinePicker",
+            "files": [
+                "https://github.com/hetima/ComfyUI-SingleLinePicker"
+            ],
+            "install_type": "git-clone",
+            "description": "Select one line from the text list with a single click. It dramatically improves the process of switching LoRA or prompts."
+        },
+        {
             "author": "FNGarvin",
             "title": "ComfyUI Auto Model Downloader",
             "id": "automodeldownloader",
@@ -687,46 +698,6 @@
             "install_type": "git-clone",
             "description": "Advanced wildcard control with seed-based selection, LoRA stack support, and utilities.",
             "nickname": "Seed Wildcard"
-        },
-        {
-            "author": "senhaicc",
-            "title": "Comfyui-WL-MainImageDesign",
-            "reference": "https://github.com/senhaicc/Comfyui-WL-MainImageDesign",
-            "files": [
-                "https://github.com/senhaicc/Comfyui-WL-MainImageDesign"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional e-commerce main image prompt generator for motorcycle equipment (helmets, riding gear, protective gear) with 9 design styles and 2 canvas ratios. (Description by CC)"
-        },
-        {
-            "author": "0nikod",
-            "title": "ComfyUI-Simple-Prompt",
-            "reference": "https://github.com/0nikod/ComfyUI-Simple-Prompt",
-            "files": [
-                "https://github.com/0nikod/ComfyUI-Simple-Prompt"
-            ],
-            "install_type": "git-clone",
-            "description": "Provide a simple interface to simplify prompt writing."
-        },
-        {
-            "author": "Suzu008",
-            "title": "ComfyUI-CryptIO",
-            "reference": "https://github.com/Suzu008/ComfyUI-CryptIO",
-            "files": [
-                "https://github.com/Suzu008/ComfyUI-CryptIO"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI"
-        },
-        {
-            "author": "IRCSS",
-            "title": "comfyUI-blender-wrapper",
-            "reference": "https://github.com/IRCSS/comfyUI-blender-wrapper",
-            "files": [
-                "https://github.com/IRCSS/comfyUI-blender-wrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Blender Wrapper lets you call Blender in headless mode from ComfyUI (or any Python environment), run reusable pipeline stages stored inside files, and pass configs in/out via JSON. It's meant for tech-art / asset-pipeline tasks like cleanup, decimation, unwrap, baking, rigging, etc."
         }
     ]
 }
