@@ -23,6 +23,18 @@
             "description": "AMD Unified Memory TeaCache for LTX2 (LTXAV). Lean single-file caching for 48-layer dual-stream transformer. Caches both video and audio residuals. No CPU offload - designed for AMD APUs with unified memory. ~35% speedup on cached denoising steps."
         },
         {
+            "author": "frankluise5220",
+            "title": "LoraHelper Chat Nodes",
+            "reference": "https://github.com/frankluise5220/ComfyUI-Lorahelper",
+            "nodename_pattern": "UniversalGGUFLoader|UniversalAIChat|LH_History_Monitor",
+            "files": [
+                "https://github.com/frankluise5220/ComfyUI-Lorahelper"
+            ],
+            "install_type": "git-clone",
+            "description": "LLM-based chat nodes for image description, tagging and prompt enhancement using GGUF models",
+            "tags": ["llm", "vision", "prompt generation", "lora", "Qwen3"]
+        },
+        {
             "author": "gmorks",
             "title": "ComfyUI-WatchPoint",
             "reference": "https://github.com/gmorks/ComfyUI-WatchPoint",
