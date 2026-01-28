@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "90cube",
+            "title": "CBCanvas Node for ComfyUI [REMOVED]",
+            "reference": "https://github.com/90cube/Comfyui-CBcanvas",
+            "files": [
+                "https://github.com/90cube/Comfyui-CBcanvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Canvas node with intelligent aspect ratio control - 13 preset aspect ratios from ultra-wide (21:9) to ultra-tall (9:21).\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "inflamously",
             "title": "comfyui-prompt-enhancer [DEPRECATED]",
             "reference": "https://github.com/inflamously/comfyui-prompt-enhancer",

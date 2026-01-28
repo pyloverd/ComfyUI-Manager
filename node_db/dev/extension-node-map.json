@@ -437,14 +437,6 @@
             "title_aux": "comfyui_video_node [WIP]"
         }
     ],
-    "https://github.com/90cube/Comfyui-CBcanvas": [
-        [
-            "CBCanvasNode"
-        ],
-        {
-            "title_aux": "CBCanvas Node for ComfyUI [WIP]"
-        }
-    ],
     "https://github.com/A1rCHAN/ComfyUI_A1rSpace": [
         [
             "A1r Boolean A B",
@@ -3290,6 +3282,8 @@
     "https://github.com/MuAIGC/ComfyUI-DMXAPI_mmx": [
         [
             "Qwen3_TTS_Design_MMX",
+            "Qwen3_TTS_MultiChar_MMX",
+            "Qwen3_TTS_MultiChar_Preset_MMX",
             "Qwen3_TTS_Preset_MMX",
             "QwenTTSDesignPreset_MMX"
         ],
@@ -3468,6 +3462,26 @@
         ],
         {
             "title_aux": "ComfyUI-APG_ImYourCFGNow"
+        }
+    ],
+    "https://github.com/N3uR0TiCV0iD/ComfyUI-ModelListTools": [
+        [
+            "CLIPModelSelectionNode",
+            "CLIPVisionModelSelectionNode",
+            "CheckpointSelectionNode",
+            "DiffusionModelSelectionNode",
+            "FilteredCLIPModelsNode",
+            "FilteredCLIPVisionModelsNode",
+            "FilteredCheckpointsNode",
+            "FilteredDiffusionModelsNode",
+            "FilteredLoRAModelsNode",
+            "FilteredTextEncodersNode",
+            "LoRAModelSelectionNode",
+            "LoadLoRAListNode",
+            "TextEncoderSelectionNode"
+        ],
+        {
+            "title_aux": "ComfyUI-ModelListTools"
         }
     ],
     "https://github.com/NEZHA625/ComfyUI-tools-by-dong": [
@@ -3682,7 +3696,9 @@
     ],
     "https://github.com/Omario92/ComfyUI-OmarioNodes": [
         [
-            "DualEndpointColorBlendScheduler"
+            "DualEndpointColorBlendScheduler",
+            "MaskClampedCrop",
+            "MaskClampedCropSticky"
         ],
         {
             "title_aux": "ComfyUI-OmarioNodes"
@@ -4152,6 +4168,14 @@
             "title_aux": "comfyui-oss-image-save [WIP]"
         }
     ],
+    "https://github.com/RicoMeng/CartoonGenComfyui-PromtGenerator": [
+        [
+            "Istanbul80sPromptGenerator"
+        ],
+        {
+            "title_aux": "CartoonGenComfyui-PromtGenerator"
+        }
+    ],
     "https://github.com/Rizzlord/ComfyUI-SeqTex": [
         [
             "SeqTex_DisplaceMesh",
@@ -4597,31 +4621,27 @@
     "https://github.com/SlackinJack/multigpu_diffusion_comfyui": [
         [
             "AdvancedSchedulerSelector",
-            "AsyncDiffADSampler",
+            "ApplyPipeline",
             "AsyncDiffConfig",
-            "AsyncDiffSDSampler",
-            "AsyncDiffSDUpscaleSampler",
-            "AsyncDiffSVDSampler",
+            "BNBQuantizationConfig",
+            "BalancedConfig",
             "CheckpointSelector",
-            "ControlNetSelector",
-            "DistrifuserConfig",
-            "DistrifuserSDSampler",
+            "CloseHost",
+            "CompileConfig",
+            "CreateHost",
             "EncodePromptWithCompel",
-            "GGUFSelector",
-            "HostConfig",
-            "IPAdapterSelector",
             "LoraSelector",
-            "MotionAdapterLoraSelector",
-            "MotionAdapterSelector",
-            "MotionModuleSelector",
+            "ModelSelector",
             "MultiLoraJoiner",
+            "OffloadPipeline",
+            "QuantizationConfig",
+            "SDSampler",
+            "SDUpscaleSampler",
+            "SVDSampler",
             "SchedulerSelector",
-            "VAESelector",
-            "xDiTConfig",
-            "xDiTSampler",
-            "xDiTUSPConfig",
-            "xDiTUSPImageSampler",
-            "xDiTUSPVideoSampler"
+            "TAOQuantizationConfig",
+            "TorchConfig",
+            "UnsafeModelSelector"
         ],
         {
             "title_aux": "multigpu_diffusion_comfyui"
@@ -6968,7 +6988,6 @@
             "BetaSamplingScheduler",
             "BriaImageEditNode",
             "ByteDanceFirstLastFrameNode",
-            "ByteDanceImageEditNode",
             "ByteDanceImageNode",
             "ByteDanceImageReferenceNode",
             "ByteDanceImageToVideoNode",
@@ -7204,6 +7223,8 @@
             "LoadTrainingDataset",
             "LoadVideo",
             "LoraLoader",
+            "LoraLoaderBypass",
+            "LoraLoaderBypassModelOnly",
             "LoraLoaderModelOnly",
             "LoraModelLoader",
             "LoraSave",
@@ -7217,6 +7238,11 @@
             "LumaImageToVideoNode",
             "LumaReferenceNode",
             "LumaVideoNode",
+            "MagnificImageRelightNode",
+            "MagnificImageSkinEnhancerNode",
+            "MagnificImageStyleTransferNode",
+            "MagnificImageUpscalerCreativeNode",
+            "MagnificImageUpscalerPreciseV2Node",
             "Mahiro",
             "MakeTrainingDataset",
             "ManualSigmas",
@@ -7418,6 +7444,8 @@
             "T5TokenizerOptions",
             "TCFG",
             "TemporalScoreRescaling",
+            "TencentImageToModelNode",
+            "TencentTextToModelNode",
             "TestAccumulateNode",
             "TestAccumulationGetItemNode",
             "TestAccumulationGetLengthNode",
@@ -8724,10 +8752,12 @@
             "XIS_MergePackImages",
             "XIS_MultiPointGradient",
             "XIS_MultiPromptSwitch",
+            "XIS_MultipleAnglesPrompt",
             "XIS_PSDLayerExtractor",
             "XIS_PackImages",
             "XIS_PromptProcessor",
             "XIS_PromptsWithSwitches",
+            "XIS_QwenVLInference",
             "XIS_ReorderImageMaskGroups",
             "XIS_ResizeImageOrMask",
             "XIS_ResizeToDivisible",
@@ -12979,6 +13009,17 @@
             "title_aux": "ComfyUI-LongCat-Image [WIP]"
         }
     ],
+    "https://github.com/starsFriday/ComfyUI-Qwen3-TTS": [
+        [
+            "Qwen3TTSLoader",
+            "Qwen3TTSRealVoiceClone",
+            "Qwen3TTSVoiceClone",
+            "Qwen3TTSVoiceDesign"
+        ],
+        {
+            "title_aux": "ComfyUI-Qwen3-TTS [NAME CONFLICT/WIP]"
+        }
+    ],
     "https://github.com/starsFriday/ComfyUI-Tracker-Person": [
         [
             "YoloTrackNode"
@@ -13061,6 +13102,7 @@
     "https://github.com/sugarkwork/comfyui_my_img_util": [
         [
             "Auto Image Selector",
+            "OpenCVDenoiseColored",
             "Simple Image Rotate"
         ],
         {
