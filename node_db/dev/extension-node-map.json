@@ -11259,7 +11259,8 @@
     ],
     "https://github.com/my-xz-org/comfyui_xz_nodes": [
         [
-            "XZImageToText"
+            "XZImageToText",
+            "XZLlmResponse"
         ],
         {
             "title_aux": "comfyui_xz_nodes"
@@ -12729,7 +12730,12 @@
         [
             "SeedVRUpscale",
             "UltralyticsCrop",
-            "UltralyticsModelLoader"
+            "UltralyticsModelLoader",
+            "VAEUtils_CustomVAELoader",
+            "VAEUtils_DisableVAEOffload",
+            "VAEUtils_LatentUpscale",
+            "VAEUtils_ScaleLatents",
+            "VAEUtils_VAEDecodeTiled"
         ],
         {
             "title_aux": "ComfyUI-SimonNodes"

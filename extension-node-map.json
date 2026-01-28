@@ -16539,6 +16539,7 @@
             "BatchImagesToGrid",
             "CreateImage",
             "LoadMultiviewImages",
+            "Quadremesh",
             "RizzAlphaMargin",
             "RizzBatchImageLoader",
             "RizzBlur",
@@ -16547,14 +16548,22 @@
             "RizzClean",
             "RizzCropAndScaleFromMask",
             "RizzDynamicPromptGenerator",
+            "RizzEditClips",
             "RizzEditImage",
+            "RizzExtractAllFrames",
+            "RizzExtractFrames",
             "RizzGDSPatcher",
             "RizzLoadLatestImage",
             "RizzLoadLatestMesh",
+            "RizzLoadVideo",
             "RizzModelBatchLoader",
             "RizzPasteAndUnscale",
+            "RizzPreviewVideo",
+            "RizzSaveVideo",
+            "RizzSeparateVideoAudio",
             "RizzTextcombine",
             "RizzUpscaleImageBatch",
+            "RizzVideoEffects",
             "SaveMultiviewImages",
             "SimplifyMesh",
             "SplitImageBatch",
@@ -20613,6 +20622,9 @@
             "TileBreak",
             "UserSelect",
             "WanActionSelect",
+            "easy_base64_loader",
+            "easy_image_failsafe_loader",
+            "easy_image_url",
             "easy_smartbypass"
         ],
         {
@@ -24053,7 +24065,8 @@
             "AK XZ Batch Lora",
             "AK XZ Batch Prompts",
             "AK XZ Range Float",
-            "AK XZ Range Int"
+            "AK XZ Range Int",
+            "AKXZPreviewPlot"
         ],
         {
             "title_aux": "AK XZ Axis (XY for any KSampler)"
@@ -34459,6 +34472,7 @@
             "LH_History_Monitor",
             "LH_LlamaInstruct",
             "LH_MultiTextSelector",
+            "LH_SimpleText",
             "LoRA_AllInOne_Saver",
             "UniversalAIChat",
             "UniversalGGUFLoader",
@@ -36732,6 +36746,7 @@
     "https://github.com/huyl3-cpu/comfyui-sortlist": [
         [
             "ColabKeepAlive",
+            "RAMCleanup",
             "Set Value With Path",
             "SetValuesFromPanel",
             "TunnelAutoReconnect",
@@ -44246,7 +44261,8 @@
             "mrmth_ag_ModelMathNode",
             "mrmth_ag_NoiseMathNode",
             "mrmth_ag_SigmasMathNode",
-            "mrmth_ag_VAEMathNode"
+            "mrmth_ag_VAEMathNode",
+            "mrmth_ag_VideoMathNode"
         ],
         {
             "title_aux": "More Math"
