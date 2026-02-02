@@ -1728,6 +1728,7 @@
             "LoraLoaderBlockWeight //Inspire",
             "MakeLBW //Inspire",
             "ModelMergeZIT",
+            "ModelMergeZITBlocks",
             "SaveLBW //Inspire",
             "XY Input: Lora Block Weight //Inspire"
         ],
@@ -4213,6 +4214,7 @@
         [
             "AudioWeights to FadeMask \ud83d\udc24",
             "Boolean Primitive \ud83d\udc24",
+            "GeminiBanana \ud83c\udf4c",
             "Image Input Switch \ud83d\udc24",
             "Indices Generator \ud83d\udc24",
             "List Image Path \ud83d\udc24",
