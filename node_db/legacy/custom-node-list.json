@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "thoddnn",
+            "title": "ComfyUI MLX Nodes [REMOVED]",
+            "reference": "https://github.com/thoddnn/ComfyUI-MLX",
+            "files": [
+                "https://github.com/thoddnn/ComfyUI-MLX"
+            ],
+            "install_type": "git-clone",
+            "description": "Faster workflows for ComfyUI users on Mac with Apple silicon"
+        },
+        {
             "author": "90cube",
             "title": "CBCanvas Node for ComfyUI [REMOVED]",
             "reference": "https://github.com/90cube/Comfyui-CBcanvas",

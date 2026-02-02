@@ -18546,16 +18546,6 @@
             "description": "These are designed to be custom nodes i found usefulness to that hopefully others can share."
         },
         {
-            "author": "thoddnn",
-            "title": "ComfyUI MLX Nodes",
-            "reference": "https://github.com/thoddnn/ComfyUI-MLX",
-            "files": [
-                "https://github.com/thoddnn/ComfyUI-MLX"
-            ],
-            "install_type": "git-clone",
-            "description": "Faster workflows for ComfyUI users on Mac with Apple silicon"
-        },
-        {
             "author": "acorderob",
             "title": "Prompt PostProcessor",
             "reference": "https://github.com/acorderob/sd-webui-prompt-postprocessor",
