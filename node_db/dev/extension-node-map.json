@@ -2658,7 +2658,6 @@
     ],
     "https://github.com/Kraven1109/ComfyUI-Llama": [
         [
-            "ComfyLLama",
             "ComfyLLamaPreviewText",
             "ComfyLLamaPromptBuilder",
             "ComfyLLamaSaveText",
@@ -2667,6 +2666,10 @@
             "ComfyLLamaTextConcat",
             "ComfyLLamaTextInput",
             "GGUFLoader",
+            "HFModelLoader",
+            "HFModelUnloader",
+            "HFTextInference",
+            "HFVLInference",
             "MediaPathsLoader"
         ],
         {
@@ -7071,6 +7074,7 @@
             "DualCFGGuider",
             "DualCLIPLoader",
             "EasyCache",
+            "EmptyAceStep1.5LatentAudio",
             "EmptyAceStepLatentAudio",
             "EmptyAudio",
             "EmptyChromaRadianceLatentImage",
@@ -7119,6 +7123,8 @@
             "GrokVideoEditNode",
             "GrokVideoNode",
             "GrowMask",
+            "HitPawGeneralImageEnhance",
+            "HitPawVideoEnhance",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
             "HunyuanImageToVideo",
@@ -7363,6 +7369,7 @@
             "RecraftTextToVectorNode",
             "RecraftVectorizeImageNode",
             "ReferenceLatent",
+            "ReferenceTimbreAudio",
             "RegexExtract",
             "RegexMatch",
             "RegexReplace",
@@ -7514,6 +7521,7 @@
             "TestWhileLoopClose",
             "TestWhileLoopOpen",
             "TextEncodeAceStepAudio",
+            "TextEncodeAceStepAudio1.5",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
@@ -12238,6 +12246,7 @@
         [
             "Batch Keyframes",
             "Canny Edge",
+            "Combine RGB Channels",
             "Create Empty Frames",
             "Get Image Dimensions",
             "Image Grayscale",
@@ -12249,6 +12258,7 @@
             "Save Image Folder",
             "Select Image From Batch",
             "Slot Frame",
+            "Split RGB Channels",
             "String To Float List",
             "Threshold Image",
             "Trim Padded Batch"
@@ -12717,6 +12727,7 @@
     "https://github.com/silveroxides/ComfyUI_SamplingUtils": [
         [
             "AdjustedResolutionParameters",
+            "BonusPromptPresets",
             "Frakturpad",
             "GetJsonKeyValue",
             "IdeographicLinePad",
@@ -12724,6 +12735,8 @@
             "IdeographicTagPad",
             "ImageBlendByMask",
             "Image_Color_Noise",
+            "InstructPromptPresets",
+            "LlTokenizerOptions",
             "ModifyMask",
             "SU_LoadImagePath",
             "SamplingParameters",
