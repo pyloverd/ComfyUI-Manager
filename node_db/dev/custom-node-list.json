@@ -128,7 +128,7 @@
                 "https://github.com/teskor-hub/comfyui-teskors-utils"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI utility nodes for pose smoothing and rendering. (Description by CC)\nNOTE: The files in the repo are not organized."
+            "description": "DWpose smoothing and rendering node (body, face, hands)\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "Omega-L",

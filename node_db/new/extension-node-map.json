@@ -26831,7 +26831,7 @@
             "HALOVAEEncode"
         ],
         {
-            "title_aux": "halo_pack"
+            "title_aux": "HALO Debug Pack"
         }
     ],
     "https://github.com/black-forest-labs/bfl-comfy-nodes": [
@@ -49814,7 +49814,7 @@
             "ReferenceChainConditioningBase64"
         ],
         {
-            "title_aux": "ComfyUI-ReferenceChain"
+            "title_aux": "Reference Chain Conditioning"
         }
     ],
     "https://github.com/revirevy/Comfyui_saveimage_imgbb": [
