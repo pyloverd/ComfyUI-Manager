@@ -378,13 +378,13 @@
         },
         {
             "author": "remingtonspaz",
-            "title": "ComfyUI-ReferenceChain",
+            "title": "Reference Chain Conditioning",
             "reference": "https://github.com/remingtonspaz/ComfyUI-ReferenceChain",
             "files": [
                 "https://github.com/remingtonspaz/ComfyUI-ReferenceChain"
             ],
             "install_type": "git-clone",
-            "description": "A ComfyUI node that takes multiple images, scales them, VAE encodes them, and chains them as reference latents into a single conditioning output. Useful for edit models like Flux-2-klein that accept multiple reference images."
+            "description": "Chain multiple images as reference conditionings for Flux Klein, Kontext etc. with one node"
         },
         {
             "author": "SidDays",

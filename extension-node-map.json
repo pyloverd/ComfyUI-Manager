@@ -6626,6 +6626,7 @@
             "BoyoVACEInjector",
             "BoyoVACEViewer",
             "BoyoVAEDecode",
+            "BoyoVideoClipper",
             "BoyoVideoCutter",
             "BoyoVideoLengthCalculator",
             "BoyoVideoPairedSaver",
@@ -8477,6 +8478,7 @@
         [
             "SF_ActionAnimator",
             "SF_AssetLoader",
+            "SF_DirectorEngine",
             "SF_FuryPromptEngine",
             "SF_FurySampler",
             "SF_ProjectManager",
@@ -16772,6 +16774,7 @@
             "RizzExtractAllFrames",
             "RizzExtractFrames",
             "RizzGDSPatcher",
+            "RizzImageEffects",
             "RizzLoadAudio",
             "RizzLoadImage",
             "RizzLoadLatestImage",
@@ -18111,9 +18114,9 @@
     "https://github.com/Shiba-2-shiba/ComfyUI-HSWQ-Quantizer": [
         [
             "HSWQAdvancedBenchmark",
-            "HSWQFP8ConverterNode",
             "HSWQFP8ConverterNodeLegacy",
-            "SDXLHSWQCalibrationNode"
+            "SDXLHSWQCalibrationNode",
+            "SDXLHSWQFP8QuantizerNode"
         ],
         {
             "title_aux": "ComfyUI-HSWQ-Quantizer"
@@ -18131,9 +18134,9 @@
     "https://github.com/Shiba-2-shiba/ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer": [
         [
             "HSWQAdvancedBenchmark",
-            "HSWQFP8ConverterNode",
             "HSWQFP8ConverterNodeLegacy",
-            "SDXLHSWQCalibrationNode"
+            "SDXLHSWQCalibrationNode",
+            "SDXLHSWQFP8QuantizerNode"
         ],
         {
             "title_aux": "ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer"
@@ -25449,7 +25452,9 @@
             "Sage_DualCLIPTextEncode",
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_DualCLIPTextEncodeQwen",
+            "Sage_DynamicComboTest",
             "Sage_EmptyLatentImagePassthrough",
+            "Sage_FlexibleCLIPSelector",
             "Sage_FloatToStr",
             "Sage_FreeMemory",
             "Sage_FreeU2",
