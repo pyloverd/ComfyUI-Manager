@@ -26680,16 +26680,6 @@
             "description": "GradientBlurNode is a custom node for ComfyUI that allows for gradient-based image blurring. This tool provides precise control over the direction, intensity, and distribution of the blur, making it ideal for creating smooth transitions, focusing attention on specific parts of an image, or adding artistic effects."
         },
         {
-            "author": "linksluckytime",
-            "title": "comfyui_snacknodes",
-            "reference": "https://github.com/linksluckytime/comfyui_snacknodes",
-            "files": [
-                "https://github.com/linksluckytime/comfyui_snacknodes"
-            ],
-            "install_type": "git-clone",
-            "description": "A comprehensive collection of ComfyUI nodes designed to reduce reliance on multiple third-party node packages."
-        },
-        {
             "author": "uihp",
             "title": "ComfyUI-String-Chain",
             "reference": "https://github.com/uihp/ComfyUI-String-Chain",
@@ -42791,12 +42781,13 @@
         {
             "author": "Malkalypse",
             "title": "ComfyUI-MouseCoords",
+            "id": "mousecoords",
             "reference": "https://github.com/Malkalypse/ComfyUI-MouseCoords",
             "files": [
                 "https://github.com/Malkalypse/ComfyUI-MouseCoords"
             ],
             "install_type": "git-clone",
-            "description": "Display mouse coordinates in graph space"
+            "description": "Display real-time mouse coordinates in graph space. Shows the current mouse position in the top-right corner of the canvas, useful for positioning nodes precisely, debugging layouts, and measuring distances."
         },
         {
             "author": "luoq24",
@@ -42907,6 +42898,17 @@
             ],
             "install_type": "git-clone",
             "description": "All-in-One collection of Painter's ComfyUI nodes for video generation"
+        },
+        {
+            "author": "cosmicbuffalo",
+            "title": "ComfyUI Mobile Frontend",
+            "id": "comfyui-mobile-frontend",
+            "reference": "https://github.com/cosmicbuffalo/comfyui-mobile-frontend",
+            "files": [
+                "https://github.com/cosmicbuffalo/comfyui-mobile-frontend"
+            ],
+            "install_type": "git-clone",
+            "description": "A mobile-friendly user interface for ComfyUI mounted in parallel with the main frontend at /mobile/."
         },
 
 
@@ -43304,17 +43306,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "cosmicbuffalo",
-            "title": "ComfyUI Mobile Frontend",
-            "id": "comfyui-mobile-frontend",
-            "reference": "https://github.com/cosmicbuffalo/comfyui-mobile-frontend",
-            "files": [
-                "https://github.com/cosmicbuffalo/comfyui-mobile-frontend"
-            ],
-            "install_type": "git-clone",
-            "description": "A mobile-friendly user interface for ComfyUI mounted in parallel with the main frontend at /mobile/."
         }
     ]
 }

@@ -6117,6 +6117,7 @@
             "DiffusionModelSelectorNode",
             "ImageResizeNode",
             "LORASelectorNode",
+            "LoadImageWithMetadataNode",
             "MaskDebugNode",
             "ModelGeneratorNode",
             "OptionalCondMergeNode",
@@ -12186,9 +12187,15 @@
             "ImageListRepeater",
             "ImageListSplitter",
             "LG_AccumulatePreview",
+            "LG_ClearAccumulatedValues",
+            "LG_ConcatVideoFiles",
+            "LG_CreateAndSaveVideo",
             "LG_FastPreview",
             "LG_ImageReceiver",
             "LG_ImageSender",
+            "LG_SaveAudioGetPath",
+            "LG_ValueReceiver",
+            "LG_ValueSender",
             "MaskListRepeater",
             "MaskListSplitter"
         ],
@@ -16766,6 +16773,7 @@
             "RizzExtractFrames",
             "RizzGDSPatcher",
             "RizzLoadAudio",
+            "RizzLoadImage",
             "RizzLoadLatestImage",
             "RizzLoadLatestMesh",
             "RizzLoadVideo",
@@ -16773,9 +16781,11 @@
             "RizzModelBatchLoader",
             "RizzPasteAndUnscale",
             "RizzPreviewAudio",
+            "RizzPreviewImage",
             "RizzPreviewTiling",
             "RizzPreviewVideo",
             "RizzSaveAudio",
+            "RizzSaveImage",
             "RizzSaveVideo",
             "RizzSeparateVideoAudio",
             "RizzTextcombine",
@@ -20940,7 +20950,9 @@
             "easy_latent_sanitize",
             "easy_mask_sanitize",
             "easy_smartbypass",
-            "easy_vae_hard_reset"
+            "easy_vae_hard_reset",
+            "save_image_with_latent_and_metadata_webp",
+            "webp_latent_loader"
         ],
         {
             "title_aux": "ComfyUI-EasyFilePaths"
@@ -30444,6 +30456,7 @@
             "ConvertStringToComboNode",
             "CosmosImageToVideoLatent",
             "CosmosPredict2ImageToVideoLatent",
+            "CreateList",
             "CreateVideo",
             "CropMask",
             "CustomCombo",
@@ -30933,6 +30946,7 @@
             "UpscaleModelLoader",
             "VAEDecode",
             "VAEDecodeAudio",
+            "VAEDecodeAudioTiled",
             "VAEDecodeHunyuan3D",
             "VAEDecodeTiled",
             "VAEEncode",
@@ -31022,6 +31036,15 @@
         {
             "title_aux": "ComfyUI_experiments"
         }
+    ],
+    "https://github.com/comfyui/snacknodes": [
+        [
+            "ImageInfo",
+            "ImageScaler",
+            "TextBox",
+            "TextProcessor"
+        ],
+        {}
     ],
     "https://github.com/comfyuistudio/ComfyUI-Studio-nodes": [
         [
@@ -42369,17 +42392,6 @@
         ],
         {
             "title_aux": "DeepSeek Chat Node for ComfyUI"
-        }
-    ],
-    "https://github.com/linksluckytime/comfyui_snacknodes": [
-        [
-            "ImageInfo",
-            "ImageScaler",
-            "TextBox",
-            "TextProcessor"
-        ],
-        {
-            "title_aux": "comfyui_snacknodes"
         }
     ],
     "https://github.com/linshier/comfyui-remote-tools": [

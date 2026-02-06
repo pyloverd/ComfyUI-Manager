@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "cosmicbuffalo",
+            "title": "ComfyUI Mobile Frontend",
+            "id": "comfyui-mobile-frontend",
+            "reference": "https://github.com/cosmicbuffalo/comfyui-mobile-frontend",
+            "files": [
+                "https://github.com/cosmicbuffalo/comfyui-mobile-frontend"
+            ],
+            "install_type": "git-clone",
+            "description": "A mobile-friendly user interface for ComfyUI mounted in parallel with the main frontend at /mobile/."
+        },
+        {
             "author": "FearL0rd",
             "title": "ComfyUI-ParallelAnything",
             "reference": "https://github.com/FearL0rd/ComfyUI-ParallelAnything",
@@ -296,12 +307,13 @@
         {
             "author": "Malkalypse",
             "title": "ComfyUI-MouseCoords",
+            "id": "mousecoords",
             "reference": "https://github.com/Malkalypse/ComfyUI-MouseCoords",
             "files": [
                 "https://github.com/Malkalypse/ComfyUI-MouseCoords"
             ],
             "install_type": "git-clone",
-            "description": "Display mouse coordinates in graph space"
+            "description": "Display real-time mouse coordinates in graph space. Shows the current mouse position in the top-right corner of the canvas, useful for positioning nodes precisely, debugging layouts, and measuring distances."
         },
         {
             "author": "MechaBabyAi",
