@@ -42227,7 +42227,7 @@
         },
         {
             "author": "c0dezer019",
-            "title": "Pausable Sampler",
+            "title": "FreezeFrame",
             "id": "freezeframe",
             "reference": "https://github.com/c0dezer019/FreezeFrame",
             "files": [
