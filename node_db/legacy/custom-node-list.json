@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "A043-studios",
+            "title": "ComfyUI Deforum-X-Flux Nodes [REMOVED]",
+            "reference": "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes",
+            "files": [
+                "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional video animation nodes for ComfyUI based on Deforum-X-Flux research"
+        },
+        {
             "author": "linksluckytime",
             "title": "comfyui_snacknodes [REMOVED]",
             "reference": "https://github.com/linksluckytime/comfyui_snacknodes",

@@ -11612,6 +11612,16 @@
             "description": "UltraFlux:Data-Model Co-Design for High-quality Native 4K Text-to-Image Generation across Diverse Aspect Ratios,try it in comfyUI"
         },
         {
+            "author": "smthemex",
+            "title": "ComfyUI_InteractAvatar",
+            "reference": "https://github.com/smthemex/ComfyUI_InteractAvatar",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_InteractAvatar"
+            ],
+            "install_type": "git-clone",
+            "description": "Making Avatars InteractTowards Text-Driven Human-Object Interaction for Controllable Talking Avatars"
+        },
+        {
             "author": "choey",
             "title": "Comfy-Topaz",
             "id": "topaz",
@@ -20667,6 +20677,16 @@
             ],
             "install_type": "git-clone",
             "description": "Turn images into seamless textures and build tiled previews. Unique radial mask method available."
+        },
+        {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-CrosshairGuidelines",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-CrosshairGuidelines",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-CrosshairGuidelines"
+            ],
+            "install_type": "git-clone",
+            "description": "Crosshair guidelines to help align nodes and groups while moving or resizing."
         },
         {
             "author": "lightricks",
@@ -29816,16 +29836,6 @@
             ],
             "install_type": "git-clone",
             "description": "Professional 3D face reconstruction for ComfyUI using the Pixel3DMM method"
-        },
-        {
-            "author": "A043-studios",
-            "title": "ComfyUI Deforum-X-Flux Nodes",
-            "reference": "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes",
-            "files": [
-                "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional video animation nodes for ComfyUI based on Deforum-X-Flux research"
         },
         {
             "author": "A043-studios",
@@ -42911,6 +42921,26 @@
             "install_type": "git-clone",
             "description": "A mobile-friendly user interface for ComfyUI mounted in parallel with the main frontend at /mobile/."
         },
+        {
+            "author": "DN2048",
+            "title": "dn_little_helpers",
+            "reference": "https://github.com/DN2048/dn_little_helpers",
+            "files": [
+                "https://github.com/DN2048/dn_little_helpers"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of little custom nodes for ComfyUI to help in simple/specific tasks"
+        },
+        {
+            "author": "zavatmotion",
+            "title": "ComfyUI Workflow Backup",
+            "reference": "https://github.com/zavatmotion/ComfyUI-Workflow-Backup",
+            "files": [
+                "https://github.com/zavatmotion/ComfyUI-Workflow-Backup"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI Custom Node to backup workflows and their required models locally."
+        },
 
 
 
@@ -43307,16 +43337,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-		{
-		      "author": "zavatmotion",
-		      "title": "ComfyUI Workflow Backup",
-		      "reference": "https://github.com/zavatmotion/ComfyUI-Workflow-Backup",
-		      "files": [
-				  "https://github.com/zavatmotion/ComfyUI-Workflow-Backup"
-			  ],
-		      "install_type": "git-clone",
-		      "description": "A ComfyUI Custom Node to backup workflows and their required models locally."
-		}
+        }
     ]
 }

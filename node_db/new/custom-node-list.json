@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "zavatmotion",
+            "title": "ComfyUI Workflow Backup",
+            "reference": "https://github.com/zavatmotion/ComfyUI-Workflow-Backup",
+            "files": [
+                "https://github.com/zavatmotion/ComfyUI-Workflow-Backup"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI Custom Node to backup workflows and their required models locally."
+        },
+        {
+            "author": "smthemex",
+            "title": "ComfyUI_InteractAvatar",
+            "reference": "https://github.com/smthemex/ComfyUI_InteractAvatar",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_InteractAvatar"
+            ],
+            "install_type": "git-clone",
+            "description": "Making Avatars InteractTowards Text-Driven Human-Object Interaction for Controllable Talking Avatars"
+        },
+        {
+            "author": "DN2048",
+            "title": "dn_little_helpers",
+            "reference": "https://github.com/DN2048/dn_little_helpers",
+            "files": [
+                "https://github.com/DN2048/dn_little_helpers"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of little custom nodes for ComfyUI to help in simple/specific tasks"
+        },
+        {
+            "author": "SparknightLLC",
+            "title": "ComfyUI-CrosshairGuidelines",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-CrosshairGuidelines",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-CrosshairGuidelines"
+            ],
+            "install_type": "git-clone",
+            "description": "Crosshair guidelines to help align nodes and groups while moving or resizing."
+        },
+        {
             "author": "cosmicbuffalo",
             "title": "ComfyUI Mobile Frontend",
             "id": "comfyui-mobile-frontend",
