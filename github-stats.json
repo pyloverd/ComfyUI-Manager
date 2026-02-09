@@ -349,11 +349,6 @@
         "last_update": "2025-06-25 14:55:32",
         "author_account_age_days": 1243
     },
-    "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes": {
-        "stars": 3,
-        "last_update": "2025-06-10 14:28:27",
-        "author_account_age_days": 1240
-    },
     "https://github.com/A043-studios/comfyui-pixel3dmm": {
         "stars": 6,
         "last_update": "2025-06-10 08:11:51",
@@ -3349,6 +3344,11 @@
         "last_update": "2025-11-19 07:46:47",
         "author_account_age_days": 1925
     },
+    "https://github.com/HappyOnigiri/ComfyUI-Meld": {
+        "stars": 0,
+        "last_update": "2026-02-01 12:49:24",
+        "author_account_age_days": 31
+    },
     "https://github.com/HappyXY/ComfyUI-AmazonBedrock": {
         "stars": 0,
         "last_update": "2025-08-08 06:14:53",
@@ -5968,6 +5968,11 @@
         "stars": 13,
         "last_update": "2025-03-16 12:13:59",
         "author_account_age_days": 4292
+    },
+    "https://github.com/SLVGITHUB/QWEN3_TTS_DVA": {
+        "stars": 1,
+        "last_update": "2026-01-30 05:47:57",
+        "author_account_age_days": 1656
     },
     "https://github.com/SOELexicon/ComfyUI-LexMSDBNodes": {
         "stars": 4,
@@ -9513,6 +9518,11 @@
         "stars": 0,
         "last_update": "2025-01-05 05:42:30",
         "author_account_age_days": 4197
+    },
+    "https://github.com/boredcoderyt/ComfyUI-Fibo-Edit": {
+        "stars": 0,
+        "last_update": "2026-01-31 11:37:05",
+        "author_account_age_days": 2285
     },
     "https://github.com/boredofnames/ComfyUI-ntfy": {
         "stars": 2,
@@ -16374,11 +16384,6 @@
         "last_update": "2025-03-03 07:47:31",
         "author_account_age_days": 432
     },
-    "https://github.com/patientx/CFZ-SwitchMenu": {
-        "stars": 1,
-        "last_update": "2026-01-10 00:13:49",
-        "author_account_age_days": 4536
-    },
     "https://github.com/patriciogonzalezvivo/comfyui_glslnodes": {
         "stars": 230,
         "last_update": "2025-05-05 15:00:47",
@@ -17273,6 +17278,11 @@
         "stars": 0,
         "last_update": "2025-06-20 00:25:39",
         "author_account_age_days": 1718
+    },
+    "https://github.com/robomello/comfyui-prompt-saver": {
+        "stars": 0,
+        "last_update": "2026-01-29 17:59:46",
+        "author_account_age_days": 2280
     },
     "https://github.com/robtl2/ComfyUI-ComfyBridge": {
         "stars": 0,
@@ -19549,11 +19559,6 @@
         "last_update": "2025-04-02 19:37:15",
         "author_account_age_days": 3208
     },
-    "https://github.com/ved-gaur/ComfyUI-Sink-Nodes": {
-        "stars": 0,
-        "last_update": "2026-02-04 17:15:41",
-        "author_account_age_days": 830
-    },
     "https://github.com/veighnsche/comfyui_gr85": {
         "stars": 1,
         "last_update": "2025-11-28 04:00:25",
@@ -20563,6 +20568,11 @@
         "stars": 0,
         "last_update": "2025-03-26 20:58:18",
         "author_account_age_days": 4371
+    },
+    "https://github.com/zavatmotion/ComfyUI-Workflow-Backup": {
+        "stars": 0,
+        "last_update": "2026-01-27 18:11:55",
+        "author_account_age_days": 242
     },
     "https://github.com/zccrs/comfyui-dci": {
         "stars": 1,

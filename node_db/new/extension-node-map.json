@@ -1053,28 +1053,6 @@
             "title_aux": "ComfyUI ASCII Generator Node"
         }
     ],
-    "https://github.com/A043-studios/comfyui-deforum-x-flux-nodes": [
-        [
-            "DeforumAnimParamsNode",
-            "DeforumBaseParamsNode",
-            "DeforumCacheLatentNode",
-            "DeforumConditioningBlendNode",
-            "DeforumDepthWarping",
-            "DeforumDiffusionParamsNode",
-            "DeforumFluxSampler",
-            "DeforumGetCachedLatentNode",
-            "DeforumInterpolation",
-            "DeforumIteratorNode",
-            "DeforumPromptNode",
-            "DeforumRenderer",
-            "DeforumTranslationParamsNode",
-            "DeforumVideoInput",
-            "DeforumVideoOutput"
-        ],
-        {
-            "title_aux": "ComfyUI Deforum-X-Flux Nodes"
-        }
-    ],
     "https://github.com/A043-studios/comfyui-pixel3dmm": [
         [
             "FLAMEOptimizer",
@@ -9492,6 +9470,23 @@
             "title_aux": "ComfyUI ReSharpen"
         }
     ],
+    "https://github.com/HappyOnigiri/ComfyUI-Meld": [
+        [
+            "MeldAutoExposure",
+            "MeldImageLoader",
+            "MeldImageLoaderBatch",
+            "MeldPatternHeart",
+            "MeldPixelate",
+            "MeldPromptConstructor",
+            "MeldSaveImage",
+            "MeldSettingsUnpacker",
+            "MeldUnifiedFluxLoader",
+            "MeldUnifiedLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-Meld"
+        }
+    ],
     "https://github.com/HappyXY/ComfyUI-AmazonBedrock": [
         [
             "Amazon Bedrock - Nova Canvas Background Prompt Replace",
@@ -17266,6 +17261,19 @@
         ],
         {
             "title_aux": "ComfyUI-Image-Selector"
+        }
+    ],
+    "https://github.com/SLVGITHUB/QWEN3_TTS_DVA": [
+        [
+            "QwenTTSAudioSaver",
+            "QwenTTSBatchGenerate",
+            "QwenTTSEmotionMixer",
+            "QwenTTSGenerate",
+            "QwenTTSModelLoader",
+            "QwenTTSVoiceClone"
+        ],
+        {
+            "title_aux": "DVA_Qwen_TTS"
         }
     ],
     "https://github.com/SOELexicon/ComfyUI-LexMSDBNodes": [
@@ -27341,6 +27349,15 @@
         ],
         {
             "title_aux": "ComfyUI-Bongsang"
+        }
+    ],
+    "https://github.com/boredcoderyt/ComfyUI-Fibo-Edit": [
+        [
+            "FiboEdit",
+            "FiboEdit_VLM"
+        ],
+        {
+            "title_aux": "Fibo Edit Node for ComfyUI"
         }
     ],
     "https://github.com/boredofnames/ComfyUI-ntfy": [
@@ -50251,6 +50268,14 @@
             "title_aux": "ComfyUI Flux Continuum: Modular Interface"
         }
     ],
+    "https://github.com/robomello/comfyui-prompt-saver": [
+        [
+            "PromptSaverNode"
+        ],
+        {
+            "title_aux": "ComfyUI Prompt Saver"
+        }
+    ],
     "https://github.com/robtl2/ComfyUI-ComfyBridge": [
         [
             "CB_ImageReceiver",
@@ -55728,15 +55753,6 @@
             "title_aux": "ImageBlender"
         }
     ],
-    "https://github.com/ved-gaur/ComfyUI-Sink-Nodes": [
-        [
-            "IntermediateSink",
-            "Sink"
-        ],
-        {
-            "title_aux": "ComfyUI-Sink-Nodes"
-        }
-    ],
     "https://github.com/veighnsche/comfyui_gr85": [
         [
             "GR85_ImageDimensionResizer",
@@ -58670,6 +58686,14 @@
         ],
         {
             "title_aux": "ComfyUI-ColorCorrection"
+        }
+    ],
+    "https://github.com/zavatmotion/ComfyUI-Workflow-Backup": [
+        [
+            "WorkflowBackup"
+        ],
+        {
+            "title_aux": "ComfyUI Workflow Backup"
         }
     ],
     "https://github.com/zccrs/comfyui-dci": [

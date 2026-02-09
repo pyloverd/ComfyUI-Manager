@@ -205,16 +205,6 @@
             "description": "A small ComfyUI custom node that provides a lightweight bypass for grouped nodes."
         },
         {
-            "author": "ved-gaur",
-            "title": "ComfyUI-Sink-Nodes",
-            "reference": "https://github.com/ved-gaur/ComfyUI-Sink-Nodes",
-            "files": [
-                "https://github.com/ved-gaur/ComfyUI-Sink-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI sink nodes that accept inputs and intentionally do nothing, forcing models to load into memory without running inference. (Description by CC)"
-        },
-        {
             "author": "kreonxv",
             "title": "ComfyUI-ForgeAPI",
             "reference": "https://github.com/kreonxv/ComfyUI-ForgeAPI",

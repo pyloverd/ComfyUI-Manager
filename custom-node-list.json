@@ -41622,16 +41622,6 @@
             "description": "TK View and Light: A ComfyUI node for 3D camera and lighting control"
         },
         {
-            "author": "patientx",
-            "title": "CFZ-SwitchMenu",
-            "reference": "https://github.com/patientx/CFZ-SwitchMenu",
-            "files": [
-                "https://github.com/patientx/CFZ-SwitchMenu"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds a menu button that switches between old and new style ComfyUI menus."
-        },
-        {
             "author": "Lumiyumi",
             "title": "LumyINTP",
             "reference": "https://github.com/Lumiyumi/LumyINTP",
@@ -42839,16 +42829,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes for removing UI elements from screenshots by detecting and masking icons, buttons, and text. (Description by CC)"
-        },
-        {
-            "author": "ved-gaur",
-            "title": "ComfyUI-Sink-Nodes",
-            "reference": "https://github.com/ved-gaur/ComfyUI-Sink-Nodes",
-            "files": [
-                "https://github.com/ved-gaur/ComfyUI-Sink-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI sink nodes that accept inputs and intentionally do nothing, forcing models to load into memory without running inference. (Description by CC)"
         },
         {
             "author": "neurodanzelus-cmd",
