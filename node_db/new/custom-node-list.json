@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "HappyOnigiri",
+            "title": "ComfyUI-Meld",
+            "reference": "https://github.com/HappyOnigiri/ComfyUI-Meld",
+            "files": [
+                "https://github.com/HappyOnigiri/ComfyUI-Meld"
+            ],
+            "install_type": "git-clone",
+            "description": "The ultimate Image Manager & Gallery for ComfyUI. Automatically catalog generations, track lineage, and restore workflows with a single click."
+        },
+        {
             "author": "robomello",
             "title": "ComfyUI Prompt Saver",
             "id": "prompt-saver",
