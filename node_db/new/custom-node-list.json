@@ -10,6 +10,16 @@
             "install_type": "git-clone",
             "description": "A ComfyUI Custom Node to backup workflows and their required models locally."
         },
+		{
+            "author": "DVA",
+            "title": "DVA_Qwen_TTS",
+            "reference": "https://github.com/SLVGITHUB/QWEN3_TTS_DVA",
+            "files": [
+                "https://github.com/SLVGITHUB/QWEN3_TTS_DVA"
+		    ],
+            "install_type": "git-clone",
+            "description": "High-quality multilingual TTS with voice cloning, emotion control, and support for Qwen3-TTS models (CustomVoice, VoiceDesign, Base)."
+		},
         {
             "author": "smthemex",
             "title": "ComfyUI_InteractAvatar",
