@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "boredcoderyt",
+            "title": "Fibo Edit Node for ComfyUI",
+            "id": "fiboedit",
+            "reference": "https://github.com/boredcoderyt/ComfyUI-Fibo-Edit",
+            "files": [
+                "https://github.com/boredcoderyt/ComfyUI-Fibo-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for BriaAI Fibo Edit image model."
+        },
+        {
             "author": "zavatmotion",
             "title": "ComfyUI Workflow Backup",
             "reference": "https://github.com/zavatmotion/ComfyUI-Workflow-Backup",
