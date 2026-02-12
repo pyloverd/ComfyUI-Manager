@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "dennisvink",
+            "title": "Outline Alpha Snap Node for ComfyUI",
+            "id": "outlinealphasnap",
+            "reference": "https://github.com/dennisvink/comfyui-outline",
+            "files": [
+                "https://github.com/dennisvink/comfyui-outline"
+            ],
+            "install_type": "git-clone",
+            "description": "This node adds an outside-only outline around the opaque region of an image while cleaning up semi‑transparent edge pixels and removing stray islands."
+        },
+        {
             "author": "Moser9815",
             "title": "ComfyUI-RMAutomation",
             "id": "rmautomation",

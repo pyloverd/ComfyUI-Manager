@@ -42996,7 +42996,17 @@
             "install_type": "git-clone",
             "description": "Automation nodes for ComfyUI: RM Styles (load prompts from JSON with random/increment modes), Power LoRA Loader (advanced LoRA loading with random weights), image fallback, mask gate, latent operations, and video combine nodes."
         },
-
+        {
+            "author": "dennisvink",
+            "title": "Outline Alpha Snap Node for ComfyUI",
+            "id": "outlinealphasnap",
+            "reference": "https://github.com/dennisvink/comfyui-outline",
+            "files": [
+                "https://github.com/dennisvink/comfyui-outline"
+            ],
+            "install_type": "git-clone",
+            "description": "This node adds an outside-only outline around the opaque region of an image while cleaning up semi‑transparent edge pixels and removing stray islands."
+        },
 
 
 
