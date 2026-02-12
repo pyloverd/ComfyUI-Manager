@@ -13,6 +13,17 @@
         },
         {
             "author": "maartenharms",
+            "title": "PromptFlow",
+            "id": "promptflow",
+            "reference": "https://github.com/maartenharms/comfyui-promptflow",
+            "files": [
+                "https://github.com/maartenharms/comfyui-promptflow"
+            ],
+            "install_type": "git-clone",
+            "description": "Modular prompt engineering with wildcards, variations preview, auto-sort, and presets. Two modes (Simple/Extended), LoRA Manager integration, and 7 themes shared with FlowPath."
+        },
+        {
+            "author": "maartenharms",
             "title": "FlowPath",
             "id": "flowpath",
             "reference": "https://github.com/maartenharms/comfyui-flowpath",
