@@ -12997,6 +12997,17 @@
             "description": "ComfyUI node providing Tetris game functionality. (Description by CC)"
         },
         {
+            "author": "GraftingRayman",
+            "title": "ComfyUI-ZImage-Bake-Extract",
+            "id": "ComfyUI-ZImage-Bake-Extract",
+            "reference": "https://github.com/GraftingRayman/ComfyUI-ZImage-Bake-Extract",
+            "files": [
+                "https://github.com/GraftingRayman/ComfyUI-ZImage-Bake-Extract"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for baking LoRAs into base models and extracting LoRAs from merged/finetuned models. This node provides advanced functionality for managing LoRA weights with support for format conversion between sd-scripts and ComfyUI formats."
+        },
+        {
             "author": "royceschultz",
             "title": "ComfyUI-Notifications",
             "reference": "https://github.com/royceschultz/ComfyUI-Notifications",

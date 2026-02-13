@@ -15180,6 +15180,18 @@
             "title_aux": "comfyui-popup_preview"
         }
     ],
+    "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader": [
+        [
+            "DynamicTagIterator",
+            "DynamicTagLoaderJS",
+            "DynamicTagSaver",
+            "WaitForNode",
+            "WorkflowMetadataReader"
+        ],
+        {
+            "title_aux": "ComfyUI_Dynamic_TagLoader"
+        }
+    ],
     "https://github.com/Niutonian/ComfyUi-NoodleWebcam": [
         [
             "WebcamNode"
@@ -34670,6 +34682,7 @@
     "https://github.com/fkxianzhou/ComfyUI-Jimeng-API": [
         [
             "JimengAPIClient",
+            "JimengQuotaSettings",
             "JimengReferenceImage2Video",
             "JimengSeedance1",
             "JimengSeedance1_5",
@@ -48647,16 +48660,13 @@
             "FileLoaderCrawl",
             "FileLoaderCrawlBatch",
             "FilmGrainFX",
-            "FluxAIO_CRT",
             "FluxControlnetSampler",
             "FluxControlnetSamplerWithInjection",
             "FluxLoraBlocksPatcher",
-            "FluxSemanticEncoder",
             "FluxTiledSamplerCustomAdvanced",
             "ImageDimensionsFromMegaPixels",
             "ImageDimensionsFromMegaPixelsAlt",
             "ImageLoaderCrawl",
-            "LTXVAutoGuideSpacing",
             "LatentNoiseInjectionSampler",
             "LensDistortFX",
             "LensFX",
@@ -48690,18 +48700,15 @@
             "Strength To Steps",
             "Technicolor2FX",
             "Text Box line spot",
-            "Toggle Lora Unet Blocks L1",
-            "Toggle Lora Unet Blocks L2",
             "Video Duration Calculator",
             "VideoLoaderCrawl",
             "WAN2.2 LoRA Compare Sampler",
             "WanVideoLoraSelectMultiImproved"
         ],
         {
-            "author": "chflame",
-            "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
-            "nickname": "LayerStyle",
-            "title": "LayerStyle",
+            "author": "CRT",
+            "description": "Set of nodes for ComfyUI",
+            "title": "CRT-Nodes",
             "title_aux": "CRT-Nodes"
         }
     ],
@@ -54018,6 +54025,14 @@
         ],
         {
             "title_aux": "ComfyUI-FastVideo"
+        }
+    ],
+    "https://github.com/sworksteam/SEngine": [
+        [
+            "SEngineLoraLoader"
+        ],
+        {
+            "title_aux": "SEngine"
         }
     ],
     "https://github.com/syllebra/bilbox-comfyui": [
