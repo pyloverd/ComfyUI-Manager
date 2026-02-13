@@ -2809,16 +2809,6 @@
             "description": "NODES: DOC_SaveImageAndAddToHistory, DOC_RandomPromptChoice"
         },
         {
-            "author": "Dehypnotic",
-            "title": "Save MP3 node for ComfyUI [UNSAFE]",
-            "reference": "https://github.com/Dehypnotic/comfyui-save-mp3",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-save-mp3"
-            ],
-            "install_type": "git-clone",
-            "description": "Simple, flexible MP3 saver with bitrate options and handy path/filename templates.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
-        },
-        {
             "author": "obisin",
             "title": "FSampler for ComfyUI — Fast Skips via Epsilon Extrapolation [WIP]",
             "reference": "https://github.com/obisin/ComfyUI-FSampler",

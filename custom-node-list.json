@@ -17559,7 +17559,7 @@
                 "https://github.com/ihmily/ComfyUI-FitDiTx"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI implementation of "FitDiTx: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on""
+            "description": "ComfyUI implementation of 'FitDiTx: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on'"
         },
         {
             "author": "k-komarov",
