@@ -2284,8 +2284,15 @@
     "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit": [
         [
             "ImagePreprocessor",
+            "JSONBuilderLarge",
+            "JSONBuilderMedium",
+            "JSONBuilderSimple",
+            "JSONCombine",
+            "JSONExtractor",
+            "JSONFixer",
             "LLM_Loader",
-            "OpenAICompatibleLoader"
+            "OpenAICompatibleLoader",
+            "StringTemplate"
         ],
         {
             "title_aux": "ComfyUI-LLMs-Toolkit [WIP]"
@@ -4026,8 +4033,8 @@
             "SAM3D_DepthEstimate",
             "SAM3D_PoseOptimization",
             "SAM3D_PreviewPointCloud",
-            "SAM3D_ScenePoseOptimize",
-            "SAM3D_UnloadModel"
+            "SAM3D_ProjectionOverlay",
+            "SAM3D_ScenePoseOptimize"
         ],
         {
             "title_aux": "SAM3DObjects [UNSAFE]"
@@ -7254,6 +7261,7 @@
             "KlingCameraControlT2VNode",
             "KlingCameraControls",
             "KlingDualCharacterVideoEffectNode",
+            "KlingFirstLastFrameNode",
             "KlingImage2VideoNode",
             "KlingImageGenerationNode",
             "KlingImageToVideoWithAudio",
@@ -7271,6 +7279,7 @@
             "KlingTextToVideoNode",
             "KlingTextToVideoWithAudio",
             "KlingVideoExtendNode",
+            "KlingVideoNode",
             "KlingVirtualTryOnNode",
             "LTXAVTextEncoderLoader",
             "LTXVAddGuide",
@@ -7639,6 +7648,7 @@
             "VPScheduler",
             "Veo3FirstLastFrameNode",
             "VeoVideoGenerationNode",
+            "Video Slice",
             "VideoLinearCFGGuidance",
             "VideoTriangleCFGGuidance",
             "Vidu2ImageToVideoNode",
@@ -7726,10 +7736,12 @@
     ],
     "https://github.com/comfyscript/ComfyUI-CloudClient": [
         [
-            "ClientImageCompressorNode",
             "ClientImageDownloadNode",
             "ClientVideoDownloadNode",
-            "ServerMemoryImageNode"
+            "RemoteImageLoader",
+            "ServerMemoryImageNode",
+            "TemporaryImagePreview",
+            "UniversalDataToImage"
         ],
         {
             "title_aux": "ComfyUI-CloudClient"
@@ -9991,7 +10003,6 @@
             "CollectVideosNode",
             "ConformAudio",
             "ConformVideo",
-            "ExtendVideoNearestFrame",
             "ImageDelay",
             "IntToString",
             "KlingVideoHandler",
@@ -9999,6 +10010,7 @@
             "LoadVideoWithFilename",
             "PairSwitchNode",
             "PreviewImageLimited",
+            "ResampleVideoNearest",
             "StringSplitSelect",
             "Unbroken-Video-Handler",
             "VideoHandler",
@@ -12845,6 +12857,7 @@
             "ImageBlendByMask",
             "Image_Color_Noise",
             "InstructPromptPresets",
+            "JoinerPadding",
             "LlTokenizerOptions",
             "ModifyMask",
             "SU_LoadImageDirectory",
@@ -13071,6 +13084,10 @@
     "https://github.com/stalkervr/ComfyUI-StalkerVr": [
         [
             "AnyCollector",
+            "ConsoleLog",
+            "CreateProjectStructure",
+            "DebugConditioningStructure",
+            "FormatDatePath",
             "ImageBatchCrop",
             "ImageGridCropper",
             "ImageRatioResizer",
@@ -13080,6 +13097,8 @@
             "JsonFieldRemover",
             "JsonFieldReplaceAdvanced",
             "JsonFieldValueExtractor",
+            "JsonFormat",
+            "JsonMinify",
             "JsonPairInput",
             "JsonPathLoader",
             "JsonPromptToTextPromptConverter",
@@ -13089,13 +13108,22 @@
             "ListItemExtractor",
             "LogValue",
             "LoopAny",
+            "PipeIn",
+            "PipeOut",
             "PromptPartJoin",
+            "SaveTextFile",
             "StringBuilder",
             "StringCollector",
             "StringConcatenation",
             "StringListToString",
             "StringWrapper",
-            "WanVideoMultiPrompt"
+            "WanVideoEnhanceMotionAdvanced",
+            "WanVideoEnhanceMotionAdvancedKJ",
+            "WanVideoEnhanceSVI",
+            "WanVideoMultiPrompt",
+            "WanVideoSVIProEmbeds_EnhancedMotion",
+            "YAMLLoadPrompt",
+            "YAMLSavePrompt"
         ],
         {
             "title_aux": "ComfyUI-StalkerVr"
@@ -13507,6 +13535,7 @@
             "TSLoadPoseDataPickle",
             "TSLoadVideoBatchListFromDir",
             "TSPoseDataSmoother",
+            "TSRenameFilesInDir",
             "TSSavePoseDataAsPickle"
         ],
         {

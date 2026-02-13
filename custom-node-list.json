@@ -43007,6 +43007,27 @@
             "install_type": "git-clone",
             "description": "This node adds an outside-only outline around the opaque region of an image while cleaning up semi‑transparent edge pixels and removing stray islands."
         },
+        {
+            "author": "NineKey1028",
+            "title": "ComfyUI_Dynamic_TagLoader",
+            "reference": "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader",
+            "files": [
+                "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automation toolkit for ComfyUI featuring dynamic tag combinations, LoRA parsing, and workflow metadata reading."
+        },
+        {
+            "author": "SWORKS_TEAM",
+            "title": "SEngine",
+            "id": "sengine",
+            "reference": "https://github.com/sworksteam/SEngine",
+            "files": [
+                "https://github.com/sworksteam/SEngine"
+            ],
+            "install_type": "git-clone",
+            "description": "Sidebar browser for SWORKS_TEAM LoRAs from Civitai. Browse, download, and apply LoRAs with image previews and tag filtering."
+        },
 
 
 
@@ -43402,17 +43423,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "SWORKS_TEAM",
-            "title": "SEngine",
-            "id": "sengine",
-            "reference": "https://github.com/sworksteam/SEngine",
-            "files": [
-                "https://github.com/sworksteam/SEngine"
-            ],
-            "install_type": "git-clone",
-            "description": "Sidebar browser for SWORKS_TEAM LoRAs from Civitai. Browse, download, and apply LoRAs with image previews and tag filtering."
         }
     ]
 }

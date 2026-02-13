@@ -8066,6 +8066,11 @@
             "Add Margin With Color",
             "Any to Int/Float/String",
             "Audio Duration",
+            "Camera Settings",
+            "Character Appearance",
+            "Character Clothing",
+            "Character Expressions",
+            "Character Makeup",
             "Clamp Images To Megapixels",
             "Clean Style From Caption",
             "Essential Params",
@@ -14557,6 +14562,29 @@
             "title_aux": "ClipVision_Tools"
         }
     ],
+    "https://github.com/Moser9815/ComfyUI-RMAutomation": [
+        [
+            "RMImageFallback",
+            "RMLoraApply",
+            "RMLoraCollector",
+            "RMMaskGate",
+            "RMMaskGateGuide",
+            "RMNegativeTextEmbed",
+            "RMPositiveTextEmbed",
+            "RMPowerLoraLoader",
+            "RMPowerLoraLoaderPipe",
+            "RMSaveImageWithMetadata",
+            "RMSetLatentNoiseMask",
+            "RMStylesFull",
+            "RMStylesFullDisplay",
+            "RMStylesPipe",
+            "RMStylesPipeOut",
+            "RMVideoCombine"
+        ],
+        {
+            "title_aux": "ComfyUI-RMAutomation"
+        }
+    ],
     "https://github.com/MovieLabs/comfyui-movielabs-util": [
         [
             "PublishAsset",
@@ -16120,6 +16148,7 @@
             "GeomPackMeshToPointCloud",
             "GeomPackNormalizeMeshToBBox",
             "GeomPackOpenEdges",
+            "GeomPackParaViewFilter",
             "GeomPackPointToMeshDistance",
             "GeomPackPreviewGaussian",
             "GeomPackPreviewMesh",
@@ -16818,6 +16847,7 @@
             "RizzEditImage",
             "RizzExtractAllFrames",
             "RizzExtractFrames",
+            "RizzFramesToVideoBatch",
             "RizzGDSPatcher",
             "RizzImageEffects",
             "RizzLoadAudio",
@@ -18186,7 +18216,9 @@
             "HSWQAdvancedBenchmark",
             "HSWQFP8ConverterNodeLegacy",
             "SDXLHSWQCalibrationNode",
-            "SDXLHSWQFP8QuantizerNode"
+            "SDXLHSWQFP8QuantizerNode",
+            "ZITHSWQCalibrationNode",
+            "ZITHSWQQuantizerNode"
         ],
         {
             "title_aux": "ComfyUI-HSWQ-Quantizer"
@@ -18206,7 +18238,9 @@
             "HSWQAdvancedBenchmark",
             "HSWQFP8ConverterNodeLegacy",
             "SDXLHSWQCalibrationNode",
-            "SDXLHSWQFP8QuantizerNode"
+            "SDXLHSWQFP8QuantizerNode",
+            "ZITHSWQCalibrationNode",
+            "ZITHSWQQuantizerNode"
         ],
         {
             "title_aux": "ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer"
@@ -20965,6 +20999,10 @@
     ],
     "https://github.com/Tr1dae/ComfyUI-EasyFilePaths": [
         [
+            "AltFallbackCLIPLoader",
+            "AltFallbackCheckpointLoader",
+            "AltFallbackUNETLoader",
+            "AltFallbackVAELoader",
             "CharacterLoraSelect",
             "ChromaActionSelect",
             "ConvertHEXToRGB",
@@ -20979,6 +21017,7 @@
             "EasyCLIPLoader",
             "EasyCheckpointLoader",
             "EasyCompare",
+            "EasyDecalComposition",
             "EasyFileName",
             "EasyFilmGrain",
             "EasyFloatToInt",
@@ -21017,7 +21056,7 @@
             "LineCounter",
             "LoadImageFromMatch",
             "LoadImageFromPath",
-            "LoadImagesFromDirectoryPath",
+            "LoadImagesFromFolder",
             "LoadRandomImageFromFolderPath",
             "QwenActionSelect",
             "RemoveNoiseMask",
@@ -25113,18 +25152,22 @@
         [
             "ArchAi3D_Any_Index_Switch",
             "ArchAi3D_Average_Color",
+            "ArchAi3D_BatchToSixImages",
             "ArchAi3D_Batch_Text_Encode",
             "ArchAi3D_Batch_Text_Encode_SDXL",
             "ArchAi3D_Boolean_Input",
             "ArchAi3D_Cinematography_Prompt_Builder",
+            "ArchAi3D_CircleMask",
             "ArchAi3D_CivitAI_Download",
             "ArchAi3D_Clean_Room_Prompt",
             "ArchAi3D_Color_Correction_Advanced",
             "ArchAi3D_Color_Correction_BT709",
             "ArchAi3D_Conditioning_Balance",
+            "ArchAi3D_CubemapToPanorama",
             "ArchAi3D_Dependency_Installer",
             "ArchAi3D_DiffSynth_ControlNet",
             "ArchAi3D_Empty_Latent_Batch",
+            "ArchAi3D_Extract_Region_Text",
             "ArchAi3D_Float_Input",
             "ArchAi3D_GDrive_Download",
             "ArchAi3D_Gemini",
@@ -25140,6 +25183,7 @@
             "ArchAi3D_Load_Image_URL",
             "ArchAi3D_Mask_Crop_Rotate",
             "ArchAi3D_Mask_To_Position_Guide",
+            "ArchAi3D_Mask_Uncrop",
             "ArchAi3D_Metric3D_Depth",
             "ArchAi3D_Metric3D_Normal",
             "ArchAi3D_Nunchaku_Installer",
@@ -25150,8 +25194,10 @@
             "ArchAi3D_Object_Focus_Camera_V5",
             "ArchAi3D_Object_Focus_Camera_V6",
             "ArchAi3D_Object_Focus_Camera_V7",
+            "ArchAi3D_PanoramaToCubemap",
             "ArchAi3D_Panorama_Offset",
             "ArchAi3D_Position_Guide_Prompt_Builder",
+            "ArchAi3D_PromptLine",
             "ArchAi3D_QwenVL_GGUF",
             "ArchAi3D_QwenVL_Server_Control",
             "ArchAi3D_Qwen_Camera_View_Selector",
@@ -25202,6 +25248,7 @@
             "ArchAi3D_Simple_Tile_Cropper",
             "ArchAi3D_Simple_Tile_Cropper_Batch",
             "ArchAi3D_Simple_Tile_Sampler",
+            "ArchAi3D_SixImagesToBatch",
             "ArchAi3D_Smart_Tile_Calculator",
             "ArchAi3D_Smart_Tile_Calculator_V3",
             "ArchAi3D_Smart_Tile_Calculator_V4",
@@ -25527,6 +25574,8 @@
     "https://github.com/arcum42/ComfyUI_SageUtils": [
         [
             "SageSetWildcardText",
+            "Sage_Ace15AudioEncode",
+            "Sage_AceAdvOptions",
             "Sage_AdvSamplerInfo",
             "Sage_CLIPLoaderFromInfo",
             "Sage_CLIPSelector",
@@ -25545,6 +25594,7 @@
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_DualCLIPTextEncodeQwen",
             "Sage_DynamicComboTest",
+            "Sage_EmptyAceStep15LatentAudio",
             "Sage_EmptyLatentImagePassthrough",
             "Sage_FlexibleCLIPSelector",
             "Sage_FloatToStr",
@@ -25595,6 +25645,7 @@
             "Sage_QuickResPicker",
             "Sage_ReferenceImage",
             "Sage_SamplerInfo",
+            "Sage_SamplerInfoNoCFG",
             "Sage_SamplerSelector",
             "Sage_SaveImageWithMetadata",
             "Sage_SaveText",
@@ -26144,6 +26195,7 @@
         [
             "Base64ImageLoader",
             "CustomImageLoader",
+            "GLMOCRNode",
             "Image2Base64",
             "ImageHash",
             "OutputEmbedding",
@@ -31069,6 +31121,7 @@
             "VPScheduler",
             "Veo3FirstLastFrameNode",
             "VeoVideoGenerationNode",
+            "Video Slice",
             "VideoLinearCFGGuidance",
             "VideoTriangleCFGGuidance",
             "Vidu2ImageToVideoNode",
@@ -32411,6 +32464,14 @@
         ],
         {
             "title_aux": "ComfyUI-MiVolo-V2"
+        }
+    ],
+    "https://github.com/dennisvink/comfyui-outline": [
+        [
+            "OutlineAlphaSnap"
+        ],
+        {
+            "title_aux": "Outline Alpha Snap Node for ComfyUI"
         }
     ],
     "https://github.com/deroberon/StableZero123-comfyui": [
@@ -35308,6 +35369,10 @@
             "KIE_Kling26Motion_I2V",
             "KIE_Kling26_I2V",
             "KIE_Kling26_T2V",
+            "KIE_Kling3_Preflight",
+            "KIE_Kling3_Video",
+            "KIE_KlingElements",
+            "KIE_KlingElementsBatch",
             "KIE_NanoBananaPro_Image",
             "KIE_Seedance15Pro_I2V",
             "KIE_SeedanceV1Pro_Fast_I2V",
@@ -37349,10 +37414,15 @@
             "AdaptiveResolution",
             "ColabKeepAlive",
             "File List Loader",
+            "File List To File Path",
+            "Fix Dimensions",
+            "Get Timestamp",
             "MP3 Embed In Image",
+            "MP3 Extract From Image",
             "MP3 Path To Audio",
             "RAMCleanup",
             "Set Value For Dancing",
+            "Set Value For MC",
             "Set Value With Path",
             "SetValuesFromPanel",
             "TunnelAutoReconnect",
@@ -44441,6 +44511,23 @@
             "title_aux": "h4 ToolKit"
         }
     ],
+    "https://github.com/maartenharms/comfyui-flowpath": [
+        [
+            "FlowPath"
+        ],
+        {
+            "title_aux": "FlowPath"
+        }
+    ],
+    "https://github.com/maartenharms/comfyui-promptflow": [
+        [
+            "PromptFlowCore",
+            "PromptFlowVariations"
+        ],
+        {
+            "title_aux": "PromptFlow"
+        }
+    ],
     "https://github.com/maepopi/Diffusers-in-ComfyUI": [
         [
             "BLoRALoader",
@@ -44795,7 +44882,9 @@
             "PhotoStylePromptEncoder",
             "SaveImage",
             "StylePromptEncoder",
+            "StylePromptEncoder2",
             "StyleStringInjector",
+            "StyleStringInjector2",
             "ZSamplerTurbo"
         ],
         {
@@ -47972,13 +48061,12 @@
     ],
     "https://github.com/pamparamm/sd-perturbed-attention": [
         [
+            "FrequencyDecoupledGuidance",
             "NormalizedAttentionGuidance",
             "PLADIS",
             "PerturbedAttention",
             "SlidingWindowGuidanceAdvanced",
             "SmoothedEnergyGuidanceAdvanced",
-            "TRTAttachPag",
-            "TRTPerturbedAttention",
             "TokenPerturbationGuidance"
         ],
         {
@@ -48189,7 +48277,8 @@
             "Gen2_LoadQwenLora",
             "Gen2_LoadQwenVAE",
             "Gen2_QwenClipTextEncode",
-            "Gen2_QwenImageControlSampler"
+            "Gen2_QwenImageControlSampler",
+            "Gen2_StringReplace"
         ],
         {
             "title_aux": "ComfyUI-gen2"
@@ -52001,16 +52090,13 @@
             "LoRAMergeToModel",
             "LoRAMetaKeys",
             "LoRAMultiMerge",
+            "LoRAMultiMergeDARE",
             "LoRAPruneKeys",
             "LoRARenameKeys",
             "LoRAResizeCumulative",
             "LoRAResizeFixed",
             "LoRAResizeFrobenius",
             "LoRAResizeRatio",
-            "LoRAResizeViaBaseCumulative",
-            "LoRAResizeViaBaseFixed",
-            "LoRAResizeViaBaseFrobenius",
-            "LoRAResizeViaBaseRatio",
             "LoRAThreeMerger",
             "LoRATwoMerger",
             "ModelMetaKeys",
@@ -53164,7 +53250,8 @@
             "SuperResizeImage",
             "SuperSVRCalcTiles",
             "SuperStitchTiles",
-            "SuperWhiteBalanceCAT"
+            "SuperWhiteBalanceCAT",
+            "User Error"
         ],
         {
             "title_aux": "ComfyUI-SuperNodes"
@@ -55945,8 +56032,10 @@
             "Trellis2LoadModel",
             "Trellis2MeshRefiner",
             "Trellis2MeshTexturing",
+            "Trellis2MeshTexturingMultiView",
             "Trellis2MeshWithVoxelAdvancedGenerator",
             "Trellis2MeshWithVoxelGenerator",
+            "Trellis2MeshWithVoxelMultiViewGenerator",
             "Trellis2MeshWithVoxelToMeshlibMesh",
             "Trellis2MeshWithVoxelToTrimesh",
             "Trellis2OvoxelExportToGLB",
@@ -56084,6 +56173,7 @@
             "VRGDG_ImageSwitch4",
             "VRGDG_IndexedPromptChunker",
             "VRGDG_IndexedPromptChunkerV2",
+            "VRGDG_LLM_Multi",
             "VRGDG_LLM_OutputSaver",
             "VRGDG_LLM_PromptBatcher",
             "VRGDG_LoadAudioSplitDynamic",
@@ -56096,6 +56186,7 @@
             "VRGDG_LoadAudioSplit_SRTOnly",
             "VRGDG_LoadAudioSplit_Wan22HumoFMML",
             "VRGDG_LoadVideos",
+            "VRGDG_LocalLLM",
             "VRGDG_LyricsEmotionMerger",
             "VRGDG_ManualLyricsExtractor",
             "VRGDG_ManualLyricsExtractor_SRT",

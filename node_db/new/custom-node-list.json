@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "SWORKS_TEAM",
+            "title": "SEngine",
+            "id": "sengine",
+            "reference": "https://github.com/sworksteam/SEngine",
+            "files": [
+                "https://github.com/sworksteam/SEngine"
+            ],
+            "install_type": "git-clone",
+            "description": "Sidebar browser for SWORKS_TEAM LoRAs from Civitai. Browse, download, and apply LoRAs with image previews and tag filtering."
+        },
+        {
+            "author": "NineKey1028",
+            "title": "ComfyUI_Dynamic_TagLoader",
+            "reference": "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader",
+            "files": [
+                "https://github.com/NineKey1028/ComfyUI_Dynamic_TagLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automation toolkit for ComfyUI featuring dynamic tag combinations, LoRA parsing, and workflow metadata reading."
+        },
+        {
             "author": "dennisvink",
             "title": "Outline Alpha Snap Node for ComfyUI",
             "id": "outlinealphasnap",
@@ -684,208 +705,6 @@
             ],
             "install_type": "git-clone",
             "description": "Auto-fixes WanVideoModel for PyTorch 2.10.0+ compatibility by automatically patching the model class to work with both PyTorch 2.9.0 and 2.10.0+."
-        },
-        {
-            "author": "DanPli",
-            "title": "ComfyUI-Flux2LatentPresets",
-            "reference": "https://github.com/DanPli/ComfyUI-Flux2LatentPresets",
-            "files": [
-                "https://github.com/DanPli/ComfyUI-Flux2LatentPresets"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that provides Flux 2–recommended resolution presets for quickly creating empty latents, without manually entering width and height values."
-        },
-        {
-            "author": "SnJake",
-            "title": "SnJake_Sapsan-VFI",
-            "reference": "https://github.com/SnJake/SnJake_Sapsan-VFI",
-            "files": [
-                "https://github.com/SnJake/SnJake_Sapsan-VFI"
-            ],
-            "install_type": "git-clone",
-            "description": "SnJake Sapsan-VFI is a custom ComfyUI node for x2 video frame interpolation. It inserts one in-between frame for every input pair, doubling the FPS."
-        },
-        {
-            "author": "knishika62",
-            "title": "ComfyUI-DualLoraStack",
-            "reference": "https://github.com/knishika62/ComfyUI-DualLoraStack",
-            "files": [
-                "https://github.com/knishika62/ComfyUI-DualLoraStack"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node that applies the same Lora to two models while sharing a CLIP, supporting up to 6 Lora models with independent strength control. (Description by CC)"
-        },
-        {
-            "author": "Shiba-2-shiba",
-            "title": "ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer",
-            "reference": "https://github.com/Shiba-2-shiba/ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer",
-            "files": [
-                "https://github.com/Shiba-2-shiba/ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial reference implementation of Hybrid Sensitivity Weighted Quantization (HSWQ) for ComfyUI, providing calibration and FP8 conversion nodes for model optimization."
-        },
-
-        {
-            "author": "filliptm",
-            "title": "ComfyUI-FL-DiffVSR",
-            "reference": "https://github.com/filliptm/ComfyUI-FL-DiffVSR",
-            "files": [
-                "https://github.com/filliptm/ComfyUI-FL-DiffVSR"
-            ],
-            "install_type": "git-clone",
-            "description": "FL DiffVSR - Diffusion-based video super-resolution nodes for ComfyUI. Features 4x upscaling with temporal coherence using Stream-DiffVSR for smooth, artifact-free video enhancement. Supports text-guided upscaling, chunked processing for memory efficiency, and automatic model downloading from HuggingFace."
-        },
-        {
-            "author": "molbal",
-            "title": "ComfyUI-LLM-CLIP",
-            "reference": "https://github.com/molbal/ComfyUI-LLM-CLIP",
-            "files": [
-                "https://github.com/molbal/ComfyUI-LLM-CLIP"
-            ],
-            "install_type": "git-clone",
-            "description": "These nodes allow you to use a distilled Qwen3-4B model as your text encoder in Stable Diffusion XL."
-        },
-        {
-            "author": "relhamdi",
-            "title": "ComfyUI-RE-CustomUtils",
-            "reference": "https://github.com/relhamdi/ComfyUI-RE-CustomUtils",
-            "files": [
-                "https://github.com/relhamdi/ComfyUI-RE-CustomUtils"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of custom nodes for ComfyUI."
-        },
-        {
-            "author": "tritant",
-            "title": "ComfyUI_Kitchen_nvfp4_Converter",
-            "reference": "https://github.com/tritant/ComfyUI_Kitchen_nvfp4_Converter",
-            "files": [
-                "https://github.com/tritant/ComfyUI_Kitchen_nvfp4_Converter"
-            ],
-            "install_type": "git-clone",
-            "description": "Convert to nvfp4, support Z-image-turbo, flux.1 and more"
-        },
-        {
-            "author": "PozzettiAndrea",
-            "title": "ComfyUI-CameraPack",
-            "reference": "https://github.com/PozzettiAndrea/ComfyUI-CameraPack",
-            "files": [
-                "https://github.com/PozzettiAndrea/ComfyUI-CameraPack"
-            ],
-            "install_type": "git-clone",
-            "description": "Camera utilities for ComfyUI. Convert between camera formats (DA3 extrinsics/intrinsics to Load3DCamera for Preview3D)."
-        },
-        {
-            "author": "BobRandomNumber",
-            "title": "ComfyUI-Calculator",
-            "reference": "https://github.com/BobRandomNumber/ComfyUI-Calculator",
-            "files": [
-                "https://github.com/BobRandomNumber/ComfyUI-Calculator"
-            ],
-            "install_type": "git-clone",
-            "description": "Calculator"
-        },
-        {
-            "author": "D-Ogi",
-            "title": "ComfyUI-Attention-Optimizer",
-            "reference": "https://github.com/D-Ogi/ComfyUI-Attention-Optimizer",
-            "files": [
-                "https://github.com/D-Ogi/ComfyUI-Attention-Optimizer"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatically benchmark and optimize attention in diffusion models. 1.5-2x speedup on RTX 4090, up to 4x on video models."
-        },
-        {
-            "author": "capitan01R",
-            "title": "ComfyUI-ZImageTurbo-FlowSampler",
-            "reference": "https://github.com/capitan01R/ComfyUI-ZImageTurbo-FlowSampler",
-            "files": [
-                "https://github.com/capitan01R/ComfyUI-ZImageTurbo-FlowSampler"
-            ],
-            "install_type": "git-clone",
-            "description": "Rectified-flow samplers for Z-Image-Turbo. Clean interpolation formula without sigma division, linear schedulers, higher-order variants. Fixes built-in euler/euler_ancestral instability issues"
-        },
-        {
-            "author": "DevDuckFace",
-            "title": "KsamplerDF",
-            "reference": "https://github.com/DevDuckFace/KsamplerDF",
-            "files": [
-                "https://github.com/DevDuckFace/KsamplerDF"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that splits sampling steps between a main sampler and a refiner sampler, with independent denoise control for each phase, with upscalers now"
-        },
-        {
-            "author": "rockerBOO",
-            "title": "pixel-sorting",
-            "reference": "https://github.com/rockerBOO/pixel-sorting",
-            "files": [
-                "https://github.com/rockerBOO/pixel-sorting"
-            ],
-            "install_type": "git-clone",
-            "description": "ASDF-style pixel sorting implementation in Python with extended features"
-        },
-
-        {
-            "author": "xela-io",
-            "title": "ComfyUI-HairDetailer",
-            "reference": "https://github.com/xela-io/ComfyUI-HairDetailer",
-            "files": [
-                "https://github.com/xela-io/ComfyUI-HairDetailer"
-            ],
-            "install_type": "git-clone",
-            "description": "Comprehensive custom node pack for detecting hair regions, creating precise masks, and enhancing hair details in images with 6 specialized nodes for various hair processing workflows. (Description by CC)"
-        },
-        {
-            "author": "kakachiex2",
-            "title": "comfyui-ltx2-efficient",
-            "reference": "https://github.com/kakachiex2/comfyui-ltx2-efficient",
-            "files": [
-                "https://github.com/kakachiex2/comfyui-ltx2-efficient"
-            ],
-            "install_type": "git-clone",
-            "description": "High-performance custom node for LTX2 video generation designed to reduce GPU usage, VRAM requirements, and temperature on consumer GPUs."
-        },
-        {
-            "author": "SlothHole",
-            "title": "Imitatoes",
-            "reference": "https://github.com/SlothHole/Imitatoes",
-            "files": [
-                "https://github.com/SlothHole/Imitatoes"
-            ],
-            "install_type": "git-clone",
-            "description": "Build a ComfyUI \"self-improving\" workflow where each render is evaluated by a local vision LLM, which then edits the prompt/parameters and triggers another run."
-        },
-        {
-            "author": "BobJohnson24",
-            "title": "ComfyUI-Flux2-INT8",
-            "reference": "https://github.com/BobJohnson24/ComfyUI-Flux2-INT8",
-            "files": [
-                "https://github.com/BobJohnson24/ComfyUI-Flux2-INT8"
-            ],
-            "install_type": "git-clone",
-            "description": "This node speeds up Flux2, Chroma, Z-Image in ComfyUI by using INT8 quantization, delivering ~2x faster inference on my 3090, but it should work on any NVIDIA GPU with enough INT8 TOPS."
-        },
-        {
-            "author": "smartvain",
-            "title": "ComfyUI-PromptComment",
-            "reference": "https://github.com/smartvain/ComfyUI-PromptComment",
-            "files": [
-                "https://github.com/smartvain/ComfyUI-PromptComment"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI node providing comment stripping functionality for prompts with multiple marker styles. (Description by CC)"
-        },
-        {
-            "author": "kayorlian",
-            "title": "ComfyuiSmartColorMatch",
-            "reference": "https://github.com/kayorlian/ComfyuiSmartColorMatch",
-            "files": [
-                "https://github.com/kayorlian/ComfyuiSmartColorMatch"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node for ComfyUI that performs color matching between reference and generated images with support for masking."
         }
     ]
 }
