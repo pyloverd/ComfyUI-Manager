@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "cowneko",
+            "title": "CWK Prompt Composer",
+            "reference": "https://github.com/cowneko/CWK_Prompt_Composer",
+            "files": [
+                "https://github.com/cowneko/CWK_Prompt_Composer"
+            ],
+            "install_type": "git-clone",
+            "description": "A visual pill-based prompt composer node for ComfyUI. Features 4 prompt panels (Quality, Main, Aesthetic, Negative), tag browser, drag-to-reorder pills, weight control, presets, Lucky prompt generator, manual override mode, and wildcard (.yaml) file loader."
+        },
+        {
             "author": "capitan01R",
             "title": "Comfyui-flux2klein-Lora-loader",
             "reference": "https://github.com/capitan01R/Comfyui-flux2klein-Lora-loader",
