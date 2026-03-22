@@ -32656,6 +32656,14 @@
             "title_aux": "ComfyUI SVG Visual Normalize & Margin Node"
         }
     ],
+    "https://github.com/cowneko/CWK_Prompt_Composer": [
+        [
+            "CWKPromptComposerNode"
+        ],
+        {
+            "title_aux": "CWK Prompt Composer"
+        }
+    ],
     "https://github.com/cozy-comfyui/cozy_comm": [
         [
             "CozyDiscordPost"
@@ -40326,6 +40334,16 @@
         ],
         {
             "title_aux": "comfyui-tile-calculator"
+        }
+    ],
+    "https://github.com/jeankassio/ComfyUI-AceStep_SFT": [
+        [
+            "AceStepSFTGenerate",
+            "AceStepSFTLoraLoader",
+            "AceStepSFTMusicAnalyzer"
+        ],
+        {
+            "title_aux": "ComfyUI-AceStep_SFT"
         }
     ],
     "https://github.com/jeankassio/ComfyUI_MusicTools": [

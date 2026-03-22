@@ -44905,13 +44905,14 @@
         },
         {
             "author": "DaPaLi",
-            "title": "comfyui-block-bypass",
+            "title": "ComfyUI Block Bypass Switch",
+            "id": "comfyui-block-bypass",
             "reference": "https://github.com/DaPaLi/comfyui-block-bypass",
             "files": [
                 "https://github.com/DaPaLi/comfyui-block-bypass"
             ],
             "install_type": "git-clone",
-            "description": "1-Klick Block Bypass Switch Node für ComfyUI"
+            "description": "Bypass or mute entire node groups with a single click. Includes a Block Bypass Switch node, Group Bypass right-click menu, and a floating Group Bypass Panel."
         },
         {
             "author": "imgslider",
@@ -44992,6 +44993,17 @@
             ],
             "install_type": "git-clone",
             "description": "A visual pill-based prompt composer node for ComfyUI. Features 4 prompt panels (Quality, Main, Aesthetic, Negative), tag browser, drag-to-reorder pills, weight control, presets, Lucky prompt generator, manual override mode, and wildcard (.yaml) file loader."
+        },
+        {
+            "author": "dogodg3838",
+            "title": "ComfyUI-NvEye",
+            "id": "ComfyUI-NvEye",
+            "reference": "https://github.com/dogodg3838/ComfyUI-NvEye",
+            "files": [
+                "https://github.com/dogodg3838/ComfyUI-NvEye"
+            ],
+            "install_type": "git-clone",
+            "description": "Lightweight NVIDIA hardware monitor for ComfyUI. No node conflicts, pure display widget."
         },
 
 
@@ -45384,18 +45396,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "dogodg3838",
-            "title": "ComfyUI-NvEye",
-            "id": "ComfyUI-NvEye",
-            "reference": "https://github.com/dogodg3838/ComfyUI-NvEye",
-            "files": [
-                "https://github.com/dogodg3838/ComfyUI-NvEye"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight NVIDIA hardware monitor for ComfyUI. No node conflicts, pure display widget."
         }
-        
     ]
 }
