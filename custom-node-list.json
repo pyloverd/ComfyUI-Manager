@@ -983,18 +983,6 @@
             "description": "OpenImageIO plugin for ComfyUI"
         },
         {
-            "author": "xXAdonesXx",
-            "title": "NodeGPT",
-            "id": "nodegpt",
-            "reference": "https://github.com/xXAdonesXx/NodeGPT",
-            "reference2": "https://github.com/antonym-git/NodeGPT",
-            "files": [
-                "https://github.com/xXAdonesXx/NodeGPT"
-            ],
-            "install_type": "git-clone",
-            "description": "Implementation of AutoGen inside ComfyUI. This repository is under development, and not everything is functioning correctly yet."
-        },
-        {
             "author": "ciri",
             "title": "ComfyUI Model Downloader",
             "id": "model-downloader",
@@ -41911,6 +41899,16 @@
             "description": "Architecture-aware LoRA loader for Z-Image Turbo (Lumina2) in ComfyUI. Fixes silent key mismatches by auto-fusing separate Q/K/V into Z-Image's fused QKV format and remapping output projections."
         },
         {
+            "author": "capitan01R",
+            "title": "Comfyui-flux2klein-Lora-loader",
+            "reference": "https://github.com/capitan01R/Comfyui-flux2klein-Lora-loader",
+            "files": [
+                "https://github.com/capitan01R/Comfyui-flux2klein-Lora-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Architecture-aware LoRA loader for FLUX.2 Klein in ComfyUI with automatic per-layer strength calibration."
+        },
+        {
             "author": "advancedtech-sk",
             "title": "ComfyUI-GROUT",
             "reference": "https://github.com/advancedtech-sk/ComfyUI-GROUT",
@@ -44953,6 +44951,26 @@
             ],
             "install_type": "git-clone",
             "description": "Anima Detail Enhancer Node for ComfyUI"
+        },
+        {
+            "author": "ID-LoRA",
+            "title": "ID-LoRA-LTX2.3-ComfyUI",
+            "reference": "https://github.com/ID-LoRA/ID-LoRA-LTX2.3-ComfyUI",
+            "files": [
+                "https://github.com/ID-LoRA/ID-LoRA-LTX2.3-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for ID-LoRA-2.3 one-stage audio+video generation with speaker identity transfer"
+        },
+        {
+            "author": "TuZZiL",
+            "title": "ComfyUI-FLUX-Klein-Identity-Edit-Loader",
+            "reference": "https://github.com/TuZZiL/ComfyUI-FLUX-Klein-Identity-Edit-Loader",
+            "files": [
+                "https://github.com/TuZZiL/ComfyUI-FLUX-Klein-Identity-Edit-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Architecture-aware FLUX.2 Klein LoRA loader for ComfyUI with identity-preserving edit controls and drift-risk analysis."
         },
 
 
