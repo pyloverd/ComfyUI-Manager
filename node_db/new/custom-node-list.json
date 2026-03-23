@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Jimpi",
+            "title": "WorkflowUIPlugin",
+            "id": "workflowuiplugin",
+            "reference": "https://github.com/jimpi-dev/WorkflowUIPlugin",
+            "files": [
+                "https://github.com/jimpi-dev/WorkflowUIPlugin"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin adds features in order to enable full functionality of WorkflowUI Application to which turns your workflows into apps and provides structures for organizing your generations."
+        },
+        {
             "author": "cowneko",
             "title": "CWK Prompt Composer",
             "reference": "https://github.com/cowneko/CWK_Prompt_Composer",
@@ -691,67 +702,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for HeartMuLa AI music generation - optimized for 16 GB GPUs"
-        },
-
-        {
-            "author": "jtydhr88",
-            "title": "ComfyUI-qwenmultiangle",
-            "reference": "https://github.com/jtydhr88/ComfyUI-qwenmultiangle",
-            "files": [
-                "https://github.com/jtydhr88/ComfyUI-qwenmultiangle"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for 3D camera angle control, outputs angle prompts for multi-angle image generation"
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-CFG-Ctrl",
-            "reference": "https://github.com/xmarre/ComfyUI-CFG-Ctrl",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-CFG-Ctrl"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node implementing CFG-Ctrl / SMC-CFG as a GUIDER."
-        },
-        {
-            "author": "okdalto",
-            "title": "ComfyUI-Color-Matcher",
-            "reference": "https://github.com/okdalto/ComfyUI-Color-Matcher",
-            "files": [
-                "https://github.com/okdalto/ComfyUI-Color-Matcher"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node for color matching between images using color-matcher library"
-        },
-        {
-            "author": "glonlas",
-            "title": "ComfyUI-image-profile",
-            "reference": "https://github.com/glonlas/ComfyUI-image-profile",
-            "files": [
-                "https://github.com/glonlas/ComfyUI-image-profile"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node for managing latent resolution and steps profiles"
-        },
-        {
-            "author": "Eonizer",
-            "title": "ComfyUI-bby-nodes",
-            "reference": "https://github.com/Eonizer/ComfyUI-bby-nodes",
-            "files": [
-                "https://github.com/Eonizer/ComfyUI-bby-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom utility nodes for ComfyUI"
-        },
-        {
-            "author": "masslevel",
-            "title": "ComfyUI-masslevel-TextProcessing",
-            "reference": "https://github.com/masslevel/ComfyUI-masslevel-TextProcessing",
-            "files": [
-                "https://github.com/masslevel/ComfyUI-masslevel-TextProcessing"
-            ],
-            "install_type": "git-clone",
-            "description": "Text processing utilities for ComfyUI by masslevel."
         }
     ]
 }

@@ -4675,6 +4675,7 @@
     ],
     "https://github.com/Carasibana/ComfyUI-ResizeToCanvasSize": [
         [
+            "LoadImageToCanvas",
             "ResizeToCanvasSize",
             "ResizeToCanvasSizeMask"
         ],
@@ -6034,7 +6035,7 @@
             "BlockBypassSwitch"
         ],
         {
-            "title_aux": "comfyui-block-bypass"
+            "title_aux": "ComfyUI Block Bypass Switch"
         }
     ],
     "https://github.com/DailyMok/ComfyUI-dAIly": [
@@ -6049,6 +6050,7 @@
     "https://github.com/Damkohler/jlc-comfyui-nodes": [
         [
             "JLC_ControlNetApply",
+            "JLC_ControlNetApplyAdvanced",
             "JLC_LoraLoaderBlockWeightTwo",
             "JLC_LoraLoaderTenStack",
             "JLC_PaddedImage",
@@ -14534,18 +14536,6 @@
             "title_aux": "ComfyUI-Demucs-AudioSeparator"
         }
     ],
-    "https://github.com/Meisoftcoltd/comfyui-sequential-batcher": [
-        [
-            "CombineJobs",
-            "EnumerateJob",
-            "GetJobStep",
-            "JobToList",
-            "MakeJob"
-        ],
-        {
-            "title_aux": "comfyui-sequential-batcher"
-        }
-    ],
     "https://github.com/MergeBlockWeighted/fo_ComfyUI": [
         [
             "MergeBlockWeighted"
@@ -15418,6 +15408,7 @@
         [
             "NLConstantColor",
             "NLContextDebug",
+            "NLEdit",
             "NLRead",
             "NLWanVideoImageToVideoEncodeV2",
             "NLWorkflowFPS",
@@ -17386,6 +17377,7 @@
             "LoadImageWithText",
             "RSSaveImage",
             "RS_Saturation",
+            "RS_TextOverlay",
             "RaykoIntermediateSplineMask",
             "RaykoModelsLoader",
             "RaykoSplineMask",
@@ -33811,7 +33803,7 @@
         [
             "ImageTo3DNode",
             "LoadGLBNode",
-            "TextrueNode"
+            "TextureNode"
         ],
         {
             "title_aux": "hitems3D-comfyUI"
@@ -46345,6 +46337,7 @@
     ],
     "https://github.com/magicoli/comfyui-oli-prompt-tools": [
         [
+            "OliConditionalSeed",
             "OliLoraLoader",
             "OliMegaStringList",
             "OliModelInfo",
@@ -50738,6 +50731,7 @@
     ],
     "https://github.com/playboy-dongan/comfyui-pose-redirect-align": [
         [
+            "PoseMetaRetargetAlign",
             "PoseRedirectAlignByHead"
         ],
         {
@@ -58634,6 +58628,7 @@
             "VRGDG_LLM_Multi",
             "VRGDG_LLM_OutputSaver",
             "VRGDG_LLM_PromptBatcher",
+            "VRGDG_LTXAudioOnlyLoraTrainChunk",
             "VRGDG_LTXAudioVideoLoraTrainChunk",
             "VRGDG_LTXLoraTrainChunk",
             "VRGDG_LTXPreviewXYZPlot",
@@ -58715,7 +58710,9 @@
             "VRGDG_UpdateLatestCombinedJsonPrompts",
             "VRGDG_UpdateLatestCombinedJsonPrompts_zimage",
             "VRGDG_VideoFolderGridPlot",
-            "VRGDG_VideoSplitter"
+            "VRGDG_VideoSplitter",
+            "VRGDG_ZImageLoraTrainChunk",
+            "VRGDG_ZImageSpeedCharacterLoraTraining"
         ],
         {
             "title_aux": "VRGameDevGirl Video Enhancement Nodes"
