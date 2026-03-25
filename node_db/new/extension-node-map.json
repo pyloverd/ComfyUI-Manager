@@ -6050,7 +6050,6 @@
     "https://github.com/Damkohler/jlc-comfyui-nodes": [
         [
             "JLC_ControlNetApply",
-            "JLC_ControlNetApplyAdvanced",
             "JLC_LoraLoaderBlockWeightTwo",
             "JLC_LoraLoaderTenStack",
             "JLC_PaddedImage",
@@ -6345,12 +6344,29 @@
     ],
     "https://github.com/DebugPadawan/DebugPadawans-ComfyUI-Essentials": [
         [
+            "DP_GetListItem",
+            "DP_JSONToText",
+            "DP_StringFormatter",
+            "DebugPadawan_ColorPalette",
             "DebugPadawan_ConditionalString",
             "DebugPadawan_DebugPrint",
+            "DebugPadawan_FloatMathOperation",
+            "DebugPadawan_GetListItem",
+            "DebugPadawan_ImageInfo",
+            "DebugPadawan_IntMathOperation",
             "DebugPadawan_ListInfo",
+            "DebugPadawan_ListSlicer",
+            "DebugPadawan_LogicGate",
+            "DebugPadawan_RandomGenerator",
+            "DebugPadawan_TextCase",
+            "DebugPadawan_TextCompare",
             "DebugPadawan_TextJoiner",
+            "DebugPadawan_TextLength",
+            "DebugPadawan_TextRegex",
+            "DebugPadawan_TextReplace",
             "DebugPadawan_TextSplitter",
             "DebugPadawan_TextToJSON",
+            "DebugPadawan_TextTrim",
             "DebugPadawan_WaitNode"
         ],
         {
@@ -6429,6 +6445,7 @@
             "AnyConcatNode",
             "AnytoFloatAdapterNode",
             "AnytoIntegerAdapterNode",
+            "BooleanSwitchNode",
             "CheckpointSelectorNode",
             "ClipSkipSliderNode",
             "CountListNode",
@@ -8455,7 +8472,8 @@
     "https://github.com/Ferocit/comfyui-feroccustomnodes": [
         [
             "LoadDescriptionNode",
-            "RandomLineFromText"
+            "RandomLineFromText",
+            "TextTemplate"
         ],
         {
             "title_aux": "comfyui-feroccustomnodes"
@@ -8816,6 +8834,8 @@
             "FERaftFlow",
             "TextBatchToList",
             "TextListToBatch",
+            "TextSplitToBatch",
+            "TextSplitToList",
             "TileMerge",
             "TileSplit"
         ],
@@ -17379,6 +17399,7 @@
             "RS_Saturation",
             "RS_TextOverlay",
             "RaykoIntermediateSplineMask",
+            "RaykoLoopSwitchSeed",
             "RaykoModelsLoader",
             "RaykoSplineMask",
             "SaveImagePair"
@@ -29419,6 +29440,7 @@
             "Image_UpscaleModel",
             "Image_batch_composite",
             "Image_batch_select",
+            "Image_crop_visual",
             "Image_effect_Load",
             "Image_merge2image",
             "Image_pad_adjust",
@@ -31874,6 +31896,7 @@
             "ColorToRGBInt",
             "ComboOptionTestNode",
             "ComfyMathExpression",
+            "ComfyNumberConvert",
             "ComfySoftSwitchNode",
             "ComfySwitchNode",
             "ConditioningAverage",
@@ -31900,6 +31923,7 @@
             "CreateVideo",
             "CropByBBoxes",
             "CropMask",
+            "CurveEditor",
             "CustomCombo",
             "DCTestNode",
             "DiffControlNetLoader",
@@ -31967,7 +31991,9 @@
             "GrokImageEditNode",
             "GrokImageNode",
             "GrokVideoEditNode",
+            "GrokVideoExtendNode",
             "GrokVideoNode",
+            "GrokVideoReferenceNode",
             "GrowMask",
             "HitPawGeneralImageEnhance",
             "HitPawVideoEnhance",
@@ -32061,6 +32087,7 @@
             "LTXVImgToVideoInplace",
             "LTXVLatentUpsampler",
             "LTXVPreprocess",
+            "LTXVReferenceAudio",
             "LTXVScheduler",
             "LTXVSeparateAVLatent",
             "LaplaceScheduler",
@@ -34566,10 +34593,6 @@
     ],
     "https://github.com/eRepublik-Labs/comfyui-nodes-erpk": [
         [
-            "BEN2RemoveBackground",
-            "BiRefNetGetMask",
-            "BiRefNetRemoveBackground",
-            "BlurFusionForegroundEstimation",
             "ClaudeAPIClient",
             "ClaudeConversation",
             "ClaudeConversationInfo",
@@ -34591,7 +34614,6 @@
             "GeminiSystemInstruction",
             "GeminiTextGeneration",
             "GeminiVision",
-            "InSPyReNetRemoveBackground",
             "JibMixQwenImageNode",
             "OpenAIAPIConfig",
             "OpenAIChat",
@@ -34611,7 +34633,6 @@
             "QwenImageMaxNode",
             "QwenImageMultipleAnglesNode",
             "QwenImageTextToImageNode",
-            "RembgRemoveBackground",
             "SHARPPredict",
             "SHARPRenderVideo",
             "SHARPRenderViews",
@@ -40546,6 +40567,14 @@
         ],
         {
             "title_aux": "ResAdapter for ComfyUI"
+        }
+    ],
+    "https://github.com/jimpi-dev/WorkflowUIPlugin": [
+        [
+            "WorkflowUILink"
+        ],
+        {
+            "title_aux": "WorkflowUIPlugin"
         }
     ],
     "https://github.com/jinanlongen/ComfyUI-Prompt-Expander": [
@@ -46791,6 +46820,9 @@
             "StyleStringInjector2",
             "VAEEncodeSoftInpainting",
             "ZSamplerTurbo",
+            "ZSamplerTurbo2",
+            "ZSamplerTurbo2Advanced",
+            "ZSamplerTurbo2Laboratory",
             "ZSamplerTurboAdvanced"
         ],
         {
@@ -47003,7 +47035,6 @@
             "mrmth_ScriptInput",
             "mrmth_VAEMathNode",
             "mrmth_VideoMathNode",
-            "mrmth_ag_AudioMathNode",
             "mrmth_ag_CLIPMathNode",
             "mrmth_ag_ConditioningMathNode",
             "mrmth_ag_FloatMathNode",
@@ -47409,6 +47440,8 @@
             "BoundaryFrameSplicer",
             "ClampFloat",
             "ContextImageExtractor",
+            "ControlCrossfadeIterationFix",
+            "ControlCrossfadeSimple",
             "ControlEndFrameExtractor",
             "ControlImageSlicer",
             "EndFrameInjector",
@@ -47416,6 +47449,7 @@
             "FrameAccumulator",
             "FrameContextFit",
             "ImageExists",
+            "ImageModeRouter",
             "IterPromptBuilder",
             "IterSeedBatch",
             "IterStringSelector",
@@ -54715,18 +54749,31 @@
     ],
     "https://github.com/slvslvslv/ComfyUI-SmartHelperNodes": [
         [
+            "SmartBusIn",
+            "SmartBusIn5",
+            "SmartBusOut",
+            "SmartBusOut5",
+            "SmartDualModelLoader",
             "SmartFormatString",
             "SmartFormatString10",
             "SmartHVLoraSelect",
             "SmartHVLoraStack",
             "SmartHWMonitor",
+            "SmartLoadDoubleLoRA",
             "SmartLoadLoRA",
+            "SmartMobiusVAEDecode",
+            "SmartMobiusWanLoop",
+            "SmartModelInfo",
+            "SmartModelLoader",
             "SmartModelOrLoraToString",
             "SmartPrompt",
             "SmartRemoveComments",
             "SmartSaveAnimatedGIF",
             "SmartSaveText",
-            "SmartShowAnything"
+            "SmartSetFloat",
+            "SmartSetInt",
+            "SmartShowAnything",
+            "SmartWanFirstMiddleLastFrameToVideoHighNoiseEnd"
         ],
         {
             "title_aux": "ComfyUI Smart Helper Nodes"
