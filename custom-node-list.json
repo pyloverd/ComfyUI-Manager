@@ -44922,7 +44922,8 @@
                 "https://github.com/imgslider/ComfyUI-ImgSlider"
             ],
             "install_type": "git-clone",
-            "description": "Image Compare - Before/After slider for comparing images. Share comparisons via imgslider.com"
+            "category": "image",
+            "description": "Creates before/after image comparison sliders from two images. Publishes to a shareable URL."
         },
         {
             "author": "mikhailverghese",
@@ -45478,17 +45479,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "imgslider",
-            "title": "ComfyUI-ImgSlider",
-            "reference": "https://github.com/imgslider/ComfyUI-ImgSlider",
-            "files": [
-                "https://github.com/imgslider/ComfyUI-ImgSlider"
-            ],
-            "install_type": "git-clone",
-            "category": "image",
-            "description": "Creates before/after image comparison sliders from two images. Publishes to a shareable URL."
         }
     ]
 }
