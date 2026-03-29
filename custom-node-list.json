@@ -45511,6 +45511,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "vegaflowltd",
+            "title": "Vega Flow V8.9 — Temporal Stabilisation",
+            "id": "comfyui-vegaflow",
+            "reference": "https://github.com/vegaflowltd/ComfyUI-VegaFlow",
+            "files": [
+                "https://github.com/vegaflowltd/ComfyUI-VegaFlow"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional temporal stabilisation engine. Eliminates flicker, luminance drift, and frame-to-frame inconsistency in AI-generated and traditional video footage."
         }
     ]
 }
