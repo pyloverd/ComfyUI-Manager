@@ -3494,6 +3494,11 @@
         "last_update": "2024-12-06 18:08:50",
         "author_account_age_days": 1642
     },
+    "https://github.com/HalfikCode/ComfyUI-Prompt-DB": {
+        "stars": 0,
+        "last_update": "2026-03-21 23:27:01",
+        "author_account_age_days": 1172
+    },
     "https://github.com/HallettVisual/ComfyUI-Qwen-Camera-Selector": {
         "stars": 8,
         "last_update": "2025-11-10 02:39:24",
@@ -7294,6 +7299,11 @@
         "last_update": "2026-03-07 22:50:23",
         "author_account_age_days": 5042
     },
+    "https://github.com/Stibo/comfyui-nifty-nodes": {
+        "stars": 0,
+        "last_update": "2026-03-21 15:01:16",
+        "author_account_age_days": 4502
+    },
     "https://github.com/Style-Mosaic/dino-x-comfyui-node": {
         "stars": 2,
         "last_update": "2025-01-28 21:40:18",
@@ -9128,6 +9138,11 @@
         "stars": 0,
         "last_update": "2026-01-29 02:54:21",
         "author_account_age_days": 3668
+    },
+    "https://github.com/alisson-anjos/ComfyUI-BFSNodes": {
+        "stars": 11,
+        "last_update": "2026-03-20 09:23:21",
+        "author_account_age_days": 1243
     },
     "https://github.com/alisson-anjos/ComfyUI-Ollama-Describer": {
         "stars": 112,
@@ -14734,6 +14749,11 @@
         "last_update": "2025-08-17 11:09:39",
         "author_account_age_days": 1943
     },
+    "https://github.com/krishnancr/ComfyUI-Pulse-MeshAudit": {
+        "stars": 5,
+        "last_update": "2026-03-24 22:02:36",
+        "author_account_age_days": 5675
+    },
     "https://github.com/krmahil/comfyui-hollow-preserve": {
         "stars": 1,
         "last_update": "2025-05-15 09:55:46",
@@ -16423,6 +16443,11 @@
         "stars": 12,
         "last_update": "2025-03-15 00:23:20",
         "author_account_age_days": 3588
+    },
+    "https://github.com/mvnt-app/ComfyUI-MVNT": {
+        "stars": 1,
+        "last_update": "2026-03-21 19:51:57",
+        "author_account_age_days": 823
     },
     "https://github.com/my-opencode/ComfyUI_IndustrialMagick": {
         "stars": 1,
@@ -20504,6 +20529,11 @@
         "last_update": "2025-04-02 19:37:15",
         "author_account_age_days": 3256
     },
+    "https://github.com/vegaflowltd/ComfyUI-VegaFlow": {
+        "stars": 0,
+        "last_update": "2026-03-29 13:25:17",
+        "author_account_age_days": 15
+    },
     "https://github.com/veighnsche/comfyui_gr85": {
         "stars": 1,
         "last_update": "2025-11-28 04:00:25",
@@ -20643,6 +20673,11 @@
         "stars": 2,
         "last_update": "2026-03-27 09:01:44",
         "author_account_age_days": 4481
+    },
+    "https://github.com/vulca-org/comfyui-vulca": {
+        "stars": 0,
+        "last_update": "2026-03-29 19:22:26",
+        "author_account_age_days": 13
     },
     "https://github.com/vuongminh1907/ComfyUI_ZenID": {
         "stars": 219,

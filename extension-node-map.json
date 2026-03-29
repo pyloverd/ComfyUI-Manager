@@ -10041,6 +10041,17 @@
             "title_aux": "ComfyUI-HaiperAI-API"
         }
     ],
+    "https://github.com/HalfikCode/ComfyUI-Prompt-DB": [
+        [
+            "ApplyLoraStack",
+            "PromptCombiner",
+            "PromptDBManager",
+            "PromptSelector"
+        ],
+        {
+            "title_aux": "Prompt DB"
+        }
+    ],
     "https://github.com/HallettVisual/ComfyUI-Qwen-Camera-Selector": [
         [
             "QwenCameraPromptBuilder"
@@ -20829,6 +20840,51 @@
             "title_aux": "comfyui-image-cycler"
         }
     ],
+    "https://github.com/Stibo/comfyui-nifty-nodes": [
+        [
+            "NiftyAutoSyncVHSPreview",
+            "NiftyBooleanNegate",
+            "NiftyBundleGet",
+            "NiftyBundlePack",
+            "NiftyBundleSet",
+            "NiftyBundleUnpack",
+            "NiftyBypassByTitle",
+            "NiftyBypassSwitchByTitle",
+            "NiftyCalculateImageSize",
+            "NiftyClipSelector",
+            "NiftyDiffusionModelSelector",
+            "NiftyFirstSwitch",
+            "NiftyFloatSwitch",
+            "NiftyHiddenLink",
+            "NiftyImageFromBatch",
+            "NiftyIndexInputSwitch",
+            "NiftyIndexOutputSwitch",
+            "NiftyInputSwitch",
+            "NiftyIntSwitch",
+            "NiftyIsNone",
+            "NiftyLastImageFromBatch",
+            "NiftyLastLatentFromBatch",
+            "NiftyLatentFromBatch",
+            "NiftyMagicGetter",
+            "NiftyNodeDuplicator",
+            "NiftyNoneValue",
+            "NiftyNumberCompare",
+            "NiftyOutputSwitch",
+            "NiftySamplerSelector",
+            "NiftySchedulerSelector",
+            "NiftySignalSwitch",
+            "NiftyStringCompare",
+            "NiftyStringContains",
+            "NiftyStringJoin",
+            "NiftyStringSplit",
+            "NiftyStringSwitch",
+            "NiftySubgraphLabels",
+            "NiftySyncVHSPreview"
+        ],
+        {
+            "title_aux": "Nifty Nodes for ComfyUI"
+        }
+    ],
     "https://github.com/Style-Mosaic/dino-x-comfyui-node": [
         [
             "DinoxDetector"
@@ -26224,6 +26280,16 @@
         ],
         {
             "title_aux": "comfy-flow"
+        }
+    ],
+    "https://github.com/alisson-anjos/ComfyUI-BFSNodes": [
+        [
+            "FaceSequenceBatch",
+            "FrameRangedFaceLoader",
+            "ReservedRegionFrameComposer"
+        ],
+        {
+            "title_aux": "ComfyUI-BFSNodes"
         }
     ],
     "https://github.com/alisson-anjos/ComfyUI-Ollama-Describer": [
@@ -43593,6 +43659,14 @@
             "title_aux": "qwen-image-controlnets-comfyui"
         }
     ],
+    "https://github.com/krishnancr/ComfyUI-Pulse-MeshAudit": [
+        [
+            "PulseMeshAudit"
+        ],
+        {
+            "title_aux": "ComfyUI Pulse MeshAudit"
+        }
+    ],
     "https://github.com/krmahil/comfyui-hollow-preserve": [
         [
             "RemoveEnclosedMaskedAreas"
@@ -48455,6 +48529,19 @@
         ],
         {
             "title_aux": "PoseKeypoint Mask"
+        }
+    ],
+    "https://github.com/mvnt-app/ComfyUI-MVNT": [
+        [
+            "MVNT Estimate Cost",
+            "MVNT Export Video",
+            "MVNT Generate Character",
+            "MVNT Generate Dance",
+            "MVNT List Styles",
+            "MVNT Load Motion"
+        ],
+        {
+            "title_aux": "ComfyUI-MVNT"
         }
     ],
     "https://github.com/my-opencode/ComfyUI_IndustrialMagick": [
@@ -58514,6 +58601,14 @@
             "title_aux": "ImageBlender"
         }
     ],
+    "https://github.com/vegaflowltd/ComfyUI-VegaFlow": [
+        [
+            "VegaFlowV89"
+        ],
+        {
+            "title_aux": "Vega Flow V8.9 \u2014 Temporal Stabilisation"
+        }
+    ],
     "https://github.com/veighnsche/comfyui_gr85": [
         [
             "GR85_ImageDimensionResizer",
@@ -59001,6 +59096,21 @@
         ],
         {
             "title_aux": "NSFW Guard"
+        }
+    ],
+    "https://github.com/vulca-org/comfyui-vulca": [
+        [
+            "VULCABrief",
+            "VULCAConcept",
+            "VULCAEvaluate",
+            "VULCAGenerate",
+            "VULCAInpaint",
+            "VULCALayersAnalyze",
+            "VULCALayersComposite",
+            "VULCAUpdate"
+        ],
+        {
+            "title_aux": "ComfyUI-VULCA"
         }
     ],
     "https://github.com/vuongminh1907/ComfyUI_ZenID": [
