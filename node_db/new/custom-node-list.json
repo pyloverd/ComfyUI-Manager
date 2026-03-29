@@ -12,6 +12,17 @@
             "description": "A ComfyUI custom node for auditing 3D mesh files by rendering them with a headless renderer and displaying an interactive carousel of renders with detailed mesh statistics. Features 16 renders per execution (4 camera angles x 4 shading modes), an interactive image viewer, and an asset statistics panel with geometry and quality metrics. Supports Linux x64 and Windows x64 with Vulkan-capable GPUs."
         },
         {
+            "author": "MVNT",
+            "title": "ComfyUI-MVNT",
+            "id": "comfyui-mvnt",
+            "reference": "https://github.com/mvnt-app/ComfyUI-MVNT",
+            "files": [
+                "https://github.com/mvnt-app/ComfyUI-MVNT"
+            ],
+            "install_type": "git-clone",
+            "description": "AI dance choreography from music. Generate full-body dance motion (BVH/FBX/JSON) from any audio track using MVNT's diffusion model trained with 100+ professional choreographers. Create rigged 3D characters from images, preview motion as stick-figure animations, and export photorealistic AI music videos — all inside ComfyUI. Nodes: MVNT Generate Dance, MVNT Generate Character, MVNT Export Video, MVNT Preview BVH, MVNT List Styles, MVNT Estimate Cost, MVNT Load Motion."
+        },
+        {
             "author": "alisson-anjos",
             "title": "ComfyUI-BFSNodes",
             "id": "ComfyUI-BFSNodes",
