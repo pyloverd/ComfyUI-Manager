@@ -33,6 +33,16 @@
             "description": "Modular prompt assembly nodes for ComfyUI — 8-slot, compact 4-slot, and weighted 6-slot with attention syntax"
         },
         {
+            "author": "HalfikCode",
+            "title": "Prompt DB",
+            "reference": "https://github.com/HalfikCode/ComfyUI-Prompt-DB",
+            "files":[
+                "https://github.com/HalfikCode/ComfyUI-Prompt-DB"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful prompt management system for ComfyUI. Store, categorize, search, and combine prompts with full LoRA integration — all from a beautiful built-in web UI."
+        },
+        {
             "author": "jeremieLouvaert",
             "title": "ComfyUI-Prompt-Vault",
             "reference": "https://github.com/jeremieLouvaert/ComfyUI-Prompt-Vault",
