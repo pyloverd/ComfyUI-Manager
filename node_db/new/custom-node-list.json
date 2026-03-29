@@ -33,6 +33,17 @@
             "description": "Modular prompt assembly nodes for ComfyUI — 8-slot, compact 4-slot, and weighted 6-slot with attention syntax"
         },
         {
+            "author": "Stibo",
+            "title": "Nifty Nodes for ComfyUI",
+            "id": "comfyui-nifty-nodes",
+            "reference": "https://github.com/Stibo/comfyui-nifty-nodes",
+            "files": [
+                "https://github.com/Stibo/comfyui-nifty-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes for ComfyUI: logic switches, bundle nodes, selectors, bypass nodes, image/latent utilities, and workflow automation nodes."
+        },
+        {
             "author": "HalfikCode",
             "title": "Prompt DB",
             "reference": "https://github.com/HalfikCode/ComfyUI-Prompt-DB",
