@@ -23,6 +23,35 @@
             "description": "AI dance choreography from music. Generate full-body dance motion (BVH/FBX/JSON) from any audio track using MVNT's diffusion model trained with 100+ professional choreographers. Create rigged 3D characters from images, preview motion as stick-figure animations, and export photorealistic AI music videos — all inside ComfyUI. Nodes: MVNT Generate Dance, MVNT Generate Character, MVNT Export Video, MVNT Preview BVH, MVNT List Styles, MVNT Estimate Cost, MVNT Load Motion."
         },
         {
+            "author": "vegaflowltd",
+            "title": "Vega Flow V8.9 — Temporal Stabilisation",
+            "id": "comfyui-vegaflow",
+            "reference": "https://github.com/vegaflowltd/ComfyUI-VegaFlow",
+            "files": [
+                "https://github.com/vegaflowltd/ComfyUI-VegaFlow"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional temporal stabilisation engine. Eliminates flicker, luminance drift, and frame-to-frame inconsistency in AI-generated and traditional video footage."
+        },
+        {
+            "author": "yhryzy",
+            "title": "ComfyUI-VULCA",
+            "id": "comfyui-vulca",
+            "reference": "https://github.com/vulca-org/comfyui-vulca",
+            "files": [
+                "https://github.com/vulca-org/comfyui-vulca"
+            ],
+            "install_type": "git-clone",
+            "description": "Cultural art evaluation nodes — L1-L5 scoring across 15+ traditions, Brief-driven creative workflows, and natural language feedback. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
+            "tags": [
+                "evaluation",
+                "cultural",
+                "art",
+                "L1-L5",
+                "creative"
+            ]
+        },
+        {
             "author": "alisson-anjos",
             "title": "ComfyUI-BFSNodes",
             "id": "ComfyUI-BFSNodes",
