@@ -45170,6 +45170,18 @@
             "install_type": "git-clone",
             "description": "Custom sigma scheduler node for ComfyUI. Easily tune, visualize, and concatenate dynamic sigma curves with an interactive graph."
         },
+        {
+            "author": "Allan.M",
+            "title": "ComfyUI-XPUSYS-Monitor",
+            "id": "comfyui-xpusys-monitor",
+            "reference": "https://github.com/allanmeng/ComfyUI-XPUSYS-Monitor",
+            "files": [
+                "https://github.com/allanmeng/ComfyUI-XPUSYS-Monitor"
+            ],
+            "install_type": "git-clone",
+            "description": "Intel Arc-first ComfyUI monitor with real-time GPU/CPU/RAM stats and an exclusive workflow execution success rate predictor. NVIDIA (CUDA) fully supported.",
+            "pip": ["psutil", "pynvml"]
+        },
 
 
 
@@ -45561,19 +45573,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Allan.M",
-            "title": "ComfyUI-XPUSYS-Monitor",
-            "id": "comfyui-xpusys-monitor",
-            "reference": "https://github.com/allanmeng/ComfyUI-XPUSYS-Monitor",
-            "files": [
-            "https://github.com/allanmeng/ComfyUI-XPUSYS-Monitor"
-            ],
-            "install_type": "git-clone",
-            "description": "Intel Arc-first ComfyUI monitor with real-time GPU/CPU/RAM stats and an exclusive workflow execution success rate predictor. NVIDIA (CUDA) fully supported.",
-            "pip": ["psutil", "pynvml"]
         }
-
     ]
 }

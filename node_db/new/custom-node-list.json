@@ -1,6 +1,18 @@
 {
     "custom_nodes": [
         {
+            "author": "Allan.M",
+            "title": "ComfyUI-XPUSYS-Monitor",
+            "id": "comfyui-xpusys-monitor",
+            "reference": "https://github.com/allanmeng/ComfyUI-XPUSYS-Monitor",
+            "files": [
+                "https://github.com/allanmeng/ComfyUI-XPUSYS-Monitor"
+            ],
+            "install_type": "git-clone",
+            "description": "Intel Arc-first ComfyUI monitor with real-time GPU/CPU/RAM stats and an exclusive workflow execution success rate predictor. NVIDIA (CUDA) fully supported.",
+            "pip": ["psutil", "pynvml"]
+        },
+        {
             "author": "crom8505",
             "title": "ComfyUI-Dynamic-Sigmas",
             "reference": "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas",
