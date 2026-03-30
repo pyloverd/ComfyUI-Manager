@@ -45129,7 +45129,7 @@
                 "https://github.com/vulca-org/comfyui-vulca"
             ],
             "install_type": "git-clone",
-            "description": "Cultural art evaluation nodes — L1-L5 scoring across 15+ traditions, Brief-driven creative workflows, and natural language feedback. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
+            "description": "Cultural art evaluation nodes — L1-L5 scoring across 13 traditions, Layered Generation + Inpainting, Brief-driven creative workflows. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
             "tags": [
                 "evaluation",
                 "cultural",
@@ -45148,6 +45148,16 @@
             ],
             "install_type": "git-clone",
             "description": "Professional temporal stabilisation engine. Eliminates flicker, luminance drift, and frame-to-frame inconsistency in AI-generated and traditional video footage."
+        },
+        {
+            "author": "crom8505",
+            "title": "ComfyUI-Dynamic-Sigmas",
+            "reference": "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas",
+            "files": [
+                "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom sigma scheduler node for ComfyUI. Easily tune, visualize, and concatenate dynamic sigma curves with an interactive graph."
         },
 
 
@@ -45540,16 +45550,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-        "author": "crom8505",
-        "title": "ComfyUI-Dynamic-Sigmas",
-        "reference": "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas",
-        "files": [
-            "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas"
-        ],
-        "install_type": "git-clone",
-        "description": "Custom sigma scheduler node for ComfyUI. Easily tune, visualize, and concatenate dynamic sigma curves with an interactive graph."
         }
     ]
 }

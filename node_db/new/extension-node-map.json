@@ -5590,6 +5590,7 @@
             "PrimereClearNetworkTagsPrompt",
             "PrimereColorBalance",
             "PrimereConceptDataTuple",
+            "PrimereDehaze",
             "PrimereDiTPurifyPrompt",
             "PrimereDithering",
             "PrimereDynamicParser",
@@ -5600,6 +5601,8 @@
             "PrimereFaceAnalyzer",
             "PrimereFastSeed",
             "PrimereFilmRendering",
+            "PrimereFilmicCurve",
+            "PrimereFrequencySeparation",
             "PrimereHSL",
             "PrimereHistogram",
             "PrimereHypernetwork",
@@ -5613,6 +5616,7 @@
             "PrimereLatentNoise",
             "PrimereLensStyles",
             "PrimereLevelEndpoints",
+            "PrimereLocalLaplacian",
             "PrimereLoraKeywordMerger",
             "PrimereLoraStackMerger",
             "PrimereLycorisKeywordMerger",
@@ -46262,8 +46266,8 @@
     "https://github.com/lucasgattas/comfyui-egregora-divide-and-enhance": [
         [
             "Egregora Algorithm",
-            "Egregora Analyze Content",
             "Egregora Combine",
+            "Egregora Debug Mask",
             "Egregora Divide Select"
         ],
         {
@@ -47729,10 +47733,13 @@
             "AutoCrop",
             "CSVValueExtractor",
             "ColorQuantizer",
+            "ContourEndpointVisualizer",
+            "ContourGapCloser",
             "DashedToSolidLine",
             "ExtractBlack",
             "ExtractBlackAdvanced",
             "ExtractRed",
+            "HoleCounter",
             "LaserPathTracer",
             "LineDetector",
             "NonWhiteToBlack",
@@ -54689,6 +54696,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI-RR-JointTagger": [
         [
+            "DINOv3CategoryConfig|redrocket",
             "DINOv3Tagger|redrocket",
             "Jtp3HydraTagger|redrocket",
             "RRJointTagger|redrocket"
@@ -56543,7 +56551,6 @@
             "ElementHueHue",
             "ElementHueSat",
             "Element_ImageCurve",
-            "Element_SigmaGraph",
             "Element_SigmaGraph_Curve",
             "EmptyImageRGB_Element",
             "FrameCalculator_Element",
@@ -60347,6 +60354,7 @@
         [
             "Flux2KleinConditioningEnhancer",
             "Flux2KleinPromptReferenceBalance",
+            "Flux2KleinReferenceAppearanceBalancer",
             "Flux2KleinReferenceLatentMixer",
             "Flux2KleinSectionedTextEncoder",
             "Flux2KleinTokenRegionController"

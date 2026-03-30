@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "crom8505",
+            "title": "ComfyUI-Dynamic-Sigmas",
+            "reference": "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas",
+            "files": [
+                "https://github.com/crom8505/ComfyUI-Dynamic-Sigmas"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom sigma scheduler node for ComfyUI. Easily tune, visualize, and concatenate dynamic sigma curves with an interactive graph."
+        },
+        {
             "author": "krishnancr",
             "title": "ComfyUI Pulse MeshAudit",
             "id": "comfyui-pulse-meshaudit",
@@ -42,7 +52,7 @@
                 "https://github.com/vulca-org/comfyui-vulca"
             ],
             "install_type": "git-clone",
-            "description": "Cultural art evaluation nodes — L1-L5 scoring across 15+ traditions, Brief-driven creative workflows, and natural language feedback. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
+            "description": "Cultural art evaluation nodes — L1-L5 scoring across 13 traditions, Layered Generation + Inpainting, Brief-driven creative workflows. Evaluate AI-generated art for cultural accuracy and get actionable improvement suggestions. Requires: pip install vulca",
             "tags": [
                 "evaluation",
                 "cultural",
@@ -677,106 +687,6 @@
             ],
             "install_type": "git-clone",
             "description": "A universal signal notifier node for ComfyUI that plays configurable sounds (voice modes, custom audio) whenever it receives any signal such as image, latent, or conditioning. (Description by CC)"
-        },
-        {
-            "author": "fangzhengyu0704-dotcom",
-            "title": "ComfyUI-ArchTone-Extractor",
-            "reference": "https://github.com/fangzhengyu0704-dotcom/ComfyUI-ArchTone-Extractor",
-            "files": [
-                "https://github.com/fangzhengyu0704-dotcom/ComfyUI-ArchTone-Extractor"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node for extracting modern, high-end architectural color tones and atmospheric keywords from reference images. (Description by CC)"
-        },
-        {
-            "author": "knishika62",
-            "title": "ComfyUI-TextGenerateGemma3Prompt",
-            "reference": "https://github.com/knishika62/ComfyUI-TextGenerateGemma3Prompt",
-            "files": [
-                "https://github.com/knishika62/ComfyUI-TextGenerateGemma3Prompt"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for LTX Video 2.3 that uses Gemma3-12b-it LLM for text generation with support for LTX-2.3 prompt extensions and custom system prompts. (Description by CC)"
-        },
-        {
-            "author": "knishika62",
-            "title": "ComfyUI-TextGenerateQwen3Prompt",
-            "reference": "https://github.com/knishika62/ComfyUI-TextGenerateQwen3Prompt",
-            "files": [
-                "https://github.com/knishika62/ComfyUI-TextGenerateQwen3Prompt"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for text generation using the Qwen3-4B language model, primarily for expanding image generation prompts with LLM support. (Description by CC)"
-        },
-        {
-            "author": "ijoy222333",
-            "title": "ComfyUI-MatAnyone2",
-            "reference": "https://github.com/ijoy222333/ComfyUI-MatAnyone2",
-            "files": [
-                "https://github.com/ijoy222333/ComfyUI-MatAnyone2"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI wrapper for MatAnyone2 repository, requires cloning official MatAnyone2 and installing dependencies. (Description by CC)"
-        },
-        {
-            "author": "scofano",
-            "title": "comfyui-thumb-generator",
-            "reference": "https://github.com/scofano/comfyui-thumb-generator",
-            "files": [
-                "https://github.com/scofano/comfyui-thumb-generator"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom node for ComfyUI that triggers WinThumbsPreloader every X cycles to ensure Windows thumbnails are generated for your output folders."
-        },
-        {
-            "author": "Hyunsigikim",
-            "title": "comfyui-grid-cutscene",
-            "reference": "https://github.com/Hyunsigikim/comfyui-grid-cutscene",
-            "files": [
-                "https://github.com/Hyunsigikim/comfyui-grid-cutscene"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive grid cutscene system for ComfyUI that creates polygon masks by clicking points on a grid and outputs masks and previews. (Description by CC)"
-        },
-        {
-            "author": "adbrasi",
-            "title": "comfyui-ksampler-batch",
-            "reference": "https://github.com/adbrasi/comfyui-ksampler-batch",
-            "files": [
-                "https://github.com/adbrasi/comfyui-ksampler-batch"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for ComfyUI that generate multiple images in a single GPU batch with different seeds."
-        },
-        {
-            "author": "BetaDoggo",
-            "title": "comfyui-rtx-simple",
-            "reference": "https://github.com/BetaDoggo/comfyui-rtx-simple",
-            "files": [
-                "https://github.com/BetaDoggo/comfyui-rtx-simple"
-            ],
-            "install_type": "git-clone",
-            "description": "Intended to be used with SwarmUI-rtx-upscale; provides RTX support with simplified enum handling."
-        },
-        {
-            "author": "bemoregt",
-            "title": "ComfyUI_DCT",
-            "reference": "https://github.com/bemoregt/ComfyUI_DCT",
-            "files": [
-                "https://github.com/bemoregt/ComfyUI_DCT"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node pack for 2-D Discrete Cosine Transform (DCT) based frequency-domain filtering with interactive spectrum mask editing."
-        },
-        {
-            "author": "moondive-cinema",
-            "title": "comfyui-depth-warp",
-            "reference": "https://github.com/moondive-cinema/comfyui-depth-warp",
-            "files": [
-                "https://github.com/moondive-cinema/comfyui-depth-warp"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node for depth-based geometric view synthesis with 6-DOF camera transforms, parallax effects, and hole mask output for inpainting."
         }
     ]
 }
