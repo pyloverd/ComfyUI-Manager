@@ -61611,6 +61611,7 @@
     ],
     "https://github.com/yushan777/ComfyUI-Y7Nodes": [
         [
+            "SamplerSelect_Name",
             "Y7Nodes_AspectRatioPicker",
             "Y7Nodes_CLIP_TokenCounter",
             "Y7Nodes_CatchEditTextNodeDual",

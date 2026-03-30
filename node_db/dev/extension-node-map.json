@@ -9905,19 +9905,27 @@
     ],
     "https://github.com/jorin91/ComfyUI-JSG-Utils": [
         [
-            "JSGAddMetadata",
+            "JSGBoolToString",
             "JSGCaptionBuilder",
+            "JSGCombineStrings",
+            "JSGCreateBlankMetadata",
             "JSGDeleteFilePassAny",
             "JSGDeleteFilePassImage",
             "JSGDeleteFilePassString",
             "JSGFindImagePathsRecursive",
             "JSGFindImagesRecursiveList",
             "JSGLoadImageFromPath",
+            "JSGMatchStringList",
             "JSGParsePath",
+            "JSGRandomBool",
             "JSGRandomColorHSVA",
+            "JSGRandomStringChoice",
+            "JSGRandomStringChoiceList",
             "JSGRemoveMetadata",
             "JSGSaveImage",
-            "JSGSetMetadata"
+            "JSGSetMetadataField",
+            "JSGSetMetadataFields",
+            "JSGSetStandardMetadataField"
         ],
         {
             "title_aux": "ComfyUI-JSG-Utils [UNSAFE]"
@@ -11699,15 +11707,19 @@
     "https://github.com/nomadop/ComfyUI-Video-Matting": [
         [
             "AlphaCombine",
+            "AlphaDeflicker",
             "ApplyAlpha",
             "CutieLoader",
             "CutieProcess",
+            "FlickerformerDeflicker",
+            "FlickerformerLoader",
             "FrameSelector",
             "ImageSequencePackager",
             "MODNetInference",
             "MODNetLoader",
             "MaskToGrayscaleImage",
             "PreviewSlider",
+            "RAFTLoader",
             "RMBGInference",
             "RMBGLoader",
             "RVMInference",
