@@ -209,13 +209,14 @@
         },
         {
             "author": "darksidewalker",
-            "title": "ComfyUI-DaSiWa-Nodes",
+            "description": "DaSiWa Custom Nodes Collection",
+            "id": "dasiwa",
+            "install_type": "git-clone",
             "reference": "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes",
             "files": [
                 "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes"
             ],
-            "install_type": "git-clone",
-            "description": "DaSiWa Custom Nodes Collection"
+            "title": "ComfyUI-DaSiWa-Nodes"
         },
         {
             "author": "zinigo-creations",
