@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "Atsushi888",
+            "title": "ComfyUI-MediaPreview",
+            "id": "comfyui-mediapreview",
+            "reference": "https://github.com/Atsushi888/ComfyUI-MediaPreview",
+            "files": [
+                "https://github.com/Atsushi888/ComfyUI-MediaPreview"
+            ],
+            "install_type": "git",
+            "description": "All-in-one media preview node for ComfyUI."
+        },
+        {
             "author": "kplkasteel",
             "title": "Image to Prompt (Abacus.AI)",
             "id": "comfyui-image-to-prompt-abacusai",
