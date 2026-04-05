@@ -16483,6 +16483,150 @@
             "title_aux": "ComfyUI-CSV-Loader"
         }
     ],
+    "https://github.com/PGCRT/CRT-HeartMuLa": [
+        [
+            "HeartMuLaMusicGenerator"
+        ],
+        {
+            "title_aux": "CRT-HeartMuLa"
+        }
+    ],
+    "https://github.com/PGCRT/CRT-Nodes": [
+        [
+            "AdvancedBloomFX",
+            "AdvancedStringReplace",
+            "AnyTrigger",
+            "ArcaneBloomFX",
+            "AudioCompressor",
+            "AudioFrameAdjuster",
+            "AudioLoaderCrawl",
+            "AudioOrManualFrameCount",
+            "AudioPreviewer",
+            "AutopromptProcessor",
+            "BatchBrightnessCurve",
+            "Boolean Transform",
+            "BooleanInvert",
+            "CLIPTextEncodeFluxMerged",
+            "CRT Post-Process Suite",
+            "CRTChromaKeyOverlay",
+            "CRTFirstLastFrameSelector",
+            "CRTLoadLastVideo",
+            "CRTPctCropCalculator",
+            "CRTPostProcess",
+            "CRT_AddSettingsAndPrompt",
+            "CRT_DynamicPromptScheduler",
+            "CRT_FileBatchPromptScheduler",
+            "CRT_KSamplerBatch",
+            "CRT_QuantizeAndCropImage",
+            "CRT_RemoveLines",
+            "CRT_StringBatcher",
+            "CRT_StringLineCounter",
+            "CRT_StringSplitter",
+            "CRT_UpscaleModelAdv",
+            "CRT_WAN_BatchSampler",
+            "ClarityFX",
+            "ClearStyleModelDualCache",
+            "ColorIsolationFX",
+            "ColourfulnessFX",
+            "ContourFX",
+            "DepthAnythingTensorrtFormat",
+            "EnableLatent",
+            "FaceEnhancementPipelineWithInjection",
+            "FaceEnhancementWithInjection",
+            "FancyNoteNode",
+            "FancyTimerNode",
+            "FilmGrainFX",
+            "Flux1CnetFaceEnhancementWithInjection",
+            "Flux2KleinSeamlessTile",
+            "FluxControlnetSampler",
+            "FluxControlnetSamplerWithInjection",
+            "FluxLoraBlocksPatcher",
+            "FluxTiledSamplerCustomAdvanced",
+            "Image Tile Checker (CRT)",
+            "ImageDimensionsFromMegaPixels",
+            "ImageDimensionsFromMegaPixelsAlt",
+            "ImageLoaderCrawl",
+            "ImageScaleRangeFromMp",
+            "ImageTileChecker",
+            "LatentNoiseInjectionSampler",
+            "LensDistortFX",
+            "LensFX",
+            "LoadImageBase64",
+            "LoadImageResize",
+            "LoadLastImage",
+            "LoadLastLatent",
+            "Magic LoRA Loader",
+            "Magic Save Merged LoRA",
+            "MaskEmptyFloatNode",
+            "MaskPassOrPlaceholder",
+            "MonoToStereoConverter",
+            "ParametricEQNode",
+            "PonyFaceEnhancementPipelineWithInjection",
+            "PonyUpscaleSamplerWithInjection",
+            "ReferenceLatentBatch",
+            "Remove Trailing Comma",
+            "Resolution",
+            "SamplerSchedulerCrawler",
+            "SamplerSchedulerSelector",
+            "SaveAudioWithPath",
+            "SaveImageBase64",
+            "SaveImageBase64 (CRT)",
+            "SaveImageWithPath",
+            "SaveJpegWebsocket",
+            "SaveLatentWithPath",
+            "SaveTextWithPath",
+            "SaveVideoWithPath",
+            "SeamlessLoopBlender",
+            "SimpleKnobNode",
+            "SimpleToggleNode",
+            "SmartControlNetApply",
+            "SmartDeNoiseFX",
+            "SmartPreprocessor",
+            "SmartStyleModelApplyDual",
+            "Strength To Steps",
+            "Technicolor2FX",
+            "Text Box line spot",
+            "TextLoaderCrawl",
+            "TextLoaderCrawlBatch",
+            "TinyFlux2VAEDecode",
+            "TinyFlux2VAEEncode",
+            "TinyFlux2VAELoader",
+            "Video Duration Calculator",
+            "VideoLoaderCrawl",
+            "WAN2.2 LoRA Compare Sampler",
+            "WanVideoLoraSelectMultiImproved"
+        ],
+        {
+            "author": "CRT",
+            "description": "Set of nodes for ComfyUI",
+            "title": "CRT-Nodes",
+            "title_aux": "CRT-Nodes"
+        }
+    ],
+    "https://github.com/PGCRT/ComfyUI-OmniVoice_CRT": [
+        [
+            "OmniVoiceGenerate",
+            "OmniVoiceLoadModel"
+        ],
+        {
+            "title_aux": "ComfyUI-OmniVoice_CRT"
+        }
+    ],
+    "https://github.com/PGCRT/ComfyUI-QWEN3_TTS": [
+        [
+            "Qwen3TTSBatchGenerate",
+            "Qwen3TTSCreateClonePrompt",
+            "Qwen3TTSCustomVoice",
+            "Qwen3TTSModelLoader",
+            "Qwen3TTSVoiceClone",
+            "Qwen3TTSVoiceCloneFromFile",
+            "Qwen3TTSVoiceCloneWithPrompt",
+            "Qwen3TTSVoiceDesign"
+        ],
+        {
+            "title_aux": "ComfyUI-QWEN3_TTS"
+        }
+    ],
     "https://github.com/PICOPON/ComfyUI-API-OpenAI-Node": [
         [
             "OpenAINode"
@@ -34462,8 +34606,10 @@
             "Qwen3TTSEngineNode",
             "Qwen3TTSVoiceDesignerNode",
             "QwenEmotionNode",
+            "RVCDatasetPrepNode",
             "RVCEngineNode",
             "RVCPitchOptionsNode",
+            "RVCTrainingConfigNode",
             "RefreshVoiceCacheNode",
             "SRTAdvancedOptionsNode",
             "Step Audio EditX Engine",
@@ -34472,6 +34618,7 @@
             "StringMultilineTagEditor",
             "TextToSRTBuilderNode",
             "UnifiedASRTranscribeNode",
+            "UnifiedModelTrainingNode",
             "UnifiedTTSSRTNode",
             "UnifiedTTSTextNode",
             "UnifiedVoiceChangerNode",
@@ -40866,6 +41013,86 @@
             "title_aux": "Faceless Node for ComfyUI"
         }
     ],
+    "https://github.com/jeremieLouvaert/ComfyUI-API-Optimizer": [
+        [
+            "APICostTracker",
+            "DeterministicHashVault",
+            "HashVaultSave",
+            "LazyAPISwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-API-Optimizer"
+        }
+    ],
+    "https://github.com/jeremieLouvaert/ComfyUI-Darkroom": [
+        [
+            "DarkroomChromaticAberration",
+            "DarkroomClarityTextureDehaze",
+            "DarkroomColorQualifier",
+            "DarkroomColorWarper",
+            "DarkroomCrossProcess",
+            "DarkroomExposureTone",
+            "DarkroomFilmGrain",
+            "DarkroomFilmStockBW",
+            "DarkroomFilmStockColor",
+            "DarkroomHSLSelective",
+            "DarkroomHalation",
+            "DarkroomHueVsHue",
+            "DarkroomHueVsSat",
+            "DarkroomLensDistortion",
+            "DarkroomLensProfile",
+            "DarkroomLiftGammaGain",
+            "DarkroomLogWheels",
+            "DarkroomLumVsSat",
+            "DarkroomNoiseReduction",
+            "DarkroomPerspectiveCorrect",
+            "DarkroomPrintStock",
+            "DarkroomSatVsSat",
+            "DarkroomSharpeningPro",
+            "DarkroomSkinToneUniformity",
+            "DarkroomThreeWayColorBalance",
+            "DarkroomToneCurve",
+            "DarkroomVibrance",
+            "DarkroomVignette",
+            "DarkroomWhiteBalance"
+        ],
+        {
+            "title_aux": "ComfyUI-Darkroom"
+        }
+    ],
+    "https://github.com/jeremieLouvaert/ComfyUI-Gemini-Conversation-Canvas": [
+        [
+            "GeminiEditTurn",
+            "GeminiSessionGallery",
+            "GeminiSessionLoad",
+            "GeminiSessionSave",
+            "GeminiSessionStart"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini-Conversation-Canvas"
+        }
+    ],
+    "https://github.com/jeremieLouvaert/ComfyUI-Gemini-Direct": [
+        [
+            "GeminiImageGenerate",
+            "GeminiStyleTransfer",
+            "PromptStudio"
+        ],
+        {
+            "title_aux": "ComfyUI-Gemini-Direct"
+        }
+    ],
+    "https://github.com/jeremieLouvaert/ComfyUI-Higgsfield-Direct": [
+        [
+            "HiggsFieldImageEdit",
+            "HiggsFieldImageToVideo",
+            "HiggsFieldModelInfo",
+            "HiggsFieldTextToImage"
+        ],
+        {
+            "title_aux": "ComfyUI-Higgsfield-Direct"
+        }
+    ],
     "https://github.com/jeremieLouvaert/ComfyUI-Prompt-Vault": [
         [
             "PromptVaultBrowse",
@@ -40884,6 +41111,15 @@
         ],
         {
             "title_aux": "comfyui-prompt-assembler"
+        }
+    ],
+    "https://github.com/jeremieLouvaert/comfyui-wireless-link-simple": [
+        [
+            "WirelessGet",
+            "WirelessSend"
+        ],
+        {
+            "title_aux": "comfyui-wireless-link-simple"
         }
     ],
     "https://github.com/jerrylongyan/ComfyUI-My-Mask": [
@@ -51426,118 +51662,6 @@
         ],
         {
             "title_aux": "comfyui-pose-redirect-align"
-        }
-    ],
-    "https://github.com/plugcrypt/CRT-Nodes": [
-        [
-            "AdvancedBloomFX",
-            "AdvancedStringReplace",
-            "AnyTrigger",
-            "ArcaneBloomFX",
-            "AudioCompressor",
-            "AudioFrameAdjuster",
-            "AudioLoaderCrawl",
-            "AudioOrManualFrameCount",
-            "AudioPreviewer",
-            "AutopromptProcessor",
-            "BatchBrightnessCurve",
-            "Boolean Transform",
-            "BooleanInvert",
-            "CLIPTextEncodeFluxMerged",
-            "CRT Post-Process Suite",
-            "CRTChromaKeyOverlay",
-            "CRTFirstLastFrameSelector",
-            "CRTLoadLastVideo",
-            "CRTPctCropCalculator",
-            "CRTPostProcess",
-            "CRT_AddSettingsAndPrompt",
-            "CRT_DynamicPromptScheduler",
-            "CRT_FileBatchPromptScheduler",
-            "CRT_KSamplerBatch",
-            "CRT_QuantizeAndCropImage",
-            "CRT_RemoveLines",
-            "CRT_StringBatcher",
-            "CRT_StringLineCounter",
-            "CRT_StringSplitter",
-            "CRT_UpscaleModelAdv",
-            "CRT_WAN_BatchSampler",
-            "ClarityFX",
-            "ClearStyleModelDualCache",
-            "ColorIsolationFX",
-            "ColourfulnessFX",
-            "ContourFX",
-            "DepthAnythingTensorrtFormat",
-            "EnableLatent",
-            "FaceEnhancementPipelineWithInjection",
-            "FaceEnhancementWithInjection",
-            "FancyNoteNode",
-            "FancyTimerNode",
-            "FilmGrainFX",
-            "Flux1CnetFaceEnhancementWithInjection",
-            "Flux2KleinSeamlessTile",
-            "FluxControlnetSampler",
-            "FluxControlnetSamplerWithInjection",
-            "FluxLoraBlocksPatcher",
-            "FluxTiledSamplerCustomAdvanced",
-            "Image Tile Checker (CRT)",
-            "ImageDimensionsFromMegaPixels",
-            "ImageDimensionsFromMegaPixelsAlt",
-            "ImageLoaderCrawl",
-            "ImageScaleRangeFromMp",
-            "ImageTileChecker",
-            "LatentNoiseInjectionSampler",
-            "LensDistortFX",
-            "LensFX",
-            "LoadImageBase64",
-            "LoadImageResize",
-            "LoadLastImage",
-            "LoadLastLatent",
-            "Magic LoRA Loader",
-            "Magic Save Merged LoRA",
-            "MaskEmptyFloatNode",
-            "MaskPassOrPlaceholder",
-            "MonoToStereoConverter",
-            "ParametricEQNode",
-            "PonyFaceEnhancementPipelineWithInjection",
-            "PonyUpscaleSamplerWithInjection",
-            "ReferenceLatentBatch",
-            "Remove Trailing Comma",
-            "Resolution",
-            "SamplerSchedulerCrawler",
-            "SamplerSchedulerSelector",
-            "SaveAudioWithPath",
-            "SaveImageBase64",
-            "SaveImageBase64 (CRT)",
-            "SaveImageWithPath",
-            "SaveJpegWebsocket",
-            "SaveLatentWithPath",
-            "SaveTextWithPath",
-            "SaveVideoWithPath",
-            "SeamlessLoopBlender",
-            "SimpleKnobNode",
-            "SimpleToggleNode",
-            "SmartControlNetApply",
-            "SmartDeNoiseFX",
-            "SmartPreprocessor",
-            "SmartStyleModelApplyDual",
-            "Strength To Steps",
-            "Technicolor2FX",
-            "Text Box line spot",
-            "TextLoaderCrawl",
-            "TextLoaderCrawlBatch",
-            "TinyFlux2VAEDecode",
-            "TinyFlux2VAEEncode",
-            "TinyFlux2VAELoader",
-            "Video Duration Calculator",
-            "VideoLoaderCrawl",
-            "WAN2.2 LoRA Compare Sampler",
-            "WanVideoLoraSelectMultiImproved"
-        ],
-        {
-            "author": "CRT",
-            "description": "Set of nodes for ComfyUI",
-            "title": "CRT-Nodes",
-            "title_aux": "CRT-Nodes"
         }
     ],
     "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation": [
