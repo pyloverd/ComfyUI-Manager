@@ -127,16 +127,16 @@
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for LongCat-AudioDiT TTS - zero-shot and voice cloning diffusion TTS"
         },
-        {
-            "author": "IMGLAB-net",
-            "title": "IMGLAB_ComfyUI",
-            "reference": "https://github.com/IMGLAB-net/IMGLAB_ComfyUI",
-            "files": [
-                "https://github.com/IMGLAB-net/IMGLAB_ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "IMGLAB custom nodes for ComfyUI"
-        },
+		{
+			"author": "IMGLAB",
+			"title": "IMGLAB_ComfyUI",
+			"reference": "https://github.com/IMGLAB-net/IMGLAB_ComfyUI",
+			"files": [
+				"https://github.com/IMGLAB-net/IMGLAB_ComfyUI"
+			],
+			"install_type": "git-clone",
+			"description": "IMGLAB custom nodes for ComfyUI"
+		},
         {
             "author": "sorryhyun",
             "title": "Flex Attention",
@@ -219,14 +219,14 @@
             "title": "ComfyUI-DaSiWa-Nodes"
         },
         {
-            "author": "zinigo-creations",
+            "author": "Zinigo",
             "title": "Prompt Builder",
             "reference": "https://github.com/zinigo-creations/comfyui-prompt-builder",
             "files": [
                 "https://github.com/zinigo-creations/comfyui-prompt-builder"
             ],
             "install_type": "git-clone",
-            "description": "Structured dropdown-based prompt builder for ComfyUI."
+            "description": "Dropdown-based prompt builder for ComfyUI. Create characters, scenes, and styles without writing prompts. Designed for beginners and fast iteration."
         },
 
         {
