@@ -730,8 +730,11 @@
             "AE.OutpaintConfig",
             "AE.OutpaintWithModel",
             "AE.OutpaintWithModelAndConfig",
+            "AE.PromptConfig",
             "AE.Range",
             "AE.RangeList",
+            "AE.SDXLConditions",
+            "AE.SDXLConditionsWithHires",
             "AE.SDXLConfig",
             "AE.SDXLPrompt",
             "AE.SDXLPromptWithHires",
@@ -2981,34 +2984,6 @@
             "title_aux": "ComfyUI-Lucian [WIP]"
         }
     ],
-    "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes": [
-        [
-            "\ud83d\udc7e Any Switch",
-            "\ud83d\udc7e Any Switch Large",
-            "\ud83d\udc7e Any Switch Medium",
-            "\ud83d\udc7e Any to Any",
-            "\ud83d\udc7e Debug Tensor Structure",
-            "\ud83d\udc7e Evaluate Anything",
-            "\ud83d\udc7e Image Crop",
-            "\ud83d\udc7e Image Grid",
-            "\ud83d\udc7e Image Overlay",
-            "\ud83d\udc7e Img to Gif",
-            "\ud83d\udc7e Int to Bits",
-            "\ud83d\udc7e Is Image Fully Transparent",
-            "\ud83d\udc7e Load Any",
-            "\ud83d\udc7e Load Image Batch",
-            "\ud83d\udc7e Number Counter",
-            "\ud83d\udc7e Preview Image if True",
-            "\ud83d\udc7e Save AnimPNG If True",
-            "\ud83d\udc7e Save Any",
-            "\ud83d\udc7e Save Image If True",
-            "\ud83d\udc7e Seed Controller",
-            "\ud83d\udc7e Signed Integer"
-        ],
-        {
-            "title_aux": "ComfyUI-invAIder-Nodes"
-        }
-    ],
     "https://github.com/Lumiyumi/comfyui_stringcombineX": [
         [
             "StringCombine10"
@@ -4305,6 +4280,7 @@
         [
             "AudioWeights to FadeMask \ud83d\udc24",
             "GeminiBanana \ud83c\udf4c",
+            "Get File Name \ud83d\udc24",
             "Image Input Switch \ud83d\udc24",
             "Indices Generator \ud83d\udc24",
             "Latent Input Switch \ud83d\udc24",
@@ -5101,14 +5077,6 @@
         ],
         {
             "title_aux": "comfyui_flowrider_nodes [UNSAFE]"
-        }
-    ],
-    "https://github.com/Suzu008/ComfyUI-ImageCritic": [
-        [
-            "DetailEncoder"
-        ],
-        {
-            "title_aux": "ComfyUI-ImageCritic"
         }
     ],
     "https://github.com/Symbiomatrix/Comfyui-Sort-Files": [
@@ -7088,6 +7056,7 @@
             "ByteDanceImageNode",
             "ByteDanceImageReferenceNode",
             "ByteDanceImageToVideoNode",
+            "ByteDanceSeedNode",
             "ByteDanceSeedreamNode",
             "ByteDanceSeedreamNodeV2",
             "ByteDanceTextToVideoNode",
@@ -10907,19 +10876,6 @@
         ],
         {
             "title_aux": "ComfyUI-Qdrant-Saver"
-        }
-    ],
-    "https://github.com/lordwedggie/xcpNodes": [
-        [
-            "derpBaseAlpha",
-            "derpSlider",
-            "xcpDerpBool",
-            "xcpDerpFloat",
-            "xcpDerpINT",
-            "xcpDerpSeed"
-        ],
-        {
-            "title_aux": "xcpNodes [WIP]"
         }
     ],
     "https://github.com/love2hina-net/ComfyUI-Local-Translator": [

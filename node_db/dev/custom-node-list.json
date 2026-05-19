@@ -93,16 +93,6 @@
             "description": "Auto-downloads required models on startup."
         },
         {
-            "author": "fya16838",
-            "title": "Comfyui-Xiufu",
-            "reference": "https://github.com/fya16838/Comfyui-Xiufu",
-            "files": [
-                "https://github.com/fya16838/Comfyui-Xiufu"
-            ],
-            "install_type": "git-clone",
-            "description": "Fix ComfyUI models and nodes after importing workflows from others. (Description by CC)"
-        },
-        {
             "author": "fengye12",
             "title": "ComfyUI_XL_OpenAPI",
             "reference": "https://github.com/fengye12/ComfyUI_XL_OpenAPI",
@@ -1575,16 +1565,6 @@
             ],
             "install_type": "git-clone",
             "description": "Generates random seed values for ComfyUI workflows. (Description by CC)"
-        },
-        {
-            "author": "Suzu008",
-            "title": "ComfyUI-ImageCritic",
-            "reference": "https://github.com/Suzu008/ComfyUI-ImageCritic",
-            "files": [
-                "https://github.com/Suzu008/ComfyUI-ImageCritic"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for image analysis and evaluation. (Description by CC)"
         },
         {
             "author": "Spicely",
@@ -4730,16 +4710,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes to use InternVL3"
-        },
-        {
-            "author": "LucianoCirino",
-            "title": "ComfyUI-invAIder-Nodes",
-            "reference": "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes",
-            "files": [
-                "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes I've created for my own personal workflows. Use at your own discretion.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "zhuanvi",
@@ -9211,16 +9181,6 @@
             ],
             "install_type": "git-clone",
             "description": "Cozy fireplace is a ComfyUI workflow prompter that brings a localhost server frontend for existing workflows created in ComfyUi. Just place your favorite or lovingly crafted workflows in a folder and cozy fireplace will let you select and run any of them (export them as API type in comfyui) It's a cozy UI that scales all the way down to mobile phone devices - to let you prompt your beefy pc at home with your smartphone."
-        },
-        {
-            "author": "lordwedggie",
-            "title": "xcpNodes [WIP]",
-            "reference": "https://github.com/lordwedggie/xcpNodes",
-            "files": [
-                "https://github.com/lordwedggie/xcpNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Slider nodes based on Smirnov75's codes [a/https://github.com/Smirnov75/ComfyUI-mxToolkit](https://github.com/Smirnov75/ComfyUI-mxToolkit)\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "kxh",
