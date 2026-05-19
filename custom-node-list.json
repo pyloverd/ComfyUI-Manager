@@ -41933,16 +41933,6 @@
             "description": "A custom ComfyUI node that draws parametric facial masks with black lines on white or transparent backgrounds. (Description by CC)"
         },
         {
-            "author": "daveand",
-            "title": "ComfyUI-daveand-nodes",
-            "reference": "https://github.com/daveand/ComfyUI-daveand-nodes",
-            "files": [
-                "https://github.com/daveand/ComfyUI-daveand-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ModelConfigSelector node for managing checkpoint configurations with manual override support and batch sampler parameters. (Description by CC)"
-        },
-        {
             "author": "bcasadei",
             "title": "ComfyUI-Prompt-Camera-Assistant",
             "reference": "https://github.com/bcasadei/ComfyUI-Prompt-Camera-Assistant",
@@ -46974,6 +46964,16 @@
             "description": "Aggressive RAM and VRAM cleanup nodes for ComfyUI on Windows. Clears model caches, CLIP, checkpoints, VAE, and forces Windows to release physical RAM."
         },
         {
+            "author": "stevelasmin4real",
+            "title": "Auto Switch (ANY) by Steve Lasmin",
+            "reference": "https://github.com/Eklipsis/auto_switch_any_by_steve_lasmin",
+            "files": [
+                "https://github.com/Eklipsis/auto_switch_any_by_steve_lasmin"
+            ],
+            "install_type": "git-clone",
+            "description": "Auto Switch (ANY) by Steve Lasmin — A ComfyUI custom node for automatic signal routing between two universal inputs."
+        },
+        {
             "author": "huagusam",
             "title": "comfyui-attention-selector",
             "reference": "https://github.com/huagusam/comfyui-attention-selector",
@@ -47576,6 +47576,36 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI wrapper for [a/Pixal3D](https://github.com/TencentARC/Pixal3D) — Tencent's SIGGRAPH 2026 single-image to PBR-textured-3D pipeline. Windows + NVIDIA RTX 30/40/50 (≥ 16 GB VRAM). One image → textured PBR mesh in ~3-5 min. Built on top of [a/ComfyUI-Trellis2](https://github.com/visualbruno/ComfyUI-Trellis2). Note: Pixal3D itself is academic / non-commercial only and NOT for EU use — see NOTICE.md."
+        },
+        {
+            "author": "goodguy1963",
+            "title": "ComfyUI Auto Watermark Mask",
+            "reference": "https://github.com/goodguy1963/comfyui-auto-watermark-mask",
+            "files": [
+                "https://github.com/goodguy1963/comfyui-auto-watermark-mask"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for automatic watermark masking and direct removal with OpenCV, EasyOCR, and Big-LaMa."
+        },
+        {
+            "author": "cyberdelia",
+            "title": "comfyui-cyberdelia-z-engineer",
+            "reference": "https://github.com/cyberdeliaAI/comfyui-cyberdelia-z-engineer",
+            "files": [
+                "https://github.com/cyberdeliaAI/comfyui-cyberdelia-z-engineer"
+            ],
+            "install_type": "git-clone",
+            "description": "LLM-powered prompt engineering node for Z-Image Turbo workflows. By Cyberdelia AI Lab."
+        },
+        {
+            "author": "KATO Kanryu",
+            "title": "ComfyUI Text-Driven Workflows",
+            "reference": "https://github.com/kanryu/ComfyUI-Text-Driven-Workflows",
+            "files": [
+                "https://github.com/kanryu/ComfyUI-Text-Driven-Workflows"
+            ],
+            "install_type": "git-clone",
+            "description": "A smart ComfyUI extension that simplifies text-driven workflows. Systematically organize, aggregate, and switch prompts or character settings with a single click, and batch process multiple staging plans simultaneously."
         },
 
 
