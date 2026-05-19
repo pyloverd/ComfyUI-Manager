@@ -1,14 +1,15 @@
 {
     "custom_nodes": [
         {
-            "author": "antimatter",
+            "author": "AntiMatterComfy",
             "title": "AntiMatter Nodes",
+            "id": "antimatter-nodes",
             "reference": "https://github.com/AntiMatterComfy/antimatter-nodes",
             "files": [
                 "https://github.com/AntiMatterComfy/antimatter-nodes"
             ],
             "install_type": "git-clone",
-            "description": "AntiMatter custom nodes for ComfyUI, including Flux, Z-Image, and ERNIE-oriented aspect ratio tools."
+            "description": "AntiMatter custom nodes for ComfyUI. Includes Anti_aspect_ratio_master for Flux, Z-Image, and ERNIE-oriented aspect ratio and resolution latent creation."
         },
         {
             "author": "Vivid",
