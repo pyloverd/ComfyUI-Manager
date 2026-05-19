@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "antimatter",
+            "title": "AntiMatter Nodes",
+            "reference": "https://github.com/AntiMatterComfy/antimatter-nodes",
+            "files": [
+                "https://github.com/AntiMatterComfy/antimatter-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "AntiMatter custom nodes for ComfyUI, including Flux, Z-Image, and ERNIE-oriented aspect ratio tools."
+        },
+        {
+            "author": "Vivid",
+            "title": "comfyui-vivid-prompt-analysis-replacement",
+            "reference": "https://github.com/cction/ComfyUI-Vivid-Prompt-Analysis-Replacement",
+            "files": [
+                "https://github.com/cction/ComfyUI-Vivid-Prompt-Analysis-Replacement"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for structured prompt analysis and replacement"
+        },
+        {
+            "author": "easygoing0114",
+            "title": "UIT Sampler HiDream-O1",
+            "reference": "https://github.com/easygoing0114/ComfyUI-uit-hidream-o1",
+            "files": [
+                "https://github.com/easygoing0114/ComfyUI-uit-hidream-o1"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node — UIT Sampler for HiDream-O1-Image"
+        },
+        {
             "author": "KATO Kanryu",
             "title": "ComfyUI Text-Driven Workflows",
             "reference": "https://github.com/kanryu/ComfyUI-Text-Driven-Workflows",

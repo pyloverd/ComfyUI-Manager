@@ -2964,6 +2964,14 @@
             "title_aux": "BangtrixToolkit"
         }
     ],
+    "https://github.com/AntiMatterComfy/antimatter-nodes": [
+        [
+            "Anti_aspect_ratio_master"
+        ],
+        {
+            "title_aux": "AntiMatter Nodes"
+        }
+    ],
     "https://github.com/Anzhc/Anima-Mod-Guidance-ComfyUI-Node": [
         [
             "AnimaModGuidance"
@@ -31453,6 +31461,14 @@
             "title_aux": "comfyui-azul-scripts"
         }
     ],
+    "https://github.com/cction/ComfyUI-Vivid-Prompt-Analysis-Replacement": [
+        [
+            "PromptReplaceParserNode"
+        ],
+        {
+            "title_aux": "comfyui-vivid-prompt-analysis-replacement"
+        }
+    ],
     "https://github.com/cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life": [
         [
             "BOPBTL_BlendFaces",
@@ -36702,6 +36718,14 @@
         ],
         {
             "title_aux": "ComfyUI-easygoing-nodes"
+        }
+    ],
+    "https://github.com/easygoing0114/ComfyUI-uit-hidream-o1": [
+        [
+            "UITSampler"
+        ],
+        {
+            "title_aux": "UIT Sampler HiDream-O1"
         }
     ],
     "https://github.com/ebrinz/ComfyUI-MusicGen-HF": [
@@ -63067,7 +63091,10 @@
             "PlotSVG",
             "QRCodePreview",
             "SvgToFile",
-            "UploadSubmission"
+            "SvgToMp4Animation",
+            "UploadSubmission",
+            "VideoPreview",
+            "VideoToFile"
         ],
         {
             "title_aux": "ComfyUI PenPlotter"

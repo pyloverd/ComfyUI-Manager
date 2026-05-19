@@ -1373,6 +1373,16 @@
             "title_aux": "ComfyUI-Get-Random-File [UNSAFE]"
         }
     ],
+    "https://github.com/Ckrest/comfyui-ollama-nodes": [
+        [
+            "OllamaChat",
+            "OllamaModelList",
+            "OllamaQuery"
+        ],
+        {
+            "title_aux": "comfyui-ollama-nodes [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/Clelstyn/ComfyUI-Inpaint_with_Detailer": [
         [
             "FilterAndBlurMask",
@@ -2446,6 +2456,14 @@
             "title_aux": "comfyui-HandDetect"
         }
     ],
+    "https://github.com/IsacEkeroth/ComfyUI-Audio-Speed": [
+        [
+            "AudioSpeed"
+        ],
+        {
+            "title_aux": "comfyui-ffmpeg-audiospeed [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/Isi-dev/ComfyUI_DeleteModelPassthrough_ExecutionFlowControl": [
         [
             "ControlledCLIPTextEncode",
@@ -2876,6 +2894,14 @@
         ],
         {
             "title_aux": "ComfyUI-ModelUnloader"
+        }
+    ],
+    "https://github.com/Latentnaut/ComfyUI-Image-Selector": [
+        [
+            "ImageSelector"
+        ],
+        {
+            "title_aux": "ComfyUI-Image-Selector [NAME CONFLICT/WIP]"
         }
     ],
     "https://github.com/Leecoahs/ComfyUI_LeeNodes": [
@@ -4401,6 +4427,14 @@
         ],
         {
             "title_aux": "ComfyUI Port for Google's Prompt-to-Prompt"
+        }
+    ],
+    "https://github.com/Saganaki22/ComfyUI-KittenTTS": [
+        [
+            "KittenTTS"
+        ],
+        {
+            "title_aux": "Kitten-TTS [NAME CONFLICT]"
         }
     ],
     "https://github.com/Saganaki22/ComfyUI-NovaSR": [
@@ -7015,6 +7049,19 @@
             "title_aux": "comfyui-boll-nodes"
         }
     ],
+    "https://github.com/cnoellert/comfyui-corridorkey": [
+        [
+            "CK_Despeckle",
+            "CK_Despill",
+            "CK_Keyer",
+            "CK_LinearToSRGB",
+            "CK_ModelLoader",
+            "CK_SRGBToLinear"
+        ],
+        {
+            "title_aux": "ComfyUI CorridorKey [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/colorAi/comfyui-prompt-manager": [
         [
             "PromptManagerNode"
@@ -8400,6 +8447,14 @@
         ],
         {
             "title_aux": "ComfyUI-CheckpointSettings"
+        }
+    ],
+    "https://github.com/eokoo/ComfyUI-Photopea": [
+        [
+            "PhotopeaNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Photopea [NAME CONFLICT]"
         }
     ],
     "https://github.com/ericbeyer/guidance_interval": [
@@ -11976,6 +12031,14 @@
             "title_aux": "ComfyUI Video Save Node [UNSAFE]"
         }
     ],
+    "https://github.com/opj161/comfyui-lmstudio": [
+        [
+            "LMStudio_Unified_Chat"
+        ],
+        {
+            "title_aux": "comfyui-comfyui-lmstudio [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/orion4d/ComfyUI_unified_list_selector": [
         [
             "UnifiedListSelector"
@@ -13503,6 +13566,18 @@
         ],
         {
             "title_aux": "ComfyUI-LongCat-Image [WIP]"
+        }
+    ],
+    "https://github.com/starsFriday/ComfyUI-MatAnyone2": [
+        [
+            "LoadVideoForMatAnyone2",
+            "MatAnyone2",
+            "SaveMatAnyone2TransparentMOV",
+            "SaveMatAnyone2TransparentWebM",
+            "SaveMatAnyone2Video"
+        ],
+        {
+            "title_aux": "ComfyUI-MatAnyone2 [NAME CONFLICT]"
         }
     ],
     "https://github.com/starsFriday/ComfyUI-Qwen3-TTS": [

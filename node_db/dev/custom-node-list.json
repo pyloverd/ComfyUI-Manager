@@ -1,6 +1,136 @@
 {
     "custom_nodes": [
         {
+            "author": "IsacEkeroth",
+            "title": "comfyui-ffmpeg-audiospeed [NAME CONFLICT]",
+            "reference": "https://github.com/IsacEkeroth/ComfyUI-Audio-Speed",
+            "files": [
+                "https://github.com/IsacEkeroth/ComfyUI-Audio-Speed"
+            ],
+            "install_type": "git-clone",
+            "description": "Standalone ComfyUI AudioSpeed node using FFmpeg atempo"
+        },
+        {
+            "author": "cnoellert",
+            "title": "ComfyUI CorridorKey [NAME CONFLICT]",
+            "reference": "https://github.com/cnoellert/comfyui-corridorkey",
+            "files": [
+                "https://github.com/cnoellert/comfyui-corridorkey"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for CorridorKey neural green screen keying"
+        },
+        {
+            "author": "DanielBartolic",
+            "title": "comfyui-custom-nodes [NAME CONFLICT]",
+            "reference": "https://github.com/DanielBartolic/comfyui-custom-nodes",
+            "files": [
+                "https://github.com/DanielBartolic/comfyui-custom-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of useful custom nodes for ComfyUI including Save Image with Caption node for saving images and prompts."
+        },
+        {
+            "author": "wxytjustb",
+            "title": "ComfyUI-CustomNodes [NAME CONFLICT]",
+            "reference": "https://github.com/wxytjustb/ComfyUI-CustomNodes",
+            "files": [
+                "https://github.com/wxytjustb/ComfyUI-CustomNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI AI node system supporting multiple API providers including Google Gemini, OpenAI, OpenRouter, and VectorEngine with configuration-driven provider and model management."
+        },
+        {
+            "author": "romandev-codex",
+            "title": "ComfyUI-Downloader [NAME CONFLICT]",
+            "reference": "https://github.com/romandev-codex/ComfyUI-Downloader",
+            "files": [
+                "https://github.com/romandev-codex/ComfyUI-Downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful extension for ComfyUI that adds a built-in model downloader with modal interface, parallel downloading, and security features for downloading models, LoRAs, and VAEs."
+        },
+        {
+            "author": "Latentnaut",
+            "title": "ComfyUI-Image-Selector [NAME CONFLICT/WIP]",
+            "reference": "https://github.com/Latentnaut/ComfyUI-Image-Selector",
+            "files": [
+                "https://github.com/Latentnaut/ComfyUI-Image-Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Image selector node for ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "saganaki22",
+            "title": "Kitten-TTS [NAME CONFLICT]",
+            "reference": "https://github.com/Saganaki22/ComfyUI-KittenTTS",
+            "files": [
+                "https://github.com/Saganaki22/ComfyUI-KittenTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for KittenTTS - Ultra-lightweight text-to-speech (CUDA / CPU)"
+        },
+        {
+            "author": "opj161",
+            "title": "comfyui-comfyui-lmstudio [NAME CONFLICT]",
+            "reference": "https://github.com/opj161/comfyui-lmstudio",
+            "files": [
+                "https://github.com/opj161/comfyui-lmstudio"
+            ],
+            "install_type": "git-clone",
+            "description": "These custom nodes acts as a bidirectional bridge between ComfyUI's synchronous/tensor-based ecosystem and LM Studio's asynchronous/text-based inference engine."
+        },
+        {
+            "author": "AJbeckliy",
+            "title": "ComfyUI-MatAnyone2 [NAME CONFLICT]",
+            "reference": "https://github.com/AJbeckliy/ComfyUI-MatAnyone2",
+            "files": [
+                "https://github.com/AJbeckliy/ComfyUI-MatAnyone2"
+            ],
+            "install_type": "git-clone",
+            "description": "MatAnyone2 node pack for video matting in ComfyUI providing end-to-end workflow for video processing with transparency export options."
+        },
+        {
+            "author": "starsfriday",
+            "title": "ComfyUI-MatAnyone2 [NAME CONFLICT]",
+            "reference": "https://github.com/starsFriday/ComfyUI-MatAnyone2",
+            "files": [
+                "https://github.com/starsFriday/ComfyUI-MatAnyone2"
+            ],
+            "install_type": "git-clone",
+            "description": "MatAnyone2's method for segmenting the characters in the video"
+        },
+        {
+            "author": "local",
+            "title": "ComfyUI Downloader [NAME CONFLICT]",
+            "reference": "https://github.com/TomBelfast/ComfyUI-Model-Downloader",
+            "files": [
+                "https://github.com/TomBelfast/ComfyUI-Model-Downloader"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that finds missing workflow models and installs them into the right folders."
+        },
+        {
+            "author": "Ckrest",
+            "title": "comfyui-ollama-nodes [NAME CONFLICT]",
+            "reference": "https://github.com/Ckrest/comfyui-ollama-nodes",
+            "files": [
+                "https://github.com/Ckrest/comfyui-ollama-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Local LLM integration for ComfyUI via Ollama with full parameter control"
+        },
+        {
+            "author": "eokoo",
+            "title": "ComfyUI-Photopea [NAME CONFLICT]",
+            "reference": "https://github.com/eokoo/ComfyUI-Photopea",
+            "files": [
+                "https://github.com/eokoo/ComfyUI-Photopea"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node interface for editing images directly using embedded online Photopea, allowing real-time image modifications within workflows."
+        },
+        {
             "author": "gzsiang",
             "title": "[LOCALE ISSUE] ComfyUI-VolcEngine",
             "id": "comfyui-volcengine",

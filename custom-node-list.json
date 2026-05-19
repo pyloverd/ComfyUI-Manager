@@ -34890,6 +34890,16 @@
             "description": "Enhanced Text Encoder modules, acd Custom nodes for ComfyUI, device-select CLIP loaders, providing HDR effects, image saving with prompt metadata."
         },
         {
+            "author": "easygoing0114",
+            "title": "UIT Sampler HiDream-O1",
+            "reference": "https://github.com/easygoing0114/ComfyUI-uit-hidream-o1",
+            "files": [
+                "https://github.com/easygoing0114/ComfyUI-uit-hidream-o1"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node — UIT Sampler for HiDream-O1-Image"
+        },
+        {
             "author": "writer-in-fancy-pants",
             "title": "Octo Json Presets",
             "reference": "https://github.com/writer-in-fancy-pants/octo_json_presets",
@@ -47606,6 +47616,26 @@
             ],
             "install_type": "git-clone",
             "description": "A smart ComfyUI extension that simplifies text-driven workflows. Systematically organize, aggregate, and switch prompts or character settings with a single click, and batch process multiple staging plans simultaneously."
+        },
+        {
+            "author": "Vivid",
+            "title": "comfyui-vivid-prompt-analysis-replacement",
+            "reference": "https://github.com/cction/ComfyUI-Vivid-Prompt-Analysis-Replacement",
+            "files": [
+                "https://github.com/cction/ComfyUI-Vivid-Prompt-Analysis-Replacement"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for structured prompt analysis and replacement"
+        },
+        {
+            "author": "antimatter",
+            "title": "AntiMatter Nodes",
+            "reference": "https://github.com/AntiMatterComfy/antimatter-nodes",
+            "files": [
+                "https://github.com/AntiMatterComfy/antimatter-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "AntiMatter custom nodes for ComfyUI, including Flux, Z-Image, and ERNIE-oriented aspect ratio tools."
         },
 
 
