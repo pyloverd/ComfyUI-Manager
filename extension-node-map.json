@@ -2966,7 +2966,8 @@
     ],
     "https://github.com/AntiMatterComfy/antimatter-nodes": [
         [
-            "Anti_aspect_ratio_master"
+            "Anti_aspect_ratio_master",
+            "Batch_Loader_From_Folder"
         ],
         {
             "title_aux": "AntiMatter Nodes"
