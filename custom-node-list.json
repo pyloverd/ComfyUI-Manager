@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "robomello",
+            "title": "ComfyUI-NVML-Monitor",
+            "reference": "https://github.com/robomello/ComfyUI-NVML-Monitor",
+            "files": [
+                "https://github.com/robomello/ComfyUI-NVML-Monitor"
+            ],
+            "install_type": "git-clone",
+            "description": "NVIDIA-first hardware telemetry chip + popup for ComfyUI. Linux/Docker-friendly with explicit accounting for VRAM used by other containers/host."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
