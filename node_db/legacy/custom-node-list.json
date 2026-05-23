@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "devzeroLL",
+            "title": "comfyui-lxj-Node [REMOVED]",
+            "reference": "https://github.com/devzeroLL/comfyui-lxj-Node",
+            "files": [
+                "https://github.com/devzeroLL/comfyui-lxj-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: lxj_ImageBatch14, lxj_TextBatch14"
+        },
+        {
             "author": "Suzu008",
             "title": "ComfyUI-ImageCritic [REMOVED]",
             "reference": "https://github.com/Suzu008/ComfyUI-ImageCritic",

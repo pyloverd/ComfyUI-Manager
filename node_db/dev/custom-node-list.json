@@ -2313,16 +2313,6 @@
             "description": "A collection of custom nodes for ComfyUI[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
         },
         {
-            "author": "devzeroLL",
-            "title": "comfyui-lxj-Node",
-            "reference": "https://github.com/devzeroLL/comfyui-lxj-Node",
-            "files": [
-                "https://github.com/devzeroLL/comfyui-lxj-Node"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: lxj_ImageBatch14, lxj_TextBatch14"
-        },
-        {
             "author": "hgh086",
             "title": "Comfyui-HghImage",
             "reference": "https://github.com/hgh086/Comfyui-HghImage",
