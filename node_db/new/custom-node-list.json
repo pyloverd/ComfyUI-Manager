@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "ketle-man",
+            "title": "ComfyUI Particle Renderer (PixiJS)",
+            "id": "comfyui-particle-pixijs",
+            "reference": "https://github.com/ketle-man/comfyUI-particle-pixijs",
+            "files": [
+                "https://github.com/ketle-man/comfyUI-particle-pixijs"
+            ],
+            "install_type": "git-clone",
+            "description": "Real-time particle animation node for ComfyUI. Renders smoke, sparks, light rays, and star-warp effects using PixiJS v7, with 13 post-effect filters, blend modes, custom textures, character-shape particles, and scatter mode. Captures any frame as an image output."
+        },
+        {
+            "author": "Excidos",
+            "title": "ComfyUI-Lumina-mGPT-Wrapper",
+            "reference": "https://github.com/Excidos/ComfyUI-Lumina-mGPT-Wrapper",
+            "files": [
+                "https://github.com/Excidos/ComfyUI-Lumina-mGPT-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "pip": [
+                "pandas",
+                "tensorboard",
+                "fairscale",
+                "sentencepiece",
+                "gradio==4.19.0",
+                "packaging",
+                "transformers>=4.43.3",
+                "pyyaml",
+                "pathlib",
+                "Ninja",
+                "bitsandbytes",
+                "httpx[socks]",
+                "einops",
+                "regex",
+                "h5py",
+                "accelerate",
+                "pre-commit"
+            ],
+            "description": "ComfyUI-Lumina-mGPT-Wrapper is a custom node for ComfyUI that integrates the advanced Lumina-mGPT model. It offers high-quality image generation with support for multiple model sizes and advanced features."
+        },
+        {
             "author": "electricty00",
             "title": "ComfyUI-Toggle-Pass",
             "reference": "https://github.com/electricty00/ComfyUI-Toggle-Pass",
