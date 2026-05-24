@@ -21458,6 +21458,16 @@
             "description": "ComfyUI-SkyworkUniPic is now available in ComfyUI, Skywork-UniPic is a unified autoregressive multimodal model with 1.5 billion parameters that natively integrates image understanding, text-to-image generation, and image editing capabilities within a single architecture."
         },
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Qwen-Image",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Qwen-Image",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Qwen-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Qwen-Image is now available in ComfyUI, Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing."
+        },
+        {
             "author": "Starnodes2024",
             "title": "ComfyUI_StarNodes",
             "reference": "https://github.com/Starnodes2024/ComfyUI_StarNodes",
@@ -46858,6 +46868,17 @@
             "description": "Adds login, admin-managed user registration, API token generation, IP filtering, and per-account asset isolation to ComfyUI."
         },
         {
+            "author": "magicwang1111",
+            "title": "ComfyUI-GPT-image (OpenAI/Relay)",
+            "id": "comfyui-gpt-image-openai-relay",
+            "reference": "https://github.com/magicwang1111/ComfyUI-GPT-image",
+            "files": [
+                "https://github.com/magicwang1111/ComfyUI-GPT-image"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate and edit images in ComfyUI with OpenAI GPT Image models. Includes dedicated Generate and Edit nodes, multi-image reference input, size presets, and support for both the official OpenAI API and OpenAI-compatible relay endpoints."
+        },
+        {
             "author": "artyclaw",
             "title": "ArtyClaw Comfy Nodes",
             "reference": "https://github.com/artyclaw/artyclaw-comfy",
@@ -49526,6 +49547,17 @@
                 "pre-commit"
             ],
             "description": "ComfyUI-Lumina-mGPT-Wrapper is a custom node for ComfyUI that integrates the advanced Lumina-mGPT model. It offers high-quality image generation with support for multiple model sizes and advanced features."
+        },
+        {
+            "author": "MatthewCHarrison",
+            "title": "Metadata manager for various generation services",
+            "id": "MetaMan",
+            "reference": "https://github.com/MatthewClayHarrison/ComfyUI-MetaMan",
+            "files": [
+                "https://github.com/MatthewClayHarrison/ComfyUI-MetaMan"
+            ],
+            "install_type": "git-clone",
+            "description": "MetaMan bridges the metadata gap between AI image generation services, enabling seamless workflow sharing and model dependency tracking across platforms."
         },
         {
             "author": "Ser-Hilary",

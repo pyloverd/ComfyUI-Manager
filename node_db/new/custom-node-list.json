@@ -1,6 +1,38 @@
 {
     "custom_nodes": [
         {
+            "author": "Yuan-ManX",
+            "title": "ComfyUI-Qwen-Image",
+            "reference": "https://github.com/Yuan-ManX/ComfyUI-Qwen-Image",
+            "files": [
+                "https://github.com/Yuan-ManX/ComfyUI-Qwen-Image"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-Qwen-Image is now available in ComfyUI, Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing."
+        },
+        {
+            "author": "MatthewCHarrison",
+            "title": "Metadata manager for various generation services",
+            "id": "MetaMan",
+            "reference": "https://github.com/MatthewClayHarrison/ComfyUI-MetaMan",
+            "files": [
+                "https://github.com/MatthewClayHarrison/ComfyUI-MetaMan"
+            ],
+            "install_type": "git-clone",
+            "description": "MetaMan bridges the metadata gap between AI image generation services, enabling seamless workflow sharing and model dependency tracking across platforms."
+        },
+        {
+            "author": "magicwang1111",
+            "title": "ComfyUI-GPT-image (OpenAI/Relay)",
+            "id": "comfyui-gpt-image-openai-relay",
+            "reference": "https://github.com/magicwang1111/ComfyUI-GPT-image",
+            "files": [
+                "https://github.com/magicwang1111/ComfyUI-GPT-image"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate and edit images in ComfyUI with OpenAI GPT Image models. Includes dedicated Generate and Edit nodes, multi-image reference input, size presets, and support for both the official OpenAI API and OpenAI-compatible relay endpoints."
+        },
+        {
             "author": "ketle-man",
             "title": "ComfyUI Particle Renderer (PixiJS)",
             "id": "comfyui-particle-pixijs",
