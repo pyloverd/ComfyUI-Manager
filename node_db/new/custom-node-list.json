@@ -1961,7 +1961,7 @@
                 "https://github.com/Anonymzx/BangtrixToolkit"
             ],
             "install_type": "git-clone",
-            "description": "Advanced ComfyUI toolkit with translation, AMD ROCm utilities, optimization, and workflow enhance"
+            "description": "Real-time ComfyUI Hardware Monitor with native AMD ROCm and All GPU/APU NVIDIA support and Universal Prompt Translator node for multilingual AI workflows, AMD ROCm utilities, optimization, and workflow enhance"
         },
         {
             "author": "pmarmotte2",
