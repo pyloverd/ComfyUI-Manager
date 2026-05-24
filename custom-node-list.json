@@ -49468,6 +49468,16 @@
             "description": "Anime character image evaluation nodes (CCIP + OKS + Angle) for ComfyUI"
         },
         {
+            "author": "Ganaraj",
+            "title": "comfyui-turbodiffusion",
+            "reference": "https://github.com/anveshane/Comfyui_turbodiffusion",
+            "files": [
+                "https://github.com/anveshane/Comfyui_turbodiffusion"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for TurboDiffusion I2V (Image-to-Video) generation with dual-expert sampling and SLA attention optimization."
+        },
+        {
             "author": "Ser-Hilary",
             "title": "SDXL_sizing",
             "reference": "https://github.com/Ser-Hilary/SDXL_sizing",
