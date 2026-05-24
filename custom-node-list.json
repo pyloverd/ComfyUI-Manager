@@ -49478,6 +49478,16 @@
             "description": "ComfyUI custom node for TurboDiffusion I2V (Image-to-Video) generation with dual-expert sampling and SLA attention optimization."
         },
         {
+            "author": "electricty00",
+            "title": "ComfyUI-Toggle-Pass",
+            "reference": "https://github.com/electricty00/ComfyUI-Toggle-Pass",
+            "files": [
+                "https://github.com/electricty00/ComfyUI-Toggle-Pass"
+            ],
+            "install_type": "git-clone",
+            "description": "Toggle-Pass: Privacy toggle, dynamic LoRA slots, and other quality-of-life nodes for ComfyUI"
+        },
+        {
             "author": "Ser-Hilary",
             "title": "SDXL_sizing",
             "reference": "https://github.com/Ser-Hilary/SDXL_sizing",

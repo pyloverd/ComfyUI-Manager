@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "electricty00",
+            "title": "ComfyUI-Toggle-Pass",
+            "reference": "https://github.com/electricty00/ComfyUI-Toggle-Pass",
+            "files": [
+                "https://github.com/electricty00/ComfyUI-Toggle-Pass"
+            ],
+            "install_type": "git-clone",
+            "description": "Toggle-Pass: Privacy toggle, dynamic LoRA slots, and other quality-of-life nodes for ComfyUI"
+        },
+        {
             "author": "Ganaraj",
             "title": "comfyui-turbodiffusion",
             "reference": "https://github.com/anveshane/Comfyui_turbodiffusion",
