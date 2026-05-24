@@ -28353,7 +28353,7 @@
                 "https://github.com/sidmehraajm/ssd_frame_compare"
             ],
             "install_type": "git-clone",
-            "description": "Interactive A/B frame comparison node with slider, side-by-side, overlay, and video playback — directly inside ComfyUI."
+            "description": "Interactive Image A/B comparison node with slider wipe, side-by-side, overlay transparency, and synced video playback for image sequences. Easily compare or just view one frame or a sequence of frames."
         },
         {
             "author": "JoeNavark",
@@ -42911,14 +42911,14 @@
         },
         {
             "author": "MajoorWaldi",
-            "title": "ComfyUI-Majoor-AssetsManager",
+            "title": "Majoor Assets Manager",
             "id": "majoor-assetsmanager",
             "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager",
             "files": [
                 "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager"
             ],
             "install_type": "git-clone",
-            "description": "Majoor Assets Manager is an advanced asset browser for ComfyUI with search, metadata extraction, rating/tags, workflow metadata parsing, and integrated image/video/audio asset management."
+            "description": "An advanced Assets manager for ComfyUI outputs with gallery, metadata inspection, ratings, and tags."
         },
         {
             "author": "sinanzoo2nd",
@@ -46133,13 +46133,13 @@
         },
         {
             "author": "cowneko",
-            "title": "CWK_Checkpoints_Preset_Manager",
+            "title": "CWK Checkpoints Preset Manager",
             "reference": "https://github.com/cowneko/CWK_Checkpoints_Preset_Manager",
             "files": [
                 "https://github.com/cowneko/CWK_Checkpoints_Preset_Manager"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node combining per-model preset system with full-featured model manager, CivitAI integration, and GGUF support for browsing and organizing checkpoints."
+            "description": "CWK Checkpoints Preset Manager — A ComfyUI custom node that combines a full model manager with a per-checkpoint preset system. Manage all your models from a visual panel with CivitAI metadatas, favorites, and update. Save presets (sampler, scheduler, CFG, steps, clipskip, resolution, RNG) per model."
         },
         {
             "author": "dogodg3838",
