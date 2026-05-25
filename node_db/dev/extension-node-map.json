@@ -8390,15 +8390,6 @@
             "title_aux": "comfyui-null-checker"
         }
     ],
-    "https://github.com/devzeroLL/comfyui-lxj-Node": [
-        [
-            "lxj_ImageBatch14",
-            "lxj_TextBatch14"
-        ],
-        {
-            "title_aux": "comfyui-lxj-Node"
-        }
-    ],
     "https://github.com/dexintenebri/comfyui_voxel_nodes": [
         [
             "AutoVoxelScaler",
@@ -11372,6 +11363,7 @@
             "ImageBatchtoImageList",
             "ImageBatchtoImages",
             "ImageOverlay_lhy",
+            "LivePreviewer",
             "LoadImageBatch",
             "LoadZipBatch",
             "LoraName",
@@ -13258,6 +13250,7 @@
             "IO Checkpoint Loader [Eclipse]",
             "IO Load Image [Eclipse]",
             "Image Align Size [Eclipse]",
+            "Image Batch Extend With Overlap [Eclipse]",
             "Image Comparer [Eclipse]",
             "Image Convert [Eclipse]",
             "Image Crop by Mask [Eclipse]",
@@ -14308,6 +14301,7 @@
             "JsonPathLoader",
             "JsonPromptToTextPromptConverter",
             "JsonSerializeObject",
+            "LlamaCppTextGenerator",
             "Logger",
             "LoraLoaderExtended",
             "LoraLoaderExtendedBatch",
