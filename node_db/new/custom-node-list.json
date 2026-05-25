@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "blackmeat1225",
+            "title": "ComfyUI-Qwen2.5-VL-7B-OPENVINO",
+            "reference": "https://github.com/blackmeat1225/ComfyUI-Qwen2.5-VL-7B-OPENVINO",
+            "files": [
+                "https://github.com/blackmeat1225/ComfyUI-Qwen2.5-VL-7B-OPENVINO"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that unleashes Intel CPU + iGPU power via OpenVINO."
+        },
+        {
+            "author": "CalaKuad1",
+            "title": "ComfyUI-PixelArt-Unfaker",
+            "reference": "https://github.com/CalaKuad1/ComfyUI-PixelArt-Unfaker",
+            "files": [
+                "https://github.com/CalaKuad1/ComfyUI-PixelArt-Unfaker"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful custom node for ComfyUI that transforms fake or blurry AI-generated pixel art into true, crisp, mathematically perfect pixel art."
+        },
+        {
+            "author": "DEMOUSL",
+            "title": "comfyui_merge_video",
+            "reference": "https://github.com/DEMOUSL/comfyui_merge_video",
+            "files": [
+                "https://github.com/DEMOUSL/comfyui_merge_video"
+            ],
+            "install_type": "git-clone",
+            "description": "Video Merge Node that combines image batches with SRT text, audio padding, and mixes voice and background music into final video output."
+        },
+        {
+            "author": "adbrasi",
+            "title": "prompta_generita_lite",
+            "reference": "https://github.com/adbrasi/prompta_generita_lite",
+            "files": [
+                "https://github.com/adbrasi/prompta_generita_lite"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for generating prompts by combining manual character descriptions, outfit sections, and .txt file lines. (Description by CC)"
+        },
+        {
             "author": "kevinkessler",
             "title": "Mask Batch Union",
             "reference": "https://github.com/kevinkessler/comfyui-mask-batch-union",
