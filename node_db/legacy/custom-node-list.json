@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "zhupeter010903",
+            "title": "ComfyUI-prompt-library [REMOVED]",
+            "reference": "https://github.com/zhupeter010903/ComfyUI-prompt-library",
+            "files": [
+                "https://github.com/zhupeter010903/ComfyUI-prompt-library"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Grouped Prompt Node, ..."
+        },
+        {
             "author": "meshmesh-io",
             "title": "mm-comfyui-loopback [REMOVED]",
             "id": "mm-loopback",
