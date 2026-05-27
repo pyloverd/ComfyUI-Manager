@@ -2879,6 +2879,7 @@
             "SBTools_MatchColor",
             "SBTools_MatchColorBalance",
             "SBTools_MatchLuminance",
+            "SBTools_SaveText",
             "SBTools_VariableBuilder",
             "SBTools_VariableCombiner",
             "SBTools_VariableFolder",
@@ -3533,6 +3534,7 @@
             "SimpleSyrup.ResizeImageToTarget",
             "SimpleSyrup.SAMModelLoader",
             "SimpleSyrup.ScaleFactor",
+            "SimpleSyrup.ScheduleAndEncodePromptsWithPromptControl",
             "SimpleSyrup.Seed",
             "SimpleSyrup.SimpleLoadAnima",
             "SimpleSyrup.SimpleLoadCheckpoint",
@@ -18689,6 +18691,7 @@
             "CRTAutoDLLTX23Model",
             "CRTAutoDLLTX23ModelGGUFQ4",
             "CRTAutoDLLTX23ModelGGUFQ5",
+            "CRTAutoDLLTX23ModelNVFP4",
             "CRTAutoDLLTX23VideoVAE",
             "CRTAutoDLZImageTurboCLIP",
             "CRTAutoDLZImageTurboModel",
@@ -24718,14 +24721,6 @@
         ],
         {
             "title_aux": "Whykiki ComfyUI Toolset"
-        }
-    ],
-    "https://github.com/ThepExcel/aiangelgallery-comfyui": [
-        [
-            "ThepExcel_AiAngel_MultilineTextChoiceNode"
-        ],
-        {
-            "title_aux": "Multiline Text Choice Node for ComfyUI"
         }
     ],
     "https://github.com/ThereforeGames/ComfyUI-Unprompted": [
@@ -32531,6 +32526,19 @@
             "title_aux": "ComfyUI-SimpleSwitch"
         }
     ],
+    "https://github.com/boobkake22/ComfyUI-TemplateVars": [
+        [
+            "ApplyTemplateVariables",
+            "CLIPTextEncodeWithTemplateVariables",
+            "MergeTemplateVariables",
+            "TemplateVariable",
+            "TemplateVariableFromString",
+            "TemplateVariablesFromStrings"
+        ],
+        {
+            "title_aux": "Template Vars"
+        }
+    ],
     "https://github.com/boobkake22/ComfyUI-WanResolutions": [
         [
             "LTXResolutions",
@@ -36146,6 +36154,8 @@
             "KlingVideoExtendNode",
             "KlingVideoNode",
             "KlingVirtualTryOnNode",
+            "Krea2ImageNode",
+            "Krea2StyleReferenceNode",
             "LTXAVTextEncoderLoader",
             "LTXVAddGuide",
             "LTXVAudioVAEDecode",
@@ -36300,6 +36310,7 @@
             "PerturbedAttentionGuidance",
             "PhotoMakerEncode",
             "PhotoMakerLoader",
+            "PiDConditioning",
             "PixverseImageToVideoNode",
             "PixverseTemplateNode",
             "PixverseTextToVideoNode",
@@ -41037,6 +41048,7 @@
             "FL_KartelJobInput",
             "FL_KartelJobOutput",
             "FL_KsamplerBasic",
+            "FL_KsamplerContextWindow",
             "FL_KsamplerPlus",
             "FL_KsamplerPlusV2",
             "FL_KsamplerSEG",
@@ -42512,6 +42524,7 @@
             "RandomOrgV2TrueRandomNumber",
             "RandomOrgV2TrueRandomNumber_node",
             "VAEDecodePreview_node",
+            "YFGRandomPromptFromFile_node",
             "YFG_DisplayValue",
             "image2contrastMask_node",
             "image2imbgg_node",
@@ -43843,6 +43856,7 @@
         [
             "PNGTuberGeneratedMouthSpriteApplier",
             "PNGTuberVideoMouthBuilder",
+            "PNGTuberVideoUploadToMouthBundle",
             "PromptMakerPNGTuberVideoMouth"
         ],
         {
@@ -49872,7 +49886,10 @@
             "LRW_ParallelTransport",
             "LRW_PullbackMetric",
             "LRW_SlerpInterpolate",
-            "LRW_VAEDecoderBridge"
+            "LRW_VAEDecoderBridge",
+            "LRW_WanCurvatureGuide",
+            "LRW_WanGeodesicKeyframes",
+            "LRW_WanTemporalMetric"
         ],
         {
             "title_aux": "comfyui-lrw-nodes"
@@ -50720,6 +50737,8 @@
     ],
     "https://github.com/lingziwyh/ComfyUI-GiftHelperSuite": [
         [
+            "AEAlphaOverRGBA",
+            "AEUnmultRGBA",
             "FastBottomFitOverlay",
             "FastGiftPostFX",
             "VideoTimeRemapSpeedPresets"
@@ -57862,6 +57881,7 @@
             "PixaromaSwitchWH",
             "PixaromaText",
             "PixaromaTextOverlay",
+            "PixaromaTextWatermark",
             "PixaromaWH",
             "Pixaroma_VueReferenceNode"
         ],
@@ -61657,7 +61677,9 @@
     "https://github.com/sheldongriffin/ComfyUI-Bricolage": [
         [
             "LMStudio",
-            "RandomArtist"
+            "RandomArtist",
+            "RandomSDXLLatent",
+            "TextConcatSimple"
         ],
         {
             "title_aux": "ComfyUI-Bricolage"
@@ -62852,7 +62874,9 @@
             "LucidFlux_SM_Diffbir",
             "LucidFlux_SM_Encode",
             "LucidFlux_SM_KSampler",
-            "LucidFlux_SM_Model"
+            "LucidFlux_SM_Model",
+            "LucidFlux_SM_Pid_Decoder",
+            "LucidFlux_SM_Pid_Model"
         ],
         {
             "title_aux": "ComfyUI_LucidFlux"

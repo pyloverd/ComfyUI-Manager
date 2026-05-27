@@ -6216,10 +6216,13 @@
             "ImageScaleToTotalPixelsRound64",
             "ImageStitcher",
             "LABtoRGB",
+            "LTXVLatentConcat",
+            "LTXVLatentTrim",
             "MatchRYGCBMColors",
             "RGBtoLAB",
             "RGBtoRYGCBM",
             "RYGCBMtoRGB",
+            "RandomDecreasing01Sequence",
             "TextCommaToRandomWeighted",
             "TextCommaToWeighted"
         ],
