@@ -7184,6 +7184,14 @@
             "title_aux": "ComfyUI-MyOriginalWaifu"
         }
     ],
+    "https://github.com/Deathspike/ComfyUI-NegPipPromptMerge": [
+        [
+            "NegPipPromptMergeCLIP"
+        ],
+        {
+            "title_aux": "ComfyUI-NegPipPromptMerge"
+        }
+    ],
     "https://github.com/DebugPadawan/DebugPadawans-ComfyUI-Essentials": [
         [
             "DP_JSONToText",
@@ -11633,6 +11641,16 @@
             "title_aux": "ComfyUI-ASSSSA"
         }
     ],
+    "https://github.com/HitmanLoges/comfyui-glitch-lab-sampler": [
+        [
+            "AttentionDropoutPatcher",
+            "GlitchSigmas",
+            "LatentFrameInterleave"
+        ],
+        {
+            "title_aux": "comfyui-glitch-lab-sampler"
+        }
+    ],
     "https://github.com/HoangYell/comfyui-hoangyell-video": [
         [
             "AddIntroImage"
@@ -12493,6 +12511,14 @@
             "nickname": "ComfyUI FairyTaler",
             "title": "ComfyUI FairyTaler Storyboard Nodes",
             "title_aux": "ComfyUI-FairyTaler"
+        }
+    ],
+    "https://github.com/IIs-fanta/ComfyUI-CNS-Sampler-CHENGOU": [
+        [
+            "CNSSampler_CHENGOU"
+        ],
+        {
+            "title_aux": "ComfyUI-CNS-Sampler-CHENGOU"
         }
     ],
     "https://github.com/IIs-fanta/ComfyUI-FANTA-GameBox": [
@@ -14547,6 +14573,14 @@
         ],
         {
             "title_aux": "KurdKnight ComfyUI System Check Node"
+        }
+    ],
+    "https://github.com/KursatAs/ComfyUI-Flux2KontextConditioner": [
+        [
+            "Flux2KontextConditioner"
+        ],
+        {
+            "title_aux": "ComfyUI-Flux2KontextConditioner"
         }
     ],
     "https://github.com/KursatAs/KrsNodes": [
@@ -16848,6 +16882,21 @@
             "title_aux": "MilitantHitchhiker-SwitchbladePack"
         }
     ],
+    "https://github.com/Milkyawaway/comfyui-ralu-sampling": [
+        [
+            "RALUConditioningAdapter",
+            "RALUFluxWorkflowBridge",
+            "RALUModelAdapter",
+            "RALUNoiseSource",
+            "RALUSamplerCore",
+            "SD3HighResDenoise",
+            "SD3LowResDenoise",
+            "SD3TwoStageDenoise"
+        ],
+        {
+            "title_aux": "comfyui-ralu-sampling"
+        }
+    ],
     "https://github.com/MilleN2ium/ComfyUI-CutomizableSave": [
         [
             "MyOtherNode"
@@ -17419,6 +17468,14 @@
         ],
         {
             "title_aux": "ComfyUI-TextOverlay"
+        }
+    ],
+    "https://github.com/Murdunbad/lora-scheduled-comfyui": [
+        [
+            "LoRAScheduledTimestep"
+        ],
+        {
+            "title_aux": "lora-scheduled-comfyui"
         }
     ],
     "https://github.com/MushroomFleet/ComfyUI-DJZ-Offsquare": [
@@ -21705,6 +21762,14 @@
         ],
         {
             "title_aux": "ComfyUI-SPoletNodes"
+        }
+    ],
+    "https://github.com/SergeBekenkamp/ComfyUI-Combine-Strings-Template": [
+        [
+            "ReplaceStringLiterals"
+        ],
+        {
+            "title_aux": "ComfyUI-Combine-Strings-Template"
         }
     ],
     "https://github.com/ServiceStack/comfy-asset-downloader": [
@@ -26389,6 +26454,17 @@
         ],
         {
             "title_aux": "ComfyUI-MIKKY-Mask-Editor"
+        }
+    ],
+    "https://github.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana": [
+        [
+            "JiliguluNanoBanana2Node",
+            "JiliguluNanoBananaFastNode",
+            "JiliguluNanoBananaNode",
+            "JiliguluNanoBananaProNode"
+        ],
+        {
+            "title_aux": "JILIGULU Nano Banana"
         }
     ],
     "https://github.com/XchanBik/ComfyUI_SimpleBridgeNode": [
@@ -35419,6 +35495,16 @@
             "title_aux": "ComfyUI Prompt Optimizer"
         }
     ],
+    "https://github.com/cingee2016/ComfyUI-QuickUseTools": [
+        [
+            "QuickBatchProcess",
+            "QuickConditionalRoute",
+            "QuickImageResize"
+        ],
+        {
+            "title_aux": "ComfyUI-QuickUseTools"
+        }
+    ],
     "https://github.com/ciri/comfyui-model-downloader": [
         [
             "Auto Model Downloader",
@@ -37487,6 +37573,17 @@
         ],
         {
             "title_aux": "creative-code"
+        }
+    ],
+    "https://github.com/cxntibor/ComfyUI-CXN": [
+        [
+            "CXN_ImageDifference",
+            "CXN_LoadFBX",
+            "CXN_MatchFootPose",
+            "CXN_RenderFBX"
+        ],
+        {
+            "title_aux": "ComfyUI-CXN"
         }
     ],
     "https://github.com/cyan9977/ComfyUI_PromptQueue": [
@@ -51629,6 +51726,30 @@
             "title_aux": "ComfyUI WhisperX Pro"
         }
     ],
+    "https://github.com/lookuters22/ComfyUI-ApplySpectralLock": [
+        [
+            "ApplySpectralLock"
+        ],
+        {
+            "title_aux": "ApplySpectralLock"
+        }
+    ],
+    "https://github.com/lookuters22/ComfyUI-FluxDetailGuidance": [
+        [
+            "FluxDetailGuidance"
+        ],
+        {
+            "title_aux": "ComfyUI-FluxDetailGuidance"
+        }
+    ],
+    "https://github.com/lookuters22/ComfyUI-FluxProgressiveLockedUpscale": [
+        [
+            "FluxProgressiveLockedUpscale"
+        ],
+        {
+            "title_aux": "ComfyUI-FluxProgressiveLockedUpscale"
+        }
+    ],
     "https://github.com/lookuters22/ComfyUI-SEEDS3Sampler": [
         [
             "SamplerSEEDS3"
@@ -52871,6 +52992,24 @@
         ],
         {
             "title_aux": "ComfyUI Sokes Nodes \ud83e\uddac"
+        }
+    ],
+    "https://github.com/m0rtus59/ComfyUI-MoonNodes": [
+        [
+            "ClearableTextInput",
+            "GeminiAdvancedSettings",
+            "GeminiPersistentChat",
+            "LLMSubmitInput",
+            "MoonIndexedEncoder",
+            "MoonMarkdownOutput",
+            "MoonMaskMaker",
+            "MoonMaskMakerGUI",
+            "MoonMultiPassSampler",
+            "MoonQuickstart",
+            "MoonRegionalSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-MoonNodes"
         }
     ],
     "https://github.com/m3rr/h4_ToolKit": [
@@ -54386,6 +54525,18 @@
             "title_aux": "ComfyUI - Mask Bounding Box"
         }
     ],
+    "https://github.com/millerlight/ComfyUI-KVTools": [
+        [
+            "KVGet",
+            "KVImagePathFromRegistry",
+            "KVLoadFromRegistry",
+            "KVLoadInline",
+            "KVPreviewImageFromRegistry"
+        ],
+        {
+            "title_aux": "Key-Value KV-Tools for ComfyUI"
+        }
+    ],
     "https://github.com/mingchoi/ComfyUI-Prompt-Iterator": [
         [
             "PromptIterator",
@@ -55374,6 +55525,14 @@
         ],
         {
             "title_aux": "ComfyUI-DCW"
+        }
+    ],
+    "https://github.com/namemechan/comfyui-cns_sampler_patch": [
+        [
+            "CNSSamplerPatch"
+        ],
+        {
+            "title_aux": "comfyui-cns_sampler_patch"
         }
     ],
     "https://github.com/namtb96/OmniGen2-Simple-Node": [
@@ -69234,6 +69393,15 @@
         ],
         {
             "title_aux": "comfyui-agent-adapter"
+        }
+    ],
+    "https://github.com/yaofeng/comfyui-zimage-vl": [
+        [
+            "CLIP Text Image Encode",
+            "Load CLIP with Visual"
+        ],
+        {
+            "title_aux": "comfyui-zimage-vl"
         }
     ],
     "https://github.com/yasser-baalla/comfyUI-SemanticImageFetch": [
