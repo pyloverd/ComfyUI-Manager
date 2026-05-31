@@ -28816,6 +28816,16 @@
             "description": "Nodes for playing mini-games with ComfyUI."
         },
         {
+            "author": "IIs-fanta",
+            "title": "ComfyUI-CNS-Sampler-CHENGOU",
+            "reference": "https://github.com/IIs-fanta/ComfyUI-CNS-Sampler-CHENGOU",
+            "files": [
+                "https://github.com/IIs-fanta/ComfyUI-CNS-Sampler-CHENGOU"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node implementing Colored Noise Sampling (CNS)—a plug-and-play SDE sampler that actively exploits the spectral bias of diffusion models to improve image quality."
+        },
+        {
             "author": "pixible",
             "title": "comfyui-customselector",
             "reference": "https://github.com/gasparuff/CustomSelector",
@@ -38333,6 +38343,16 @@
             "description": "NODES: TextEncodeQwenImageEditKrsSimple, TextEncodeQwenImageEditKrsAdvanced, QwenImageEditLatentKrs, ..."
         },
         {
+            "author": "kursatas",
+            "title": "ComfyUI-Flux2KontextConditioner",
+            "reference": "https://github.com/KursatAs/ComfyUI-Flux2KontextConditioner",
+            "files": [
+                "https://github.com/KursatAs/ComfyUI-Flux2KontextConditioner"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced conditioning node for Flux2 Klein Kontext image editing workflows. Encodes up to 3 reference images via the Flux2 VAE and attaches them as reference latents for Kontext attention. Text is encoded through the Qwen3-8B LLM-based text encoder with optional instruct prompt wrapping. Supports per-image strength and resolution control, VAE tiling for high-resolution encoding, and bakes the Flux2 guidance scale directly into the conditioning."
+        },
+        {
             "author": "Blacksnowskill",
             "title": "BSS WD14 Batch Tagger",
             "reference": "https://github.com/BlackSnowSkill/wd14_batch_tagger",
@@ -41485,6 +41505,16 @@
             "description": "My Original Waifu is a tag-based prompt-transformation engine for ComfyUI designed for creators who want their original characters to feel consistent, expressive, and faithfully rendered across every scene. Instead of manually adjusting tags each time you generate an image, you define the essence of your waifu, her look, her outfits, the way she appears in different contexts, and the engine transforms your prompt to match those intentions. It stays out of the way and simply follows your rules with clarity and consistency. Your Waifu. Your Rules. Your Perfect Prompt."
         },
         {
+            "author": "deathspike",
+            "title": "ComfyUI-NegPipPromptMerge",
+            "reference": "https://github.com/Deathspike/ComfyUI-NegPipPromptMerge",
+            "files": [
+                "https://github.com/Deathspike/ComfyUI-NegPipPromptMerge"
+            ],
+            "install_type": "git-clone",
+            "description": "A CLIP prompt compiler that folds negative prompts into positive prompts with NegPip negative weights for guidance-distilled models."
+        },
+        {
             "author": "LeonQ8",
             "title": "ComfyUI-Dynamic-Lora-Scheduler",
             "reference": "https://github.com/LeonQ8/ComfyUI-Dynamic-Lora-Scheduler",
@@ -41673,16 +41703,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that sanitizes strings for use as filesystem paths"
-        },
-        {
-            "author": "ssspace1",
-            "title": "SSpack_ComfyUI",
-            "reference": "https://github.com/ssspace1/SSpack_ComfyUI",
-            "files": [
-                "https://github.com/ssspace1/SSpack_ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "Compact, UI-friendly nodes for ComfyUI with LoRA/checkpoint selectors with thumbnails, text utilities, image helpers, and a lightweight cache cleaner script."
         },
         {
             "author": "SofianeAlla",
@@ -46641,6 +46661,16 @@
             "description": "A ComfyUI plugin providing agent integration nodes for base64 image processing without temporary files, supporting PNG, JPEG, and WEBP formats with adjustable compression quality. (Description by CC)"
         },
         {
+            "author": "yaofeng",
+            "title": "comfyui-zimage-vl",
+            "reference": "https://github.com/yaofeng/comfyui-zimage-vl",
+            "files": [
+                "https://github.com/yaofeng/comfyui-zimage-vl"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin providing vision-language model (VLM) conditioning via Qwen3-VL for Z-Image-Turbo video generation with multi-modal concept consistency."
+        },
+        {
             "author": "SteveCastle",
             "title": "comfyui-image-cycler",
             "reference": "https://github.com/SteveCastle/comfyui-image-cycler",
@@ -48955,6 +48985,16 @@
             "description": "Near implementation of Differential Correction in Wavelet domain (DCW) for SNR-t bias correction. Based on arXiv:2604.16044 (Yu et al., 2026). No external dependencies. Compatible with SDXL, SD1.5, Flux, Cosmos, EDM, DiT. (README in Korean)"
         },
         {
+            "author": "namemechan",
+            "title": "comfyui-cns_sampler_patch",
+            "reference": "https://github.com/namemechan/comfyui-cns_sampler_patch",
+            "files": [
+                "https://github.com/namemechan/comfyui-cns_sampler_patch"
+            ],
+            "install_type": "git-clone",
+            "description": "Wavelet-based frequency-aware noise coloring for ComfyUI samplers; adapts noise injection across frequency bands during generation to improve image detail and quality. (Description by CC)"
+        },
+        {
             "author": "wuwukaka",
             "title": "ComfyUI-BodyRatioMapper",
             "reference": "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper",
@@ -50900,16 +50940,6 @@
             "description": "Custom javascript extensions for better UX for ComfyUI. Supported nodes: PreviewImage, SaveImage. Double click on image to open."
         },
         {
-            "author": "denyazzolin",
-            "title": "comfyui-abs-int",
-            "reference": "https://github.com/denyazzolin/comfyui-abs-int",
-            "files": [
-                "https://github.com/denyazzolin/comfyui-abs-int"
-            ],
-            "install_type": "git-clone",
-            "description": "This node receives an int and returns the positive version of it in any case."
-        },
-        {
             "author": "rock-land",
             "title": "graphNavigator",
             "reference": "https://github.com/rock-land/graphNavigator",
@@ -52645,6 +52675,106 @@
             ],
             "install_type": "git-clone",
             "description": "A growing collection of EmberFrame utility nodes for Comfy, including advanced PiD sampling, Z-Image/Flux latent normalization, wildcard prompt helpers, and resolution tools."
+        },
+        {
+            "author": "qazwsxedc121",
+            "title": "Qaz Tools",
+            "reference": "https://github.com/qazwsxedc121/comfyui-qaz-tools",
+            "files": [
+                "https://github.com/qazwsxedc121/comfyui-qaz-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Personal ComfyUI custom node toolkit — dynamic prompts, utilities, and more."
+        },
+        {
+            "author": "lookuters22",
+            "title": "ComfyUI-SEEDS3Sampler",
+            "reference": "https://github.com/lookuters22/ComfyUI-SEEDS3Sampler",
+            "files": [
+                "https://github.com/lookuters22/ComfyUI-SEEDS3Sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Exposes eta/s_noise/r_1/r_2 controls for ComfyUI's built-in seeds_3 solver. eta=0 gives a clean deterministic 3rd-order exponential sampler that preserves structure/text at high denoise without grain."
+        },
+        {
+            "author": "lookuters22",
+            "title": "ComfyUI-FluxDetailGuidance",
+            "reference": "https://github.com/lookuters22/ComfyUI-FluxDetailGuidance",
+            "files": [
+                "https://github.com/lookuters22/ComfyUI-FluxDetailGuidance"
+            ],
+            "install_type": "git-clone",
+            "description": "Flux self-guidance node that adds micro-detail during a refine without raising denoise or changing composition. Runs inside tiled samplers."
+        },
+        {
+            "author": "lookuters22",
+            "title": "ApplySpectralLock",
+            "reference": "https://github.com/lookuters22/ComfyUI-ApplySpectralLock",
+            "files": [
+                "https://github.com/lookuters22/ComfyUI-ApplySpectralLock"
+            ],
+            "install_type": "git-clone",
+            "description": "ApplySpectralLock — latent spectral handoff for Flux.1 / Rectified Flow and USDU tiled upscaling."
+        },
+        {
+            "author": "lookuters22",
+            "title": "ComfyUI-FluxProgressiveLockedUpscale",
+            "reference": "https://github.com/lookuters22/ComfyUI-FluxProgressiveLockedUpscale",
+            "files": [
+                "https://github.com/lookuters22/ComfyUI-FluxProgressiveLockedUpscale"
+            ],
+            "install_type": "git-clone",
+            "description": "Single-node, 3-stage Flux pipeline: base generation, progressive locked-noise upscale, and an optional refine pass. Driven by any SAMPLER (e.g. RES4LYF ClownSampler) and preserves composition across resolution changes via orthogonal subspace noise locking."
+        },
+        {
+            "author": "HitmanLoges",
+            "title": "comfyui-glitch-lab-sampler",
+            "reference": "https://github.com/HitmanLoges/comfyui-glitch-lab-sampler",
+            "files": [
+                "https://github.com/HitmanLoges/comfyui-glitch-lab-sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom-node pack for abstract glitch art with three nodes that perturb diffusion sampling: sigma-schedule jitter, attention-map value dropout, and temporal frame interleaving for video latents."
+        },
+        {
+            "author": "Milkyawaway",
+            "title": "comfyui-ralu-sampling",
+            "reference": "https://github.com/Milkyawaway/comfyui-ralu-sampling",
+            "files": [
+                "https://github.com/Milkyawaway/comfyui-ralu-sampling"
+            ],
+            "install_type": "git-clone",
+            "description": "Standalone export of custom nodes for FLUX and SD3 RALU sampling experiments with model-family adapters. (Description by CC)"
+        },
+        {
+            "author": "Murdunbad",
+            "title": "lora-scheduled-comfyui",
+            "reference": "https://github.com/Murdunbad/lora-scheduled-comfyui",
+            "files": [
+                "https://github.com/Murdunbad/lora-scheduled-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node that applies LoRA only during a specific window of the denoising process instead of throughout entire generation."
+        },
+        {
+            "author": "SergeBekenkamp",
+            "title": "ComfyUI-Combine-Strings-Template",
+            "reference": "https://github.com/SergeBekenkamp/ComfyUI-Combine-Strings-Template",
+            "files": [
+                "https://github.com/SergeBekenkamp/ComfyUI-Combine-Strings-Template"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that performs positional placeholder substitution on a template string with {0}, {1}, {2}, etc. placeholders."
+        },
+        {
+            "author": "xyqc-lh",
+            "title": "JILIGULU Nano Banana",
+            "reference": "https://github.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana",
+            "files": [
+                "https://github.com/XYQC-LH/ComfyUI-JILIGULU-Nano-Banana"
+            ],
+            "install_type": "git-clone",
+            "description": "Use JILIGULU Nano Banana models inside ComfyUI."
         }
     ]
 }

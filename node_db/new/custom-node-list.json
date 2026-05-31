@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "qazwsxedc121",
+            "title": "Qaz Tools",
+            "reference": "https://github.com/qazwsxedc121/comfyui-qaz-tools",
+            "files": [
+                "https://github.com/qazwsxedc121/comfyui-qaz-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Personal ComfyUI custom node toolkit — dynamic prompts, utilities, and more."
+        },
+        {
+            "author": "lookuters22",
+            "title": "ComfyUI-SEEDS3Sampler",
+            "reference": "https://github.com/lookuters22/ComfyUI-SEEDS3Sampler",
+            "files": [
+                "https://github.com/lookuters22/ComfyUI-SEEDS3Sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Exposes eta/s_noise/r_1/r_2 controls for ComfyUI's built-in seeds_3 solver. eta=0 gives a clean deterministic 3rd-order exponential sampler that preserves structure/text at high denoise without grain."
+        },
+        {
             "author": "emberframe",
             "title": "EmberFrame Nodes",
             "reference": "https://github.com/emberframe/emberframe-nodes",
