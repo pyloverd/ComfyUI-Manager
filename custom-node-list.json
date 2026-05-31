@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "robomello",
-            "title": "ComfyUI-NVML-Monitor",
-            "reference": "https://github.com/robomello/ComfyUI-NVML-Monitor",
-            "files": [
-                "https://github.com/robomello/ComfyUI-NVML-Monitor"
-            ],
-            "install_type": "git-clone",
-            "description": "NVIDIA-first hardware telemetry chip + popup for ComfyUI. Linux/Docker-friendly with explicit accounting for VRAM used by other containers/host."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -45233,6 +45223,16 @@
             "description": "Saves images with prompt reference cards - thumbnail + formatted prompt side-by-side with JSON syntax highlighting for easy browsing and organization."
         },
         {
+            "author": "robomello",
+            "title": "ComfyUI-NVML-Monitor",
+            "reference": "https://github.com/robomello/ComfyUI-NVML-Monitor",
+            "files": [
+                "https://github.com/robomello/ComfyUI-NVML-Monitor"
+            ],
+            "install_type": "git-clone",
+            "description": "NVIDIA-first hardware telemetry chip + popup for ComfyUI. Linux/Docker-friendly with explicit accounting for VRAM used by other containers/host."
+        },
+        {
             "author": "HappyOnigiri",
             "title": "ComfyUI-Meld",
             "reference": "https://github.com/HappyOnigiri/ComfyUI-Meld",
@@ -52588,6 +52588,26 @@
             "description": "A collection of quick-use custom nodes for ComfyUI - image processing and workflow tools"
         },
         {
+            "author": "millerlight",
+            "title": "Key-Value KV-Tools for ComfyUI",
+            "reference": "https://github.com/millerlight/ComfyUI-KVTools",
+            "files": [
+                "https://github.com/millerlight/ComfyUI-KVTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for JSON Key/Value (KV) storage with on-the-fly UI preview, dynamic drop-downs, random selection, and inline edit mode."
+        },
+        {
+            "author": "m0rtus59",
+            "title": "ComfyUI-MoonNodes",
+            "reference": "https://github.com/m0rtus59/ComfyUI-MoonNodes",
+            "files": [
+                "https://github.com/m0rtus59/ComfyUI-MoonNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Multi-area regional prompting nodes featuring a layered canvas mask GUI, greedy text encoder, and Gemini API persistent chat utilities."
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
@@ -52805,16 +52825,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "millerlight",
-            "title": "Key-Value KV-Tools for ComfyUI",
-            "reference": "https://github.com/millerlight/ComfyUI-KVTools",
-            "files": [
-                "https://github.com/millerlight/ComfyUI-KVTools"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes for JSON Key/Value (KV) storage with on-the-fly UI preview, dynamic drop-downs, random selection, and inline edit mode."
         }
     ]
 }
