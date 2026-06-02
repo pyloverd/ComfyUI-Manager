@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "EnragedAntelope",
+            "title": "ComfyUI-LoraSlider-LM",
+            "reference": "https://github.com/EnragedAntelope/ComfyUI-LoraSlider-LM",
+            "files": [
+                "https://github.com/EnragedAntelope/ComfyUI-LoraSlider-LM"
+            ],
+            "install_type": "git-clone",
+            "description": "A self-contained LoRA Slider node for ComfyUI designed to work alongside ComfyUI-Lora-Manager with bipolar strength sliders and batch LoRA loading."
+        },
+        {
+            "author": "1756141021",
+            "title": "comfyui-character-picker",
+            "reference": "https://github.com/1756141021/comfyui-character-picker",
+            "files": [
+                "https://github.com/1756141021/comfyui-character-picker"
+            ],
+            "install_type": "git-clone",
+            "description": "Random anime/game character picker with franchise pool management for ComfyUI."
+        },
+        {
             "author": "Yang Li",
             "title": "comfyui-audio-silence-trim",
             "reference": "https://github.com/gaoqi125/comfyui-audio-silence-trim",
