@@ -5306,6 +5306,7 @@
             "ZMongoDocumentWhoAmI",
             "ZMongoDynamicPresetOutputs",
             "ZMongoFindSimilarSuccessfulPromptsNode",
+            "ZMongoGoogleDriveLoader",
             "ZMongoKSamplerPreset",
             "ZMongoLoadImageSequenceNode",
             "ZMongoLoadMemoryCapsuleNode",
@@ -8539,6 +8540,8 @@
             "EnviralImageResizeKit",
             "EnviralLazyIndexSwitch",
             "EnviralLmstudioUnified",
+            "EnviralLoadLora",
+            "EnviralLoadLoraModelOnly",
             "EnviralModelPatchTorchSettings",
             "EnviralTextSplitByDelimiter",
             "EnviralWanResolutionSnap"
@@ -16832,6 +16835,15 @@
             "title_aux": "ComfyUI-productfix"
         }
     ],
+    "https://github.com/MieMieeeee/ComfyUI-MieNodes": [
+        [
+            "RichTextNode",
+            "SimpleTextNode"
+        ],
+        {
+            "title_aux": "ComfyUI_MieNodes"
+        }
+    ],
     "https://github.com/MijnSpam/ComfyUI_SwapAndScale": [
         [
             "SwapAndScale"
@@ -18629,6 +18641,15 @@
             "title_aux": "OpenAssetIO"
         }
     ],
+    "https://github.com/Oratorian/ComfyUI-Switchboard": [
+        [
+            "SwitchboardBooleanSwitch",
+            "SwitchboardValueOnBoolean"
+        ],
+        {
+            "title_aux": "ComfyUI Switchboard"
+        }
+    ],
     "https://github.com/OuticNZ/ComfyUI-Simple-Of-Complex": [
         [
             "Prompt Tidy",
@@ -20057,6 +20078,16 @@
             "title_aux": "ComfyUI_LLM_Embeder"
         }
     ],
+    "https://github.com/RH-RunningHub/ComfyUI-RH-Bernini": [
+        [
+            "BerniniConditioning",
+            "BerniniPromptEnhancer",
+            "BerniniPromptResultParser"
+        ],
+        {
+            "title_aux": "ComfyUI-RH-Bernini"
+        }
+    ],
     "https://github.com/RUiNtheExtinct/comfyui-save-file-extended": [
         [
             "LoadAudioExtended",
@@ -20464,6 +20495,7 @@
             "Runware Alibaba Provider Settings",
             "Runware Audio Inference",
             "Runware Audio Inference Inputs",
+            "Runware Audio Inference Inputs Reference Audio",
             "Runware Audio Inference Settings",
             "Runware Audio Inference Settings Voice Modify",
             "Runware Audio Inference Speech",
@@ -20587,6 +20619,7 @@
             "Runware3DInferenceSettingsTexSlat",
             "RunwareAlibabaProviderSettings",
             "RunwareAudioInferenceInputs",
+            "RunwareAudioInferenceReferenceVoices",
             "RunwareAudioInferenceSpeech",
             "RunwareAudioInferenceSpeechVoices",
             "RunwareAudioInput",
@@ -25996,6 +26029,7 @@
         [
             "XB_BatchFolderLoader",
             "XB_CLIPNameBroadcaster",
+            "XB_CanvasLabel",
             "XB_CheckpointBlockSwap",
             "XB_ChunkVisualization",
             "XB_Dashboard_Zen",
@@ -29970,6 +30004,7 @@
             "NB2NanoBanana2Edit",
             "NB2OpenAIImageEdit",
             "NB2SAM3ImageSegmenter",
+            "NB2SAM3SmartRegionSelector",
             "NB2Seedream45Edit",
             "NB2SmartRegionMask",
             "NanoBanana2MaskGen",
@@ -36109,6 +36144,7 @@
             "ByteDanceTextToVideoNode",
             "CFGGuider",
             "CFGNorm",
+            "CFGOverride",
             "CFGZeroStar",
             "CLIPAttentionMultiply",
             "CLIPLoader",
@@ -36182,6 +36218,7 @@
             "DrawBBoxes",
             "DualCFGGuider",
             "DualCLIPLoader",
+            "DualModelGuider",
             "EasyCache",
             "ElevenLabsAudioIsolation",
             "ElevenLabsInstantVoiceClone",
@@ -36274,9 +36311,11 @@
             "HunyuanVideo15SuperResolution",
             "HyperTile",
             "HypernetworkLoader",
+            "Ideogram4Scheduler",
             "IdeogramV1",
             "IdeogramV2",
             "IdeogramV3",
+            "IdeogramV4",
             "ImageAddNoise",
             "ImageBatch",
             "ImageBlend",
@@ -44987,7 +45026,6 @@
     "https://github.com/id-fa/ComfyUI-Lenient-Switch": [
         [
             "LenientSwitch",
-            "PromptTabs",
             "SimpleSelectorSwitch"
         ],
         {
@@ -48698,6 +48736,7 @@
             "HunyuanVideoBlockLoraSelect",
             "HunyuanVideoEncodeKeyframesToCond",
             "INTConstant",
+            "Ideogram4PromptBuilderKJ",
             "ImageAddMulti",
             "ImageAndMaskPreview",
             "ImageBatchExtendWithOverlap",
@@ -53029,9 +53068,16 @@
     "https://github.com/lzitser23/lzits-nodes": [
         [
             "BBoxDrawWidget",
+            "BerniniCaseBuilder",
+            "BerniniGenerationSettings",
+            "BerniniLoadOutputImage",
+            "BerniniModelConfig",
+            "BerniniRunSingleGPU",
+            "BerniniSetupCommands",
             "ImageOutpaintColorCanvas",
             "IndexPicker",
             "LoRASelectorMulti",
+            "LzitsBerniniConditioning",
             "ObjectSelector",
             "SimpleTextAppender",
             "SimpleTextPrepender",
@@ -53258,6 +53304,7 @@
             "Easy_hdr_VAE_decode",
             "Easy_hdr_VAE_encode",
             "KoolookLoadCameraPosesAbsolute",
+            "Koolook_LoopStatus",
             "LTXDirector",
             "LTXDirector__koolook",
             "LTXDirector__koolook_v1_3_2",
@@ -58188,6 +58235,7 @@
             "PixaromaAudioStudio",
             "PixaromaCompare",
             "PixaromaCrop",
+            "PixaromaFindReplace",
             "PixaromaImageComposition",
             "PixaromaImageResize",
             "PixaromaLabel",
@@ -58216,6 +58264,7 @@
             "PixaromaTextWatermark",
             "PixaromaVersionCheck",
             "PixaromaWH",
+            "PixaromaXYPlot",
             "Pixaroma_VueReferenceNode"
         ],
         {
@@ -68318,11 +68367,13 @@
             "WizdroidMotionChoreographer",
             "WizdroidMultiClipStoryPlanner",
             "WizdroidPhotoAspect",
+            "WizdroidPhotographyStyleNode",
             "WizdroidPromptCombiner",
             "WizdroidPromptRelayGenerator",
             "WizdroidSceneGenerator",
             "WizdroidSearchReplace",
             "WizdroidShortenText",
+            "WizdroidStyleTransferNode",
             "WizdroidTemporalScenePlanner",
             "WizdroidVideoNegativePrompt",
             "WizdroidVideoPromptBuilder",

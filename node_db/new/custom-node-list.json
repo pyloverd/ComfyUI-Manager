@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "oratorian",
+            "title": "ComfyUI Switchboard",
+            "reference": "https://github.com/Oratorian/ComfyUI-Switchboard",
+            "files": [
+                "https://github.com/Oratorian/ComfyUI-Switchboard"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Switchboard - toggle ComfyUI groups or individual nodes on/off (bypass or mute), manually or from a wired boolean. A more flexible take on rgthree's Fast Group Bypasser."
+        },
+        {
+            "author": "gluttony10",
+            "title": "ComfyUI-RH-Bernini",
+            "reference": "https://github.com/RH-RunningHub/ComfyUI-RH-Bernini",
+            "files": [
+                "https://github.com/RH-RunningHub/ComfyUI-RH-Bernini"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-native Bernini in-context conditioning for Wan 2.2 with external LLM prompt-enhancement helpers."
+        },
+        {
             "author": "EnragedAntelope",
             "title": "ComfyUI-LoraSlider-LM",
             "reference": "https://github.com/EnragedAntelope/ComfyUI-LoraSlider-LM",

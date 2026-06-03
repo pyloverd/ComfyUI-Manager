@@ -7574,6 +7574,7 @@
             "ByteDanceTextToVideoNode",
             "CFGGuider",
             "CFGNorm",
+            "CFGOverride",
             "CFGZeroStar",
             "CLIPAttentionMultiply",
             "CLIPLoader",
@@ -7647,6 +7648,7 @@
             "DrawBBoxes",
             "DualCFGGuider",
             "DualCLIPLoader",
+            "DualModelGuider",
             "EasyCache",
             "ElevenLabsAudioIsolation",
             "ElevenLabsInstantVoiceClone",
@@ -7739,9 +7741,11 @@
             "HunyuanVideo15SuperResolution",
             "HyperTile",
             "HypernetworkLoader",
+            "Ideogram4Scheduler",
             "IdeogramV1",
             "IdeogramV2",
             "IdeogramV3",
+            "IdeogramV4",
             "ImageAddNoise",
             "ImageBatch",
             "ImageBlend",
@@ -12544,7 +12548,7 @@
             "SaveMultipleImages",
             "SwitchAny",
             "SwitchNode",
-            "Test"
+            "TestNode"
         ],
         {
             "title_aux": "ComfyUI-NTX-support-nodes [WIP]"
@@ -14199,6 +14203,7 @@
     ],
     "https://github.com/simonri/ComfyUI-SimonNodes": [
         [
+            "SR_CLIPTextEncodeCached",
             "SR_ImageResize",
             "SR_RIFE",
             "SR_Seed",
