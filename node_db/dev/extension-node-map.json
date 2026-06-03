@@ -2814,6 +2814,15 @@
             "title_aux": "comfy-consistency-vae"
         }
     ],
+    "https://github.com/JosDigby/ComfyUI-DigbyTools": [
+        [
+            "DigbyKeyframer",
+            "DigbyLTXVLatentPrep"
+        ],
+        {
+            "title_aux": "ComfyUI-DigbyTools"
+        }
+    ],
     "https://github.com/JosDigby/ComfyUI-DigbyWan": [
         [
             "DigbyLoopClose",
@@ -3000,6 +3009,17 @@
         ],
         {
             "title_aux": "RK_Comfyui"
+        }
+    ],
+    "https://github.com/Krystal-0/ComfyUI-KrystalNodes": [
+        [
+            "CLIPFallback",
+            "IsAnimaModel",
+            "MultiImagePreview",
+            "VAEFallback"
+        ],
+        {
+            "title_aux": "[WIP] ComfyUI KrystalNodes"
         }
     ],
     "https://github.com/KurtHokke/ComfyUI_KurtHokke_Nodes": [
@@ -7185,6 +7205,14 @@
             "title_aux": "comfyui-mc [WIP]"
         }
     ],
+    "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2": [
+        [
+            "WanMoveSVI_FLF_v2"
+        ],
+        {
+            "title_aux": "ComfyUI-WanMoveSVI_FLF_v2"
+        }
+    ],
     "https://github.com/broumbroum/comfyui-time-system": [
         [
             "DayTimeNode",
@@ -10390,6 +10418,15 @@
         ],
         {
             "title_aux": "comfyui_iphone_look [WIP]"
+        }
+    ],
+    "https://github.com/ivanravinovitch/AutoCropByColor": [
+        [
+            "AutoCropByColor",
+            "ScaleImageToMegapixels"
+        ],
+        {
+            "title_aux": "AutoCropByColor"
         }
     ],
     "https://github.com/j-pyxal/ComfyUI-Lattice-Manim": [

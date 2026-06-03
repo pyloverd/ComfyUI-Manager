@@ -7577,6 +7577,15 @@
             "title_aux": "ComfyUI-Impact-BIGdetector-BBOX-SEGS"
         }
     ],
+    "https://github.com/DiamondGo/comfyui-rotate-image": [
+        [
+            "RestoreRotatedImage",
+            "RotateImage"
+        ],
+        {
+            "title_aux": "Rotate Image"
+        }
+    ],
     "https://github.com/DiaoDaiaChan/ComfyUI_API_Request": [
         [
             "Character_Prompt_Select",
@@ -17120,6 +17129,30 @@
             "nickname": "vpred-save",
             "title": "vpred-save",
             "title_aux": "comfyui-save-vpred"
+        }
+    ],
+    "https://github.com/MoRanYue/ComfyUI-D-DFFNet": [
+        [
+            "DDFFNet"
+        ],
+        {
+            "title_aux": "ComfyUI-D-DFFNet"
+        }
+    ],
+    "https://github.com/MoRanYue/ComfyUI-DMENet": [
+        [
+            "DMENetFocusMap"
+        ],
+        {
+            "title_aux": "ComfyUI-DMENet"
+        }
+    ],
+    "https://github.com/MoRanYue/ComfyUI-PBaSR": [
+        [
+            "PBaSRUpscale"
+        ],
+        {
+            "title_aux": "ComfyUI-PBaSR"
         }
     ],
     "https://github.com/ModelTC/ComfyUI-LightVAE": [
@@ -39315,6 +39348,14 @@
             "title_aux": "ComfyUI-WanVaceAdvanced"
         }
     ],
+    "https://github.com/drozbay/LTExperiments": [
+        [
+            "LTEx_ContextWindowsManual"
+        ],
+        {
+            "title_aux": "LTExperiments"
+        }
+    ],
     "https://github.com/drphero/ComfyUI-FASHN-VTON": [
         [
             "FashnMaskToLabelmap",
@@ -60569,6 +60610,7 @@
             "RookieUIControlNetPreprocess",
             "RookieUILoadAssetImage",
             "RookieUILoadAssetMask",
+            "RookieUISaveImageWithMetadata",
             "RookieUIVAEEncodeForInpaint",
             "UNETLoader",
             "VAELoader"
@@ -70862,6 +70904,17 @@
         ],
         {
             "title_aux": "ComfyUI-Fast-Style-Transfer"
+        }
+    ],
+    "https://github.com/zfrsgtcu/ComfyUI-TypeConverters": [
+        [
+            "Convert To Boolean",
+            "Convert To Float",
+            "Convert To Integer",
+            "Convert To String"
+        ],
+        {
+            "title_aux": "ComfyUI-TypeConverters"
         }
     ],
     "https://github.com/zhangle0013/comfyui-EmptyImageYesON": [

@@ -974,6 +974,11 @@
         "last_update": "2023-11-06 20:50:40",
         "author_account_age_days": 5222
     },
+    "https://github.com/JosDigby/ComfyUI-DigbyTools": {
+        "stars": 0,
+        "last_update": "2026-06-02 20:37:54",
+        "author_account_age_days": 322
+    },
     "https://github.com/JosDigby/ComfyUI-DigbyWan": {
         "stars": 4,
         "last_update": "2026-01-15 22:18:38",
@@ -1048,6 +1053,11 @@
         "stars": 0,
         "last_update": "2026-01-19 10:08:42",
         "author_account_age_days": 565
+    },
+    "https://github.com/Krystal-0/ComfyUI-KrystalNodes": {
+        "stars": 0,
+        "last_update": "2026-06-02 20:18:18",
+        "author_account_age_days": 1079
     },
     "https://github.com/KurtHokke/ComfyUI_KurtHokke_Nodes": {
         "stars": 1,
@@ -2624,6 +2634,11 @@
         "last_update": "2026-02-11 13:01:38",
         "author_account_age_days": 1798
     },
+    "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2": {
+        "stars": 0,
+        "last_update": "2026-06-02 05:45:01",
+        "author_account_age_days": 1095
+    },
     "https://github.com/broumbroum/comfyui-time-system": {
         "stars": 0,
         "last_update": "2025-10-16 18:00:30",
@@ -3663,6 +3678,11 @@
         "stars": 0,
         "last_update": "2026-04-22 12:43:46",
         "author_account_age_days": 2317
+    },
+    "https://github.com/ivanravinovitch/AutoCropByColor": {
+        "stars": 0,
+        "last_update": "2026-06-02 15:54:25",
+        "author_account_age_days": 3142
     },
     "https://github.com/j-pyxal/ComfyUI-Lattice-Manim": {
         "stars": 1,

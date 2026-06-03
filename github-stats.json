@@ -2659,6 +2659,11 @@
         "last_update": "2026-01-29 00:29:19",
         "author_account_age_days": 1273
     },
+    "https://github.com/DiamondGo/comfyui-rotate-image": {
+        "stars": 0,
+        "last_update": "2026-06-02 22:47:26",
+        "author_account_age_days": 4288
+    },
     "https://github.com/DiaoDaiaChan/ComfyUI_API_Request": {
         "stars": 6,
         "last_update": "2025-10-19 04:29:10",
@@ -5883,6 +5888,21 @@
         "stars": 4,
         "last_update": "2024-12-15 22:29:47",
         "author_account_age_days": 3633
+    },
+    "https://github.com/MoRanYue/ComfyUI-D-DFFNet": {
+        "stars": 0,
+        "last_update": "2026-06-02 13:26:09",
+        "author_account_age_days": 1833
+    },
+    "https://github.com/MoRanYue/ComfyUI-DMENet": {
+        "stars": 0,
+        "last_update": "2026-06-03 03:37:04",
+        "author_account_age_days": 1833
+    },
+    "https://github.com/MoRanYue/ComfyUI-PBaSR": {
+        "stars": 0,
+        "last_update": "2026-06-02 09:11:59",
+        "author_account_age_days": 1833
     },
     "https://github.com/ModelTC/ComfyUI-LightVAE": {
         "stars": 52,
@@ -13392,6 +13412,11 @@
     "https://github.com/drozbay/ComfyUI-WanVaceAdvanced": {
         "stars": 86,
         "last_update": "2026-02-10 15:54:33",
+        "author_account_age_days": 3760
+    },
+    "https://github.com/drozbay/LTExperiments": {
+        "stars": 1,
+        "last_update": "2026-06-03 00:38:52",
         "author_account_age_days": 3760
     },
     "https://github.com/drphero/ComfyUI-FASHN-VTON": {
@@ -25108,6 +25133,11 @@
         "stars": 76,
         "last_update": "2025-04-07 05:52:19",
         "author_account_age_days": 3152
+    },
+    "https://github.com/zfrsgtcu/ComfyUI-TypeConverters": {
+        "stars": 1,
+        "last_update": "2026-06-03 13:14:42",
+        "author_account_age_days": 2456
     },
     "https://github.com/zhangle0013/comfyui-EmptyImageYesON": {
         "stars": 1,
