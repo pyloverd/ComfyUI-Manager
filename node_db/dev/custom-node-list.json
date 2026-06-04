@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "7akoro",
+            "title": "comfyui-prompt-enhancer [NAME CONFLICT]",
+            "reference": "https://github.com/7akoro/comfyui-prompt-enhancer",
+            "files": [
+                "https://github.com/7akoro/comfyui-prompt-enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension for efficient prompt editing with weight adjustment, tag movement, auto-completion, and more."
+        },
+        {
+            "author": "kongsheng",
+            "title": "ComfyUI-GeminiImage [NAME CONFLICT]",
+            "reference": "https://github.com/kongsheng/ComfyUI-GeminiImage",
+            "files": [
+                "https://github.com/kongsheng/ComfyUI-GeminiImage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Gemini image generation service supporting text-to-image and image-to-image with Gemini 2.0 models."
+        },
+        {
+            "author": "MohammadAboulEla",
+            "title": "ComfyUI-BiRefNet [NAME CONFLICT]",
+            "reference": "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet",
+            "files": [
+                "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node for background removal using the BiRefNet model."
+        },
+        {
+            "author": "florestefano1975",
+            "title": "ComfyUI-Prompt-Library [NAME CONFLICT]",
+            "reference": "https://github.com/florestefano1975/ComfyUI-Prompt-Library",
+            "files": [
+                "https://github.com/florestefano1975/ComfyUI-Prompt-Library"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully-featured prompt manager for ComfyUI with categories, search, tags, and a random prompt node for automatic prompt variation."
+        },
+        {
             "author": "JosDigby",
             "title": "ComfyUI-DigbyTools",
             "reference": "https://github.com/JosDigby/ComfyUI-DigbyTools",
