@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "lynclee",
+            "title": "Multi Reference Latent",
+            "reference": "https://github.com/lynclee/comfyui_multi_referencelatent",
+            "files": [
+                "https://github.com/lynclee/comfyui_multi_referencelatent"
+            ],
+            "install_type": "git-clone",
+            "description": "Inject up to 6 reference images into conditioning for FLUX.2 (and other edit models) in a single node, each with its own strength (0 = skip). Built-in VAE encode."
+        },
+        {
+            "author": "btitkin",
+            "title": "ComfyUI-KSampler-Matrix-Lab",
+            "reference": "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab",
+            "files": [
+                "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI KSampler Matrix Lab is a custom node for comparing multiple sampler and scheduler combinations in one labeled image grid."
+        },
+        {
             "author": "oratorian",
             "title": "ComfyUI Switchboard",
             "reference": "https://github.com/Oratorian/ComfyUI-Switchboard",

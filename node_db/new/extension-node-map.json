@@ -12205,6 +12205,7 @@
             "IAMCCS_BusOut",
             "IAMCCS_CineAllInOneFLFEngine",
             "IAMCCS_CineAudioDurationProbe",
+            "IAMCCS_CineAudioInfo",
             "IAMCCS_CineAudioPromptDirector",
             "IAMCCS_CineBoardDurationLock",
             "IAMCCS_CineDialogueDurationPlanner",
@@ -12265,10 +12266,12 @@
             "IAMCCS_CineWooshFoleyChunkPlanner",
             "IAMCCS_CineWorkflowInspector",
             "IAMCCS_ControlAudEfx",
+            "IAMCCS_ControlAudEfxPanel",
             "IAMCCS_DetailAtelier",
             "IAMCCS_DetailAtelierAdvanced",
             "IAMCCS_DetailAtelierSampler",
-            "IAMCCS_DialogueScriptPlanner",
+            "IAMCCS_DialogueAudioBoardBridge",
+            "IAMCCS_DialogueTagEditor",
             "IAMCCS_FluxKleinMultiGen",
             "IAMCCS_GGUF_accelerator",
             "IAMCCS_GetAutoLink",
@@ -33014,13 +33017,12 @@
             "title_aux": "comfyui-flux2fun-controlnet"
         }
     ],
-    "https://github.com/btitkin/ComfyUI-RandomPromptBuilder": [
+    "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab": [
         [
-            "PromptDisplayNode",
-            "RandomPromptBuilder"
+            "KSamplerMatrixLab"
         ],
         {
-            "title_aux": "Random Prompt Builder"
+            "title_aux": "ComfyUI-KSampler-Matrix-Lab"
         }
     ],
     "https://github.com/buddy-bytes/ComfyUI-SmartResolutionToolkit": [
@@ -36162,6 +36164,9 @@
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
             "BriaRemoveVideoBackground",
+            "BriaTransparentVideoBackground",
+            "BriaVideoGreenScreen",
+            "BriaVideoReplaceBackground",
             "ByteDance2FirstLastFrameNode",
             "ByteDance2ReferenceNode",
             "ByteDance2TextToVideoNode",
@@ -50834,7 +50839,8 @@
             "LP-TranslateToEN",
             "LP-color2RGB",
             "LP-hex2dec",
-            "NumericSlider"
+            "NumericSlider",
+            "TaskSystemPromptSelector"
         ],
         {
             "title_aux": "ComfyUI-Minitools"
@@ -53106,6 +53112,14 @@
             "title_aux": "ComfyUI OpenAI Compatible LLM Node"
         }
     ],
+    "https://github.com/lynclee/comfyui_multi_referencelatent": [
+        [
+            "MultiReferenceLatent"
+        ],
+        {
+            "title_aux": "Multi Reference Latent"
+        }
+    ],
     "https://github.com/lzitser23/lzits-nodes": [
         [
             "BBoxDrawWidget",
@@ -55111,6 +55125,16 @@
     ],
     "https://github.com/monnky/ComfyUI-RT-LTX2-RareTools": [
         [
+            "RTLTX2AudioTrimmer",
+            "RTLTX2FrameReplacer",
+            "RTLTX2HtmlPreview",
+            "RTLTX2ImageScaleToMegapixels",
+            "RTLTX2NumberCounter",
+            "RTLTX2StickyNote",
+            "RTLTX2TextConcatenate",
+            "RTLTX2TextConcatenatePro",
+            "RTLTX2TextInput",
+            "RT_Flux2MultiRefConditioning",
             "RT_LTX2_Extended_Duration_Node",
             "RT_LTX2_RoyalPrompt",
             "RT_LTX2_STG_Guider",
@@ -60965,7 +60989,8 @@
     "https://github.com/ruminar/ComfyUI-PromptRandomChoice": [
         [
             "PromptRandomChoice",
-            "PromptRandomChoiceEx"
+            "PromptRandomChoiceEx",
+            "SafeRandomSeed"
         ],
         {
             "title_aux": "ComfyUI-PromptRandomChoice"
@@ -70529,7 +70554,8 @@
             "DepthAnythingEngineBuilder",
             "DepthAnythingMapDisplay",
             "DepthAnythingTensorrt",
-            "DepthAnythingTensorrtAdvanced"
+            "DepthAnythingTensorrtAdvanced",
+            "DepthTemporalStabilizerGPU"
         ],
         {
             "title_aux": "ComfyUI Depth Anything TensorRT"

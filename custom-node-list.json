@@ -40681,17 +40681,6 @@
             ]
         },
         {
-            "author": "btitkin",
-            "title": "Random Prompt Builder",
-            "id": "random-prompt-builder",
-            "reference": "https://github.com/btitkin/ComfyUI-RandomPromptBuilder",
-            "files": [
-                "https://github.com/btitkin/ComfyUI-RandomPromptBuilder"
-            ],
-            "install_type": "git-clone",
-            "description": "Advanced AI-powered prompt generation using local GGUF models. Generate detailed, structured prompts with character controls, style presets, and model-specific formatting for Pony, SDXL, Flux, and more. Supports GPU acceleration and runs completely offline."
-        },
-        {
             "author": "rjgoif",
             "title": "Img Label Tools",
             "id": "Img-Label-Tools",
@@ -52696,6 +52685,26 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for angle-based image rotation with high-quality interpolation and lossless restoration"
+        },
+        {
+            "author": "lynclee",
+            "title": "Multi Reference Latent",
+            "reference": "https://github.com/lynclee/comfyui_multi_referencelatent",
+            "files": [
+                "https://github.com/lynclee/comfyui_multi_referencelatent"
+            ],
+            "install_type": "git-clone",
+            "description": "Inject up to 6 reference images into conditioning for FLUX.2 (and other edit models) in a single node, each with its own strength (0 = skip). Built-in VAE encode."
+        },
+        {
+            "author": "btitkin",
+            "title": "ComfyUI-KSampler-Matrix-Lab",
+            "reference": "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab",
+            "files": [
+                "https://github.com/btitkin/ComfyUI-KSampler-Matrix-Lab"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI KSampler Matrix Lab is a custom node for comparing multiple sampler and scheduler combinations in one labeled image grid."
         },
         {
             "author": "ntdviet",

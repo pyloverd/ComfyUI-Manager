@@ -859,7 +859,6 @@
             "TS_Film_Emulation",
             "TS_FloatSlider",
             "TS_Frame_Interpolation",
-            "TS_Free_Video_Memory",
             "TS_GetImageMegapixels",
             "TS_GetImageSizeSide",
             "TS_ImageBatchCut",
@@ -7207,6 +7206,7 @@
     ],
     "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2": [
         [
+            "WanMoveSVI_FLF_Decode",
             "WanMoveSVI_FLF_v2"
         ],
         {
@@ -7587,6 +7587,9 @@
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
             "BriaRemoveVideoBackground",
+            "BriaTransparentVideoBackground",
+            "BriaVideoGreenScreen",
+            "BriaVideoReplaceBackground",
             "ByteDance2FirstLastFrameNode",
             "ByteDance2ReferenceNode",
             "ByteDance2TextToVideoNode",
@@ -12569,6 +12572,7 @@
             "GenerationDataGet",
             "GenerationDataMaxSize",
             "GenerationDataSet",
+            "ImageGridNode",
             "ListCount",
             "ListGet",
             "ListSet",
@@ -13409,6 +13413,7 @@
             "Float [Eclipse]",
             "Generation Data (Gated) [Eclipse]",
             "Generation Data [Eclipse]",
+            "Get First Image [Eclipse]",
             "Get Last Image [Eclipse]",
             "IF A Else B Fallback [Eclipse]",
             "IF A Else B [Eclipse]",
@@ -13416,6 +13421,7 @@
             "IO Load Image [Eclipse]",
             "Image Align Size [Eclipse]",
             "Image Batch Extend With Overlap [Eclipse]",
+            "Image Batch Strip [Eclipse]",
             "Image Comparer [Eclipse]",
             "Image Convert [Eclipse]",
             "Image Crop by Mask [Eclipse]",
