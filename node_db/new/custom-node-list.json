@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "denyazzolin",
+            "title": "comfyui-daz-tools",
+            "id": "comfyui-daz-tools",
+            "reference": "https://github.com/denyazzolin/comfyui-daz-tools",
+            "files": [
+                "https://github.com/denyazzolin/comfyui-daz-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of ComfyUI utility nodes. The Workflow Config nodes (WAN2.2 and LTX2.3) let you store multiple named presets — models, LoRA stacks, prompts, dimensions, and sampling parameters — and switch between them from a single dropdown, making it easy to test variations, manage scene setups, and iterate across versions without rebuilding your workflow or creating and maintaining multiple copies of it. Additional nodes: Lora Inspector (scans and displays safetensors metadata for any LoRA in your library), Check Null (detects null, None, NaN, or empty values), Null Audio Checker (detects silent/missing audio tracks from video inputs), and Abs Int (absolute value for integers)."
+        },
+        {
             "author": "ShankHub-Org",
             "title": "ComfyUI Artist Helper",
             "reference": "https://github.com/ShankHub-Org/ComfyUI-Artist-Helper",
