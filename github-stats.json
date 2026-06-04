@@ -4264,6 +4264,11 @@
         "last_update": "2025-06-09 04:11:29",
         "author_account_age_days": 591
     },
+    "https://github.com/INuBq8/ComfyUI-text-preset-loader": {
+        "stars": 0,
+        "last_update": "2026-05-28 20:09:25",
+        "author_account_age_days": 592
+    },
     "https://github.com/IRCSS/comfyUI-blender-wrapper": {
         "stars": 9,
         "last_update": "2025-11-26 11:10:18",
@@ -5532,6 +5537,11 @@
     "https://github.com/MajoorWaldi/ComfyUI-Majoor-ImageOps": {
         "stars": 8,
         "last_update": "2026-05-26 05:52:42",
+        "author_account_age_days": 1159
+    },
+    "https://github.com/MajoorWaldi/ComfyUI-Majoor-ProjectSettings": {
+        "stars": 0,
+        "last_update": "2026-05-31 15:33:35",
         "author_account_age_days": 1159
     },
     "https://github.com/Makeezi/ComfyUI-promptLAB": {
@@ -22354,6 +22364,11 @@
         "last_update": "2025-12-21 02:42:42",
         "author_account_age_days": 3975
     },
+    "https://github.com/sorryhyun/ComfyUI-Spectrum-KSampler": {
+        "stars": 14,
+        "last_update": "2026-06-01 23:45:54",
+        "author_account_age_days": 2205
+    },
     "https://github.com/sorryhyun/comfyui-flex-attention": {
         "stars": 0,
         "last_update": "2026-03-31 13:26:01",
@@ -24958,6 +24973,11 @@
         "stars": 7,
         "last_update": "2026-05-10 18:03:08",
         "author_account_age_days": 1227
+    },
+    "https://github.com/yusrmuttaqien/ComfyUI-LoadImageEnhanced": {
+        "stars": 0,
+        "last_update": "2026-05-27 03:34:56",
+        "author_account_age_days": 2459
     },
     "https://github.com/yuvraj108c/ComfyUI-Depth-Anything-Tensorrt": {
         "stars": 130,

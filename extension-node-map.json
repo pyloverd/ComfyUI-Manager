@@ -12562,6 +12562,14 @@
             "title_aux": "Notification Bridge"
         }
     ],
+    "https://github.com/INuBq8/ComfyUI-text-preset-loader": [
+        [
+            "PresetLoader"
+        ],
+        {
+            "title_aux": "ComfyUI Text Preset Loader"
+        }
+    ],
     "https://github.com/IRCSS/comfyUI-blender-wrapper": [
         [
             "BlenderGenericNode",
@@ -18683,7 +18691,7 @@
             "SwitchboardValueOnBoolean"
         ],
         {
-            "title_aux": "ComfyUI Switchboard"
+            "title_aux": "ComfyUI-Switchboard"
         }
     ],
     "https://github.com/OuticNZ/ComfyUI-Simple-Of-Complex": [
@@ -20560,6 +20568,7 @@
             "Runware Image Inference Inputs",
             "Runware Image Inference Settings Color Palette",
             "Runware Image Inference Settings Moodboards",
+            "Runware Image Inference Settings Structured Prompt",
             "Runware Image Inference Ultralytics",
             "Runware Image Masking",
             "Runware Image Upscaler",
@@ -20668,6 +20677,7 @@
             "RunwareFrameImages",
             "RunwareGoogleProviderSettings",
             "RunwareImageInferenceAdvancedFeatures",
+            "RunwareImageInferenceSettingsStructuredPrompt",
             "RunwareKlingMultiPromptSegment",
             "RunwareKlingProviderSettings",
             "RunwareKlingProviderSettingsMultiPrompt",
@@ -38220,6 +38230,7 @@
     "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes": [
         [
             "DaSiWa_CreateExtraMetadata",
+            "DaSiWa_LTX2LoraLoader",
             "DaSiWa_MetadataConfig",
             "DaSiWa_MetadataImageSaver",
             "DaSiWa_MetadataImageSaverFull",
@@ -48782,6 +48793,7 @@
             "HunyuanVideoBlockLoraSelect",
             "HunyuanVideoEncodeKeyframesToCond",
             "INTConstant",
+            "Ideogram4OptimizationsKJ",
             "Ideogram4PromptBuilderKJ",
             "ImageAddMulti",
             "ImageAndMaskPreview",
@@ -63839,6 +63851,20 @@
             "title_aux": "comfyui_longcat_image"
         }
     ],
+    "https://github.com/sorryhyun/ComfyUI-Spectrum-KSampler": [
+        [
+            "AnimaModGuidance",
+            "DiTSpectrumPatch",
+            "SpectrumKSampler",
+            "SpectrumKSamplerAdvanced",
+            "SpectrumKSamplerModGuidance",
+            "SpectrumSPDKSampler",
+            "SpectrumSPDLoRAKSampler"
+        ],
+        {
+            "title_aux": "SpectrumKSampler"
+        }
+    ],
     "https://github.com/sorryhyun/comfyui-flex-attention": [
         [
             "FlexAttention"
@@ -70547,6 +70573,14 @@
         ],
         {
             "title_aux": "Y7Nodes for ComfyUI"
+        }
+    ],
+    "https://github.com/yusrmuttaqien/ComfyUI-LoadImageEnhanced": [
+        [
+            "LoadImageEnhanced"
+        ],
+        {
+            "title_aux": "ComfyUI-LoadImageEnhanced"
         }
     ],
     "https://github.com/yuvraj108c/ComfyUI-Depth-Anything-Tensorrt": [
