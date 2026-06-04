@@ -3680,6 +3680,14 @@
             "title_aux": "ComfyUI-SimpleMarkdown [UNSAFE]"
         }
     ],
+    "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet": [
+        [
+            "BiRefNet_Node"
+        ],
+        {
+            "title_aux": "ComfyUI-BiRefNet [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/Momediada97/ComfyUI-ImageIfNotBlack": [
         [
             "ImageIfNotBlack"
@@ -9185,6 +9193,15 @@
             "title_aux": "ComfyUI_html [UNSAFE]"
         }
     ],
+    "https://github.com/florestefano1975/ComfyUI-Prompt-Library": [
+        [
+            "PromptLibraryNode",
+            "PromptLibraryRandomNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Prompt-Library [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/flowtyone/comfyui-flowty-lcm": [
         [
             "LCMSampler"
@@ -13411,6 +13428,7 @@
             "Fast Muter [Eclipse]",
             "Float Passer [Eclipse]",
             "Float [Eclipse]",
+            "Folder Path [Eclipse]",
             "Generation Data (Gated) [Eclipse]",
             "Generation Data [Eclipse]",
             "Get First Image [Eclipse]",

@@ -64,6 +64,11 @@
         "last_update": "2026-05-02 02:00:33",
         "author_account_age_days": 522
     },
+    "https://github.com/7akoro/comfyui-prompt-enhancer": {
+        "stars": 2,
+        "last_update": "2026-01-27 14:24:35",
+        "author_account_age_days": 1811
+    },
     "https://github.com/853587221/ComfyUI_XLweb": {
         "stars": 3,
         "last_update": "2026-01-11 03:44:33",
@@ -1298,6 +1303,11 @@
         "stars": 2,
         "last_update": "2025-11-29 14:27:32",
         "author_account_age_days": 4548
+    },
+    "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet": {
+        "stars": 0,
+        "last_update": "2026-03-16 00:17:34",
+        "author_account_age_days": 1737
     },
     "https://github.com/Momediada97/ComfyUI-ImageIfNotBlack": {
         "stars": 0,
@@ -3174,6 +3184,11 @@
         "last_update": "2026-04-25 22:42:51",
         "author_account_age_days": 2446
     },
+    "https://github.com/florestefano1975/ComfyUI-Prompt-Library": {
+        "stars": 17,
+        "last_update": "2026-03-22 12:45:40",
+        "author_account_age_days": 904
+    },
     "https://github.com/flowtyone/comfyui-flowty-lcm": {
         "stars": 62,
         "last_update": "2023-10-23 12:08:55",
@@ -3983,6 +3998,11 @@
         "stars": 2,
         "last_update": "2026-01-05 09:29:20",
         "author_account_age_days": 1407
+    },
+    "https://github.com/kongsheng/ComfyUI-GeminiImage": {
+        "stars": 0,
+        "last_update": "2026-01-27 06:07:15",
+        "author_account_age_days": 4291
     },
     "https://github.com/krich-cto/ComfyUI-Flow-Control": {
         "stars": 2,

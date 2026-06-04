@@ -21941,6 +21941,14 @@
             "title_aux": "ComfyUI_Text_Tools_SG"
         }
     ],
+    "https://github.com/ShankHub-Org/ComfyUI-Artist-Helper": [
+        [
+            "AnimaArtistWildcard"
+        ],
+        {
+            "title_aux": "ComfyUI Artist Helper"
+        }
+    ],
     "https://github.com/Shannooty/ComfyUI-Timer-Nodes": [
         [
             "TimerStart",
@@ -38615,6 +38623,20 @@
         ],
         {
             "title_aux": "Outline Alpha Snap Node for ComfyUI"
+        }
+    ],
+    "https://github.com/denyazzolin/comfyui-daz-tools": [
+        [
+            "AbsInt",
+            "CheckNull",
+            "LoraInspector",
+            "MarkdownDisplay",
+            "NullAudioChecker",
+            "WorkflowConfigLtx23",
+            "WorkflowConfigWan22"
+        ],
+        {
+            "title_aux": "comfyui-daz-tools"
         }
     ],
     "https://github.com/deroberon/StableZero123-comfyui": [
