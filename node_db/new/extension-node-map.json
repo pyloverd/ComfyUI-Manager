@@ -2697,7 +2697,8 @@
             "PrintLabGraded",
             "PrintLabMultigrade",
             "PrintLabSplitGrade",
-            "PromptLab"
+            "PromptLab",
+            "WOFPrintLab"
         ],
         {
             "title_aux": "comfyui-jbnodes"
@@ -3359,7 +3360,7 @@
             "AGSoft_Image_Mask_Resize_Adv",
             "AGSoft_Image_Resize_Base",
             "AGSoft_Image_Resize_Plus",
-            "AGSoft_Image_Rotate",
+            "AGSoft_Image_Rotate_Flip",
             "AGSoft_Image_Stitch",
             "AGSoft_Img_Pad",
             "AGSoft_Img_Pad_Adv",
@@ -4695,7 +4696,8 @@
     ],
     "https://github.com/BobJohnson24/ComfyUI-EvalSampler": [
         [
-            "EvalSampler"
+            "EvalSampler",
+            "EvalSamplerAdvanced"
         ],
         {
             "title_aux": "ComfyUI-EvalSampler"
@@ -5281,8 +5283,26 @@
             "ZMongoBestVariantSelectorNode",
             "ZMongoBuildContextPackNode",
             "ZMongoCaptionPackGeneratorNode",
-            "ZMongoDiscoverNodeSchema",
-            "ZMongoDiscoverWorkflowNodeSettings",
+            "ZMongoContentPackAddImageSequenceV3",
+            "ZMongoContentPackAddImageV3",
+            "ZMongoContentPackAddImagesV3",
+            "ZMongoContentPackAliasEditorV3",
+            "ZMongoContentPackBuildV3",
+            "ZMongoContentPackExportJSONFileV3",
+            "ZMongoContentPackExportStaticWorkflowV3",
+            "ZMongoContentPackGetBooleanV3",
+            "ZMongoContentPackGetFloatV3",
+            "ZMongoContentPackGetImageV3",
+            "ZMongoContentPackGetIntV3",
+            "ZMongoContentPackGetJSONV3",
+            "ZMongoContentPackGetSelectedV3",
+            "ZMongoContentPackGetStringV3",
+            "ZMongoContentPackJSONTextLoaderV3",
+            "ZMongoContentPackLoadJSONFileV3",
+            "ZMongoContentPackLoadV3",
+            "ZMongoContentPackManifestPreviewV3",
+            "ZMongoContentPackSaveV3",
+            "ZMongoContentPackStaticOutputsV3",
             "ZMongoDisplayImageNode",
             "ZMongoDocumentCreateText",
             "ZMongoDocumentDelete",
@@ -5306,8 +5326,6 @@
             "ZMongoDocumentWhoAmI",
             "ZMongoDynamicPresetOutputs",
             "ZMongoFindSimilarSuccessfulPromptsNode",
-            "ZMongoGoogleDriveLoader",
-            "ZMongoKSamplerPreset",
             "ZMongoLoadImageSequenceNode",
             "ZMongoLoadMemoryCapsuleNode",
             "ZMongoLoadPreset",
@@ -12258,6 +12276,7 @@
             "IAMCCS_CineStage2BypassSwitch",
             "IAMCCS_CineStage2PreviewToggle",
             "IAMCCS_CineSwitch",
+            "IAMCCS_CineTemporalCutBarrier",
             "IAMCCS_CineTimelineAudioMixer",
             "IAMCCS_CineV2VAssetSelector",
             "IAMCCS_CineV2VTimelineDirector",
@@ -12279,6 +12298,7 @@
             "IAMCCS_HardMemoryPurge",
             "IAMCCS_HwSupporter",
             "IAMCCS_HwSupporterAny",
+            "IAMCCS_IdeoTranslate",
             "IAMCCS_ImageBatchRangeLite",
             "IAMCCS_ImageResizeBatchSafe",
             "IAMCCS_IntValueMonitor",
@@ -12380,6 +12400,7 @@
             "IAMCCS_SourceRangeFromSegmentPlan",
             "IAMCCS_StartDirToVideoLatent",
             "IAMCCS_StartImagesToVideoLatent",
+            "IAMCCS_StoryboardFrameDesigner",
             "IAMCCS_SupernodeBase",
             "IAMCCS_SupernodeModule",
             "IAMCCS_ThreeSegmentPlanner",
@@ -13769,22 +13790,6 @@
         ],
         {
             "title_aux": "comfyui_ollama_vl_prompt"
-        }
-    ],
-    "https://github.com/Julian-adv/WildDivide": [
-        [
-            "Attention couple wild divide",
-            "Comfy Divide",
-            "WildPromptGenerator",
-            "WildcardDivide",
-            "WildcardEncode"
-        ],
-        {
-            "author": "Julian Adventurer.",
-            "description": "This node is used to encode a wildcard string.",
-            "nickname": "WildDivide",
-            "title": "Wild Divide",
-            "title_aux": "Wild Divide"
         }
     ],
     "https://github.com/Junst/ComfyUI-Concept-Diffusion": [
@@ -16065,6 +16070,7 @@
     "https://github.com/MNeMoNiCuZ/ComfyUI-mnemic-nodes": [
         [
             "AudioVisualizer",
+            "BatchWildcardSampler",
             "ColorfulStartingImage",
             "ImageSaveWithMetadata",
             "LiteralBool",
@@ -16119,6 +16125,7 @@
             "\ud83d\udcd0 Resolution Image Size Selector",
             "\ud83d\udcdd Wildcard Processor",
             "\ud83d\udcdd Wildcard Processor Advanced",
+            "\ud83d\udd00 Batch Wildcard Sampler",
             "\ud83d\udd17 String Concat / Append",
             "\ud83d\udd20 Tiktoken Tokenizer Info",
             "\ud83d\uddbc\ufe0f Download Image from URL",
@@ -16751,6 +16758,7 @@
     "https://github.com/Merserk/ComfyUI-PiD": [
         [
             "PiDDecode",
+            "PiDEmptyLatentImage",
             "PiDFinalize",
             "PiDKSamplerCapture",
             "PiDPrepare",
@@ -20568,6 +20576,7 @@
             "Runware Image Inference Inputs",
             "Runware Image Inference Settings Color Palette",
             "Runware Image Inference Settings Moodboards",
+            "Runware Image Inference Settings Prompt Enhance",
             "Runware Image Inference Settings Structured Prompt",
             "Runware Image Inference Ultralytics",
             "Runware Image Masking",
@@ -20677,6 +20686,7 @@
             "RunwareFrameImages",
             "RunwareGoogleProviderSettings",
             "RunwareImageInferenceAdvancedFeatures",
+            "RunwareImageInferenceSettingsPromptEnhance",
             "RunwareImageInferenceSettingsStructuredPrompt",
             "RunwareKlingMultiPromptSegment",
             "RunwareKlingProviderSettings",
@@ -36032,6 +36042,7 @@
             "Xoxxox_CnvVce",
             "Xoxxox_DlyGet",
             "Xoxxox_DlySet",
+            "Xoxxox_EndFlw",
             "Xoxxox_GenImg",
             "Xoxxox_GenTxt",
             "Xoxxox_GetAud",
@@ -36337,6 +36348,7 @@
             "GeminiNanoBanana2",
             "GeminiNanoBanana2V2",
             "GeminiNode",
+            "GeminiNodeV2",
             "GenerateTracks",
             "GetICLoRAParameters",
             "GetImageSize",
@@ -36607,7 +36619,9 @@
             "Preview3DAdvanced",
             "PreviewAny",
             "PreviewAudio",
+            "PreviewGaussianSplat",
             "PreviewImage",
+            "PreviewPointCloud",
             "PrimitiveBoolean",
             "PrimitiveBoundingBox",
             "PrimitiveFloat",
@@ -36701,6 +36715,7 @@
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
+            "SaveAudioAdvanced",
             "SaveAudioMP3",
             "SaveAudioOpus",
             "SaveGLB",
@@ -38244,7 +38259,9 @@
             "DaSiWa_MetadataImageSaverFull",
             "DaSiWa_NodeStatusSwitch",
             "DaSiWa_RTX_UpscalerRefiner",
-            "DaSiWa_ResolutionScaleCalculator"
+            "DaSiWa_RandomStringPicker",
+            "DaSiWa_ResolutionScaleCalculator",
+            "DaSiWa_Watermark"
         ],
         {
             "title_aux": "ComfyUI-DaSiWa-Nodes"
@@ -39388,7 +39405,9 @@
     ],
     "https://github.com/drozbay/LTExperiments": [
         [
-            "LTEx_ContextWindowsManual"
+            "LTEx_ContextWindowsManual",
+            "LTEx_LTXVAddGuideConditioning",
+            "LTEx_LTXVAddPerWindowGuide"
         ],
         {
             "title_aux": "LTExperiments"
@@ -42890,6 +42909,7 @@
             "RandomOrgV2TrueRandomNumber_node",
             "VAEDecodePreview_node",
             "YFGRandomPromptFromFile_node",
+            "YFG_CivitAI_MetaSave",
             "YFG_DisplayValue",
             "image2contrastMask_node",
             "image2imbgg_node",
@@ -48312,7 +48332,9 @@
     ],
     "https://github.com/kenyonxu/ComfyUI_KaiUtilities": [
         [
-            "KaiCivitaiLoRALoader"
+            "KaiCivitaiLoRALoader",
+            "SaveAudioSilent",
+            "TextLineCount"
         ],
         {
             "title_aux": "Kai Civitai LoRA Loader"
@@ -48893,6 +48915,7 @@
             "OffsetMask",
             "OffsetMaskByNormalizedAmplitude",
             "PadImageBatchInterleaved",
+            "PatchFlashAttentionKJ",
             "PatchModelPatcherOrder",
             "PathchSageAttentionKJ",
             "PiDColorBiasCorrection",
@@ -50868,13 +50891,13 @@
     ],
     "https://github.com/lepiai/ComfyUI-Minitools": [
         [
+            "BerniniPromptEnhancerBailian",
             "LP-CropTransparentEdges",
             "LP-ImageToMaskWithAlpha",
             "LP-TranslateToEN",
             "LP-color2RGB",
             "LP-hex2dec",
-            "NumericSlider",
-            "TaskSystemPromptSelector"
+            "NumericSlider"
         ],
         {
             "title_aux": "ComfyUI-Minitools"
@@ -57286,7 +57309,8 @@
             "orex Load Image Batch Size",
             "orex Ollama",
             "orex Ratio",
-            "orex Save Image"
+            "orex Save Image",
+            "orex Stressed Vowels"
         ],
         {
             "title_aux": "comfyui-OreX"
@@ -58325,49 +58349,6 @@
         ],
         {
             "title_aux": "ComfyUI-Upscale-CUDAspeed"
-        }
-    ],
-    "https://github.com/pixaroma/ComfyUI-Pixaroma": [
-        [
-            "NotifyPixaroma",
-            "Pixaroma3D",
-            "PixaromaAudioStudio",
-            "PixaromaCompare",
-            "PixaromaCrop",
-            "PixaromaFindReplace",
-            "PixaromaImageComposition",
-            "PixaromaImageResize",
-            "PixaromaLabel",
-            "PixaromaLoadImage",
-            "PixaromaMuteSwitch",
-            "PixaromaNote",
-            "PixaromaNumber",
-            "PixaromaPaint",
-            "PixaromaPauseImage",
-            "PixaromaPreview",
-            "PixaromaPromptFromList",
-            "PixaromaPromptMulti",
-            "PixaromaPromptPack",
-            "PixaromaPromptReader",
-            "PixaromaPromptStack",
-            "PixaromaReferenceNode",
-            "PixaromaRemoveBackground",
-            "PixaromaResolution",
-            "PixaromaSaveMp4",
-            "PixaromaShowText",
-            "PixaromaSwitch",
-            "PixaromaSwitchSource",
-            "PixaromaSwitchWH",
-            "PixaromaText",
-            "PixaromaTextOverlay",
-            "PixaromaTextWatermark",
-            "PixaromaVersionCheck",
-            "PixaromaWH",
-            "PixaromaXYPlot",
-            "Pixaroma_VueReferenceNode"
-        ],
-        {
-            "title_aux": "ComfyUI-Pixaroma"
         }
     ],
     "https://github.com/pixelpainter/UI-Decorators": [
@@ -60076,12 +60057,15 @@
     ],
     "https://github.com/relhamdi/ComfyUI-RE-CustomUtils": [
         [
+            "BreakEncoder",
+            "CharacterLoader",
             "PromptLayoutFiller",
             "PromptOptionPicker",
             "PromptPresetSelector",
             "PromptRouter",
             "PromptSwitch",
-            "QuickCombo"
+            "QuickCombo",
+            "StyleLoader"
         ],
         {
             "title_aux": "ComfyUI-RE-CustomUtils"
@@ -60452,12 +60436,20 @@
     "https://github.com/robertvoy/ComfyUI-Distributed": [
         [
             "AudioBatchDivider",
+            "Basic data handling: StringDataListJoin",
+            "CreateList",
             "DistributedCollector",
             "DistributedEmptyImage",
             "DistributedModelName",
             "DistributedSeed",
             "DistributedValue",
             "ImageBatchDivider",
+            "ImageConsumer",
+            "JoinStringMulti",
+            "SaveImage",
+            "StringConcatenate",
+            "StringDataListJoin",
+            "StringProvider",
             "UltimateSDUpscaleDistributed"
         ],
         {
@@ -62484,6 +62476,7 @@
     ],
     "https://github.com/silveroxides/ComfyUI-ModelUtils": [
         [
+            "AnimaLoraRename",
             "BaseInfoMetaDownloaderNode",
             "BaseModelInfoLoader",
             "CheckpointMetaKeys",
@@ -63839,6 +63832,7 @@
             "ImageSizeCalculator",
             "RestoreMaskCrop",
             "SetReserveVRAM",
+            "SigmaRemove",
             "SigmaReplace",
             "SigmaSmoother",
             "SigmasGraph",
@@ -67790,7 +67784,9 @@
             "ColorPatchFlatten",
             "ColorPatchMerge",
             "LoadICCProfile",
+            "SaveImageAVIF",
             "SaveImageAdvanced",
+            "SaveImageAdvancedAVIF",
             "SaveImageAdvancedBMP",
             "SaveImageAdvancedJPG",
             "SaveImageAdvancedTGA",

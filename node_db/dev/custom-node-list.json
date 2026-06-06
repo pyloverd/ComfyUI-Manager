@@ -10845,16 +10845,6 @@
             "description": "ComfyUI developer tools (Custom Node)"
         },
         {
-            "author": "Sakura-nee",
-            "title": "ComfyUI_Save2Discord",
-            "reference": "https://github.com/Sakura-nee/ComfyUI_Save2Discord",
-            "files": [
-                "https://github.com/Sakura-nee/ComfyUI_Save2Discord"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:Send Generated Image To Discord Webhook.\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "ThisModernDay",
             "title": "ComfyUI Instructor Ollama",
             "reference": "https://github.com/ThisModernDay/ComfyUI-InstructorOllama",

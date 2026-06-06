@@ -1,6 +1,47 @@
 {
     "custom_nodes": [
         {
+            "author": "Sakura-nee",
+            "title": "ComfyUI_Save2Discord [REMOVED]",
+            "reference": "https://github.com/Sakura-nee/ComfyUI_Save2Discord",
+            "files": [
+                "https://github.com/Sakura-nee/ComfyUI_Save2Discord"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes:Send Generated Image To Discord Webhook.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "pixaroma",
+            "title": "ComfyUI-Pixaroma [REMOVED]",
+            "id": "comfyui-pixaroma",
+            "reference": "https://github.com/pixaroma/ComfyUI-Pixaroma",
+            "files": [
+                "https://github.com/pixaroma/ComfyUI-Pixaroma"
+            ],
+            "install_type": "git-clone",
+            "description": "Creative suite for ComfyUI with 3D Builder, AudioReact, Image Composer, Paint Studio, Save Mp4, Image Crop, Image Compare, Note Pixaroma, Label, Resolution, Preview Image, and Align Pixaroma (canvas snap & alignment guides). Layers, transforms, AI background removal, audio-reactive video, and more."
+        },
+        {
+            "author": "moose-lab",
+            "title": "ComfyUI-GPT [REMOVED]",
+            "reference": "https://github.com/moose-lab/ComfyUI-GPT",
+            "files": [
+                "https://github.com/moose-lab/ComfyUI-GPT"
+            ],
+            "install_type": "git-clone",
+            "description": "Help comfy deisgner develope custom nodes by foreground GUI without any coding knowledge, complementing the workflow what you design with LLM automatically"
+        },
+        {
+            "author": "Jjulianadv",
+            "title": "Wild Divide [REMOVED]",
+            "reference": "https://github.com/Julian-adv/WildDivide",
+            "files": [
+                "https://github.com/Julian-adv/WildDivide"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides the ability to build prompts using wildcards for each region of a split image."
+        },
+        {
             "author": "btitkin",
             "title": "Random Prompt Builder [REMOVED]",
             "id": "random-prompt-builder",
