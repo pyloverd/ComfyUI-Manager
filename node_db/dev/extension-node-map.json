@@ -4808,14 +4808,6 @@
             "title_aux": "ComfyUI-MS-Nodes [WIP]"
         }
     ],
-    "https://github.com/Sakura-nee/ComfyUI_Save2Discord": [
-        [
-            "SendToWebhook"
-        ],
-        {
-            "title_aux": "ComfyUI_Save2Discord"
-        }
-    ],
     "https://github.com/SanDiegoDude/ComfyUI-HiDream-Sampler": [
         [
             "HiDreamImg2Img",
@@ -7413,7 +7405,14 @@
     "https://github.com/charlierz/comfyui-charlierz": [
         [
             "BackgroundColor",
-            "ScaleDimensions"
+            "EstimateTextTokens",
+            "LlamaCppChat",
+            "LlamaCppVisionChat",
+            "PromptHelper",
+            "PromptHelperFillApply",
+            "PromptHelperFillRequest",
+            "ScaleDimensions",
+            "WildcardProcessor"
         ],
         {
             "title_aux": "comfyui-charlierz"
@@ -13398,12 +13397,16 @@
             "Add Watermark Image [Eclipse]",
             "Any Dual-Switch Purge [Eclipse]",
             "Any Dual-Switch [Eclipse]",
+            "Any Multi-Switch Lazy Purge [Eclipse]",
+            "Any Multi-Switch Lazy [Eclipse]",
             "Any Multi-Switch Purge [Eclipse]",
             "Any Multi-Switch [Eclipse]",
             "Any Passer Purge [Eclipse]",
             "Any Passer [Eclipse]",
             "Audio Passer [Eclipse]",
             "Basic Pipe Passer [Eclipse]",
+            "Batch Interleave [Eclipse]",
+            "Batch Slice [Eclipse]",
             "Boolean Passer [Eclipse]",
             "Boolean [Eclipse]",
             "CLIP Loader [Eclipse]",
@@ -13445,6 +13448,7 @@
             "IF A Else B Fallback [Eclipse]",
             "IF A Else B [Eclipse]",
             "IO Checkpoint Loader [Eclipse]",
+            "IO Checkpoint Loader v2 [Eclipse]",
             "IO Load Image [Eclipse]",
             "Image Align Size [Eclipse]",
             "Image Batch Extend With Overlap [Eclipse]",
@@ -13457,6 +13461,7 @@
             "Image Rescale [Eclipse]",
             "Image Resize [Eclipse]",
             "Image Resolution [Eclipse]",
+            "Image Selector [Eclipse]",
             "Image Soften [Eclipse]",
             "Image Upscale With Model [Eclipse]",
             "Image with FX [Eclipse]",
@@ -13468,6 +13473,7 @@
             "Keep Calculator [Eclipse]",
             "Latent Passer [Eclipse]",
             "Load Audio [Eclipse]",
+            "Load Batch From Folder [Eclipse]",
             "Load Directory Settings [Eclipse]",
             "Load Image (Metadata Pipe) [Eclipse]",
             "Load Image (Pipe) [Eclipse]",
@@ -13582,11 +13588,13 @@
             "UnetLoaderGGUF",
             "UnetLoaderGGUFAdvanced",
             "Universal Block Swap [Eclipse]",
+            "VAE Loader Video+Audio [Eclipse]",
             "VAE Loader [Eclipse]",
             "VAE Passer [Eclipse]",
             "VC-Filename Generator I [Eclipse]",
             "VC-Filename Generator II [Eclipse]",
             "VRAM Cleanup [Eclipse]",
+            "Video Frame Consistency [Eclipse]",
             "Video Resolution [Eclipse]",
             "WAN Model Passer [Eclipse]",
             "WanVideo Setup [Eclipse]",
@@ -14460,6 +14468,7 @@
             "InputText",
             "OneMScale",
             "ResFinder",
+            "SDXLResFinder",
             "SSchlTextEncoder",
             "ShowText",
             "Switch",
@@ -16261,6 +16270,7 @@
             "JsonReaderZV",
             "JsonToSrtConverterZV",
             "LineNumberGeneratorZV",
+            "LoadAudioFromDirZV",
             "LoadImageFromDirZV",
             "LoadImageFromUrlZV",
             "LoadTxtFromDirZV",

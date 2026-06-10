@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "shommey",
+            "title": "LoRA Helpers",
+            "reference": "https://github.com/shommey/comfyui-lora-helpers",
+            "files": [
+                "https://github.com/shommey/comfyui-lora-helpers"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for LoRA training evaluation — XY grid sampling across checkpoints and prompts"
+        },
+        {
+            "author": "wochenlong",
+            "title": "Anima Edit LoRA",
+            "reference": "https://github.com/wochenlong/ComfyUI-Anima-Edit-LoRA",
+            "files": [
+                "https://github.com/wochenlong/ComfyUI-Anima-Edit-LoRA"
+            ],
+            "install_type": "git-clone",
+            "description": "Anima Edit ReferenceLatent compatibility patch for ComfyUI. Lets built-in ReferenceLatent workflows drive single or multiple Anima Edit reference latents."
+        },
+        {
+            "author": "Dragon7108",
+            "title": "ComfyUI-QuickRatio",
+            "reference": "https://github.com/Dragon7108/ComfyUI-QuickRatio",
+            "files": [
+                "https://github.com/Dragon7108/ComfyUI-QuickRatio"
+            ],
+            "install_type": "git-clone",
+            "description": "Aspect-ratio calculator node for ComfyUI — preset + custom ratios, base-resolution scaling, dimensions snapped to multiples of 8, with a live web preview."
+        },
+        {
+            "author": "sparknight",
+            "title": "ComfyUI-ConditioningMultiplyAdvanced",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-ConditioningMultiplyAdvanced",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-ConditioningMultiplyAdvanced"
+            ],
+            "install_type": "git-clone",
+            "description": "Node for scheduling conditioning strength while preserving non-floating tensors such as token ids."
+        },
+        {
+            "author": "wiltodelta",
+            "title": "Remove AI Watermarks",
+            "reference": "https://github.com/wiltodelta/ComfyUI-remove-ai-watermarks",
+            "files": [
+                "https://github.com/wiltodelta/ComfyUI-remove-ai-watermarks"
+            ],
+            "install_type": "git-clone",
+            "description": "Remove visible and invisible AI watermarks (Gemini / Nano Banana, ChatGPT, Stable Diffusion) and erase regions, inside ComfyUI."
+        },
+        {
             "author": "denyazzolin",
             "title": "comfyui-daz-tools",
             "id": "comfyui-daz-tools",

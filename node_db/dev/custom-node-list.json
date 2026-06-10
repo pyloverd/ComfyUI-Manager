@@ -5848,16 +5848,6 @@
             "description": "NODES: A custom node for ComfyUI that performs hand detection, implemented with the YOLOv8 model, supporting both hand detection and mask generation."
         },
         {
-            "author": "Aero-Ex",
-            "title": "comfyui_diffswap",
-            "reference": "https://github.com/Aero-Ex/comfyui_diffswap",
-            "files": [
-                "https://github.com/Aero-Ex/comfyui_diffswap"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: DiffSwap"
-        },
-        {
             "author": "eggsbenedicto",
             "title": "DiffusionRenderer-ComfyUI [WIP]",
             "reference": "https://github.com/eggsbenedicto/DiffusionRenderer-ComfyUI",

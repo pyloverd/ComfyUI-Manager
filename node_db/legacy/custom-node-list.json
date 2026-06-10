@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Aero-Ex",
+            "title": "ComfyUI Vision LLM Analyzer Node [REMOVED]",
+            "reference": "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer",
+            "files": [
+                "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a powerful and versatile custom node for ComfyUI that seamlessly integrates with OpenAI-compatible Large Language Models (LLMs), including multimodal (vision-enabled) models like GPT-4o.\nThis single node allows you to perform both text generation and image analysis, making it an essential tool for advanced prompt engineering and creative automation."
+        },
+        {
+            "author": "Aero-Ex",
+            "title": "comfyui_diffswap [REMOVED]",
+            "reference": "https://github.com/Aero-Ex/comfyui_diffswap",
+            "files": [
+                "https://github.com/Aero-Ex/comfyui_diffswap"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: DiffSwap"
+        },
+        {
             "author": "Sakura-nee",
             "title": "ComfyUI_Save2Discord [REMOVED]",
             "reference": "https://github.com/Sakura-nee/ComfyUI_Save2Discord",
