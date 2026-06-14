@@ -53212,7 +53212,7 @@
             "id": "ComfyUI-Hypnodes",
             "reference": "https://github.com/hypnichorse/ComfyUI-Hypnodes",
             "install_type": "git-clone",
-            "description": "Procedural 10-character framework & character library with smart-injection technology."
+            "description": "Procedural Multi-character framework & character library with smart-injection technology."
         }
     ]
 }
