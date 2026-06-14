@@ -1283,16 +1283,6 @@
             "description": "A streamlined ComfyUI extension that adds an AI-powered chat interface to the sidebar for converting complex briefs/specs into generation-ready prompts. (Description by CC)\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "ComfyuiGY",
-            "title": "Comfyui-Memory-Clear",
-            "reference": "https://github.com/ComfyuiGY/Comfyui-Memory-Clear",
-            "files": [
-                "https://github.com/ComfyuiGY/Comfyui-Memory-Clear"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node for clearing memory. (Description by CC)"
-        },
-        {
             "author": "lying1324a-glitch",
             "title": "comfyuiautofirelaod",
             "reference": "https://github.com/lying1324a-glitch/comfyuiautofirelaod",

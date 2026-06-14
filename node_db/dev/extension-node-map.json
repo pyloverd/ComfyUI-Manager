@@ -650,14 +650,6 @@
             "title_aux": "comfyui-textools [WIP]"
         }
     ],
-    "https://github.com/Aero-Ex/comfyui_diffswap": [
-        [
-            "DiffSwapNode"
-        ],
-        {
-            "title_aux": "comfyui_diffswap"
-        }
-    ],
     "https://github.com/Agnuxo1/silicon-comfyui-node": [
         [
             "SiliconSignatureEmbed",
@@ -5292,6 +5284,8 @@
             "SDVN Int Slider",
             "SDVN Join Parameter",
             "SDVN KSampler",
+            "SDVN LTXAVTextEncoder Download",
+            "SDVN LatentUpscaleModel Download",
             "SDVN Load Checkpoint",
             "SDVN Load Checkpoint Filter",
             "SDVN Load Google Sheet",
@@ -7593,6 +7587,7 @@
             "BatchMasksNode",
             "BeebleSwitchXImageEdit",
             "BeebleSwitchXVideoEdit",
+            "BerniniConditioning",
             "BetaSamplingScheduler",
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
@@ -7681,6 +7676,10 @@
             "CropMask",
             "CurveEditor",
             "CustomCombo",
+            "DA3GeometryToMesh",
+            "DA3GeometryToPointCloud",
+            "DA3Inference",
+            "DA3Render",
             "DCTestNode",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -7900,6 +7899,7 @@
             "Load3D",
             "LoadAudio",
             "LoadBackgroundRemovalModel",
+            "LoadDA3Model",
             "LoadImage",
             "LoadImageDataSetFromFolder",
             "LoadImageMask",
@@ -8082,6 +8082,9 @@
             "Rodin3D_Regular",
             "Rodin3D_Sketch",
             "Rodin3D_Smooth",
+            "RunwayAleph2KeyframeNode",
+            "RunwayAleph2PromptImageNode",
+            "RunwayAleph2VideoToVideoNode",
             "RunwayFirstLastFrameNode",
             "RunwayImageToVideoNodeGen3a",
             "RunwayImageToVideoNodeGen4",
@@ -8090,6 +8093,7 @@
             "SAM3_TrackPreview",
             "SAM3_TrackToMask",
             "SAM3_VideoTrack",
+            "SCAIL2ColoredMask",
             "SDPoseDrawKeypoints",
             "SDPoseFaceBBoxes",
             "SDPoseKeypointExtractor",
@@ -8262,6 +8266,7 @@
             "TripleCLIPLoader",
             "TripoConversionNode",
             "TripoImageToModelNode",
+            "TripoImportModelNode",
             "TripoMultiviewToModelNode",
             "TripoP1ImageToModelNode",
             "TripoP1MultiviewToModelNode",
@@ -12608,6 +12613,7 @@
             "LoraStack",
             "MergeLoraStacks",
             "PipeBase",
+            "PipeCustom",
             "PromptChainer",
             "ReplaceTextParameters",
             "RerouteBase",
@@ -13568,6 +13574,7 @@
             "Smart Loader v2 [Eclipse]",
             "Smart Model Loader [Eclipse]",
             "Smart Model Loader [SML]",
+            "Smart Model Loader v2 [Eclipse]",
             "Smart Prompt [Eclipse]",
             "Smart Prompt v2 [Eclipse]",
             "Smart Sampler Settings [Eclipse]",
@@ -14523,6 +14530,7 @@
             "JsonPromptToTextPromptConverter",
             "JsonSerializeObject",
             "LlamaCppTextGenerator",
+            "LlamaPresetLoader",
             "Logger",
             "LoraLoaderExtended",
             "LoraLoaderExtendedBatch",

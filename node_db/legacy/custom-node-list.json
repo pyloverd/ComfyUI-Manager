@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "ComfyuiGY",
+            "title": "Comfyui-Memory-Clear [REMOVED]",
+            "reference": "https://github.com/ComfyuiGY/Comfyui-Memory-Clear",
+            "files": [
+                "https://github.com/ComfyuiGY/Comfyui-Memory-Clear"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for clearing memory. (Description by CC)"
+        },
+        {
+            "author": "Draek2077",
+            "title": "comfyui-draekz-nodez [REMOVED]",
+            "reference": "https://github.com/Draek2077/comfyui-draekz-nodez",
+            "files": [
+                "https://github.com/Draek2077/comfyui-draekz-nodez"
+            ],
+            "install_type": "git-clone",
+            "description": "Making ComfyUI more comfortable."
+        },
+        {
+            "author": "amortegui84",
+            "title": "Tile Upscale NB2 [REMOVED]",
+            "reference": "https://github.com/amortegui84/comfyui-tile-upscale-nb2",
+            "files": [
+                "https://github.com/amortegui84/comfyui-tile-upscale-nb2"
+            ],
+            "install_type": "git-clone",
+            "description": "Tile-based upscaling nodes for ComfyUI — Nano Banana 2 compatible"
+        },
+        {
             "author": "Aero-Ex",
             "title": "ComfyUI Vision LLM Analyzer Node [REMOVED]",
             "reference": "https://github.com/Aero-Ex/ComfyUI-Vision-LLM-Analyzer",
