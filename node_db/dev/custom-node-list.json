@@ -8150,16 +8150,6 @@
             "description": "This extension integrates [a/Hi3DGen](https://github.com/Stable-X/Hi3DGen) into ComfyUI, allowing user to generate high-fidelity 3D geometry generation from Images.[w/If the *sageattention* package is installed, this nodepack causes problems.]"
         },
         {
-            "author": "stiffy-committee",
-            "title": "comfyui-stiffy-nodes",
-            "reference": "https://github.com/V-woodpecker-V/comfyui-stiffy-nodes",
-            "files": [
-                "https://github.com/V-woodpecker-V/comfyui-stiffy-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: StiffyPrompter, StiffyPersistentPrompter, StiffyDecoder, StiffyDebugger, ..."
-        },
-        {
             "author": "chetusangolgi",
             "title": "Comfyui-supabase",
             "reference": "https://github.com/chetusangolgi/Comfyui-supabase",

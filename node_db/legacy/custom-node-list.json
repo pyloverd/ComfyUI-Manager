@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "stiffy-committee",
+            "title": "comfyui-stiffy-nodes [REMOVED]",
+            "reference": "https://github.com/V-woodpecker-V/comfyui-stiffy-nodes",
+            "files": [
+                "https://github.com/V-woodpecker-V/comfyui-stiffy-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: StiffyPrompter, StiffyPersistentPrompter, StiffyDecoder, StiffyDebugger, ..."
+        },
+        {
             "author": "ComfyuiGY",
             "title": "Comfyui-Memory-Clear [REMOVED]",
             "reference": "https://github.com/ComfyuiGY/Comfyui-Memory-Clear",

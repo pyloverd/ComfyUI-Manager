@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "ahkimkoo",
+            "title": "ComfyUI MIDI Edit",
+            "reference": "https://github.com/ahkimkoo/ComfyUI-MIDI-Edit",
+            "files": [
+                "https://github.com/ahkimkoo/ComfyUI-MIDI-Edit"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for MIDI lyrics editing. Replace lyrics in MIDI JSON with auto-generated phonemes (Chinese pinyin / English phonemes), or extract lyrics text. Works with ComfyUI_RH_SoulX-Singer for custom song generation."
+        },
+        {
             "author": "sln77",
             "title": "ComfyUI-Tagger",
             "reference": "https://github.com/sln77/ComfyUI-Tagger",

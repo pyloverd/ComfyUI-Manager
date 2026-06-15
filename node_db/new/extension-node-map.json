@@ -507,6 +507,7 @@
             "1hew_DetectRemoveBG",
             "1hew_DetectRemoveBGRefine",
             "1hew_DetectYolo",
+            "1hew_FloatNumberCompare",
             "1hew_GetFileCount",
             "1hew_ImageAddLabel",
             "1hew_ImageAlphaClean",
@@ -555,6 +556,7 @@
             "1hew_IntImageSideLength",
             "1hew_IntImageSize",
             "1hew_IntMaskSideLength",
+            "1hew_IntNumberCompare",
             "1hew_IntSplit",
             "1hew_IntWan",
             "1hew_ListCustomFloat",
@@ -2208,7 +2210,8 @@
             "PromptCleaningMaid",
             "PromptSelector",
             "ResolutionMasterSimplify",
-            "SimpleImageCompare"
+            "SimpleImageCompare",
+            "VAEImageBatchFix"
         ],
         {
             "title_aux": "ComfyUI-Danbooru-Gallery"
@@ -3186,6 +3189,10 @@
             "MarigoldIIDLighting",
             "MarigoldIIDSplitLoader",
             "MarigoldIIDSplitToIIDModel",
+            "PaGeRDA3Runtime",
+            "PaGeRDA3SaveImages",
+            "PaGeRDA3SaveNPZ",
+            "PaGeRDA3SavePointCloud",
             "PaGeRDepthPostprocess",
             "PaGeRInferCubemap",
             "PaGeRNormalPostprocess",
@@ -6816,12 +6823,22 @@
     ],
     "https://github.com/Damkohler/CaptionForge": [
         [
-            "JLC_CaptionForgeClaimExtractor",
-            "JLC_CaptionForgePipelinePlanner",
+            "JLC_BLIPCaption",
+            "JLC_BLIPCaptionLite",
+            "JLC_CaptionForge",
+            "JLC_CaptionForgeExtraOptions",
+            "JLC_CaptionForge_Pipeline_Planner",
+            "JLC_CaptionForge_Reversed",
+            "JLC_FlorenceCaption",
+            "JLC_FlorenceCaptionLite",
+            "JLC_InternVLCaption",
+            "JLC_InternVLCaptionLite",
             "JLC_JoyCaption",
             "JLC_JoyCaptionLite",
             "JLC_QwenCaption",
-            "JLC_QwenCaptionLite"
+            "JLC_QwenCaptionLite",
+            "JLC_SmolVLMCaption",
+            "JLC_SmolVLMCaptionLite"
         ],
         {
             "title_aux": "CaptionForge"
@@ -7440,6 +7457,7 @@
             "DenoAIReviewGate",
             "DenoAdvancedImageSourceLoader",
             "DenoBerniniPromptGuide",
+            "DenoIdeogramDirector",
             "DenoImageCompare",
             "DenoLTX23PresetLoader",
             "DenoLTXModelDownloader",
@@ -15829,40 +15847,16 @@
     ],
     "https://github.com/Ltamann/ComfyUI-TBG-ETUR": [
         [
-            "ApplyRegionalConds",
-            "ConfigureModifiedFlux",
-            "CreateRegionalCond",
-            "EdgePadNode",
-            "FlowEditForwardSampler",
-            "FlowEditGuider",
-            "FlowEditReverseSampler",
-            "FlowEditSampler",
-            "FluxAttnOverride",
-            "FluxDeGuidance",
-            "FluxForwardODESampler",
-            "FluxInverseSampler",
-            "FluxKontextResolution",
-            "FluxNoiseMixer",
-            "FluxReverseODESampler",
-            "ImageComplexityMap",
-            "InFluxFlipSigmas",
-            "InFluxModelSamplingPred",
-            "IncrementBatch",
-            "MaskConditionalPaint",
-            "MaskGrayValueScaler",
-            "MaskMultiplyAdvanced",
-            "MaskMultiplyZeroWins",
-            "MaskToDenoiseInterpolator",
-            "MaskUpdateInpaintFromConditioning",
-            "OutFluxModelSamplingPred",
-            "PAGAttention",
-            "PrepareAttnBank",
-            "QwenEditResolution",
-            "RFDoubleBlocksOverride",
-            "RFSingleBlocksOverride",
-            "RegionalStyleModelApply",
-            "SEGAttention",
-            "TBG_masked_attention"
+            "DownloadAndLoadFlorence2Lora",
+            "DownloadAndLoadFlorence2Model",
+            "Florence2ModelLoader",
+            "Florence2Run",
+            "LanPaint_KSampler",
+            "LanPaint_KSamplerAdvanced",
+            "LanPaint_MaskBlend",
+            "LanPaint_SamplerCustom",
+            "LanPaint_SamplerCustomAdvanced",
+            "TBGFlux2Sampler"
         ],
         {
             "title_aux": "TBG_Enhanced Tiled Upscaler & Refiner FLUX PRO"
@@ -20361,6 +20355,7 @@
             "LoadImageRGBA",
             "LoadImageWithText",
             "RS Image Selector",
+            "RSAnySwitch",
             "RSCollage",
             "RSColorPicker",
             "RSCropImage",
@@ -26277,14 +26272,18 @@
             "XB_VideoParamsMaster",
             "XB_Video_Merger",
             "XB_Wan22FunControlToVideo",
+            "XB_Wan22ImageToVideoLatent",
             "XB_WanAnimateToVideo",
             "XB_WanAnimate_ParamBus",
             "XB_WanAnimate_RelayNode",
             "XB_WanBlockSwap",
+            "XB_WanCameraImageToVideo",
             "XB_WanCompileSettings",
             "XB_WanDecode",
             "XB_WanFirstLastFrameToVideo",
             "XB_WanFunControlToVideo",
+            "XB_WanFunInpaintToVideo",
+            "XB_WanHuMoImageToVideo",
             "XB_WanImageToVideo",
             "XB_WanInfiniteTalkToVideo",
             "XB_WanInfiniteTalkToVideo_Dual",
@@ -26292,11 +26291,17 @@
             "XB_WanInfiniteTalk_ParamBus",
             "XB_WanInfiniteTalk_RelayNode",
             "XB_WanModelLoader",
+            "XB_WanPhantomSubjectToVideo",
+            "XB_WanSCAILToVideo",
+            "XB_WanSCAILToVideoPro",
             "XB_WanSampler",
             "XB_WanSoundImageToVideo",
+            "XB_WanSoundImageToVideoExtend",
             "XB_WanT5Loader",
             "XB_WanTextEncode",
+            "XB_WanVAEDecodeTiled",
             "XB_WanVAELoader",
+            "XB_WanVaceToVideo",
             "XB_Wan_InfiniteRelayNode",
             "XB_Wan_ParamBus",
             "XB_Wan_RelayNode",
@@ -28549,6 +28554,16 @@
         ],
         {
             "title_aux": "ComfyUI-GetKeyFrames"
+        }
+    ],
+    "https://github.com/ahkimkoo/ComfyUI-MIDI-Edit": [
+        [
+            "MIDIEditLyrics",
+            "MIDIExtractLyrics",
+            "MIDIMergeRepeatedChars"
+        ],
+        {
+            "title_aux": "ComfyUI MIDI Edit"
         }
     ],
     "https://github.com/ahkimkoo/ComfyUI-VideoActorExtract": [
@@ -31356,6 +31371,7 @@
     "https://github.com/baijunty/comfyui_image_embeddings": [
         [
             "Base64ImageLoader",
+            "CharacterTagTrigger",
             "CustomImageLoader",
             "GLMOCRNode",
             "Image2Base64",
@@ -39125,6 +39141,7 @@
             "ChatterBoxVoiceCapture",
             "CosyVoice Engine",
             "CosyVoiceEngineNode",
+            "DotsTTSEngineNode",
             "EchoTTSEngineNode",
             "F5TTSEngineNode",
             "GraniteASREngineNode",
@@ -39158,6 +39175,7 @@
             "TextToSRTBuilderNode",
             "UnifiedASRTranscribeNode",
             "UnifiedModelTrainingNode",
+            "UnifiedSoundEffectsNode",
             "UnifiedTTSSRTNode",
             "UnifiedTTSTextNode",
             "UnifiedVoiceChangerNode",
@@ -46515,6 +46533,7 @@
             "DarkroomColorSpaceTransform",
             "DarkroomColorWarper",
             "DarkroomCrossProcess",
+            "DarkroomEberhard",
             "DarkroomExposureTone",
             "DarkroomFilmGrain",
             "DarkroomFilmGrainPro",
@@ -46542,9 +46561,12 @@
             "DarkroomPrintStock",
             "DarkroomRAWLoad",
             "DarkroomRAWMetadataSplit",
+            "DarkroomReciprocity",
+            "DarkroomSabattier",
             "DarkroomSatVsSat",
             "DarkroomSharpeningPro",
             "DarkroomSkinToneUniformity",
+            "DarkroomSpectralBW",
             "DarkroomSpectralFilmStock",
             "DarkroomThreeWayColorBalance",
             "DarkroomToneCurve",
@@ -46858,6 +46880,8 @@
     "https://github.com/jieg9341-lab/ComfyUI-SCAIL2-Easy": [
         [
             "SCAIL2FitVideo",
+            "SCAIL2ReferencePack",
+            "SCAIL2ReferenceSAMBuilder",
             "SCAIL2SimpleVideo"
         ],
         {
@@ -50157,7 +50181,9 @@
     ],
     "https://github.com/kpsss34/walkyrie": [
         [
-            "WalkyrieNode"
+            "WalkyrieLoader",
+            "WalkyrieLoraLoader",
+            "WalkyrieSampler"
         ],
         {
             "title_aux": "walkyrie"
@@ -54128,6 +54154,7 @@
             "SaveImage",
             "StylePromptEncoder",
             "StylePromptEncoder2",
+            "StylePromptEncoderX21",
             "StyleStringInjector",
             "StyleStringInjector2",
             "VAEEncodeSoftInpainting",
@@ -54136,7 +54163,8 @@
             "ZSamplerTurbo2Advanced",
             "ZSamplerTurbo2Laboratory",
             "ZSamplerTurbo2Simple",
-            "ZSamplerTurboAdvanced"
+            "ZSamplerTurboAdvanced",
+            "ZSamplerTurboX21"
         ],
         {
             "title_aux": "ComfyUI-ZImagePowerNodes"
@@ -60971,6 +60999,7 @@
             "EvaluateStrs",
             "ImageCropper",
             "LoadImageBatch",
+            "ResizeImageAdvanced",
             "TP_LoadMask",
             "TP_SaveMask",
             "TextInput",
@@ -62743,6 +62772,7 @@
             "LogicXOR",
             "MathAbs",
             "MathAdd",
+            "MathAspectRatio",
             "MathCeil",
             "MathClamp",
             "MathCompare",
