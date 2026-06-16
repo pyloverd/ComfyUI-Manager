@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "vantang",
+            "title": "ComfyUI MediaHub",
+            "id": "mediahub-cloud",
+            "reference": "https://github.com/vantang/ComfyUI-MediaHub",
+            "files": [
+                "https://github.com/vantang/ComfyUI-MediaHub"
+            ],
+            "install_type": "git-clone",
+            "description": "Connect cloud image and video generation APIs to composable ComfyUI workflows."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
