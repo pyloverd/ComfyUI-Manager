@@ -16179,6 +16179,16 @@
             "description": "Custom nodes for performing basic math operations"
         },
         {
+            "author": "akatz-ai",
+            "title": "Akatz Seamless Tiling",
+            "reference": "https://github.com/akatz-ai/Akatz-Seamless-Tiling",
+            "files": [
+                "https://github.com/akatz-ai/Akatz-Seamless-Tiling"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for seamless tiling and Akatz workflow utilities."
+        },
+        {
             "author": "teward",
             "title": "Comfy-Sentry",
             "reference": "https://github.com/teward/Comfy-Sentry",
@@ -23005,6 +23015,16 @@
             ],
             "install_type": "git-clone",
             "description": "A small arcade shooter that runs inside the ComfyUI canvas where players survive swarms of API nodes."
+        },
+        {
+            "author": "skbv0",
+            "title": "Palette Director",
+            "reference": "https://github.com/SKBv0/ComfyUI_PaletteDirector",
+            "files": [
+                "https://github.com/SKBv0/ComfyUI_PaletteDirector"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for palette-card image conditioning and structured palette prompts."
         },
         {
             "author": "civen-cn",
@@ -52986,6 +53006,26 @@
             ],
             "install_type": "git-clone",
             "description": "Download models from HuggingFace (no API key) and manage your local ComfyUI models (list, move, delete) from a built-in panel."
+        },
+        {
+            "author": "TODO",
+            "title": "ComfyUI-SCAIL2-LongVideoContext",
+            "reference": "https://github.com/1GirlUniversity/ComfyUI-SCAIL2-LongVideoContext",
+            "files": [
+                "https://github.com/1GirlUniversity/ComfyUI-SCAIL2-LongVideoContext"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart context window model patches for SCAIL-2 long video workflows in ComfyUI."
+        },
+        {
+            "author": "systms-ai",
+            "title": "TimeSlice Nodes",
+            "reference": "https://github.com/systms-ai/TimeSlice-Nodes",
+            "files": [
+                "https://github.com/systms-ai/TimeSlice-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Temporal slit-scan / time-displacement effects for ComfyUI — angled, animated and dual-source slicing on a shared engine."
         },
         {
             "author": "ntdviet",
