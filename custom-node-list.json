@@ -47642,6 +47642,26 @@
             "description": "Spectrum: training-free diffusion sampling acceleration via Chebyshev polynomial feature forecasting. Drop-in KSampler replacement that skips transformer blocks on predicted steps for ~2-3x speedup."
         },
         {
+            "author": "sorryhyun",
+            "title": "Anima PiD",
+            "reference": "https://github.com/sorryhyun/ComfyUI-Anima-PiD",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-Anima-PiD"
+            ],
+            "install_type": "git-clone",
+            "description": "NVIDIA PiD (Pixel Diffusion Decoder) as a drop-in replacement for VAE Decode on Anima / Qwen-Image latents."
+        },
+        {
+            "author": "sorryhyun",
+            "title": "Easycontrol KSampler Compatible",
+            "reference": "https://github.com/sorryhyun/ComfyUI-EasyControl-KSamplerCompat",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-EasyControl-KSamplerCompat"
+            ],
+            "install_type": "git-clone",
+            "description": "KSampler-compatible Anima EasyControl image conditioning for ComfyUI."
+        },
+        {
             "author": "spacewarpstudio",
             "title": "ComfyUI Override Switch",
             "reference": "https://github.com/SpaceWarpStudio/ComfyUI-OverrideSwitch",
