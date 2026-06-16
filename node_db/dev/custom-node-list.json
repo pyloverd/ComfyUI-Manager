@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "bonestudio",
-            "title": "Bone-Studio Model Manager [NO NODES]",
-            "reference": "https://github.com/juangea/bs-comfyui-model-manager",
-            "files": [
-                "https://github.com/juangea/bs-comfyui-model-manager"
-            ],
-            "install_type": "git-clone",
-            "description": "Download models from HuggingFace (no API key) and manage your local ComfyUI models (list, move, delete) from a built-in panel."
-        },
-        {
             "author": "7akoro",
             "title": "comfyui-prompt-enhancer [NAME CONFLICT]",
             "reference": "https://github.com/7akoro/comfyui-prompt-enhancer",
