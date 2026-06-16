@@ -40868,6 +40868,26 @@
             "description": "A drop-in replacement for ComfyUI's stock ReferenceLatent node, with per-image strength, per-image timestep gating, per-image MediaPipe auto-masks, megapixel cap on attention cost, and 1–4 image inputs in a single node."
         },
         {
+            "author": "shootthesound",
+            "title": "ComfyUI-SequentialImageLoader",
+            "reference": "https://github.com/shootthesound/ComfyUI-SequentialImageLoader",
+            "files": [
+                "https://github.com/shootthesound/ComfyUI-SequentialImageLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "Load a folder of images one at a time, in order — a fresh image on every Queue. Natural sort, filetype picker, reverse, subfolders, hold/pause, scrub bar, folder browser, and current/next previews."
+        },
+        {
+            "author": "shootthesound",
+            "title": "ComfyUI-Angelo",
+            "reference": "https://github.com/shootthesound/ComfyUI-Angelo",
+            "files": [
+                "https://github.com/shootthesound/ComfyUI-Angelo"
+            ],
+            "install_type": "git-clone",
+            "description": "Click-to-refine sampler. Generate, then click or paint regions to refine them in place. First-class support for FLUX 2 Klein 9B and Qwen-Image-Edit (Smart Inpaint / Smart Guided Inpaint / Xtra-Fine), works with any sampler-compatible model for Refine + Area Prompt. Optional SAM 3 Detect for text-prompted segmentation, and a companion Overrides node for custom samplers (power-sigma, Flux 2 scheduler, NAG)."
+        },
+        {
             "author": "HackAfterDark",
             "title": "AfterDark Film AR Selector",
             "id": "ComfyUI-HackAfterDark-Nodes",
@@ -47026,6 +47046,17 @@
             "description": "Real-time particle animation node for ComfyUI. Renders smoke, sparks, light rays, and star-warp effects using PixiJS v7, with 13 post-effect filters, blend modes, custom textures, character-shape particles, and scatter mode. Captures any frame as an image output."
         },
         {
+            "author": "ketle-man",
+            "title": "PSD Figure Creator",
+            "id": "psd-figure-creator",
+            "reference": "https://github.com/ketle-man/PSD-Figure-Creator",
+            "files": [
+                "https://github.com/ketle-man/PSD-Figure-Creator"
+            ],
+            "install_type": "git-clone",
+            "description": "Load PSD files, rig layers with interactive R / MR / SW control points, and composite as IMAGE + MASK. Supports setup/pose modes, model/pose library, background options, and i18n (ja/en/zh)."
+        },
+        {
             "author": "senjinthedragon",
             "title": "ComfyUI Gender Tag Filter",
             "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
@@ -50398,6 +50429,17 @@
             "description": "A lightweight IMAGE preview tap node that sends an in-memory JPEG contact sheet without writing temporary preview files."
         },
         {
+            "author": "ruminar",
+            "title": "ComfyUI-CheckpointHandpickerSuite",
+            "id": "checkpointhandpickersuite",
+            "reference": "https://github.com/ruminar/ComfyUI-CheckpointHandpickerSuite",
+            "files": [
+                "https://github.com/ruminar/ComfyUI-CheckpointHandpickerSuite"
+            ],
+            "install_type": "git-clone",
+            "description": "Review-first checkpoint cycling and handpicking suite for ComfyUI. Auto-cycle checkpoints, review generated images, tag checkpoints, and export cleanup scripts without deleting files immediately."
+        },
+        {
             "author": "WuMIn259",
             "title": "ComfyUI-ZTurbo-Style-Transfer",
             "reference": "https://github.com/WuMIn259/ComfyUI-ZTurbo-Style-Transfer",
@@ -53088,6 +53130,27 @@
             ],
             "install_type": "git-clone",
             "description": "Procedural Multi-character framework & character library with smart-injection technology."
+        },
+        {
+            "author": "verqqa",
+            "title": "PromptNodethingLD",
+            "id": "promptnodethingld",
+            "reference": "https://github.com/verqqa/PromptNodethingLD",
+            "files": [
+                "https://github.com/verqqa/PromptNodethingLD"
+            ],
+            "install_type": "git-clone",
+            "description": "Cinematic AI prompt node for LTX video. Three-pass pipeline: Choreography pre-pass, main generation, lint + auto-repair. Supports Windows, Linux, macOS via llama.cpp (Gemma 4 26B)."
+        },
+        {
+            "author": "pooria98",
+            "title": "ComfyUI-Config-Presets",
+            "reference": "https://github.com/pooria98/ComfyUI-Config-Presets",
+            "files": [
+                "https://github.com/pooria98/ComfyUI-Config-Presets"
+            ],
+            "install_type": "git-clone",
+            "description": "Preset nodes to save and use prompt and sampler settings presets for different models."
         },
         {
             "author": "ntdviet",

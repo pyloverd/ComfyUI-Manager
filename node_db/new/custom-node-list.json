@@ -1,6 +1,69 @@
 {
     "custom_nodes": [
         {
+            "author": "ruminar",
+            "title": "ComfyUI-CheckpointHandpickerSuite",
+            "id": "checkpointhandpickersuite",
+            "reference": "https://github.com/ruminar/ComfyUI-CheckpointHandpickerSuite",
+            "files": [
+                "https://github.com/ruminar/ComfyUI-CheckpointHandpickerSuite"
+            ],
+            "install_type": "git-clone",
+            "description": "Review-first checkpoint cycling and handpicking suite for ComfyUI. Auto-cycle checkpoints, review generated images, tag checkpoints, and export cleanup scripts without deleting files immediately."
+        },
+        {
+            "author": "ketle-man",
+            "title": "PSD Figure Creator",
+            "id": "psd-figure-creator",
+            "reference": "https://github.com/ketle-man/PSD-Figure-Creator",
+            "files": [
+                "https://github.com/ketle-man/PSD-Figure-Creator"
+            ],
+            "install_type": "git-clone",
+            "description": "Load PSD files, rig layers with interactive R / MR / SW control points, and composite as IMAGE + MASK. Supports setup/pose modes, model/pose library, background options, and i18n (ja/en/zh)."
+        },
+        {
+            "author": "shootthesound",
+            "title": "ComfyUI-Angelo",
+            "reference": "https://github.com/shootthesound/ComfyUI-Angelo",
+            "files": [
+                "https://github.com/shootthesound/ComfyUI-Angelo"
+            ],
+            "install_type": "git-clone",
+            "description": "Click-to-refine sampler. Generate, then click or paint regions to refine them in place. First-class support for FLUX 2 Klein 9B and Qwen-Image-Edit (Smart Inpaint / Smart Guided Inpaint / Xtra-Fine), works with any sampler-compatible model for Refine + Area Prompt. Optional SAM 3 Detect for text-prompted segmentation, and a companion Overrides node for custom samplers (power-sigma, Flux 2 scheduler, NAG)."
+        },
+        {
+            "author": "shootthesound",
+            "title": "ComfyUI-SequentialImageLoader",
+            "reference": "https://github.com/shootthesound/ComfyUI-SequentialImageLoader",
+            "files": [
+                "https://github.com/shootthesound/ComfyUI-SequentialImageLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "Load a folder of images one at a time, in order — a fresh image on every Queue. Natural sort, filetype picker, reverse, subfolders, hold/pause, scrub bar, folder browser, and current/next previews."
+        },
+        {
+            "author": "pooria98",
+            "title": "ComfyUI-Config-Presets",
+            "reference": "https://github.com/pooria98/ComfyUI-Config-Presets",
+            "files": [
+                "https://github.com/pooria98/ComfyUI-Config-Presets"
+            ],
+            "install_type": "git-clone",
+            "description": "Preset nodes to save and use prompt and sampler settings presets for different models."
+        },
+        {
+            "author": "verqqa",
+            "title": "PromptNodethingLD",
+            "id": "promptnodethingld",
+            "reference": "https://github.com/verqqa/PromptNodethingLD",
+            "files": [
+                "https://github.com/verqqa/PromptNodethingLD"
+            ],
+            "install_type": "git-clone",
+            "description": "Cinematic AI prompt node for LTX video. Three-pass pipeline: Choreography pre-pass, main generation, lint + auto-repair. Supports Windows, Linux, macOS via llama.cpp (Gemma 4 26B)."
+        },
+        {
             "author": "vantang",
             "title": "ComfyUI MediaHub",
             "id": "mediahub-cloud",
