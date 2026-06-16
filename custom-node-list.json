@@ -1,17 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "vantang",
-            "title": "ComfyUI MediaHub",
-            "id": "mediahub-cloud",
-            "reference": "https://github.com/vantang/ComfyUI-MediaHub",
-            "files": [
-                "https://github.com/vantang/ComfyUI-MediaHub"
-            ],
-            "install_type": "git-clone",
-            "description": "Connect cloud image and video generation APIs to composable ComfyUI workflows."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -53069,6 +53058,38 @@
             "description": "Temporal slit-scan / time-displacement effects for ComfyUI — angled, animated and dual-source slicing on a shared engine."
         },
         {
+            "author": "vantang",
+            "title": "ComfyUI MediaHub",
+            "id": "mediahub-cloud",
+            "reference": "https://github.com/vantang/ComfyUI-MediaHub",
+            "files": [
+                "https://github.com/vantang/ComfyUI-MediaHub"
+            ],
+            "install_type": "git-clone",
+            "description": "Connect cloud image and video generation APIs to composable ComfyUI workflows."
+        },
+        {
+            "author": "elowbe",
+            "title": "comfyui-save-text",
+            "reference": "https://github.com/elowbe/comfyui-save-text",
+            "files": [
+                "https://github.com/elowbe/comfyui-save-text"
+            ],
+            "install_type": "git-clone",
+            "description": "API friendly save text to file."
+        },
+        {
+            "author": "hypnichorse",
+            "title": "ComfyUI-Hypnodes",
+            "id": "ComfyUI-Hypnodes",
+            "reference": "https://github.com/hypnichorse/ComfyUI-Hypnodes",
+            "files": [
+                "https://github.com/hypnichorse/ComfyUI-Hypnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Procedural Multi-character framework & character library with smart-injection technology."
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
@@ -53189,16 +53210,6 @@
             "install_type": "copy",
             "description": "Use LibreTranslation in ComfyUI [a/https://github.com/LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)"
         },
-	{
-	    "author": "elowbe",
-	    "title": "comfyui-save-text",
-	    "reference": "https://github.com/elowbe/comfyui-save-text",
-	    "files": [
-	        "https://github.com/elowbe/comfyui-save-text"
-	    ],
-	    "install_type": "git-clone",
-	    "description": "API friendly save text to file."
-	},
         {
             "author": "ultimatech-cn",
             "title": "FaceSimilarity",
@@ -53296,15 +53307,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "hypnichorse",
-            "title": "ComfyUI-Hypnodes",
-            "id": "ComfyUI-Hypnodes",
-            "reference": "https://github.com/hypnichorse/ComfyUI-Hypnodes",
-            "files": ["https://github.com/hypnichorse/ComfyUI-Hypnodes"],
-            "install_type": "git-clone",
-            "description": "Procedural Multi-character framework & character library with smart-injection technology."
         }
     ]
 }

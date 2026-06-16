@@ -1,6 +1,68 @@
 {
     "custom_nodes": [
         {
+            "author": "vantang",
+            "title": "ComfyUI MediaHub",
+            "id": "mediahub-cloud",
+            "reference": "https://github.com/vantang/ComfyUI-MediaHub",
+            "files": [
+                "https://github.com/vantang/ComfyUI-MediaHub"
+            ],
+            "install_type": "git-clone",
+            "description": "Connect cloud image and video generation APIs to composable ComfyUI workflows."
+        },
+        {
+            "author": "elowbe",
+            "title": "comfyui-save-text",
+            "reference": "https://github.com/elowbe/comfyui-save-text",
+            "files": [
+                "https://github.com/elowbe/comfyui-save-text"
+            ],
+            "install_type": "git-clone",
+            "description": "API friendly save text to file."
+        },
+        {
+            "author": "hypnichorse",
+            "title": "ComfyUI-Hypnodes",
+            "id": "ComfyUI-Hypnodes",
+            "reference": "https://github.com/hypnichorse/ComfyUI-Hypnodes",
+            "files": [
+                "https://github.com/hypnichorse/ComfyUI-Hypnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Procedural Multi-character framework & character library with smart-injection technology."
+        },
+        {
+            "author": "rookiestar28",
+            "title": "ComfyUI-LongCat-Avatar",
+            "reference": "https://github.com/rookiestar28/ComfyUI-LongCat-Avatar",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-LongCat-Avatar"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for LongCat Video Avatar 1.5 audio-driven human video generation."
+        },
+        {
+            "author": "sorryhyun",
+            "title": "Anima PiD",
+            "reference": "https://github.com/sorryhyun/ComfyUI-Anima-PiD",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-Anima-PiD"
+            ],
+            "install_type": "git-clone",
+            "description": "NVIDIA PiD (Pixel Diffusion Decoder) as a drop-in replacement for VAE Decode on Anima / Qwen-Image latents."
+        },
+        {
+            "author": "sorryhyun",
+            "title": "Easycontrol KSampler Compatible",
+            "reference": "https://github.com/sorryhyun/ComfyUI-EasyControl-KSamplerCompat",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-EasyControl-KSamplerCompat"
+            ],
+            "install_type": "git-clone",
+            "description": "KSampler-compatible Anima EasyControl image conditioning for ComfyUI."
+        },
+        {
             "author": "skbv0",
             "title": "Palette Director",
             "reference": "https://github.com/SKBv0/ComfyUI_PaletteDirector",
