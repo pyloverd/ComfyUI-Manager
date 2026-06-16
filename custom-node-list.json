@@ -53159,6 +53159,16 @@
             "install_type": "copy",
             "description": "Use LibreTranslation in ComfyUI [a/https://github.com/LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)"
         },
+	{
+	    "author": "elowbe",
+	    "title": "comfyui-save-text",
+	    "reference": "https://github.com/elowbe/comfyui-save-text",
+	    "files": [
+	        "https://github.com/elowbe/comfyui-save-text"
+	    ],
+	    "install_type": "git-clone",
+	    "description": "API friendly save text to file."
+	},
         {
             "author": "ultimatech-cn",
             "title": "FaceSimilarity",
