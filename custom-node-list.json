@@ -37622,6 +37622,16 @@
         },
         {
             "author": "rookiestar28",
+            "title": "ComfyUI-LongCat-Avatar",
+            "reference": "https://github.com/rookiestar28/ComfyUI-LongCat-Avatar",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-LongCat-Avatar"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for LongCat Video Avatar 1.5 audio-driven human video generation."
+        },
+        {
+            "author": "rookiestar28",
             "title": "Danbooru Tags Upsampler for ComfyUI",
             "id": "danbooru-tags-upsampler",
             "reference": "https://github.com/rookiestar28/ComfyUI-Danbooru-Tags-Upsampler",
