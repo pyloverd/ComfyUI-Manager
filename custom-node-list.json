@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "monkeykim111",
+            "title": "ComfyUI-Image-Safety-Gate",
+            "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
+            "files": [
+                "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
+            ],
+            "install_type": "git-clone",
+            "description": "Illustration-friendly NSFW + gore gate combining SmilingWolf WD tagger v3, CompVis CLIP safety checker, and OwenElliott image-safety-classifier-s NSFL signal with boolean OR. Drop-in compatible with the existing CLIP-based safety-checker node (matches the (IMAGE, nsfw) output signature)."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
