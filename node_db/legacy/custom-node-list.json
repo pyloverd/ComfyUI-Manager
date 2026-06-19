@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "dandancow874",
+            "title": "ComfyUI-LMStudio-Controller [REMOVED]",
+            "reference": "https://github.com/dandancow874/ComfyUI-LMStudio-Controller",
+            "files": [
+                "https://github.com/dandancow874/ComfyUI-LMStudio-Controller"
+            ],
+            "install_type": "git-clone",
+            "description": "Integrates LM Studio's CLI to perform Vision Language Model inference locally in ComfyUI with advanced memory management and anti-OOM protection."
+        },
+        {
+            "author": "cathodeDreams",
+            "title": "comfyui-azul-scripts [REMOVED]",
+            "reference": "https://github.com/cathodeDreams/comfyui-azul-scripts",
+            "files": [
+                "https://github.com/cathodeDreams/comfyui-azul-scripts"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Save Image (JPG), Combine Conditionings (Weighted)"
+        },
+        {
             "author": "michael",
             "title": "ComfyUI ML Nodes [REMOVED]",
             "reference": "https://github.com/MichaelMaxAgent/comfyui_ML_nodes",
