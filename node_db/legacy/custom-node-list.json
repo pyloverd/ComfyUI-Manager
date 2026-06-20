@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "wzyfromhust",
+            "title": "ComfyUI_SAM2UltraV2 [REMOVED]",
+            "reference": "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2",
+            "files": [
+                "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully modular and high-performance implementation of SAM2 (Segment Anything Model 2) for ComfyUI with dual-prompt support, negative point sampling, and upper body segmentation."
+        },
+        {
             "author": "dandancow874",
             "title": "ComfyUI-LMStudio-Controller [REMOVED]",
             "reference": "https://github.com/dandancow874/ComfyUI-LMStudio-Controller",

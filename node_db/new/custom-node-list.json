@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "ethanfel",
+            "title": "ComfyUI-Lora-Sweeper",
+            "reference": "https://github.com/ethanfel/ComfyUI-Lora-Sweeper",
+            "files": [
+                "https://github.com/ethanfel/ComfyUI-Lora-Sweeper"
+            ],
+            "install_type": "git-clone",
+            "description": "Sweep a folder of LoRA training epochs: pick a step range + stride and sample one image per epoch from a single queue."
+        },
+        {
             "author": "enragedantelope",
             "title": "Identity Forge",
             "reference": "https://github.com/EnragedAntelope/comfyui-identity-forge",

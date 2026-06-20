@@ -7892,6 +7892,7 @@
             "LatentUpscaleModelLoader",
             "LazyCache",
             "Load3D",
+            "Load3DAdvanced",
             "LoadAudio",
             "LoadBackgroundRemovalModel",
             "LoadDA3Model",

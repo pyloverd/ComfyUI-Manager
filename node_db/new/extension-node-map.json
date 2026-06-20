@@ -6826,16 +6826,14 @@
             "JLC_BLIPCaptionLite",
             "JLC_CaptionForge",
             "JLC_CaptionForgeExtraOptions",
+            "JLC_CaptionForgeJoy",
+            "JLC_CaptionForgeOllamaCaption",
+            "JLC_CaptionForgeQwen",
             "JLC_CaptionForge_Pipeline_Planner",
-            "JLC_CaptionForge_Reversed",
             "JLC_FlorenceCaption",
             "JLC_FlorenceCaptionLite",
             "JLC_InternVLCaption",
             "JLC_InternVLCaptionLite",
-            "JLC_JoyCaption",
-            "JLC_JoyCaptionLite",
-            "JLC_QwenCaption",
-            "JLC_QwenCaptionLite",
             "JLC_SmolVLMCaption",
             "JLC_SmolVLMCaptionLite"
         ],
@@ -7961,6 +7959,7 @@
             "BoyoPainterSVI",
             "BoyoPairedImageSaver",
             "BoyoPairedSaver",
+            "BoyoPiDAspectRatio",
             "BoyoPromptInjector",
             "BoyoPromptLoop",
             "BoyoPromptRelayEncode",
@@ -8589,7 +8588,8 @@
     "https://github.com/EnragedAntelope/comfyui-identity-forge": [
         [
             "IdentityForge",
-            "IdentityForgeArchetype"
+            "IdentityForgeArchetype",
+            "IdentityForgeCosplayer"
         ],
         {
             "title_aux": "Identity Forge"
@@ -12348,13 +12348,26 @@
             "IAMCCS_DialogueAudioBoardBridge",
             "IAMCCS_DialogueTagEditor",
             "IAMCCS_FluxKleinMultiGen",
+            "IAMCCS_FluxKleinRefine",
             "IAMCCS_GGUF_accelerator",
+            "IAMCCS_GemmaAssistLazyGate",
+            "IAMCCS_GemmaAssistOutput",
             "IAMCCS_GetAutoLink",
+            "IAMCCS_GoyAICanvasPaint",
             "IAMCCS_HWProbeRecommendations",
             "IAMCCS_HardMemoryPurge",
             "IAMCCS_HwSupporter",
             "IAMCCS_HwSupporterAny",
+            "IAMCCS_IdeoInfo",
+            "IAMCCS_IdeoInpaintPrep",
+            "IAMCCS_IdeoMaskedPixels",
             "IAMCCS_IdeoTranslate",
+            "IAMCCS_IdeoboardPrompter",
+            "IAMCCS_IdeogramJSONPreviewPass",
+            "IAMCCS_IdeogramPromptStructureHelper",
+            "IAMCCS_IdeogramSheetBuilder",
+            "IAMCCS_IdeogramStoryboardSheet",
+            "IAMCCS_ImageBatch6",
             "IAMCCS_ImageBatchRangeLite",
             "IAMCCS_ImageResizeBatchSafe",
             "IAMCCS_IntValueMonitor",
@@ -12444,6 +12457,11 @@
             "IAMCCS_QWEN_VL_FLF_Advanced",
             "IAMCCS_QwenMultiGen",
             "IAMCCS_SamplerAdvancedVersion1",
+            "IAMCCS_ScailExtendPlan",
+            "IAMCCS_ScailExtends",
+            "IAMCCS_ScailIdentitySeeder",
+            "IAMCCS_ScailIdentityTracker",
+            "IAMCCS_ScailMultiReference",
             "IAMCCS_SegmentPlanFromPlanner",
             "IAMCCS_SegmentPlanner",
             "IAMCCS_SegmentPlannerLinked",
@@ -12457,9 +12475,15 @@
             "IAMCCS_SourceRangeFromSegmentPlan",
             "IAMCCS_StartDirToVideoLatent",
             "IAMCCS_StartImagesToVideoLatent",
+            "IAMCCS_StoryboardAutoCropGrid",
+            "IAMCCS_StoryboardAutoCropGridPRO",
+            "IAMCCS_StoryboardCaptionSheet",
             "IAMCCS_StoryboardFrameDesigner",
+            "IAMCCS_StoryboardFrameDesignerV2",
+            "IAMCCS_StoryboardPromptContactSheet",
             "IAMCCS_SupernodeBase",
             "IAMCCS_SupernodeModule",
+            "IAMCCS_TargetCrop",
             "IAMCCS_ThreeSegmentPlanner",
             "IAMCCS_TwoSegmentPlanner",
             "IAMCCS_VAEDecodeTiledSafe",
@@ -21664,6 +21688,7 @@
     "https://github.com/Scorpiosis0/ComfyUI-WtlNodes": [
         [
             "ASCII",
+            "BlindComparer",
             "Brightness",
             "CRTEffect",
             "CameraDepthDOF",
@@ -21680,7 +21705,6 @@
             "Hue",
             "ImageFilters",
             "ImageResize",
-            "ImageRotate",
             "ImageRotation",
             "ImageTranslation",
             "ImageZoom",
@@ -21695,7 +21719,19 @@
             "RAMPreviewImage",
             "Saturation",
             "SigmaVisualizer",
-            "Temperature"
+            "Temperature",
+            "TiledSamplerCustomAdvanced",
+            "WtlAdd",
+            "WtlCast",
+            "WtlDivide",
+            "WtlFloat",
+            "WtlInt",
+            "WtlMultiply",
+            "WtlSqrt",
+            "WtlSquare",
+            "WtlSubtract",
+            "WtlText",
+            "WtlTextAppend"
         ],
         {
             "title_aux": "WtlNodes"
@@ -26279,6 +26315,7 @@
             "XB_AudioSlicer",
             "XB_AudioSlicerV1",
             "XB_AudioSlicerV2",
+            "XB_AudioSlicerV3",
             "XB_BatchFolderLoader",
             "XB_CLIPNameBroadcaster",
             "XB_CanvasLabel",
@@ -36744,6 +36781,7 @@
             "LatentUpscaleModelLoader",
             "LazyCache",
             "Load3D",
+            "Load3DAdvanced",
             "LoadAudio",
             "LoadBackgroundRemovalModel",
             "LoadDA3Model",
@@ -40742,6 +40780,14 @@
         ],
         {
             "title_aux": "LoRA Optimizer"
+        }
+    ],
+    "https://github.com/ethanfel/ComfyUI-Lora-Sweeper": [
+        [
+            "LoraEpochSweeper"
+        ],
+        {
+            "title_aux": "ComfyUI-Lora-Sweeper"
         }
     ],
     "https://github.com/ethanfel/ComfyUI-Sharp-Selector": [
@@ -69470,21 +69516,6 @@
         ],
         {
             "title_aux": "Steganos Node for ComfyUI"
-        }
-    ],
-    "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2": [
-        [
-            "SAM2UltraV2: Crop",
-            "SAM2UltraV2: LoadModel",
-            "SAM2UltraV2: MaskKeepLargestN",
-            "SAM2UltraV2: UpperBody"
-        ],
-        {
-            "author": "chflame",
-            "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
-            "nickname": "LayerStyle",
-            "title": "LayerStyle",
-            "title_aux": "ComfyUI_SAM2UltraV2"
         }
     ],
     "https://github.com/x-stride/ComfyUI_XS_DARE_TIES": [
