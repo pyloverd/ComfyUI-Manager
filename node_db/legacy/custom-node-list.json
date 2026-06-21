@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bnwa",
+            "title": "Comfy Combos [REMOVED]",
+            "reference": "https://github.com/bnwa/comfy_combos",
+            "files": [
+                "https://github.com/bnwa/comfy_combos"
+            ],
+            "install_type": "git-clone",
+            "description": "Dropdown selectors for ComfyUI"
+        },
+        {
             "author": "wzyfromhust",
             "title": "ComfyUI_SAM2UltraV2 [REMOVED]",
             "reference": "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2",
