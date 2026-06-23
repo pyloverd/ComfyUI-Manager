@@ -3693,6 +3693,7 @@
         [
             "EmptyLatentImageWithRotate",
             "ImageResultNode",
+            "LoadImageClipboardNode",
             "MergeTextsNode",
             "TextareaNode"
         ],
@@ -6842,6 +6843,12 @@
             "JLC_ControlNetOrchestrator",
             "JLC_ControlNetOrchestratorAdvanced",
             "JLC_ControlNetOrchestratorHyper",
+            "JLC_DynamicLoraLoaderBlockWeightModelClip",
+            "JLC_DynamicLoraLoaderBlockWeightModelOnly",
+            "JLC_DynamicLoraLoaderModelClip",
+            "JLC_DynamicLoraLoaderModelOnly",
+            "JLC_DynamicLoraLoaderSharedBlockWeightModelClip",
+            "JLC_DynamicLoraLoaderSharedBlockWeightModelOnly",
             "JLC_LoraLoaderBlockWeightTwo",
             "JLC_LoraLoaderTenStack",
             "JLC_PaddedImage",
@@ -7455,6 +7462,8 @@
             "DenoLTXMultiLoraLoader",
             "DenoLTXPromptGuide",
             "DenoLTXSequencer",
+            "DenoLTXStepFusedTiledSampler",
+            "DenoLTXTiledSpatialUpscaler",
             "DenoLocalLLMRefiner",
             "DenoMultiImageLoader",
             "DenoMultiLoraLoader",
@@ -8583,7 +8592,9 @@
             "IdentityForge",
             "IdentityForgeArchetype",
             "IdentityForgeCosplayer",
-            "IdentityForgeModifier"
+            "IdentityForgeModifier",
+            "IdentityForgeVaultLoad",
+            "IdentityForgeVaultSave"
         ],
         {
             "title_aux": "Identity Forge"
@@ -17350,6 +17361,7 @@
             "iToolsFreeChat",
             "iToolsFreeSchnell",
             "iToolsGridFiller",
+            "iToolsImageAdjust",
             "iToolsInstructorNode",
             "iToolsKSampler",
             "iToolsLineLoader",
@@ -17850,6 +17862,7 @@
             "LTXVGemmaTextEncoder",
             "LTXVImgToVideoConditionOnly",
             "LtxvApiTextToVideo",
+            "NLBerniniPromptEnhancer",
             "NLConstantColor",
             "NLContextDebug",
             "NLEdit",
@@ -24231,7 +24244,8 @@
             "IdeogramPaletteOverride",
             "IdeogramPaletteToGlobalJSON",
             "IdeogramPromptAssembler",
-            "IdeogramVibrantPaletteExtractor"
+            "IdeogramVibrantPaletteExtractor",
+            "IdeogramVisualPromptDesigner"
         ],
         {
             "title_aux": "ComfyUI Ideogram Palette and Prompt Tools"
@@ -25260,6 +25274,17 @@
             "title_aux": "ComfyUI-GPTQ-Calibration"
         }
     ],
+    "https://github.com/ThunderFun/ComfyUI-INT-Crush": [
+        [
+            "IntCrushLoRALoader",
+            "IntCrushLoRAUnloader",
+            "SimpleINT4UNetLoader",
+            "SimpleINT8UNetLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-INT-Crush"
+        }
+    ],
     "https://github.com/TiamaTiramisu/risutools": [
         [
             "CheckFileNamePrefixExists",
@@ -25319,6 +25344,8 @@
             "Filter Existing Files",
             "Filter List",
             "Filter Words",
+            "Float Compare",
+            "Floats to Rect",
             "Force Aspect On Bounds",
             "Get File List",
             "Get List From File",
@@ -25328,10 +25355,14 @@
             "Images From Batch",
             "Incrementer",
             "Indexed Entry",
+            "Int Compare",
             "Int to Boolean",
             "Interpolate Frames",
+            "Intersect Rects",
+            "Ints to Rect",
             "Is String Empty",
             "Iterate Seed",
+            "JSON Parser",
             "Json From Properties",
             "List Count",
             "Load Image Batch from Zip",
@@ -25344,13 +25375,19 @@
             "Random File Entry",
             "Randomize Image Batch",
             "Randomize List",
+            "Rect From Image",
+            "Rect to Floats",
+            "Rect to Ints",
             "Replace List",
             "Save Image Batch to Zip",
+            "Scale Rect",
             "Search To Boolean",
             "Search and Replace",
             "Select Bounding Box",
+            "Sequence",
             "Sort List",
             "Split List",
+            "String Compare",
             "String To List",
             "String to Float",
             "String to Int",
@@ -26377,6 +26414,7 @@
             "XB_HumanSegModelLoader",
             "XB_HumanSegmentation",
             "XB_ImageParamsMaster",
+            "XB_MSR",
             "XB_MasterParameter",
             "XB_ROCmKSampler",
             "XB_ROCmKSamplerAdvanced",
@@ -28684,7 +28722,8 @@
         [
             "MIDIEditLyrics",
             "MIDIExtractLyrics",
-            "MIDIMergeRepeatedChars"
+            "MIDIMergeRepeatedChars",
+            "MidiLyricsAlignment"
         ],
         {
             "title_aux": "ComfyUI MIDI Edit"
@@ -28721,7 +28760,8 @@
     ],
     "https://github.com/ai-joe-git/ComfyUI-Simple-LlamaCPP-Client": [
         [
-            "SimpleLlamaCppClient"
+            "LlamaCppModelSelector",
+            "LlamaCppRouterClient"
         ],
         {
             "title_aux": "Simple LlamaCPP Client"
@@ -39340,6 +39380,8 @@
             "MossTTSEngineNode",
             "MossTrainingConfigNode",
             "MouthMovementAnalyzer",
+            "OmniVoiceEngineNode",
+            "OmniVoiceInstructionBuilderNode",
             "PhonemeTextNormalizer",
             "Qwen3TTSEngineNode",
             "Qwen3TTSVoiceDesignerNode",
@@ -43133,14 +43175,10 @@
         [
             "GODMT_AnyCast",
             "GODMT_AnyToDict",
-            "GODMT_BatchGetByIndex",
-            "GODMT_BatchItemCast",
-            "GODMT_BatchSlice",
-            "GODMT_BatchToList",
             "GODMT_CreateArange",
-            "GODMT_CreateBatch",
             "GODMT_CreateLinspace",
             "GODMT_CreateList",
+            "GODMT_CreatePyList",
             "GODMT_CreateRange",
             "GODMT_Exec",
             "GODMT_GetLength",
@@ -43149,10 +43187,14 @@
             "GODMT_ListDir",
             "GODMT_ListGetByIndex",
             "GODMT_ListSlice",
-            "GODMT_ListToBatch",
-            "GODMT_MergeBatch",
+            "GODMT_ListToPyList",
             "GODMT_MergeList",
+            "GODMT_MergePyList",
             "GODMT_Pack",
+            "GODMT_PyListGetByIndex",
+            "GODMT_PyListItemCast",
+            "GODMT_PyListSlice",
+            "GODMT_PyListToList",
             "GODMT_SplitString",
             "GODMT_Unpack"
         ],
@@ -53494,6 +53536,7 @@
             "FrameRepeater",
             "FrameReplacer",
             "GitInstaller",
+            "MultiplySigmas",
             "WaveletColorFix"
         ],
         {
@@ -55643,6 +55686,8 @@
             "IPAdapterUnifiedLoaderFaceID",
             "IPAdapterWeights",
             "IPAdapterWeightsFromStrategy",
+            "KSampler Gradually Adding More Denoise (efficient)",
+            "Make Interpolation State List",
             "PrepImageForClipVision",
             "PromptChain_AttentionCouple",
             "PromptChain_Canny",
@@ -55656,6 +55701,7 @@
             "PromptChain_OpenPose",
             "PromptChain_PoseStudio",
             "PromptChain_PromptChain",
+            "PromptChain_RegionBox",
             "PromptChain_RegionalConditioning",
             "PromptChain_RegionalDetailer",
             "PromptChain_Scribble",
@@ -55674,6 +55720,7 @@
             "PulidFluxOptions",
             "PulidInsightFaceLoader",
             "PulidModelLoader",
+            "RIFE VFI",
             "SeedVR2LoadDiTModel",
             "SeedVR2LoadVAEModel",
             "SeedVR2TorchCompileSettings",
@@ -55681,6 +55728,7 @@
             "UltimateSDUpscale",
             "UltimateSDUpscaleCustomSample",
             "UltimateSDUpscaleNoUpscale",
+            "VFI FloatToInt",
             "VideoForwardOverrider"
         ],
         {
@@ -60879,6 +60927,7 @@
         [
             "ImageDimensionFitter",
             "ImagePaddingCalculator",
+            "LoadImagesWithCaptionsFromDir",
             "PathSplitter",
             "RandomLineConcatenator",
             "SaveImageWithCaption"
@@ -64615,6 +64664,7 @@
             "SpectrumKSampler",
             "SpectrumKSamplerAdvanced",
             "SpectrumKSamplerModGuidance",
+            "SpectrumSEAKSamplerModGuidance",
             "SpectrumSPDKSampler",
             "SpectrumSPDLoRAKSampler"
         ],
@@ -64874,6 +64924,7 @@
         [
             "UltimateSDUpscale",
             "UltimateSDUpscaleCustomSample",
+            "UltimateSDUpscaleGuider",
             "UltimateSDUpscaleNoUpscale"
         ],
         {
@@ -66157,6 +66208,7 @@
     ],
     "https://github.com/tetsuoo-online/comfyui-too-xmp-metadata": [
         [
+            "ClearImageMetadata",
             "ReadXMPMetadata",
             "WriteXMPMetadataLossless",
             "WriteXMPMetadataTensor"
@@ -68494,6 +68546,8 @@
     ],
     "https://github.com/vslinx/ComfyUI-vslinx-nodes": [
         [
+            "vsLinx_AnimaLLLiteLoader",
+            "vsLinx_AnimaLLLiteTiledSampler",
             "vsLinx_AnyToPipe",
             "vsLinx_AppendLorasFromNodeToString",
             "vsLinx_BooleanAndOperator",
@@ -69999,6 +70053,15 @@
         ],
         {
             "title_aux": "comfyui-gpu-resident-loader"
+        }
+    ],
+    "https://github.com/xmarre/ComfyUI-Global-Memory-Trim": [
+        [
+            "GlobalMemoryTrimNow",
+            "GlobalMemoryTrimStatus"
+        ],
+        {
+            "title_aux": "comfyui-global-memory-trim"
         }
     ],
     "https://github.com/xmarre/ComfyUI-Image-Conveyor": [
