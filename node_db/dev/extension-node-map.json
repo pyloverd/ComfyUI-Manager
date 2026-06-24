@@ -3442,6 +3442,7 @@
             "MpiCombo9",
             "MpiComboMaker",
             "MpiCompare",
+            "MpiConditioningReroute",
             "MpiConvert",
             "MpiDisplayPrompt",
             "MpiDoubleLora",
@@ -3485,6 +3486,7 @@
             "MpiRandPromptGenOverrideList",
             "MpiRandPromptGenOverrideSection",
             "MpiRandPromptGenSave",
+            "MpiReroute",
             "MpiRoundToMultiple",
             "MpiRoundToMultipleRes",
             "MpiScaledDimensions",
@@ -4681,17 +4683,8 @@
     "https://github.com/Ronnasayd/comfyui-nodes": [
         [
             "AspectRatioCrop",
-            "ConditioningExtendFrames",
-            "ConditioningShapeDebug",
-            "LatentExtendFrames",
-            "LatentPrependCache",
-            "LatentShapeDebug",
             "PixelatedBorderNode",
-            "VaceControlPrepare",
-            "VideoLatentMask",
-            "VideoSegmentPrepare",
-            "VideoSegmentSave",
-            "WanImagesToVideo"
+            "VideoConcatenate"
         ],
         {
             "title_aux": "comfyui-nodes"
@@ -11535,6 +11528,7 @@
             "BlockifyMask_lhy",
             "CLIPName",
             "CLIPNameGGUF",
+            "CLIPTextEncodeCached",
             "CLIPVisionName",
             "CSVRandomPicker",
             "CSVRandomPickerAdv",
@@ -13493,6 +13487,7 @@
             "Image Selector [Eclipse]",
             "Image Soften [Eclipse]",
             "Image Upscale With Model [Eclipse]",
+            "Image Upscale With Model v2 [Eclipse]",
             "Image with FX [Eclipse]",
             "Inset & Crop [Eclipse]",
             "Int Passer [Eclipse]",
@@ -13536,6 +13531,7 @@
             "Pipe IO Sampler Settings v2 [Eclipse]",
             "Pipe IO Sampler Settings v2.1 [Eclipse]",
             "Pipe IO Sampler Settings v2.2 [Eclipse]",
+            "Pipe IO Sampler Settings v2.3 [Eclipse]",
             "Pipe Out Checkpoint Loader [Eclipse]",
             "Pipe Out LM Advanced Options [Eclipse]",
             "Pipe Out LM Advanced Options [SmartLML]",
@@ -13560,6 +13556,7 @@
             "Replace String v3 [Eclipse]",
             "Resolution Scale [Eclipse]",
             "SEGS Passer [Eclipse]",
+            "SEGS Preview Simple [Eclipse]",
             "SEGS Preview [Eclipse]",
             "Sampler Selection [Eclipse]",
             "Sampler Settings NI [Eclipse]",
@@ -14798,6 +14795,7 @@
             "DualWVSamplerWanLightningAdvancedAlt",
             "ExpandMaskBySides",
             "ExpandMaskWithFeathering",
+            "ExtendEmptyAudio",
             "IntDivisibleBy_StDismas",
             "MaskToBBox",
             "MultiStringSelector_StDismas",
@@ -16291,6 +16289,8 @@
         [
             "BBOXFormatConverterZV",
             "FFmpegImageSlideShowZV",
+            "FFmpegVideoMergerZV",
+            "FFmpegVideoSplitterZV",
             "ImageCounterNodeZV",
             "JoinListZV",
             "JsonListIndexerZV",
@@ -16324,7 +16324,6 @@
             "TxtCounterNodeZV",
             "UniversalBBOXToMaskZV",
             "VideoCounterNodeZV",
-            "VideoGeneratorFFmpegZV",
             "VideoSceneDetectorZV",
             "VideoSpeedZV"
         ],

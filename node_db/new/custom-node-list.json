@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "kevinsun",
+            "title": "ComfyUI-Quick-Latent",
+            "reference": "https://github.com/Zhen-Bo/comfyui-quick-latent",
+            "files": [
+                "https://github.com/Zhen-Bo/comfyui-quick-latent"
+            ],
+            "install_type": "git-clone",
+            "description": "A streamlined latent size node for ComfyUI with resolution presets, scale control, and batch output."
+        },
+        {
+            "author": "TK22-26",
+            "title": "Inspect Image Overlay",
+            "reference": "https://github.com/TK22-26/comfyui-inspect-image-overlay",
+            "files": [
+                "https://github.com/TK22-26/comfyui-inspect-image-overlay"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that opens generated images in a fullscreen inspector overlay."
+        },
+        {
             "author": "ThunderFun",
             "title": "ComfyUI-INT-Crush",
             "reference": "https://github.com/ThunderFun/ComfyUI-INT-Crush",

@@ -2339,6 +2339,7 @@
             "AcademiaSD_MaskedNoise",
             "AcademiaSD_MultiLora",
             "AcademiaSD_MultiPrompt",
+            "AcademiaSD_Noise",
             "AcademiaSD_Numeric",
             "AcademiaSD_Resolution",
             "AcademiaSD_ResolutionCalc",
@@ -8619,14 +8620,19 @@
     ],
     "https://github.com/EnviralDesign/comfyUI-enviral-design-node-pack": [
         [
+            "EnviralCheckpointName",
             "EnviralColorMatchV2",
             "EnviralImageResizeKit",
             "EnviralLazyIndexSwitch",
             "EnviralLmstudioUnified",
             "EnviralLoadLora",
             "EnviralLoadLoraModelOnly",
+            "EnviralLoraName",
             "EnviralModelPatchTorchSettings",
+            "EnviralSamplerName",
+            "EnviralSchedulerName",
             "EnviralTextSplitByDelimiter",
+            "EnviralVAEName",
             "EnviralWanResolutionSnap"
         ],
         {
@@ -24655,6 +24661,14 @@
             "title_aux": "comfyUI_TJ_NormalLighting"
         }
     ],
+    "https://github.com/TK22-26/comfyui-inspect-image-overlay": [
+        [
+            "InspectImageOverlay"
+        ],
+        {
+            "title_aux": "Inspect Image Overlay"
+        }
+    ],
     "https://github.com/TK3R/ComfyUI_TK3R_Ext": [
         [
             "TK3R CFG Sigma Interpolate",
@@ -25338,6 +25352,7 @@
             "Combine Properties",
             "Decorate List",
             "Dictionary Lookup",
+            "Encode Any Properties (Dynamic)",
             "Encode Any Property",
             "Face Body Aspect Bounds",
             "File Metadata",
@@ -25366,6 +25381,7 @@
             "Json From Properties",
             "List Count",
             "Load Image Batch from Zip",
+            "Load Image w/Meta",
             "None Image",
             "Process Path Name",
             "Prompt Splitter",
@@ -25380,6 +25396,7 @@
             "Rect to Ints",
             "Replace List",
             "Save Image Batch to Zip",
+            "Save Image w/Meta",
             "Scale Rect",
             "Search To Boolean",
             "Search and Replace",
@@ -28042,6 +28059,14 @@
         ],
         {
             "title_aux": "ComfyUI-ZSNodes"
+        }
+    ],
+    "https://github.com/Zhen-Bo/comfyui-quick-latent": [
+        [
+            "QuickLatent"
+        ],
+        {
+            "title_aux": "ComfyUI-Quick-Latent"
         }
     ],
     "https://github.com/ZhiHui6/zhihui_nodes_comfyui": [
@@ -47426,7 +47451,9 @@
     "https://github.com/jnxmx/ComfyUI_HuggingFace_Downloader": [
         [
             "Hugging Face Download Folder",
-            "Hugging Face Download Model"
+            "Hugging Face Download Model",
+            "HuggingFaceDownloadFolder",
+            "HuggingFaceDownloadModel"
         ],
         {
             "title_aux": "ComfyUI_HuggingFace_Downloader"
@@ -49514,6 +49541,7 @@
             "TransitionImagesMulti",
             "VAEDecodeLoopKJ",
             "VAELoaderKJ",
+            "VAEMergeKJ",
             "VRAM_Debug",
             "VisualizeCUDAMemoryHistory",
             "VisualizeSigmasKJ",
@@ -50314,6 +50342,7 @@
     ],
     "https://github.com/kohs100/comfyui-ppwc": [
         [
+            "PPWCLoraDetector",
             "PPWCReplace",
             "PPWCTerminate"
         ],
@@ -53968,6 +53997,7 @@
             "Koolook_PublishOutput",
             "Koolook_PublishResult",
             "Koolook_PublishRouter",
+            "LTXAVBindSchedule",
             "LTXDirector",
             "LTXDirector__koolook",
             "LTXDirector__koolook_v1_3_2",
@@ -55707,6 +55737,7 @@
             "PromptChain_Scribble",
             "PromptChain_SoftEdge",
             "PromptChain_Tile",
+            "PromptChain_ZImageRegionalCouple",
             "PuLIDEVACLIPLoader",
             "PuLIDFacePreview",
             "PuLIDInsightFaceLoader",
