@@ -53530,6 +53530,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "kwokkakiu233",
+            "title": "LoRA Txt Loader",
+            "reference": "https://github.com/kwokkakiu233/comfyui-lora-txt-loader",
+            "files": [
+                "https://github.com/kwokkakiu233/comfyui-lora-txt-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically loads trigger words from a .txt file with the same name as the LoRA. Supports offline use and custom-trained models."
         }
     ]
 }
