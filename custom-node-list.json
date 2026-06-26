@@ -11919,6 +11919,16 @@
             "description": "SteadyDancer: Harmonized and Coherent Human Image Animation with First-Frame Preservation,Minimize the number of libraries and VRAMs as much as possible"
         },
         {
+            "author": "smthemex",
+            "title": "Nine_Image_Compare",
+            "reference": "https://github.com/smthemex/Nine_Image_Compare",
+            "files": [
+                "https://github.com/smthemex/Nine_Image_Compare"
+            ],
+            "install_type": "git-clone",
+            "description": "Compare one to nine images when use ComfyUI"
+        },
+        {
             "author": "choey",
             "title": "Comfy-Topaz",
             "id": "topaz",
@@ -22405,6 +22415,16 @@
             ],
             "install_type": "git-clone",
             "description": "This extension adds CUDA device selection to supported loader nodes in ComfyUI. By monkey-patching ComfyUI’s memory management, each model component (like UNet, Clip, or VAE) can be loaded on a specific GPU. Examples included are multi-GPU workflows for SDXL, FLUX, LTXVideo, and Hunyuan Video for both standard and GGUF loader nodes."
+        },
+        {
+            "author": "pollockjj",
+            "title": "comfyui-sealedcuda",
+            "reference": "https://github.com/pollockjj/ComfyUI-SealedCuda",
+            "files": [
+                "https://github.com/pollockjj/ComfyUI-SealedCuda"
+            ],
+            "install_type": "git-clone",
+            "description": "Sealed-worker CUDA image nodes (NATTEN, fused-ssim) sourced from prebuilt cuda-wheels"
         },
         {
             "author": "PressWagon",
@@ -39376,6 +39396,16 @@
             "description": "Simple camera prompt builder node for Qwen-Edit-2509 Multiple-Angles in ComfyUI."
         },
         {
+            "author": "HallettVisual",
+            "title": "Smart Image Crop and Stitch",
+            "reference": "https://github.com/HallettVisual/ComfyUI-Smart-Image-Crop-and-Stitch",
+            "files": [
+                "https://github.com/HallettVisual/ComfyUI-Smart-Image-Crop-and-Stitch"
+            ],
+            "install_type": "git-clone",
+            "description": "Mask-driven smart crop and stitch nodes for ComfyUI inpaint and edit workflows."
+        },
+        {
             "author": "Geo1230",
             "title": "ComfyUI-DeepseekOCR",
             "reference": "https://github.com/Geo1230/ComfyUI-DeepseekOCR",
@@ -43019,6 +43049,16 @@
             ],
             "install_type": "git-clone",
             "description": "Sweep a folder of LoRA training epochs: pick a step range + stride and sample one image per epoch from a single queue."
+        },
+        {
+            "author": "ethanfel",
+            "title": "Text Encode (Krea2)",
+            "reference": "https://github.com/ethanfel/ComfyUI-Krea2TextEncoder",
+            "files": [
+                "https://github.com/ethanfel/ComfyUI-Krea2TextEncoder"
+            ],
+            "install_type": "git-clone",
+            "description": "Vision-aware text conditioning for the Krea2 / K2 model. Feeds reference images through the Qwen3-VL-4B vision path with the Krea2 descriptor template; optional per-image mask crops to the masked region. No VAE (Krea2 has no reference-latent pathway). Auto-growing image+mask slots."
         },
         {
             "author": "shin131002",
@@ -53263,6 +53303,16 @@
             "description": "Extract color palettes from reference images and assemble/validate/embed Ideogram 4's structured prompt JSON."
         },
         {
+            "author": "surrealbydesign",
+            "title": "ComfyUI Krea Palette Tools",
+            "reference": "https://github.com/SurrealByDesign/ComfyUI-Krea-Palette-Tools",
+            "files": [
+                "https://github.com/SurrealByDesign/ComfyUI-Krea-Palette-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Extract color palettes from reference images and package them as Krea 2 image_style_references."
+        },
+        {
             "author": "mooshieblob",
             "title": "Mooshie Tiled Diffusion",
             "reference": "https://github.com/Mooshieblob1/ComfyUI-MooshieTiledDiffusion",
@@ -53311,6 +53361,26 @@
             ],
             "install_type": "git-clone",
             "description": "A streamlined latent size node for ComfyUI with resolution presets, scale control, and batch output."
+        },
+        {
+            "author": "huwhitememes",
+            "title": "Krea 2 Conditioning Control",
+            "reference": "https://github.com/huwhitememes/comfyui-krea2-conditioning",
+            "files": [
+                "https://github.com/huwhitememes/comfyui-krea2-conditioning"
+            ],
+            "install_type": "git-clone",
+            "description": "Quality-preserving per-layer conditioning control for Krea 2 - ComfyUI custom node (enhanced fork of nova452/ComfyUI-ConditioningKrea2Rebalance)."
+        },
+        {
+            "author": "aiknowledge2go",
+            "title": "ComfyUI-AI2Go-Utils",
+            "reference": "https://github.com/Little-God1983/ComfyUI-AI2Go-Utils",
+            "files": [
+                "https://github.com/Little-God1983/ComfyUI-AI2Go-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI utility nodes by AIKnowledge2Go."
         },
         {
             "author": "ntdviet",
