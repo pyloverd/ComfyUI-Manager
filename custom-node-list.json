@@ -53610,6 +53610,47 @@
             ],
             "install_type": "git-clone",
             "description": "Automatically loads trigger words from a .txt file with the same name as the LoRA. Supports offline use and custom-trained models."
+        },
+        {
+            "author": "verias",
+            "title": "ComfyUI Body Decal",
+            "reference": "https://github.com/verias/comfyui-body-decal",
+            "files": [
+                "https://github.com/verias/comfyui-body-decal"
+            ],
+            "install_type": "git-clone",
+            "description": "Pose-aware decal placement, projection, masking, displacement, and compositing tools for ComfyUI."
+        },
+        {
+            "author": "DemonGatanjieu",
+            "title": "Anomalous Model Browser",
+            "reference": "https://github.com/DemonGatanjieu/Anomalous_Model_Browser",
+            "files": [
+                "https://github.com/DemonGatanjieu/Anomalous_Model_Browser"
+            ],
+            "install_type": "git-clone",
+            "description": "Auto-injects model hashes and auto-fixes missing nodes or renamed models paths when sharing workflows.",
+            "nodename_pattern": ".*"
+        },
+        {
+            "author": "Pikselkroken",
+            "title": "ComfyUI-PixlStash",
+            "reference": "https://github.com/Pikselkroken/ComfyUI-PixlStash",
+            "files": [
+                "https://github.com/Pikselkroken/ComfyUI-PixlStash"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for loading and saving images to a PixlStash vault."
+        },
+        {
+            "author": "SencneS",
+            "title": "Excel Styles Loader",
+            "reference": "https://github.com/SencneS/ComfyUI-ExcelStylesLoader",
+            "files": [
+                "https://github.com/SencneS/ComfyUI-ExcelStylesLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "A dynamic ComfyUI custom node that reads prompts from individual sheets/tabs within a local Excel (.xlsx) workbook."
         }
     ]
 }
