@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "monkeykim111",
-            "title": "ComfyUI-Image-Safety-Gate",
-            "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
-            "files": [
-                "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
-            ],
-            "install_type": "git-clone",
-            "description": "Illustration-friendly NSFW + gore gate combining SmilingWolf WD tagger v3, CompVis CLIP safety checker, and OwenElliott image-safety-classifier-s NSFL signal with boolean OR. Drop-in compatible with the existing CLIP-based safety-checker node (matches the (IMAGE, nsfw) output signature)."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -53263,16 +53253,6 @@
             "description": "Fast, GPU-batched RIFE frame interpolation for ComfyUI with working bidirectional ensemble in fp16/32. Self-contained, weights bundled, no extra dependencies."
         },
         {
-            "author": "monkeykim111",
-            "title": "comfyui-image-safety-gate",
-            "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
-            "files": [
-                "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node combining SmilingWolf WD EVA02 Large Tagger v3 (anime rating) and CompVis stable-diffusion-safety-checker (CLIP) with boolean OR for illustration-friendly NSFW detection."
-        },
-        {
             "author": "lebensignal",
             "title": "ComfyUI Ultimate SD Upscale FLS LLLite",
             "reference": "https://github.com/Lebensignal/ComfyUI-UltimateSDUpscale-FLS-LLLite",
@@ -53294,13 +53274,14 @@
         },
         {
             "author": "ukr8b3g-cmyk",
-            "title": "Save WEBP Meta",
+            "title": "ComfyUI Save WebP Meta Node",
+            "id": "save-webp-meta",
             "reference": "https://github.com/ukr8b3g-cmyk/ComfyUI-save-webp-meta-node",
             "files": [
                 "https://github.com/ukr8b3g-cmyk/ComfyUI-save-webp-meta-node"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node for saving WebP, PNG, JPEG, and AVIF images with embedded prompt metadata."
+            "description": "Save WebP images with A1111-compatible generation parameters and ComfyUI prompt/workflow metadata."
         },
         {
             "author": "surrealbydesign",
@@ -53661,6 +53642,16 @@
             ],
             "install_type": "git-clone",
             "description": "A dynamic ComfyUI custom node that reads prompts from individual sheets/tabs within a local Excel (.xlsx) workbook."
+        },
+        {
+            "author": "monkeykim111",
+            "title": "ComfyUI-Image-Safety-Gate",
+            "reference": "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate",
+            "files": [
+                "https://github.com/monkeykim111/ComfyUI-Image-Safety-Gate"
+            ],
+            "install_type": "git-clone",
+            "description": "Illustration-friendly NSFW + gore gate combining SmilingWolf WD tagger v3, CompVis CLIP safety checker, and OwenElliott image-safety-classifier-s NSFL signal with boolean OR. Drop-in compatible with the existing CLIP-based safety-checker node (matches the (IMAGE, nsfw) output signature)."
         }
     ]
 }
