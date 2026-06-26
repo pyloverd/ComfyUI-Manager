@@ -5858,10 +5858,14 @@
     ],
     "https://github.com/Clybius/ComfyUI-ClybsChromaNodes": [
         [
+            "ClybAdaptiveLoraLoader",
+            "ClybAdaptiveLoraLoaderModelOnly",
             "ClybGuidance",
             "InverseSquaredScheduler",
             "PrintSigmas",
-            "SamplerClyb_BDF"
+            "SamplerClyb_BDF",
+            "SamplerTaylorFlow",
+            "SamplerWrapperCFGPP"
         ],
         {
             "title_aux": "ComfyUI-ClybsChromaNodes"
@@ -7413,6 +7417,13 @@
         ],
         {
             "title_aux": "DemonAlone-nodes-ComfyUI"
+        }
+    ],
+    "https://github.com/DemonGatanjieu/Anomalous_Model_Browser": [
+        [],
+        {
+            "nodename_pattern": ".*",
+            "title_aux": "Anomalous Model Browser"
         }
     ],
     "https://github.com/DemonNCoding/PromptGenerator12Columns": [
@@ -19513,6 +19524,22 @@
             "title_aux": "ComfyUI-LikeSpiderAI-UI"
         }
     ],
+    "https://github.com/Pikselkroken/ComfyUI-PixlStash": [
+        [
+            "PixlStashCharacterLoader",
+            "PixlStashFaceLikenessGate",
+            "PixlStashLikenessSearch",
+            "PixlStashPictureLikenessGate",
+            "PixlStashPictureLoader",
+            "PixlStashPictureSaver",
+            "PixlStashProjectLoader",
+            "PixlStashSemanticSearch",
+            "PixlStashSetLoader"
+        ],
+        {
+            "title_aux": "ComfyUI-PixlStash"
+        }
+    ],
     "https://github.com/Pirog17000/Pirogs-Nodes": [
         [
             "BatchCropFromMaskSimple",
@@ -22105,6 +22132,14 @@
         ],
         {
             "title_aux": "HF-Flux-ComfyUI"
+        }
+    ],
+    "https://github.com/SencneS/ComfyUI-ExcelStylesLoader": [
+        [
+            "ExcelStylesLoader"
+        ],
+        {
+            "title_aux": "Excel Styles Loader"
         }
     ],
     "https://github.com/SergPoletaev/ComfyUI-SPoletNodes": [
@@ -50810,6 +50845,14 @@
             "title_aux": "abg-comfyui"
         }
     ],
+    "https://github.com/kwokkakiu233/comfyui-lora-txt-loader": [
+        [
+            "LoRATxtLoader"
+        ],
+        {
+            "title_aux": "LoRA Txt Loader"
+        }
+    ],
     "https://github.com/kycg/comfyui-Lora-auto-downloader": [
         [
             "Kw_JsonLoraLoader",
@@ -68168,6 +68211,23 @@
         ],
         {
             "title_aux": "ComfyUI Qwen-Image DFloat11 Nodes"
+        }
+    ],
+    "https://github.com/verias/comfyui-body-decal": [
+        [
+            "BodyDecalApply",
+            "BodyDecalComposite",
+            "BodyDecalCompositePreset",
+            "BodyDecalMaskCombine",
+            "BodyDecalPlace",
+            "BodyDecalRegion",
+            "BodyDecalSurfaceWarp",
+            "ColorRangeMask",
+            "FaceRegionMask",
+            "ImageToDisplacementMap"
+        ],
+        {
+            "title_aux": "ComfyUI Body Decal"
         }
     ],
     "https://github.com/verqqa/PromptNodethingLD": [
