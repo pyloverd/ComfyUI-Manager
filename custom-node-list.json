@@ -53862,6 +53862,16 @@
             ],
             "install_type": "git-clone",
             "description": "A simple scaling node for ComfyUI, allowing the changing of the length of the input's longest edge."
+        },
+        {
+            "author": "andrometa",
+            "title": "Krea Moodboards",
+            "reference": "https://github.com/Andro-Meta/ComfyUI-Krea-Moodboards",
+            "files": [
+                "https://github.com/Andro-Meta/ComfyUI-Krea-Moodboards"
+            ],
+            "install_type": "git-clone",
+            "description": "Prompt-only Krea moodboard search and style nodes for ComfyUI."
         }
     ]
 }
