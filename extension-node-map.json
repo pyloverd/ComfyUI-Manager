@@ -3082,6 +3082,18 @@
             "title_aux": "ComfyUI-RandomTagWeights"
         }
     ],
+    "https://github.com/Andro-Meta/ComfyUI-Krea-Moodboards": [
+        [
+            "KreaMoodboardApply",
+            "KreaMoodboardMashup",
+            "KreaMoodboardRandom",
+            "KreaMoodboardSearch",
+            "KreaMoodboardStyle"
+        ],
+        {
+            "title_aux": "Krea Moodboards"
+        }
+    ],
     "https://github.com/Andro-Meta/ComfyUI-Ovis2": [
         [
             "Ovis2ImageCaption",
@@ -15968,7 +15980,8 @@
     "https://github.com/Little-God1983/ComfyUI-AI2Go-Utils": [
         [
             "AI2GoIdeogram4PromptBuilder",
-            "AI2GoIdeogram4StyleWizard"
+            "AI2GoIdeogram4StyleWizard",
+            "AI2GoResolutionSelector"
         ],
         {
             "title_aux": "ComfyUI-AI2Go-Utils"
@@ -17376,6 +17389,7 @@
             "Resize Image and Mask by Side",
             "Save Folder as ZIP",
             "Save To Zip",
+            "Shift Image Batch",
             "Snap to Divisible",
             "Spritesheet Builder",
             "Spritesheet Preview",
@@ -51080,7 +51094,10 @@
     ],
     "https://github.com/kwokkakiu233/comfyui-lora-txt-loader": [
         [
-            "LoRATxtLoader"
+            "LoRATxtLoader",
+            "LoRATxtLoaderDropdown",
+            "LoRATxtLoaderFromPath",
+            "TxtFileLoader"
         ],
         {
             "title_aux": "LoRA Txt Loader"
