@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bonestudio",
+            "title": "Bone-Studio Workflow Manager",
+            "reference": "https://github.com/juangea/bs-comfyui-workflow-manager",
+            "files": [
+                "https://github.com/juangea/bs-comfyui-workflow-manager"
+            ],
+            "install_type": "git-clone",
+            "description": "Organize your ComfyUI workflows for production: a folder manager plus a project layer (exportable internal DB), bulk export and optional Git versioning, from a built-in panel."
+        },
+        {
             "author": "andrometa",
             "title": "Krea Moodboards",
             "reference": "https://github.com/Andro-Meta/ComfyUI-Krea-Moodboards",

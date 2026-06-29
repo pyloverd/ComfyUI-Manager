@@ -53270,16 +53270,6 @@
             "description": "Download models from HuggingFace (no API key) and manage your local ComfyUI models (list, move, delete) from a built-in panel."
         },
         {
-            "author": "bonestudio",
-            "title": "Bone-Studio Workflow Manager",
-            "reference": "https://github.com/juangea/bs-comfyui-workflow-manager",
-            "files": [
-                "https://github.com/juangea/bs-comfyui-workflow-manager"
-            ],
-            "install_type": "git-clone",
-            "description": "Organize your ComfyUI workflows for production: a folder manager plus a project layer (exportable internal DB), bulk export and optional Git versioning, from a built-in panel."
-        },
-        {
             "author": "TODO",
             "title": "ComfyUI-SCAIL2-LongVideoContext",
             "reference": "https://github.com/1GirlUniversity/ComfyUI-SCAIL2-LongVideoContext",
@@ -53882,6 +53872,16 @@
             ],
             "install_type": "git-clone",
             "description": "Prompt-only Krea moodboard search and style nodes for ComfyUI."
+        },
+        {
+            "author": "bonestudio",
+            "title": "Bone-Studio Workflow Manager",
+            "reference": "https://github.com/juangea/bs-comfyui-workflow-manager",
+            "files": [
+                "https://github.com/juangea/bs-comfyui-workflow-manager"
+            ],
+            "install_type": "git-clone",
+            "description": "Organize your ComfyUI workflows for production: a folder manager plus a project layer (exportable internal DB), bulk export and optional Git versioning, from a built-in panel."
         }
     ]
 }
