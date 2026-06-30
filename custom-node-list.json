@@ -35849,16 +35849,6 @@
             "description": "SDXL model loader supporting custom clip_g and clip_l embeddings with NVFP4 optimization. (Description by CC)"
         },
         {
-            "author": "Apache0ne",
-            "title": "Comfyui-marigold-intrinsics-PaGeR",
-            "reference": "https://github.com/Apache0ne/Comfyui-marigold-intrinsics-PaGeR",
-            "files": [
-                "https://github.com/Apache0ne/Comfyui-marigold-intrinsics-PaGeR"
-            ],
-            "install_type": "git-clone",
-            "description": "This custom node pack provides Marigold IID nodes and PaGeR ERP geometry nodes."
-        },
-        {
             "author": "easygoing0114",
             "title": "ComfyUI-easygoing-nodes",
             "reference": "https://github.com/easygoing0114/ComfyUI-easygoing-nodes",
@@ -40175,21 +40165,6 @@
             "description": "Direct model downloads to your Runod pod with blazing-fast multi-connection support. No more downloading models to your local machine and re-uploading!"
         },
         {
-            "author": "kjqwer",
-            "title": "SmartSaveImage",
-            "reference": "https://github.com/kjqwer/SmartSaveImage",
-            "files": [
-                "https://github.com/kjqwer/SmartSaveImage"
-            ],
-            "install_type": "git-clone",
-            "description": "Smart Image Saving Nodes - Offers intelligent folder management and image saving capabilities, supporting flexible folder hierarchy control, multiple metadata sources, various image formats, and metadata embedding. It includes two nodes: SmartFolderManager and SmartImageSaver.",
-            "pip": [
-                "Pillow",
-                "piexif"
-            ],
-            "nodename_pattern": "Smart"
-        },
-        {
             "author": "danielpflorian",
             "title": "ComfyUI-WorkflowGenerator",
             "reference": "https://github.com/DanielPFlorian/ComfyUI-WorkflowGenerator",
@@ -40469,6 +40444,16 @@
             ],
             "install_type": "git-clone",
             "description": "JoyAI-Image-Edit (16B MMDiT + Qwen3-VL-8B) instruction image editing for ComfyUI."
+        },
+        {
+            "author": "nynxz",
+            "title": "NK2E",
+            "reference": "https://github.com/Nynxz/ComfyUI-NK2E",
+            "files": [
+                "https://github.com/Nynxz/ComfyUI-NK2E"
+            ],
+            "install_type": "git-clone",
+            "description": "NK2E — experimental, unofficial in-context image editing for Krea 2 (community project; not affiliated with Krea)."
         },
         {
             "author": "huygiatrng",
@@ -47862,6 +47847,16 @@
             "description": "KSampler-compatible Anima EasyControl image conditioning for ComfyUI."
         },
         {
+            "author": "sorryhyun",
+            "title": "Anima Block Compile",
+            "reference": "https://github.com/sorryhyun/ComfyUI-Anima-BlockCompile",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-Anima-BlockCompile"
+            ],
+            "install_type": "git-clone",
+            "description": "Anima Block Compile for ComfyUI: a one-purpose node that runs torch.compile on the Anima DiT per transformer block (diffusion_model.blocks.{i}) instead of the whole model. Faster compile, fewer graph breaks. A thin, Anima-named wrapper over ComfyUI core's set_torch_compile_wrapper."
+        },
+        {
             "author": "spacewarpstudio",
             "title": "ComfyUI Override Switch",
             "reference": "https://github.com/SpaceWarpStudio/ComfyUI-OverrideSwitch",
@@ -53882,6 +53877,16 @@
             ],
             "install_type": "git-clone",
             "description": "Organize your ComfyUI workflows for production: a folder manager plus a project layer (exportable internal DB), bulk export and optional Git versioning, from a built-in panel."
+        },
+        {
+            "author": "glashkoff",
+            "title": "Random Seed Batch Generator",
+            "reference": "https://github.com/Glashkoff/comfyui-random-seed-batch-generator",
+            "files": [
+                "https://github.com/Glashkoff/comfyui-random-seed-batch-generator"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate multiple groups of seeds for batch image processing in ComfyUI."
         }
     ]
 }
