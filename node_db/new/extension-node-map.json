@@ -4169,6 +4169,16 @@
             "title_aux": "comfyUI-TiledWan"
         }
     ],
+    "https://github.com/Beakfx/mbq": [
+        [
+            "MBQWedge",
+            "MBQWedgeSampler",
+            "MBQWedgeScheduler"
+        ],
+        {
+            "title_aux": "MBQ Wedge"
+        }
+    ],
     "https://github.com/Beinsezii/bsz-cui-extras": [
         [
             "BSZAbsoluteHires",
@@ -8668,6 +8678,14 @@
             "title_aux": "ComfyUI_EasyRegion"
         }
     ],
+    "https://github.com/EnragedAntelope/EA_LMStudio": [
+        [
+            "EA_LMStudio"
+        ],
+        {
+            "title_aux": "EA_LMStudio"
+        }
+    ],
     "https://github.com/EnragedAntelope/comfy-modelopt": [
         [
             "ModelOptCalibrationHelper",
@@ -9886,6 +9904,14 @@
         ],
         {
             "title_aux": "IC-Light-ComfyUI-Node"
+        }
+    ],
+    "https://github.com/Filexor/SEGA_Anima": [
+        [
+            "File_x SEGA Anima"
+        ],
+        {
+            "title_aux": "SEGA for Anima"
         }
     ],
     "https://github.com/FinetunersAI/ComfyUI_Finetuners_Suite": [
@@ -18185,14 +18211,14 @@
             "title_aux": "NKD Klein Tools"
         }
     ],
-    "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview": [
+    "https://github.com/Nekodificador/ComfyUI-NKD-Preview-Tools": [
         [
             "NKDMaskPainter",
             "NKDPopupPreviewNode",
             "NKDReferenceImage"
         ],
         {
-            "title_aux": "NKD Popup Preview"
+            "title_aux": "NKD Preview Tools"
         }
     ],
     "https://github.com/Nekodificador/ComfyUI-NKD-Sigmas-Curve": [
@@ -62177,6 +62203,14 @@
         ],
         {
             "title_aux": "Ephemeral Preview Tap"
+        }
+    ],
+    "https://github.com/ruminar/ComfyUI-GMImageSaver": [
+        [
+            "GMImageJpegSave"
+        ],
+        {
+            "title_aux": "ComfyUI-GMImageSaver"
         }
     ],
     "https://github.com/ruminar/ComfyUI-LightQueueCounter": [

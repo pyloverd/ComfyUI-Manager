@@ -1499,6 +1499,11 @@
         "last_update": "2026-02-17 20:01:49",
         "author_account_age_days": 1207
     },
+    "https://github.com/Beakfx/mbq": {
+        "stars": 4,
+        "last_update": "2026-06-25 23:36:30",
+        "author_account_age_days": 287
+    },
     "https://github.com/Beinsezii/bsz-cui-extras": {
         "stars": 26,
         "last_update": "2024-05-22 20:46:45",
@@ -2979,6 +2984,11 @@
         "last_update": "2025-11-23 15:21:21",
         "author_account_age_days": 705
     },
+    "https://github.com/EnragedAntelope/EA_LMStudio": {
+        "stars": 8,
+        "last_update": "2026-06-14 17:25:44",
+        "author_account_age_days": 705
+    },
     "https://github.com/EnragedAntelope/comfy-modelopt": {
         "stars": 0,
         "last_update": "2026-04-27 14:38:24",
@@ -3333,6 +3343,11 @@
         "stars": 10,
         "last_update": "2024-07-02 03:47:17",
         "author_account_age_days": 3483
+    },
+    "https://github.com/Filexor/SEGA_Anima": {
+        "stars": 0,
+        "last_update": "2026-06-30 05:32:45",
+        "author_account_age_days": 4684
     },
     "https://github.com/FinetunersAI/ComfyUI_Finetuners_Suite": {
         "stars": 2,
@@ -6243,6 +6258,11 @@
         "stars": 8,
         "last_update": "2026-06-26 22:36:43",
         "author_account_age_days": 2579
+    },
+    "https://github.com/Nekodificador/ComfyUI-NKD-Preview-Tools": {
+        "stars": 8,
+        "last_update": "2026-06-26 22:36:43",
+        "author_account_age_days": 2580
     },
     "https://github.com/Nekodificador/ComfyUI-NKD-Sigmas-Curve": {
         "stars": 42,
@@ -21637,6 +21657,11 @@
     "https://github.com/ruminar/ComfyUI-EphemeralPreviewTap": {
         "stars": 1,
         "last_update": "2026-05-30 01:43:06",
+        "author_account_age_days": 4413
+    },
+    "https://github.com/ruminar/ComfyUI-GMImageSaver": {
+        "stars": 1,
+        "last_update": "2026-06-15 09:13:30",
         "author_account_age_days": 4413
     },
     "https://github.com/ruminar/ComfyUI-LightQueueCounter": {
