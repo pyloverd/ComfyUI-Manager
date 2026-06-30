@@ -39296,6 +39296,20 @@
             "description": "A self-contained LoRA Slider node for ComfyUI designed to work alongside ComfyUI-Lora-Manager with bipolar strength sliders and batch LoRA loading."
         },
         {
+            "author": "EnragedAntelope",
+            "title": "EA_LMStudio",
+            "id": "ea-lmstudio",
+            "reference": "https://github.com/EnragedAntelope/EA_LMStudio",
+            "files": [
+                "https://github.com/EnragedAntelope/EA_LMStudio"
+            ],
+            "install_type": "git-clone",
+            "pip": [
+                "lmstudio>=1.0.0"
+            ],
+            "description": "LM Studio ComfyUI integration with easy model selection and many optimizations! Features auto model discovery, vision/VLM support, reasoning extraction for DeepSeek R1/Qwen3/QwQ models, and detailed stats with VRAM management."
+        },
+        {
             "author": "enragedantelope",
             "title": "Identity Forge",
             "reference": "https://github.com/EnragedAntelope/comfyui-identity-forge",
@@ -50625,6 +50639,17 @@
             "description": "Review-first checkpoint cycling and handpicking suite for ComfyUI. Auto-cycle checkpoints, review generated images, tag checkpoints, and export cleanup scripts without deleting files immediately."
         },
         {
+            "author": "ruminar",
+            "title": "ComfyUI-GMImageSaver",
+            "id": "gmimagesaver",
+            "reference": "https://github.com/ruminar/ComfyUI-GMImageSaver",
+            "files": [
+                "https://github.com/ruminar/ComfyUI-GMImageSaver"
+            ],
+            "install_type": "git-clone",
+            "description": "GraphicsMagick-based direct JPEG saver node for ComfyUI. Saves IMAGE tensors directly as JPEG without intermediate PNG files. JPEG-only, previewless, label-aware, and useful for organized batch/inventory workflows. NOTE: GraphicsMagick must be installed separately and available via GM_PATH or PATH."
+        },
+        {
             "author": "WuMIn259",
             "title": "ComfyUI-ZTurbo-Style-Transfer",
             "reference": "https://github.com/WuMIn259/ComfyUI-ZTurbo-Style-Transfer",
@@ -53877,6 +53902,26 @@
             ],
             "install_type": "git-clone",
             "description": "Generate multiple groups of seeds for batch image processing in ComfyUI."
+        },
+        {
+            "author": "File_xor",
+            "title": "SEGA for Anima",
+            "reference": "https://github.com/Filexor/SEGA_Anima",
+            "files": [
+                "https://github.com/Filexor/SEGA_Anima"
+            ],
+            "install_type": "git-clone",
+            "description": "SEGA anima is implementation of \"SEGA: Spectral-Energy Guided Attention for Resolution Extrapolation in Diffusion Transformers\" (arXiv:2605.22668) for Anima model in ComfyUI."
+        },
+        {
+            "author": "beakfx",
+            "title": "MBQ Wedge",
+            "reference": "https://github.com/Beakfx/mbq",
+            "files": [
+                "https://github.com/Beakfx/mbq"
+            ],
+            "install_type": "git-clone",
+            "description": "Compare ComfyUI parameter values without contact sheets — sweep numerics, samplers, or schedulers, then inspect each result full-res in MBQ Viewer."
         }
     ]
 }
