@@ -46154,13 +46154,13 @@
         },
         {
             "author": "nekodificador",
-            "title": "NKD Popup Preview",
-            "reference": "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview",
+            "title": "NKD Preview Tools",
+            "reference": "https://github.com/Nekodificador/ComfyUI-NKD-Preview-Tools",
             "files": [
-                "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview"
+                "https://github.com/Nekodificador/ComfyUI-NKD-Preview-Tools"
             ],
             "install_type": "git-clone",
-            "description": "A floating preview window node for ComfyUI. Ideal for multi-monitor setups."
+            "description": "Preview and masking tools for ComfyUI: floating popup preview window (multi-monitor, live TAESD preview) and a procedural mask painter that bridges any IMAGE source into the native mask editor."
         },
         {
             "author": "BacoHubo",
@@ -47775,16 +47775,6 @@
             ],
             "install_type": "git-clone",
             "description": "A lightweight health check plugin for ComfyUI that monitors custom node import status and provides colorful summary reports"
-        },
-        {
-            "author": "nekodificador",
-            "title": "NKD Popup Preview",
-            "reference": "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview",
-            "files": [
-                "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview"
-            ],
-            "install_type": "git-clone",
-            "description": "A floating preview window node for ComfyUI. Ideal for multi-monitor setups."
         },
         {
             "author": "nekodificador",
