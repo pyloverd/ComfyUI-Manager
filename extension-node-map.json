@@ -49295,6 +49295,14 @@
             "title_aux": "ComfyUI 2D Pose Editor"
         }
     ],
+    "https://github.com/ketle-man/comfyui-mask-editor-one": [
+        [
+            "MaskEditorOne"
+        ],
+        {
+            "title_aux": "Mask Editor One"
+        }
+    ],
     "https://github.com/ketle-man/comfyui-vrm-pose-editor": [
         [
             "PoseEditor3D"
