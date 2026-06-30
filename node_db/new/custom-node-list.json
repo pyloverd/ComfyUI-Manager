@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "ketle-man",
+            "title": "Mask Editor One",
+            "id": "comfyui-mask-editor-one",
+            "reference": "https://github.com/ketle-man/comfyui-mask-editor-one",
+            "files": [
+                "https://github.com/ketle-man/comfyui-mask-editor-one"
+            ],
+            "install_type": "git-clone",
+            "description": "A layer-based modal mask editor for ComfyUI with Photoshop-like controls. Features paint, color selection, alpha extraction, vector (Catmull-Rom spline), shape, and text tools, SAM3 AI segmentation, BiRefNet background removal, layer management with Undo/Redo (30 levels), ABR brush import, brush library, and multilingual UI (en/ja/zh)."
+        },
+        {
             "author": "File_xor",
             "title": "SEGA for Anima",
             "reference": "https://github.com/Filexor/SEGA_Anima",
