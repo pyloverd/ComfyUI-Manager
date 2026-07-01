@@ -3085,6 +3085,7 @@
     "https://github.com/Andro-Meta/ComfyUI-Krea-Moodboards": [
         [
             "KreaMoodboardApply",
+            "KreaMoodboardCatalogBrowser",
             "KreaMoodboardMashup",
             "KreaMoodboardRandom",
             "KreaMoodboardSearch",
@@ -6443,6 +6444,7 @@
     "https://github.com/CraftopiaStudio/ComfyUI-CraftKit": [
         [
             "SmartBatchResize",
+            "SmartProfileSwitch",
             "SmartPromptController",
             "SmartResize",
             "SmartResolutionMultiplier"
@@ -8735,6 +8737,7 @@
             "EnviralColorMatchV2",
             "EnviralColorMatchV2Method",
             "EnviralImageResizeKit",
+            "EnviralKrea2SeedVarianceEnhancer",
             "EnviralLazyIndexSwitch",
             "EnviralLmstudioUnified",
             "EnviralLoadLora",
@@ -12650,6 +12653,7 @@
             "IAMCCS_VRAMFlushLatent",
             "IAMCCS_VideoCombineFromDir",
             "IAMCCS_VideoHardConcat",
+            "IAMCCS_VideoTakeCollector",
             "IAMCCS_WDC_LTXKeyframer",
             "IAMCCS_WDC_LTXSequencer",
             "IAMCCS_WDC_LTXSequencerFixed5",
@@ -12687,7 +12691,13 @@
             "IAMCCS_WanSVIToFLFBridgeProPlus",
             "IAMCCS_WanSVIToFLFBridgeProPlus_Simple",
             "IAMCCS_WanSVIToFLFBridgePro_Simple",
+            "IAMCCS_WanShotboardLoopAccumulator",
+            "IAMCCS_WanShotboardLoopAccumulatorLinear",
+            "IAMCCS_WanShotboardLoopChunkSelect",
+            "IAMCCS_WanShotboardLoopInfo",
+            "IAMCCS_WanShotboardLoopState",
             "IAMCCS_WanShotboardPlannerPure",
+            "IAMCCS_WanShotboardPrevSamplesLoopSelect",
             "IAMCCS_WanSviFlfTimeline",
             "IAMCCS_WanSviFlfTimelinePick",
             "IAMCCS_bus_group",
@@ -13711,6 +13721,7 @@
             "JNodes_SamplerSelectorWithString",
             "JNodes_SaveImageWithOutput",
             "JNodes_SaveVideo",
+            "JNodes_SaveVideoQuick",
             "JNodes_SaveVideoWithOptions",
             "JNodes_SchedulerSelectorWithString",
             "JNodes_SearchAndReplace",
@@ -17380,6 +17391,7 @@
             "Hex or 24 Bit Color",
             "Image Rotator",
             "KSampler Advanced (Dual Output)",
+            "Load Folder",
             "Load VACE Module",
             "Loop SCAIL Pose Frames",
             "Match Color Palette",
@@ -20638,8 +20650,8 @@
             "RS_ImageToLatent",
             "RS_ImageToLatent_Simplified",
             "RS_Last_Frame",
+            "RS_OverlayPro",
             "RS_Saturation",
-            "RS_TextOverlay",
             "RaykoIntermediateSplineMask",
             "RaykoLoopSwitchSeed",
             "RaykoModelsLoader",
@@ -25612,6 +25624,7 @@
             "Filter List",
             "Filter Words",
             "Float Compare",
+            "Float to String",
             "Floats to Rect",
             "Force Aspect On Bounds",
             "Get File List",
@@ -37087,6 +37100,7 @@
             "GeminiNanoBanana2V2",
             "GeminiNode",
             "GeminiNodeV2",
+            "GeminiVideoOmni",
             "GenerateTracks",
             "GetICLoRAParameters",
             "GetImageSize",
@@ -43015,6 +43029,33 @@
             "title_aux": "comfyui-nano-banana"
         }
     ],
+    "https://github.com/g-raw/ComfyUI-LTX-Attention-Toolkit": [
+        [
+            "LTXAttentionCaptureSetup",
+            "LTXAttentionCompareRuns",
+            "LTXAttentionGridViz",
+            "LTXAttentionHeadFreeze",
+            "LTXAttentionKeyMap",
+            "LTXAttentionMetricsViz",
+            "LTXAttentionQueryMap",
+            "LTXAttentionStoreDump",
+            "LTXAttentionStoreInspect",
+            "LTXAttentionStoreLoad",
+            "LTXAttentionTimestepEvolution",
+            "LTXAttentionZoneAnalysis",
+            "LTXLatentDims",
+            "LTXQKVCapture",
+            "LTXQKVDump",
+            "LTXQKVLoad",
+            "LTXQKVStoreInspect",
+            "LTXQKVTransfer",
+            "LTXRFForwardSampler",
+            "LTXRFReverseSampler"
+        ],
+        {
+            "title_aux": "ComfyUI-LTX-Attention-Toolkit"
+        }
+    ],
     "https://github.com/g0kuvonlange/ComfyUI-Load-From-URL": [
         [
             "Load LoRA From URL",
@@ -43218,15 +43259,17 @@
     ],
     "https://github.com/geocine/geocine-comfyui": [
         [
-            "Image Scale",
-            "Image Selector",
-            "LoRA Name List",
-            "OpenAICompatibleLLM",
-            "PreviewText",
-            "Prompt Text",
-            "Seed to Noise",
-            "ShowTextNode",
-            "Text Replace"
+            "GeocineImageScale",
+            "GeocineImageSelector",
+            "GeocineLoraLoaderStack",
+            "GeocineLoraNameList",
+            "GeocineOpenAICompatibleLLM",
+            "GeocinePreviewText",
+            "GeocinePromptText",
+            "GeocineSeedToNoise",
+            "GeocineShowTextNode",
+            "GeocineTextReplace",
+            "GeocineTurboSeedVariance"
         ],
         {
             "title_aux": "geocine-comfyui"
@@ -49827,6 +49870,7 @@
             "InterpolateCoords",
             "JoinStringMulti",
             "JoinStrings",
+            "Krea2PromptWeight",
             "LTX2AttentionTunerPatch",
             "LTX2AudioLatentNormalizingSampling",
             "LTX2BlockLoraSelect",
@@ -52074,6 +52118,14 @@
         ],
         {
             "title_aux": "ComfyUI-Segformer_Ultra_Fast"
+        }
+    ],
+    "https://github.com/lihaoyun6/ComfyUI-TomatoCrypt": [
+        [
+            "TomatoCrypt"
+        ],
+        {
+            "title_aux": "ComfyUI-TomatoCrypt"
         }
     ],
     "https://github.com/liming123332/ComfyUI-Ranbooru": [
@@ -61406,9 +61458,11 @@
             "ImageDimensionFitter",
             "ImagePaddingCalculator",
             "ImageResizeLanczos3NonSeparable",
+            "LoadImageWithCaption",
             "LoadImagesWithCaptionsFromDir",
             "PathSplitter",
             "RandomLineConcatenator",
+            "ResolutionSelectorFromDimensions",
             "SaveImageWithCaption"
         ],
         {
@@ -66862,6 +66916,16 @@
             "title_aux": "Multimodal \u2014 LLM (Local-first: GGUF + Transformers)"
         }
     ],
+    "https://github.com/thepororo/ComfyUI-WanCameraAdvanced": [
+        [
+            "WanCameraEmbeddingAdvanced",
+            "WanCameraEmbeddingVisualizer",
+            "WanCameraMultiFrameReference"
+        ],
+        {
+            "title_aux": "Wan Camera Advanced"
+        }
+    ],
     "https://github.com/theshubzworld/ComfyUI-FaceCalloutNode": [
         [
             "FaceCalloutEffect",
@@ -70129,6 +70193,14 @@
             "title_aux": "ComfyUI-RK-Sampler"
         }
     ],
+    "https://github.com/workordie/ComfyUI-GridSplit": [
+        [
+            "AutoGridSplit"
+        ],
+        {
+            "title_aux": "ComfyUI-GridSplit"
+        }
+    ],
     "https://github.com/wouterverweirder/comfyui-penplotter": [
         [
             "DisengagePlotter",
@@ -72655,8 +72727,11 @@
     "https://github.com/zhuyanan/Comfy-FilmSimulator": [
         [
             "DNG Image Reader",
+            "FilmPipelineNode",
             "FilmSimNode",
-            "SaveAVIF_HDR"
+            "HDR Merge (Gainmap)",
+            "SaveAVIF_HDR",
+            "SaveSDR"
         ],
         {
             "title_aux": "Comfy-FilmSimulator"
