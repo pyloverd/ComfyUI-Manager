@@ -7473,6 +7473,7 @@
             "LoadImageWithMetadataNode",
             "MaskDebugNode",
             "ModelGeneratorNode",
+            "MultiPlaceholderPromptList",
             "MyXYGridAccumulator",
             "MyXYZHelper",
             "MyXYZSuperStacker",
@@ -26708,6 +26709,8 @@
             "XB_HumanSegModelLoader",
             "XB_HumanSegmentation",
             "XB_ImageParamsMaster",
+            "XB_KSampler",
+            "XB_KSamplerAdvanced",
             "XB_MSR",
             "XB_MasterParameter",
             "XB_ROCmKSampler",
@@ -26721,10 +26724,18 @@
             "XB_ROCmVAEEncode",
             "XB_SageAttentionAccelerator",
             "XB_SamplerChunkMaster",
+            "XB_SamplerCustom",
+            "XB_SamplerCustomAdvanced",
             "XB_StoryboardSlicer",
             "XB_StringMerge",
             "XB_UNetBlockSwap",
             "XB_UNetNameBroadcaster",
+            "XB_VAEDecode",
+            "XB_VAEDecodeTiled",
+            "XB_VAEDecodeTiledImage",
+            "XB_VAEEncode",
+            "XB_VAEEncodeForInpaint",
+            "XB_VAEEncodeTiled",
             "XB_VRAM_Calculator",
             "XB_VideoCombine",
             "XB_VideoLoader",
@@ -30957,6 +30968,14 @@
         ],
         {
             "title_aux": "ComfyUI-AudioMoodAnalyzer"
+        }
+    ],
+    "https://github.com/andremonjardim/comfyui-image-validator": [
+        [
+            "ImageMultipleOfEightValidator"
+        ],
+        {
+            "title_aux": "Monja Image Validator"
         }
     ],
     "https://github.com/andreszs/ComfyUI-OpenPose-Studio": [
@@ -37132,8 +37151,6 @@
             "HyperTile",
             "HypernetworkLoader",
             "Ideogram4Scheduler",
-            "IdeogramV1",
-            "IdeogramV2",
             "IdeogramV3",
             "IdeogramV4",
             "ImageAddNoise",
@@ -43647,6 +43664,35 @@
             "DYWanFun22_fal",
             "DYWanUpscaler_fal",
             "Dreamina31TextToImage_fal",
+            "FalBalance_fal",
+            "FalBase64ToImage_fal",
+            "FalBatchCaption_fal",
+            "FalCollect_fal",
+            "FalConcatVideos_fal",
+            "FalCostEstimator_fal",
+            "FalExtractFrames_fal",
+            "FalFolderToZipURL_fal",
+            "FalImageGrid_fal",
+            "FalImageToBase64_fal",
+            "FalImagesToZipURL_fal",
+            "FalJSONExtract_fal",
+            "FalJobInbox_fal",
+            "FalLoadAudioURL_fal",
+            "FalLoadImageFolder_fal",
+            "FalLoadImageURL_fal",
+            "FalMuxAudioVideo_fal",
+            "FalPromptLines_fal",
+            "FalProvenanceFromFile_fal",
+            "FalResizeToPreset_fal",
+            "FalResultByRequestId_fal",
+            "FalSaveMediaURL_fal",
+            "FalSessionCosts_fal",
+            "FalSubmit_fal",
+            "FalTextTemplate_fal",
+            "FalTrimVideo_fal",
+            "FalUploadFolderAsZip_fal",
+            "FalVideoToAudio_fal",
+            "FalVideoToFrameDatasetZip_fal",
             "FluxDev_fal",
             "FluxGeneral_fal",
             "FluxLoraTrainer_fal",
@@ -43721,6 +43767,7 @@
             "Veo31Fast_fal",
             "Veo31_fal",
             "Veo3_fal",
+            "VideoFromURL_fal",
             "VideoUpscaler_fal",
             "Wan2214b_animate_move_character_fal",
             "Wan2214b_animate_replace_character_fal",
@@ -60735,6 +60782,7 @@
             "Alert",
             "Debug",
             "Pre",
+            "PreShow",
             "Show"
         ],
         {
@@ -67670,7 +67718,12 @@
         [
             "HFLoraCombiner",
             "HFLoraUrlBuilder",
-            "HFModelSelector"
+            "HFModelSelector",
+            "LoadImageWithMetadata",
+            "LoadPrediction",
+            "LoadZIP",
+            "SaveAMDVideo",
+            "SaveTextWithFilename"
         ],
         {
             "title_aux": "ComfyUI-API-DockerCPU"
@@ -70195,7 +70248,8 @@
     ],
     "https://github.com/workordie/ComfyUI-GridSplit": [
         [
-            "AutoGridSplit"
+            "AutoGridSplit",
+            "GridStitch"
         ],
         {
             "title_aux": "ComfyUI-GridSplit"

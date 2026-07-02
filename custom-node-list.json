@@ -53973,6 +53973,16 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node suite for profiling, visualizing and steering attention heads in LTX-Video 2.3 (distill & dev)."
+        },
+        {
+            "author": "monja",
+            "title": "Monja Image Validator",
+            "reference": "https://github.com/andremonjardim/comfyui-image-validator",
+            "files": [
+                "https://github.com/andremonjardim/comfyui-image-validator"
+            ],
+            "install_type": "git-clone",
+            "description": "Valida se a imagem é múltipla de 8 para workflows de Upscale e Flux."
         }
     ]
 }

@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "monja",
+            "title": "Monja Image Validator",
+            "reference": "https://github.com/andremonjardim/comfyui-image-validator",
+            "files": [
+                "https://github.com/andremonjardim/comfyui-image-validator"
+            ],
+            "install_type": "git-clone",
+            "description": "Valida se a imagem é múltipla de 8 para workflows de Upscale e Flux."
+        },
+        {
             "author": "workordie",
             "title": "ComfyUI-GridSplit",
             "reference": "https://github.com/workordie/ComfyUI-GridSplit",
