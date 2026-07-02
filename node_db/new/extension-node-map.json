@@ -3089,7 +3089,8 @@
             "KreaMoodboardMashup",
             "KreaMoodboardRandom",
             "KreaMoodboardSearch",
-            "KreaMoodboardStyle"
+            "KreaMoodboardStyle",
+            "KreaMoodboardVisualBrowser"
         ],
         {
             "title_aux": "Krea Moodboards"
@@ -39125,7 +39126,7 @@
             "description": "Quality of life ComfyUI nodes: dynamic string formatting, random selection, circuit-breaker.",
             "nickname": "DV Nodes",
             "title": "Comfy DV Nodes",
-            "title_aux": "Comfy DV"
+            "title_aux": "Comfy DV Nodes"
         }
     ],
     "https://github.com/darth-veitcher/comfyui-ollama-model-manager": [
@@ -43332,7 +43333,7 @@
             "DynamicComboGenerator"
         ],
         {
-            "title_aux": "Dynamic Text-to-Combo Generator"
+            "title_aux": "ComfyUI Dynamic Text-to-Combo Generator"
         }
     ],
     "https://github.com/giriss/comfy-image-saver": [
@@ -43669,20 +43670,28 @@
             "FalBatchCaption_fal",
             "FalCollect_fal",
             "FalConcatVideos_fal",
+            "FalControlNetConfig_fal",
             "FalCostEstimator_fal",
+            "FalEmbeddingConfig_fal",
             "FalExtractFrames_fal",
             "FalFolderToZipURL_fal",
+            "FalIPAdapterConfig_fal",
             "FalImageGrid_fal",
             "FalImageToBase64_fal",
             "FalImagesToZipURL_fal",
             "FalJSONExtract_fal",
+            "FalJSONMerge_fal",
             "FalJobInbox_fal",
+            "FalKeyValue_fal",
+            "FalLoRAConfig_fal",
             "FalLoadAudioURL_fal",
             "FalLoadImageFolder_fal",
             "FalLoadImageURL_fal",
+            "FalMultiPromptShot_fal",
             "FalMuxAudioVideo_fal",
             "FalPromptLines_fal",
             "FalProvenanceFromFile_fal",
+            "FalReferenceImage_fal",
             "FalResizeToPreset_fal",
             "FalResultByRequestId_fal",
             "FalSaveMediaURL_fal",
@@ -49466,6 +49475,15 @@
         ],
         {
             "title_aux": "Knodes"
+        }
+    ],
+    "https://github.com/kgilper/krea-reference": [
+        [
+            "KGKrea2ImageGuideCardV9",
+            "KGTextEncodeKreaImageReferencesV9"
+        ],
+        {
+            "title_aux": "comfyui-krea-reference"
         }
     ],
     "https://github.com/khanhlvg/vertex-ai-comfyui-nodes": [

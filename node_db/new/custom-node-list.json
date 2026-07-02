@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Kevin Gilper",
+            "title": "comfyui-krea-reference",
+            "reference": "https://github.com/kgilper/krea-reference",
+            "files": [
+                "https://github.com/kgilper/krea-reference"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Krea 2 V9 image-reference conditioning."
+        },
+        {
             "author": "monja",
             "title": "Monja Image Validator",
             "reference": "https://github.com/andremonjardim/comfyui-image-validator",
