@@ -53405,6 +53405,16 @@
             "description": "Save WebP images with A1111-compatible generation parameters and ComfyUI prompt/workflow metadata."
         },
         {
+            "author": "ukr8b3g-cmyk",
+            "title": "Krea2 BBOX Prompter Suite",
+            "reference": "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter",
+            "files": [
+                "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter"
+            ],
+            "install_type": "git-clone",
+            "description": "Krea2-focused BBOX canvas, prompt builder, export node, and prompt effect presets for ComfyUI."
+        },
+        {
             "author": "surrealbydesign",
             "title": "ComfyUI Ideogram Palette and Prompt Tools",
             "reference": "https://github.com/SurrealByDesign/ComfyUI-Ideogram-Palette-and-Prompt-Tools",
