@@ -398,7 +398,6 @@
             "PD_MaskRemoveSmallObjects",
             "PD_Maskfenkai",
             "PD_ModelLoraLoader",
-            "PD_RemoveBlackBackground",
             "PD_RemoveColorWords",
             "PD_RemoveWhiteBorder",
             "PD_RenameV2",
@@ -435,6 +434,9 @@
             "PDimage_corp_v2",
             "PDimage_dual_batch_by_list",
             "PDimage_dual_batch_v1",
+            "PDtools_Filter_GodenPNG_v1",
+            "PDtools_Filter_WPNG_v1",
+            "PDtools_Filter_WPNG_v2",
             "mask_edge_selector"
         ],
         {
@@ -2911,16 +2913,6 @@
         ],
         {
             "title_aux": "ComfyUI-Randomselector"
-        }
-    ],
-    "https://github.com/Kayarte/Time-Series-Nodes-for-ComfyUI": [
-        [
-            "DomainTimeSeriesPrep",
-            "TimeSeriesLoader",
-            "TimeSeriesPredictor"
-        ],
-        {
-            "title_aux": "Time Series Nodes for ComfyUI [Experimental]"
         }
     ],
     "https://github.com/KihongK/comfyui-roysnodes": [
@@ -7627,6 +7619,7 @@
             "ByteDanceImageNode",
             "ByteDanceImageReferenceNode",
             "ByteDanceImageToVideoNode",
+            "ByteDanceSeedAudio",
             "ByteDanceSeedNode",
             "ByteDanceSeedreamNode",
             "ByteDanceSeedreamNodeV2",
@@ -8196,14 +8189,6 @@
             "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
-            "StabilityAudioInpaint",
-            "StabilityAudioToAudio",
-            "StabilityStableImageSD_3_5Node",
-            "StabilityStableImageUltraNode",
-            "StabilityTextToAudio",
-            "StabilityUpscaleConservativeNode",
-            "StabilityUpscaleCreativeNode",
-            "StabilityUpscaleFastNode",
             "StableCascade_EmptyLatentImage",
             "StableCascade_StageB_Conditioning",
             "StableCascade_StageC_VAEEncode",
