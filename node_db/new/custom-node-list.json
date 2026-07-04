@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Stillfront",
+            "title": "SF ComfyUI Nodes",
+            "reference": "https://github.com/Stillfront/comfyui-sf-nodes",
+            "files": [
+                "https://github.com/Stillfront/comfyui-sf-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI including LLM Chat (Claude, Gemini, GPT), WaveSpeed AI image and video generation, VertexAI integration, and workflow utilities."
+        },
+        {
             "author": "maikios",
             "title": "ComfyUI Gemma4 Reference Prompt",
             "reference": "https://github.com/MaikiOS/ComfyUI-Gemma4-ReferencePrompt",
