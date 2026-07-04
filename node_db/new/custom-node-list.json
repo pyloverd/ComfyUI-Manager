@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "A1-multiply",
+            "title": "ComfyUI LatentSaver",
+            "reference": "https://github.com/A1-multiply/ComfyUI-LatentSaver",
+            "files": [
+                "https://github.com/A1-multiply/ComfyUI-LatentSaver"
+            ],
+            "install_type": "git-clone",
+            "description": "Save and reload ComfyUI latent tensors from the output folder."
+        },
+        {
+            "author": "trix7111",
+            "title": "ComfyUI-TrixNodes",
+            "reference": "https://github.com/trx7111/ComfyUI-TrixNodes",
+            "files": [
+                "https://github.com/trx7111/ComfyUI-TrixNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "An elegant, premium, remote bypass and wire-management nodes suite for ComfyUI."
+        },
+        {
+            "author": "CoreyCorza",
+            "title": "Corza LoRA Loader (Clean)",
+            "reference": "https://github.com/CoreyCorza/comfyui-lora-loader",
+            "files": [
+                "https://github.com/CoreyCorza/comfyui-lora-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A drop-in ComfyUI LoRA loader with optional spectral cleanup (energy trimming + hot-layer taming) to reduce artifacts from stacked LoRAs and turbo/distilled models."
+        },
+        {
             "author": "archerkattri",
             "title": "ComfyUI-HiCache",
             "reference": "https://github.com/Archerkattri/ComfyUI-HiCache",
