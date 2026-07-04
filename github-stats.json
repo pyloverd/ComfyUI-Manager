@@ -1199,9 +1199,19 @@
         "last_update": "2025-03-17 06:08:17",
         "author_account_age_days": 4129
     },
+    "https://github.com/Archerkattri/ComfyUI-HiCache": {
+        "stars": 2,
+        "last_update": "2026-06-11 16:04:18",
+        "author_account_age_days": 705
+    },
     "https://github.com/Archerkattri/ComfyUI-TRELLIS-HiCache": {
         "stars": 1,
         "last_update": "2026-07-02 03:18:14",
+        "author_account_age_days": 705
+    },
+    "https://github.com/Archerkattri/ComfyUI-TRELLIS2-HiCache": {
+        "stars": 2,
+        "last_update": "2026-07-02 03:18:28",
         "author_account_age_days": 705
     },
     "https://github.com/Arctenox/Arctenoxs-Essentials_ComfyUI": {
@@ -8558,6 +8568,11 @@
         "stars": 6,
         "last_update": "2026-06-27 07:36:49",
         "author_account_age_days": 4598
+    },
+    "https://github.com/Stillfront/comfyui-sf-nodes": {
+        "stars": 0,
+        "last_update": "2026-07-01 11:44:34",
+        "author_account_age_days": 2886
     },
     "https://github.com/Style-Mosaic/dino-x-comfyui-node": {
         "stars": 2,

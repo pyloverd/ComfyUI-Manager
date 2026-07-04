@@ -3268,12 +3268,28 @@
             "title_aux": "Diffusion360_ComfyUI"
         }
     ],
+    "https://github.com/Archerkattri/ComfyUI-HiCache": [
+        [
+            "HiCacheAccelerate"
+        ],
+        {
+            "title_aux": "ComfyUI-HiCache"
+        }
+    ],
     "https://github.com/Archerkattri/ComfyUI-TRELLIS-HiCache": [
         [
             "TrellisHiCacheAccelerate"
         ],
         {
             "title_aux": "ComfyUI-TRELLIS-HiCache"
+        }
+    ],
+    "https://github.com/Archerkattri/ComfyUI-TRELLIS2-HiCache": [
+        [
+            "Trellis2HiCacheAccelerate"
+        ],
+        {
+            "title_aux": "ComfyUI-TRELLIS2-HiCache"
         }
     ],
     "https://github.com/Arctenox/Arctenoxs-Essentials_ComfyUI": [
@@ -24413,6 +24429,75 @@
         ],
         {
             "title_aux": "Nifty Nodes for ComfyUI"
+        }
+    ],
+    "https://github.com/Stillfront/comfyui-sf-nodes": [
+        [
+            "SFGoogleSheetCell",
+            "SFGoogleSheetRange",
+            "SFLLMChat",
+            "SFPromptList",
+            "SFQwenResolution",
+            "SFTextAnalyzer",
+            "SFVersionCheck",
+            "SFVertexAIImagen3TextToImage",
+            "SFVertexAIImagen4TextToImage",
+            "SFVertexAIImagen4Upscale",
+            "SFVertexAINanaBananaPro",
+            "SFVertexAINanaBananaProEdit",
+            "SFVertexAIVeo31ImageToVideo",
+            "SFVertexAIVeo31TextToVideo",
+            "SFWaveSpeedClient",
+            "SFWaveSpeedFluxControlNetUnionPro2",
+            "SFWaveSpeedFluxKontextDev",
+            "SFWaveSpeedFluxKontextMax",
+            "SFWaveSpeedFluxKontextPro",
+            "SFWaveSpeedImageUpscaler",
+            "SFWaveSpeedInfiniteTalk",
+            "SFWaveSpeedInfiniteTalkMulti",
+            "SFWaveSpeedNanoBananaEdit",
+            "SFWaveSpeedNanoBananaProEdit",
+            "SFWaveSpeedNanoBananaProEditMulti",
+            "SFWaveSpeedNanoBananaProEditUltra",
+            "SFWaveSpeedNanoBananaProTextToImage",
+            "SFWaveSpeedNanoBananaProTextToImageMulti",
+            "SFWaveSpeedNanoBananaProTextToImageUltra",
+            "SFWaveSpeedNanoBananaTextToImage",
+            "SFWaveSpeedQwenEdit",
+            "SFWaveSpeedQwenEditLora",
+            "SFWaveSpeedQwenEditPlus",
+            "SFWaveSpeedQwenEditPlusLora",
+            "SFWaveSpeedQwenTextToImage",
+            "SFWaveSpeedQwenTextToImageLora",
+            "SFWaveSpeedRunwayUpscale",
+            "SFWaveSpeedSeedreamV4",
+            "SFWaveSpeedSeedreamV4Edit",
+            "SFWaveSpeedSeedreamV4EditSequential",
+            "SFWaveSpeedSeedreamV4Sequential",
+            "SFWaveSpeedSora2ImageToVideo",
+            "SFWaveSpeedSora2ImageToVideoPro",
+            "SFWaveSpeedSora2TextToVideo",
+            "SFWaveSpeedSora2TextToVideoPro",
+            "SFWaveSpeedVeo31FastImageToVideo",
+            "SFWaveSpeedVeo31FastTextToVideo",
+            "SFWaveSpeedVeo31ImageToVideo",
+            "SFWaveSpeedVeo31ReferenceToVideo",
+            "SFWaveSpeedVeo31TextToVideo",
+            "SFWaveSpeedWan22Animate",
+            "SFWaveSpeedWan22I2V720p",
+            "SFWaveSpeedWan25ImageEdit",
+            "SFWaveSpeedWan25ImageToVideo",
+            "SFWaveSpeedWan25ImageToVideoFast",
+            "SFWaveSpeedWan25TextToImage",
+            "SFWaveSpeedWan25TextToVideo",
+            "SFWaveSpeedWan25TextToVideoFast",
+            "WaveSpeedAI Qwen Image Text to Image",
+            "WaveSpeedAI Qwen Image Text to Image LoRA",
+            "WaveSpeedAI_RunwaymlUpscaleV1Node",
+            "WaveSpeedAI_Wan22I2V720pNode"
+        ],
+        {
+            "title_aux": "SF ComfyUI Nodes"
         }
     ],
     "https://github.com/Style-Mosaic/dino-x-comfyui-node": [
@@ -49479,7 +49564,7 @@
             "KGTextEncodeKreaImageReferencesV9"
         ],
         {
-            "title_aux": "comfyui-krea-reference"
+            "title_aux": "ComfyUI Krea Reference"
         }
     ],
     "https://github.com/khanhlvg/vertex-ai-comfyui-nodes": [
