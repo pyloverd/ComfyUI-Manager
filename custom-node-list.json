@@ -14688,47 +14688,6 @@
             "description": "a comfyui custom node, which can select value from inputs"
         },
         {
-            "author": "GreenLandisaLie",
-            "title": "AuraSR-ComfyUI",
-            "id": "aurasr-greenlandisalie",
-            "reference": "https://github.com/GreenLandisaLie/AuraSR-ComfyUI",
-            "files": [
-                "https://github.com/GreenLandisaLie/AuraSR-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI implementation of [a/Aura-SR](https://github.com/fal-ai/aura-sr)"
-        },
-        {
-            "author": "GreenLandisaLie",
-            "title": "ComfyUI-BooruBrowser",
-            "reference": "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser",
-            "files": [
-                "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser"
-            ],
-            "install_type": "git-clone",
-            "description": "Quickly search and get images from Gelbooru/Danbooru/E621 without leaving ComfyUI"
-        },
-        {
-            "author": "GreenLandisaLie",
-            "title": "ComfyUI-RichText_BasicDynamicPrompts",
-            "reference": "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts",
-            "files": [
-                "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts"
-            ],
-            "install_type": "git-clone",
-            "description": "Basic Dynamic Prompts functionality with a Rich Text texbox for coloring."
-        },
-        {
-            "author": "GreenLandisaLie",
-            "title": "ComfyUI-Silver_Pack",
-            "reference": "https://github.com/GreenLandisaLie/ComfyUI-Silver_Pack",
-            "files": [
-                "https://github.com/GreenLandisaLie/ComfyUI-Silver_Pack"
-            ],
-            "install_type": "git-clone",
-            "description": "Misc collection of nodes. Some are just slightly improved versions of the native ones."
-        },
-        {
             "author": "licyk",
             "title": "ComfyUI-Restart-Sampler",
             "id": "restart-sampler-licyk",

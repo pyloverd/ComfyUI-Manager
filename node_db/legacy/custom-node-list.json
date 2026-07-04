@@ -1,6 +1,47 @@
 {
     "custom_nodes": [
         {
+            "author": "GreenLandisaLie",
+            "title": "ComfyUI-Silver_Pack [REMOVED]",
+            "reference": "https://github.com/GreenLandisaLie/ComfyUI-Silver_Pack",
+            "files": [
+                "https://github.com/GreenLandisaLie/ComfyUI-Silver_Pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Misc collection of nodes. Some are just slightly improved versions of the native ones."
+        },
+        {
+            "author": "GreenLandisaLie",
+            "title": "ComfyUI-RichText_BasicDynamicPrompts [REMOVED]",
+            "reference": "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts",
+            "files": [
+                "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts"
+            ],
+            "install_type": "git-clone",
+            "description": "Basic Dynamic Prompts functionality with a Rich Text texbox for coloring."
+        },
+        {
+            "author": "GreenLandisaLie",
+            "title": "ComfyUI-BooruBrowser [REMOVED]",
+            "reference": "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser",
+            "files": [
+                "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser"
+            ],
+            "install_type": "git-clone",
+            "description": "Quickly search and get images from Gelbooru/Danbooru/E621 without leaving ComfyUI"
+        },
+        {
+            "author": "GreenLandisaLie",
+            "title": "AuraSR-ComfyUI [REMOVED]",
+            "id": "aurasr-greenlandisalie",
+            "reference": "https://github.com/GreenLandisaLie/AuraSR-ComfyUI",
+            "files": [
+                "https://github.com/GreenLandisaLie/AuraSR-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI implementation of [a/Aura-SR](https://github.com/fal-ai/aura-sr)"
+        },
+        {
             "author": "Kayarte",
             "title": "Time Series Nodes for ComfyUI [Experimental] [REMOVED]",
             "reference": "https://github.com/Kayarte/Time-Series-Nodes-for-ComfyUI",

@@ -10195,12 +10195,14 @@
     ],
     "https://github.com/FranckyB/ComfyUI-Prompt-Manager": [
         [
+            "LoraStackCombine",
             "MultiLoraCombine",
+            "MultiLoraSplitter",
             "MultiLoraStackerLM",
-            "PromptApplyLora",
             "PromptExtractor",
             "PromptGenOptions",
             "PromptGenerator",
+            "PromptGeneratorKillRelay",
             "PromptManager",
             "PromptManagerAdvanced",
             "RecipeBuilder",
@@ -11107,40 +11109,6 @@
         ],
         {
             "title_aux": "Wan-video-extender"
-        }
-    ],
-    "https://github.com/GreenLandisaLie/AuraSR-ComfyUI": [
-        [
-            "AuraSR.AuraSRUpscaler"
-        ],
-        {
-            "title_aux": "AuraSR-ComfyUI"
-        }
-    ],
-    "https://github.com/GreenLandisaLie/ComfyUI-BooruBrowser": [
-        [
-            "SILVER_FL_BooruBrowser",
-            "SILVER_Online_Video_Frame_Extractor"
-        ],
-        {
-            "title_aux": "ComfyUI-BooruBrowser"
-        }
-    ],
-    "https://github.com/GreenLandisaLie/ComfyUI-RichText_BasicDynamicPrompts": [
-        [
-            "SILVER_BasicDynamicPrompts"
-        ],
-        {
-            "title_aux": "ComfyUI-RichText_BasicDynamicPrompts"
-        }
-    ],
-    "https://github.com/GreenLandisaLie/ComfyUI-Silver_Pack": [
-        [
-            "SILVER_ClipTextEncodeWithCache",
-            "SILVER_SaveIMGWithClick"
-        ],
-        {
-            "title_aux": "ComfyUI-Silver_Pack"
         }
     ],
     "https://github.com/GroxicTinch/EasyUI-ComfyUI": [
@@ -18903,7 +18871,9 @@
     ],
     "https://github.com/Nynxz/ComfyUI-NK2E": [
         [
-            "NK2EInContextEditNode"
+            "NK2EInContextEditNode",
+            "NK2EInContextModelNode",
+            "NK2ESetReferenceNode"
         ],
         {
             "title_aux": "NK2E"
@@ -25287,10 +25257,15 @@
     "https://github.com/Taremin/comfyui-string-tools": [
         [
             "StringToolsBalancedChoice",
+            "StringToolsBalancedChoiceList",
             "StringToolsConcat",
+            "StringToolsConcatList",
+            "StringToolsMockStringList",
             "StringToolsRandomChoice",
+            "StringToolsRandomChoiceList",
             "StringToolsSeed",
             "StringToolsString",
+            "StringToolsStringsToList",
             "StringToolsText"
         ],
         {
@@ -26719,6 +26694,7 @@
             "XB_AudioSlicerV3",
             "XB_AutoBubbleTextRenderer",
             "XB_BatchFolderLoader",
+            "XB_BerniniConditioning",
             "XB_CLIPNameBroadcaster",
             "XB_CanvasLabel",
             "XB_CheckpointBlockSwap",
@@ -30427,6 +30403,8 @@
             "BFSHeadSwapLoRADebug",
             "FaceSequenceBatch",
             "FrameRangedFaceLoader",
+            "LTXIdentityOverlapConditioning",
+            "LTXIdentityTransfer",
             "LTXVApplyNeutralMask",
             "LTXVEditAnythingLoopingSampler",
             "LTXVEditAnythingModuleLoader",
@@ -39122,6 +39100,9 @@
             "OllamaChatCompletion",
             "OllamaClient",
             "OllamaDebugHistory",
+            "OllamaHeaderBasicAuth",
+            "OllamaHeaderBearerToken",
+            "OllamaHeaderCustom",
             "OllamaHistoryLength",
             "OllamaLoadModel",
             "OllamaModelSelector",
@@ -49491,7 +49472,10 @@
     ],
     "https://github.com/kgilper/krea-reference": [
         [
+            "KGConditioningProbe",
+            "KGKrea2ImageGuideCardV10",
             "KGKrea2ImageGuideCardV9",
+            "KGTextEncodeKreaImageReferencesV10",
             "KGTextEncodeKreaImageReferencesV9"
         ],
         {
@@ -51432,12 +51416,65 @@
     ],
     "https://github.com/laksjdjf/cgem156-ComfyUI": [
         [
+            "AttentionCouple",
+            "AttentionScale",
+            "BanTags",
+            "BatchString",
+            "CD_Tuner|cgem156",
+            "CLIPTextEncodeBatch",
+            "CLIPTextEncodeBatchKVMultiply",
+            "DartConfig",
+            "DartGenerate",
+            "DartPrompt",
+            "DartPromptV2",
+            "GradCam",
+            "GradCamAuto",
+            "GradPair",
             "GradualLatentSampler",
+            "KSamplerAdvancedXY",
+            "KSamplerXY",
+            "KmeansQuantize",
             "LCMSamplerRCFG",
+            "LimitedIntervalCFGGuider|cgem156",
             "LoadAestheticShadow",
+            "LoadDart",
+            "LoadTagger",
+            "LoraLoaderFromWeight",
+            "LoraLoaderModelOnlyXY",
+            "LoraLoaderWeightOnly",
+            "LoraMerge",
+            "LoraSVDRank",
+            "LoraSave",
+            "LortnocLoader|cgem156",
+            "MSEHeatmap",
+            "MSEHeatmapTagger",
+            "MultipleReferenceApply",
+            "MultipleReferenceLatent",
             "PredictAesthetic",
+            "PredictTag",
+            "PrefixString",
+            "PreviewXY",
+            "RandomColorPrompt",
+            "RandomNoiseOffset",
+            "RandomNoiseVariationSimple",
+            "ReferenceApply",
+            "ReferenceLatent",
+            "SameColorNoise",
+            "SamplerCustomAdvancedPreview",
+            "SamplerCustomXY",
+            "SamplerEulerAncestralFixedNoise",
+            "SaveBatchString",
+            "SaveImageBatch",
+            "SaveLatentBatch",
+            "ScaleCrafter|cgem156",
+            "ShortDistanceNoise",
+            "StringInput",
             "TCDSampler",
-            "TextScheduler"
+            "TKGRandomNoise",
+            "TextScheduler",
+            "TextScheduler|cgem156",
+            "VariationNoise",
+            "WDTaggerSimilarity"
         ],
         {
             "title_aux": "cgem156-ComfyUI\ud83c\udf4c"
@@ -53126,6 +53163,7 @@
             "AUNAddToPrompt",
             "AUNAddToPromptMulti",
             "AUNAny",
+            "AUNAnyIndexSwitch",
             "AUNBookmark",
             "AUNBoolean",
             "AUNCFG",
@@ -65300,7 +65338,9 @@
     "https://github.com/sorryhyun/ComfyUI-Spectrum-KSampler": [
         [
             "AnimaModGuidance",
+            "DiTCFGFSGPatch",
             "DiTSpectrumPatch",
+            "DiTSpectrumPatchAdvanced",
             "SpectrumKSampler",
             "SpectrumKSamplerAdvanced",
             "SpectrumKSamplerModGuidance",
