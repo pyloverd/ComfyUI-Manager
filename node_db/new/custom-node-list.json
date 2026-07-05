@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "boobkake22",
+            "title": "Sampling Planner",
+            "reference": "https://github.com/boobkake22/ComfyUI-SamplingPlanner",
+            "files": [
+                "https://github.com/boobkake22/ComfyUI-SamplingPlanner"
+            ],
+            "install_type": "git-clone",
+            "description": "Task-aware Wan 2.2 sampling plans and sampler-specific breakout nodes for ComfyUI."
+        },
+        {
+            "author": "iljung1106",
+            "title": "Anima Safe PAG",
+            "reference": "https://github.com/iljung1106/comfyui-anima-safe-pag",
+            "files": [
+                "https://github.com/iljung1106/comfyui-anima-safe-pag"
+            ],
+            "install_type": "git-clone",
+            "description": "A soft, Anima-friendly Perturbed Attention Guidance node for ComfyUI."
+        },
+        {
+            "author": "burgstall-labs",
+            "title": "ComfyUI-Domemaster-Outpaint",
+            "reference": "https://github.com/Burgstall-labs/ComfyUI-Domemaster-Outpaint",
+            "files": [
+                "https://github.com/Burgstall-labs/ComfyUI-Domemaster-Outpaint"
+            ],
+            "install_type": "git-clone",
+            "description": "Outpaint flat video into fulldome / planetarium shows: domemaster rendering with tilted-venue presets for ComfyUI, on top of the Burgstall Labs 360 outpaint pipeline."
+        },
+        {
             "author": "depth-layer-rasterizer",
             "title": "Depth Layer Rasterizer",
             "reference": "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer",

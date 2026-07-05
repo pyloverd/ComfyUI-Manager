@@ -5066,6 +5066,14 @@
             "title_aux": "ComfyUI-BS_Kokoro-onnx"
         }
     ],
+    "https://github.com/Burgstall-labs/ComfyUI-Domemaster-Outpaint": [
+        [
+            "EquirectToDomemaster"
+        ],
+        {
+            "title_aux": "ComfyUI-Domemaster-Outpaint"
+        }
+    ],
     "https://github.com/Burve/ComfyUI_Burve_Tools": [
         [
             "BurveGoogleImageGen",
@@ -30516,6 +30524,7 @@
             "BFSHeadSwapLoRADebug",
             "FaceSequenceBatch",
             "FrameRangedFaceLoader",
+            "LTXIdentityCAN",
             "LTXIdentityGemmaVision",
             "LTXIdentityOverlapConditioning",
             "LTXIdentityTransfer",
@@ -33626,6 +33635,29 @@
         ],
         {
             "title_aux": "ComfyUI-ColorCorrectGPU"
+        }
+    ],
+    "https://github.com/boobkake22/ComfyUI-SamplingPlanner": [
+        [
+            "AccelerationModelPair",
+            "AccelerationSelector",
+            "KSamplerBreakout",
+            "ModelPairBreakout",
+            "MoeSamplerBreakout",
+            "PrioritySelector",
+            "ProgressiveSigmaControl",
+            "RangeSplitOverrideLegacy",
+            "SamplerSelector",
+            "SamplingPlanWan22",
+            "SchedulerSelector",
+            "ShiftOverride",
+            "SigmaBreakout",
+            "StepBudget",
+            "StepSplitOverride",
+            "TaskSelector"
+        ],
+        {
+            "title_aux": "Sampling Planner"
         }
     ],
     "https://github.com/boobkake22/ComfyUI-SimpleSwitch": [
@@ -46586,6 +46618,14 @@
         ],
         {
             "title_aux": "ComfyUI-iterationNode"
+        }
+    ],
+    "https://github.com/iljung1106/comfyui-anima-safe-pag": [
+        [
+            "AnimaSafePAG"
+        ],
+        {
+            "title_aux": "Anima Safe PAG"
         }
     ],
     "https://github.com/illuminatianon/comfyui-csvwildcards": [
@@ -69805,7 +69845,10 @@
     ],
     "https://github.com/wearekhepri/comfyui-kepri-nodes-pack": [
         [
+            "KepriAspectRatio",
+            "KepriFramingAnalysis",
             "KepriImageFinalize",
+            "KepriMaskAnalysis",
             "KepriMaskMerge"
         ],
         {
