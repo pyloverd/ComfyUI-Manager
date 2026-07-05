@@ -1217,6 +1217,15 @@
             "title_aux": "Pixel3DMM ComfyUI Nodes"
         }
     ],
+    "https://github.com/A1-multiply/ComfyUI-LatentSaver": [
+        [
+            "A1LoadLatent",
+            "A1SaveLatent"
+        ],
+        {
+            "title_aux": "ComfyUI LatentSaver"
+        }
+    ],
     "https://github.com/A4P7J1N7M05OT/ComfyUI-InlineVariableWildcards": [
         [
             "InlineWildcardGenerator",
@@ -6307,6 +6316,15 @@
             "title_aux": "ComfyUI-CRZnodes"
         }
     ],
+    "https://github.com/CoreyCorza/comfyui-lora-loader": [
+        [
+            "CorzaCleanAppliedLoRAs",
+            "CorzaLoRAClean"
+        ],
+        {
+            "title_aux": "Corza LoRA Loader (Clean)"
+        }
+    ],
     "https://github.com/Cornmeister/ComfyUI-CornmeisterNL-PowerPack": [
         [
             "CornmeisterNL_PowerDiffusionModelLoader",
@@ -6905,6 +6923,7 @@
     ],
     "https://github.com/DailyMok/ComfyUI-dAIly": [
         [
+            "PromptMixerV2dAIly",
             "PromptMixerdAIly",
             "TokenCounterdAIly"
         ],
@@ -17399,26 +17418,24 @@
             "KSampler Advanced (Dual Output)",
             "Load Folder",
             "Load VACE Module",
-            "Loop SCAIL Pose Frames",
             "Match Color Palette",
             "Native Wan Pose Strength",
             "Pixelation Dimensions",
             "Preview (webm)",
             "PreviewAsMarkdown",
             "PreviewImageAlpha",
-            "Remove Background",
             "ReplaceAlpha",
             "Resize Image and Mask by Side",
+            "SCAIL Pose Frames",
             "Save Folder as ZIP",
             "Save To Zip",
             "Shift Image Batch",
             "Snap to Divisible",
+            "Sprite Scale Calculator",
             "Spritesheet Builder",
             "Spritesheet Preview",
             "String to List",
             "Temporal Mask Cropper",
-            "Trim Conditioning",
-            "VACE Sampler",
             "WAN Frame Calculator",
             "WAN Frames to Add & Cut"
         ],
@@ -25218,6 +25235,17 @@
             "TTP_Expand_And_Mask",
             "TTP_Image_Assy",
             "TTP_Image_Tile_Batch",
+            "TTP_QwenVL3_Local_Loader_Experimental",
+            "TTP_Smart_Tile_Assemble_Experimental",
+            "TTP_Smart_Tile_Image_Upscale_Prep_Experimental",
+            "TTP_Smart_Tile_Interactive_Crop_Experimental",
+            "TTP_Smart_Tile_Loop_Collect_Experimental",
+            "TTP_Smart_Tile_Loop_Source_Experimental",
+            "TTP_Smart_Tile_Output_Size_Estimate_Experimental",
+            "TTP_Smart_Tile_QwenVL_Prompt_Set_Builder_Experimental",
+            "TTP_Smart_Tile_Save_Final_Image_Experimental",
+            "TTP_Smart_Tile_Semantic_Rank_Experimental",
+            "TTP_Smart_Tile_Set_Preview_Experimental",
             "TTP_Tile_image_size",
             "TTP_condsetarea_merge",
             "TTP_condsetarea_merge_test",
@@ -30488,6 +30516,7 @@
             "BFSHeadSwapLoRADebug",
             "FaceSequenceBatch",
             "FrameRangedFaceLoader",
+            "LTXIdentityGemmaVision",
             "LTXIdentityOverlapConditioning",
             "LTXIdentityTransfer",
             "LTXVApplyNeutralMask",
@@ -39580,6 +39609,18 @@
             "title_aux": "demofusion-comfyui"
         }
     ],
+    "https://github.com/designloves2/ComfyUI-TJ_NODE_STUDIO_ONE": [
+        [
+            "Flux2KleinOneTJNode",
+            "Krea2OneTJNode",
+            "QwenImageEdit2511OneTJNode",
+            "SDXLOneTJNode",
+            "ZImageTurboOneNode"
+        ],
+        {
+            "title_aux": "ComfyUI-TJ_NODE_STUDIO_ONE"
+        }
+    ],
     "https://github.com/destinyfaux/Z-Fuse": [
         [
             "ZFuseBake",
@@ -43141,10 +43182,12 @@
             "LTXAttentionTimestepEvolution",
             "LTXAttentionZoneAnalysis",
             "LTXLatentDims",
+            "LTXQKVMultiplier",
             "LTXQKVStoreInspect",
             "LTXQKVTransfer",
             "LTXRFForwardSampler",
             "LTXRFReverseSampler",
+            "LTXResetPatches",
             "LTXStoreDump",
             "LTXStoreLoad"
         ],
@@ -54478,6 +54521,14 @@
             "title_aux": "h4 ToolKit"
         }
     ],
+    "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer": [
+        [
+            "DepthRasterizeLayers"
+        ],
+        {
+            "title_aux": "Depth Layer Rasterizer"
+        }
+    ],
     "https://github.com/maartenharms/comfyui-flowpath": [
         [
             "FlowPath"
@@ -59986,6 +60037,7 @@
         [
             "PJ_Image_Handler",
             "PJ_Latent_Generator",
+            "PJ_Lora_Loader",
             "PJ_Text_Translator",
             "PJ_Video_Latent_Generator"
         ],
@@ -67883,6 +67935,15 @@
         ],
         {
             "title_aux": "ComfyUI-API-DockerCPU"
+        }
+    ],
+    "https://github.com/trx7111/ComfyUI-TrixNodes": [
+        [
+            "TrixBypasser",
+            "TrixBypasserSimple"
+        ],
+        {
+            "title_aux": "ComfyUI-TrixNodes"
         }
     ],
     "https://github.com/tsogzark/ComfyUI-load-image-from-url": [

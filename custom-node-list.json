@@ -54053,6 +54053,16 @@
             ],
             "install_type": "git-clone",
             "description": "One-node studio UI package for Z-Image Turbo, Flux.2 Klein, Qwen Image Edit 2511, and Krea 2 workflows, including T2I, I2I, inpaint, outpaint, edit, faceswap, angle, and upscale modes."
+        },
+        {
+            "author": "depth-layer-rasterizer",
+            "title": "Depth Layer Rasterizer",
+            "reference": "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer",
+            "files": [
+                "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer"
+            ],
+            "install_type": "git-clone",
+            "description": "Depth-map paper-cut and parallax layer rasterizer for ComfyUI"
         }
     ]
 }

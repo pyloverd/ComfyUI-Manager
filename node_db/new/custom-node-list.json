@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "depth-layer-rasterizer",
+            "title": "Depth Layer Rasterizer",
+            "reference": "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer",
+            "files": [
+                "https://github.com/maDcaDDie2000/comfyui_depth_layer_rasterizer"
+            ],
+            "install_type": "git-clone",
+            "description": "Depth-map paper-cut and parallax layer rasterizer for ComfyUI"
+        },
+        {
             "author": "artokun",
             "title": "ComfyUI Agent Panel",
             "reference": "https://github.com/artokun/comfyui-mcp-panel",
