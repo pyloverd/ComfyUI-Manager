@@ -33152,6 +33152,9 @@
                 "https://github.com/Azornes/Comfyui-Resolution-Master"
             ],
             "install_type": "git-clone",
+            "preemptions": [
+                "ResolutionMaster"
+            ],
             "description": " Precise resolution and aspect ratio control for ComfyUI"
         },
         {
