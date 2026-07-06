@@ -1,5 +1,13 @@
 {
     "custom_nodes": [
+            {
+            "author": "m0rtus59",
+            "title": "ComfyUI-ComfySidebar",
+            "reference": "https://github.com/m0rtus59/ComfyUI-ComfySidebar",
+            "files": ["https://github.com/m0rtus59/ComfyUI-ComfySidebar"],
+            "install_type": "git-clone",
+            "description": "Restoring the ComfyUI frontend pre-vue update queue functionality, drag&drop support, quicksave, and more in a clean design that respects your screen area."
+        },
         {
             "author": "younestft",
             "title": "Comfy EverAnimate",
