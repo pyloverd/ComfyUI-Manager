@@ -1874,9 +1874,14 @@
             "DonutSave",
             "DonutTiledUpscale",
             "DonutUniversalDetailer",
+            "DonutWeightVectorScale",
             "DonutWidenMergeCLIP",
             "DonutWidenMergeUNet",
             "DonutZitConditioningRebalance",
+            "DonutZitHybridApply",
+            "DonutZitHybridLoader",
+            "DonutZitHybridOverride",
+            "DonutZitHybridSave",
             "DonutZitLayerBlendEncode",
             "LoadLBW //Inspire",
             "LoraBlockInfo //Inspire",
@@ -3484,6 +3489,7 @@
             "MpiReroute",
             "MpiRoundToMultiple",
             "MpiRoundToMultipleRes",
+            "MpiSaveVideo",
             "MpiScaledDimensions",
             "MpiSimpleBoolean",
             "MpiString",
@@ -7217,7 +7223,10 @@
             "WanMoveSVI_FLF_Mask",
             "WanMoveSVI_FLF_Stitch",
             "WanMoveSVI_FLF_Visualize",
-            "WanMoveSVI_FLF_v2"
+            "WanMoveSVI_FLF_v2",
+            "Wan_Float",
+            "Wan_Integer",
+            "Wan_Length"
         ],
         {
             "title_aux": "ComfyUI-WanMoveSVI_FLF_v2"
@@ -8889,6 +8898,7 @@
             "ETNodes-Color-Selector",
             "ETNodes-Gemini-API-Image",
             "ETNodes-Gemini-API-Text",
+            "ETNodes-Gemini-API-Video",
             "ETNodes-List-Items",
             "ETNodes-List-Selector",
             "ETNodes-Text-Preview"
