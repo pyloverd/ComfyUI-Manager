@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Moon-NE",
+            "title": "MoonNe_Nodes",
+            "reference": "https://github.com/Moon-NE/MoonNe_Nodes",
+            "files": [
+                "https://github.com/Moon-NE/MoonNe_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for text operations, including concatenation, horizontal-to-vertical conversion, and batch processing."
+        },
+        {
             "author": "TechnoWarrior2",
             "title": "ComfyUI Image Picker",
             "reference": "https://github.com/TechnoWarrior2/comfyui-image-picker",

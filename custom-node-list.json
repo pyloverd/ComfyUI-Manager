@@ -54153,6 +54153,16 @@
             ],
             "install_type": "git-clone",
             "description": "Displays a large draggable floating window with live denoising step previews as your image generates, similar to A1111 and Forge."
+        },
+        {
+            "author": "Moon-NE",
+            "title": "MoonNe_Nodes",
+            "reference": "https://github.com/Moon-NE/MoonNe_Nodes",
+            "files": [
+                "https://github.com/Moon-NE/MoonNe_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for text operations, including concatenation, horizontal-to-vertical conversion, and batch processing."
         }
     ]
 }
