@@ -752,7 +752,6 @@
             "GrsaiFluxKontext_MultiImageToImage",
             "GrsaiFluxKontext_TextToImage",
             "Grsai_GPTImage",
-            "Grsai_GPTImageVIP",
             "Grsai_NanoBanana",
             "Grsai_NanoBanana2",
             "Grsai_NanoBananaPro"
@@ -3988,6 +3987,9 @@
         {
             "author": "Azornes",
             "description": "Logging Configuration",
+            "preemptions": [
+                "ResolutionMaster"
+            ],
             "title": "AzLogs",
             "title_aux": "Comfyui-Resolution-Master"
         }
@@ -17719,6 +17721,18 @@
             "title_aux": "ComfyUI-Montagen"
         }
     ],
+    "https://github.com/Moon-NE/MoonNe_Nodes": [
+        [
+            "BatchConditionalText",
+            "BatchConditionalTextWeight",
+            "Moon_NE_Text_Concatenate",
+            "TextHorizontalToVertical",
+            "batch_randoml_text"
+        ],
+        {
+            "title_aux": "MoonNe_Nodes"
+        }
+    ],
     "https://github.com/MoonHugo/ComfyUI-BAGEL-Hugo": [
         [
             "BagelByHugo"
@@ -20974,223 +20988,6 @@
         ],
         {
             "title_aux": "ComfyUI-PromptUtils"
-        }
-    ],
-    "https://github.com/Runware/ComfyUI-Runware": [
-        [
-            "Runware 3D Inference",
-            "Runware 3D Inference Inputs",
-            "Runware 3D Inference Settings",
-            "Runware 3D Inference Settings Draco Compression",
-            "Runware 3D Inference Settings Mesh Cluster",
-            "Runware 3D Inference Settings Shape Slat",
-            "Runware 3D Inference Settings Sparse Structure",
-            "Runware 3D Inference Settings Tex Slat",
-            "Runware 3D Model Search",
-            "Runware API Manager",
-            "Runware Accelerator Options",
-            "Runware Alibaba Provider Settings",
-            "Runware Audio Inference",
-            "Runware Audio Inference Inputs",
-            "Runware Audio Inference Inputs Reference Audio",
-            "Runware Audio Inference Settings",
-            "Runware Audio Inference Settings Voice Modify",
-            "Runware Audio Inference Speech",
-            "Runware Audio Inference Speech Voices",
-            "Runware Audio Model Search",
-            "Runware Audio Sections",
-            "Runware Background Removal",
-            "Runware BlackForest Labs Provider Settings",
-            "Runware Bria Provider Mask",
-            "Runware Bria Provider Settings",
-            "Runware Bytedance Provider Settings",
-            "Runware ControlNet",
-            "Runware ControlNet Combine",
-            "Runware ControlNet PreProcessor",
-            "Runware ElevenLabs Provider Settings",
-            "Runware ElevenLabs Provider Settings Sections",
-            "Runware Embedding Search",
-            "Runware Embeddings Combine",
-            "Runware Frame Images",
-            "Runware Google Provider Settings",
-            "Runware IPAdapter",
-            "Runware IPAdapters Combine",
-            "Runware Image  Advanced Feature Input",
-            "Runware Image Caption",
-            "Runware Image Inference",
-            "Runware Image Inference Inputs",
-            "Runware Image Inference Inputs Fonts",
-            "Runware Image Inference Settings Color Palette",
-            "Runware Image Inference Settings Moodboards",
-            "Runware Image Inference Settings Prompt Enhance",
-            "Runware Image Inference Settings Scoring Rubric",
-            "Runware Image Inference Settings Scoring Rubric Combine",
-            "Runware Image Inference Settings Structured Prompt",
-            "Runware Image Inference Ultralytics",
-            "Runware Image Masking",
-            "Runware Image Upscaler",
-            "Runware Image Upscaler Settings",
-            "Runware Imagen Inference",
-            "Runware Input Audios",
-            "Runware Kling MultiPrompt Segment",
-            "Runware Kling Provider Settings MultiPrompt",
-            "Runware KlingAI Provider Settings",
-            "Runware Kontext Inference",
-            "Runware Lightricks Provider Settings",
-            "Runware Load Mesh",
-            "Runware Lora Combine",
-            "Runware Lora Search",
-            "Runware Luma Provider Settings",
-            "Runware Media Upload",
-            "Runware Midjourney Provider Settings",
-            "Runware MiniMax Provider Settings",
-            "Runware Mirelo Provider Settings",
-            "Runware Model Search",
-            "Runware Multi Inference",
-            "Runware OpenAI Provider Settings",
-            "Runware Outpaint",
-            "Runware PhotoMaker V2",
-            "Runware Pixverse Provider Settings",
-            "Runware Provider Settings Recraft Color",
-            "Runware Recraft Provider Settings",
-            "Runware Reference Audios",
-            "Runware Reference Images",
-            "Runware Reference Videos",
-            "Runware Reference Voices",
-            "Runware Refiner",
-            "Runware Regional Prompting Advanced Feature",
-            "Runware Regional Prompting Advanced Feature Regions",
-            "Runware Runway Provider Settings",
-            "Runware Safety Inputs",
-            "Runware Save 3D",
-            "Runware Save Image",
-            "Runware Save Text",
-            "Runware Settings",
-            "Runware Sourceful Provider Settings",
-            "Runware Sourceful Provider Settings Fonts",
-            "Runware Speech Inputs Combine",
-            "Runware Sync Provider Settings",
-            "Runware Sync Segment",
-            "Runware Text Inference",
-            "Runware Text Inference Inputs",
-            "Runware Text Inference Inputs Images",
-            "Runware Text Inference Inputs Videos",
-            "Runware Text Inference Message",
-            "Runware Text Inference Messages",
-            "Runware Text Inference Settings",
-            "Runware Text Inference Settings Cache",
-            "Runware Text Inference Tool Choice",
-            "Runware Text Model Search",
-            "Runware VAE Search",
-            "Runware Vectorize",
-            "Runware Video Advanced Feature Inputs",
-            "Runware Video Audio Input",
-            "Runware Video Background Removal",
-            "Runware Video Inference",
-            "Runware Video Inference Elements",
-            "Runware Video Inference Elements Combine",
-            "Runware Video Inference Inputs",
-            "Runware Video Inference Inputs Reference Audios",
-            "Runware Video Inference Inputs Reference Images",
-            "Runware Video Inference Inputs Reference Images Multiple Images Connector",
-            "Runware Video Inference Inputs Reference Videos",
-            "Runware Video Inference Inputs Reference Voices",
-            "Runware Video Inference Lora",
-            "Runware Video Inference Outputs",
-            "Runware Video Inference Settings",
-            "Runware Video Inference Settings Active Speaker Bounding Boxes",
-            "Runware Video Inference Settings Active Speaker Detection",
-            "Runware Video Inference Settings Edit",
-            "Runware Video Inference Settings Segments",
-            "Runware Video Inference Settings Source Position",
-            "Runware Video Inference Settings TTS",
-            "Runware Video Inference Speech Input",
-            "Runware Video Inputs Frame Images",
-            "Runware Video Inputs References",
-            "Runware Video Model Search",
-            "Runware Video Speech Input",
-            "Runware Video Transcription",
-            "Runware Video Upscaler",
-            "Runware Vidu Provider Settings",
-            "Runware Wan Animate Advanced Feature Settings",
-            "Runware Watermark Advanced Feature",
-            "Runware xAI Provider Settings",
-            "Runware3DInference",
-            "Runware3DInferenceInputs",
-            "Runware3DInferenceSettings",
-            "Runware3DInferenceSettingsDracoCompression",
-            "Runware3DInferenceSettingsMeshCluster",
-            "Runware3DInferenceSettingsShapeSlat",
-            "Runware3DInferenceSettingsSparseStructure",
-            "Runware3DInferenceSettingsTexSlat",
-            "RunwareAlibabaProviderSettings",
-            "RunwareAudioInferenceInputs",
-            "RunwareAudioInferenceReferenceVoices",
-            "RunwareAudioInferenceSpeech",
-            "RunwareAudioInferenceSpeechVoices",
-            "RunwareAudioInput",
-            "RunwareAudioSettings",
-            "RunwareAudioSettingsVoiceModify",
-            "RunwareBlackForestProviderSettings",
-            "RunwareBriaProviderMask",
-            "RunwareBriaProviderSettings",
-            "RunwareBytedanceProviderSettings",
-            "RunwareFrameImages",
-            "RunwareGoogleProviderSettings",
-            "RunwareImageInferenceAdvancedFeatures",
-            "RunwareImageInferenceSettingsPromptEnhance",
-            "RunwareImageInferenceSettingsStructuredPrompt",
-            "RunwareKlingMultiPromptSegment",
-            "RunwareKlingProviderSettings",
-            "RunwareKlingProviderSettingsMultiPrompt",
-            "RunwareLightricksProviderSettings",
-            "RunwareLoadMesh",
-            "RunwareLumaProviderSettings",
-            "RunwareMidjourneyProviderSettings",
-            "RunwareMiniMaxProviderSettings",
-            "RunwareMireloProviderSettings",
-            "RunwareOpenAIProviderSettings",
-            "RunwarePixverseProviderSettings",
-            "RunwareRecraftColor",
-            "RunwareRecraftProviderSettings",
-            "RunwareRegionalPromptingAdvancedFeature",
-            "RunwareRegionalPromptingAdvancedFeatureRegions",
-            "RunwareRunwayProviderSettings",
-            "RunwareSafetyInputs",
-            "RunwareSave3D",
-            "RunwareSourcefulProviderSettings",
-            "RunwareSourcefulProviderSettingsFonts",
-            "RunwareSpeechInput",
-            "RunwareSpeechInputCombine",
-            "RunwareSyncProviderSettings",
-            "RunwareSyncSegment",
-            "RunwareTextInferenceSettingsCache",
-            "RunwareTextInferenceToolChoice",
-            "RunwareUltralyticsInputs",
-            "RunwareUltralyticsProviderSettings",
-            "RunwareVectorize",
-            "RunwareVideoAdvancedFeatureInputs",
-            "RunwareVideoBgRemoval",
-            "RunwareVideoInferenceOutputs",
-            "RunwareVideoInferenceSettingsActiveSpeakerBoundingBoxes",
-            "RunwareVideoInferenceSettingsActiveSpeakerDetection",
-            "RunwareVideoInferenceSettingsControl",
-            "RunwareVideoInferenceSettingsSegments",
-            "RunwareVideoInferenceSettingsSourcePosition",
-            "RunwareVideoInferenceSettingsTts",
-            "RunwareVideoInferenceSpeechInput",
-            "RunwareVideoInputsFrameImages",
-            "RunwareVideoInputsReferenceImagesMultipleImagesConnector",
-            "RunwareVideoInputsReferences",
-            "RunwareVideoSettings",
-            "RunwareVideoUpscaler",
-            "RunwareWanAnimateAdvancedFeatureSettings",
-            "RunwareWatermarkAdvancedFeature",
-            "RunwareXAIProviderSettings",
-            "txt2vid"
-        ],
-        {
-            "title_aux": "Runware.ai ComfyUI Inference API Integration"
         }
     ],
     "https://github.com/RyanHolanda/ComfyUI-AudioBridge": [
@@ -25442,6 +25239,26 @@
         ],
         {
             "title_aux": "ComfyUI-RotoMask"
+        }
+    ],
+    "https://github.com/TechnoWarrior2/comfyui-image-picker": [
+        [
+            "AlexImagePicker"
+        ],
+        {
+            "author": "alex",
+            "description": "Pauses workflow and opens a new browser window to pick which images to pass through.",
+            "nickname": "Image Picker",
+            "title": "Alex Image Picker",
+            "title_aux": "ComfyUI Image Picker"
+        }
+    ],
+    "https://github.com/TechnoWarrior2/comfyui-live-preview": [
+        [
+            "AlexLivePreview"
+        ],
+        {
+            "title_aux": "ComfyUI Live Preview"
         }
     ],
     "https://github.com/TemryL/ComfyS3": [
@@ -48485,7 +48302,8 @@
     ],
     "https://github.com/jtydhr88/ComfyUI-qwenmultiangle": [
         [
-            "QwenMultiangleCameraNode"
+            "QwenMultiangleCameraNode",
+            "QwenMultiangleCameraTranslateNode"
         ],
         {
             "title_aux": "ComfyUI-qwenmultiangle"
@@ -64003,6 +63821,22 @@
             "title_aux": "comfyui-clippy-reloaded"
         }
     ],
+    "https://github.com/shootthesound/comfyui-image-of-the-day": [
+        [
+            "ImageOfDayLoader"
+        ],
+        {
+            "title_aux": "Image of the Day"
+        }
+    ],
+    "https://github.com/shootthesound/comfyui-lora-FindingLora": [
+        [
+            "LoraLoaderFindingLora"
+        ],
+        {
+            "title_aux": "Finding LoRA"
+        }
+    ],
     "https://github.com/shootthesound/comfyui-model-diff-to-lora": [
         [
             "ModelDiffToLoRA"
@@ -72294,6 +72128,19 @@
         ],
         {
             "title_aux": "ComfyUI-KYNode"
+        }
+    ],
+    "https://github.com/younestft/Comfy_EverAnimate": [
+        [
+            "ComfyEverAnimate",
+            "ComfyEverAnimateChunksCalculator",
+            "ComfyEverAnimateColorCorrection",
+            "ComfyEverAnimateContinueChunk",
+            "ComfyEverAnimateInitialChunk",
+            "ComfyEverAnimateMasterSettings"
+        ],
+        {
+            "title_aux": "Comfy EverAnimate"
         }
     ],
     "https://github.com/younger15/ComfyUI-IterSwitch": [
