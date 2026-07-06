@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "younestft",
+            "title": "Comfy EverAnimate",
+            "reference": "https://github.com/younestft/Comfy_EverAnimate",
+            "files": [
+                "https://github.com/younestft/Comfy_EverAnimate"
+            ],
+            "install_type": "git-clone",
+            "description": "Native ComfyUI nodes for EverAnimate-style chunked WanAnimate workflows, including master/chunk settings, chunk calculation, image carry-over, and boundary color correction."
+        },
+        {
             "author": "Moon-NE",
             "title": "MoonNe_Nodes",
             "reference": "https://github.com/Moon-NE/MoonNe_Nodes",

@@ -54163,6 +54163,16 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for text operations, including concatenation, horizontal-to-vertical conversion, and batch processing."
+        },
+        {
+            "author": "younestft",
+            "title": "Comfy EverAnimate",
+            "reference": "https://github.com/younestft/Comfy_EverAnimate",
+            "files": [
+                "https://github.com/younestft/Comfy_EverAnimate"
+            ],
+            "install_type": "git-clone",
+            "description": "Native ComfyUI nodes for EverAnimate-style chunked WanAnimate workflows, including master/chunk settings, chunk calculation, image carry-over, and boundary color correction."
         }
     ]
 }
