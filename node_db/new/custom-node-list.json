@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "nkxx188",
+            "title": "ComfyUI Krea2 Style Transfer",
+            "reference": "https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer",
+            "files": [
+                "https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer"
+            ],
+            "install_type": "git-clone",
+            "description": "Training-free Krea2 style reference nodes for ComfyUI, with LoRA-like single-image transfer, experimental two-reference blending, low content leakage, and preserved image quality."
+        },
+        {
+            "author": "r0zaic",
+            "title": "Reference Image Comparer",
+            "reference": "https://github.com/r0zaic/comfyui-reference-image-comparer",
+            "files": [
+                "https://github.com/r0zaic/comfyui-reference-image-comparer"
+            ],
+            "install_type": "git-clone",
+            "description": "Compare your workflow's output against a fixed reference image with a hover swipe slider."
+        },
+        {
+            "author": "shootthesound",
+            "title": "Krea Reason",
+            "reference": "https://github.com/shootthesound/ComfyUI-KreaReason",
+            "files": [
+                "https://github.com/shootthesound/ComfyUI-KreaReason"
+            ],
+            "install_type": "git-clone",
+            "description": "Reason-then-encode for Krea 2. The encoder's own Qwen3-VL rewrites your prompt into a richer one — or reads a reference image (describe → filter → combine) — before conditioning: a built-in prompt enhancer and language-level image reference, running on the exact model that conditions."
+        },
+        {
+            "author": "fni8",
+            "title": "ComfyUI-fni8 (int8 dp4a / Volta)",
+            "reference": "https://github.com/jajmangold/ComfyUI-fni8",
+            "files": [
+                "https://github.com/jajmangold/ComfyUI-fni8"
+            ],
+            "install_type": "git-clone",
+            "description": "int8 dp4a (sm_70/Volta) acceleration for diffusion DiTs in ComfyUI, over the fni8 kernels"
+        },
+        {
+            "author": "inubq8",
+            "title": "ComfyUI-MultiMaskOps",
+            "reference": "https://github.com/INuBq8/ComfyUI-MultiMaskOps",
+            "files": [
+                "https://github.com/INuBq8/ComfyUI-MultiMaskOps"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of ComfyUI nodes for working with multiple masks at once — sorting them by position, picking one out, removing duplicates, and expanding/feathering them without letting neighbours overlap."
+        },
+        {
+            "author": "SheikhAnas999",
+            "title": "Image Grid Merger",
+            "reference": "https://github.com/SheikhAnas999/Images_Merge_ComfyUI",
+            "files": [
+                "https://github.com/SheikhAnas999/Images_Merge_ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node that merges a batch of images into a single grid canvas."
+        },
+        {
             "author": "younestft",
             "title": "Comfy EverAnimate",
             "reference": "https://github.com/younestft/Comfy_EverAnimate",

@@ -2824,7 +2824,9 @@
     "https://github.com/JosDigby/ComfyUI-DigbyTools": [
         [
             "DigbyKeyframer",
-            "DigbyLTXVLatentPrep"
+            "DigbyKrea2Patch",
+            "DigbyLTXVLatentPrep",
+            "DigbyRange"
         ],
         {
             "title_aux": "ComfyUI-DigbyTools"
@@ -5271,6 +5273,7 @@
             "SDVN Apply Style Model",
             "SDVN Auto Generate",
             "SDVN AutoSwitch",
+            "SDVN Boogu Edit TextEncoder",
             "SDVN Boolean",
             "SDVN CLIP Download",
             "SDVN CLIP Text Encode",
@@ -8300,6 +8303,7 @@
             "TextEncodeQwenImageEditPlus",
             "TextEncodeZImageOmni",
             "TextGenerate",
+            "TextOverlay",
             "TextProcessingNode",
             "ThresholdMask",
             "TomePatchModel",
@@ -14215,6 +14219,8 @@
             "ActionUnitDetection",
             "BorderMask",
             "BracketedTagIndexMerger",
+            "DanbooruFetcher",
+            "DarkRegionOverlay",
             "DescriptionGen",
             "EmotiEffLibAnalysis",
             "EmotionAnalysis",
@@ -14224,21 +14230,29 @@
             "GrabberTagProcessor",
             "HSEmotionAnalysis",
             "HighlightOverlay",
+            "ImageAnalyzer",
             "ImageListConverter",
             "ImageResizer",
             "ImageSelector",
             "KeywordFilter",
             "KeywordFilterLoRA",
+            "KeywordReverseFilter",
+            "MangaTextRemoval",
             "MaskApplierAndCombiner",
             "MaskBlackener",
             "MaskMerger",
             "MaskProcessor",
             "MultiEngineEmotion",
+            "OutpaintingPreprocess",
+            "OutpaintingRemove",
             "PixelCountScaler",
+            "PromptEnhanceSettings",
+            "PromptEnhancer",
             "SaturationAdjuster",
             "SaveImageWebsocket",
             "TagArrayToLines",
-            "TagIndexMerger"
+            "TagIndexMerger",
+            "TextFileLineReader"
         ],
         {
             "title_aux": "Comfyui-RayNodes [WIP]"
