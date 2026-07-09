@@ -616,6 +616,7 @@
             "1hew_StringRatioGemini31FlashImage",
             "1hew_StringRatioGpt20Image",
             "1hew_StringResolution",
+            "1hew_TextCompare",
             "1hew_TextCustomExtract",
             "1hew_TextEncodeQwenImageEdit",
             "1hew_TextListToString",
@@ -20728,6 +20729,7 @@
             "RSSaveImage",
             "RS_ImageToLatent",
             "RS_ImageToLatent_Simplified",
+            "RS_Image_MultiLatent",
             "RS_Last_Frame",
             "RS_OverlayPro",
             "RS_Saturation",
@@ -23975,6 +23977,7 @@
             "StarAdvanvesRatioLatent",
             "StarApplyOverlayDepth",
             "StarBlackWhite",
+            "StarBoxDrawer",
             "StarConditioningLoader",
             "StarConditioningSaver",
             "StarDeleteSamplerSettings",
@@ -24000,6 +24003,7 @@
             "StarImageEditQwenKontext",
             "StarImageLoader1by1",
             "StarImageLoop",
+            "StarImageShifter",
             "StarImageSwitch",
             "StarImageSwitch2",
             "StarLTXVGetLastFrame",
@@ -24035,6 +24039,7 @@
             "StarSampler",
             "StarSaveFolderString",
             "StarSavePanoramaJPEG",
+            "StarSavePanoramaJPEGPlus",
             "StarSaveSamplerSettings",
             "StarSimpleFilters",
             "StarSpecialFilters",
@@ -25534,6 +25539,7 @@
         [
             "IntCrushLoRALoader",
             "IntCrushLoRAUnloader",
+            "OrbitQuantLoader",
             "SimpleINT4UNetLoader",
             "SimpleINT8UNetLoader"
         ],
@@ -46759,6 +46765,7 @@
     "https://github.com/jajmangold/ComfyUI-fni8": [
         [
             "FNI8AttentionPatch",
+            "FNI8ComponentLoader",
             "UnetLoaderFNI8"
         ],
         {
@@ -53106,6 +53113,14 @@
             "title_aux": "ComfyUI Custom Node Color"
         }
     ],
+    "https://github.com/lovemachine100/ComfyUI-JITBlockSwap": [
+        [
+            "BlockSwap"
+        ],
+        {
+            "title_aux": "ComfyUI-JITBlockSwap"
+        }
+    ],
     "https://github.com/lovisdotio/ComfyUI-Replace-First-Frame-Last-Frame": [
         [
             "ReplaceFirstLastFrames"
@@ -57051,6 +57066,14 @@
         ],
         {
             "title_aux": "ComfyUI-AnimaPromptWeaver"
+        }
+    ],
+    "https://github.com/navalyalgam97/comfyui-xflow-resolution": [
+        [
+            "XFlowResolution"
+        ],
+        {
+            "title_aux": "XFlow Resolution"
         }
     ],
     "https://github.com/navyxiong/ComfyUI-JSON-Prompt-Modifier": [
@@ -65269,12 +65292,12 @@
     "https://github.com/sonnybox/ComfyUI-SuperNodes": [
         [
             "FaceBBoxToMask",
-            "GetBBoxCropFrames",
             "GetCommonAspectRatio",
+            "GetVideoCropFrames",
             "ImageMaskCrop",
             "ImageSizeCalculator",
-            "RestoreBBoxCropFrames",
             "RestoreMaskCrop",
+            "RestoreVideoCropFrames",
             "SetReserveVRAM",
             "SigmaInsert",
             "SigmaRemove",

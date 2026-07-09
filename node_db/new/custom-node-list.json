@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "navalyalgam97",
+            "title": "XFlow Resolution",
+            "reference": "https://github.com/navalyalgam97/comfyui-xflow-resolution",
+            "files": [
+                "https://github.com/navalyalgam97/comfyui-xflow-resolution"
+            ],
+            "install_type": "git-clone",
+            "description": "A premium resolution utility node for ComfyUI with aspect ratio grid, preset selection, custom ratios, favorites, recents, and keyboard navigation."
+        },
+        {
+            "author": "kongo_jun",
+            "title": "ComfyUI-JITBlockSwap",
+            "reference": "https://github.com/lovemachine100/ComfyUI-JITBlockSwap",
+            "files": [
+                "https://github.com/lovemachine100/ComfyUI-JITBlockSwap"
+            ],
+            "install_type": "git-clone",
+            "description": "Block Swap (RAM Offload) node for native ComfyUI MODEL - run DiT models larger than VRAM by streaming transformer blocks from system RAM."
+        },
+        {
             "author": "nkxx188",
             "title": "ComfyUI Krea2 Style Transfer",
             "reference": "https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer",
