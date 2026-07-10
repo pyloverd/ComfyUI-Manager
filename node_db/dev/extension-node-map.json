@@ -14844,6 +14844,7 @@
             "Supaidauen_ImagePadding",
             "Supaidauen_Image_Compositor",
             "Supaidauen_ImpactEndAtStepModelControl",
+            "Supaidauen_KREA_Masker",
             "Supaidauen_LoadImageFromPath_input",
             "Supaidauen_Normalized_Float_Slider",
             "Supaidauen_Passthrough_CLIP",
