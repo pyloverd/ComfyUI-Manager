@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "zhangrui",
+            "title": "ComfyUI-QuickUseTools [REMOVED]",
+            "reference": "https://github.com/cingee2016/ComfyUI-QuickUseTools",
+            "files": [
+                "https://github.com/cingee2016/ComfyUI-QuickUseTools"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of quick-use custom nodes for ComfyUI - image processing and workflow tools"
+        },
+        {
             "author": "Tr1dae",
             "title": "ComfyUI-EasyFilePaths [REMOVED]",
             "reference": "https://github.com/Tr1dae/ComfyUI-EasyFilePaths",

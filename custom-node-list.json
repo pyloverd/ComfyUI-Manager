@@ -31049,7 +31049,7 @@
                 "https://github.com/INuBq8/ComfyUI-MultiMaskOps"
             ],
             "install_type": "git-clone",
-            "description": "A collection of ComfyUI nodes for working with multiple masks at once — sorting them by position, picking one out, removing duplicates, and expanding/feathering them without letting neighbours overlap."
+            "description": "A ComfyUI node pack for working with multiple masks at once — spatial sorting, index picking, duplicate removal, and overlap-free expansion/feathering. Native-matched dilation and blur."
         },
         {
             "author": "Erehr",
@@ -52942,16 +52942,6 @@
             "description": "ComfyUI custom nodes for one-sample-per-run iteration across image, video, and text sources."
         },
         {
-            "author": "zhangrui",
-            "title": "ComfyUI-QuickUseTools",
-            "reference": "https://github.com/cingee2016/ComfyUI-QuickUseTools",
-            "files": [
-                "https://github.com/cingee2016/ComfyUI-QuickUseTools"
-            ],
-            "install_type": "git-clone",
-            "description": "A collection of quick-use custom nodes for ComfyUI - image processing and workflow tools"
-        },
-        {
             "author": "millerlight",
             "title": "Key-Value KV-Tools for ComfyUI",
             "reference": "https://github.com/millerlight/ComfyUI-KVTools",
@@ -54327,6 +54317,26 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for anime prompt selection, random prompt generation, background and character tag composition, and Anima LoRA search, download, and loading."
+        },
+        {
+            "author": "YOUR_COMFY_PUBLISHER_ID",
+            "title": "Undulating Glitch",
+            "reference": "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch",
+            "files": [
+                "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch"
+            ],
+            "install_type": "git-clone",
+            "description": "Four-way alignment, travelling wave, and block-glitch video compositor nodes for ComfyUI."
+        },
+        {
+            "author": "galigali",
+            "title": "ComfyUI-PNGInfo",
+            "reference": "https://github.com/galigali-san/ComfyUI-PNGInfo",
+            "files": [
+                "https://github.com/galigali-san/ComfyUI-PNGInfo"
+            ],
+            "install_type": "git-clone",
+            "description": "A1111-style PNG Info for ComfyUI: load an image, read its generation metadata as human-readable text (A1111 parameters and ComfyUI embedded workflows), and reuse positive/negative/seed/steps/cfg as typed outputs."
         }
     ]
 }

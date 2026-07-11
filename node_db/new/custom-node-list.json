@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "galigali",
+            "title": "ComfyUI-PNGInfo",
+            "reference": "https://github.com/galigali-san/ComfyUI-PNGInfo",
+            "files": [
+                "https://github.com/galigali-san/ComfyUI-PNGInfo"
+            ],
+            "install_type": "git-clone",
+            "description": "A1111-style PNG Info for ComfyUI: load an image, read its generation metadata as human-readable text (A1111 parameters and ComfyUI embedded workflows), and reuse positive/negative/seed/steps/cfg as typed outputs."
+        },
+        {
+            "author": "YOUR_COMFY_PUBLISHER_ID",
+            "title": "Undulating Glitch",
+            "reference": "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch",
+            "files": [
+                "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch"
+            ],
+            "install_type": "git-clone",
+            "description": "Four-way alignment, travelling wave, and block-glitch video compositor nodes for ComfyUI."
+        },
+        {
             "author": "nnegret",
             "title": "Anima-Tools",
             "id": "comfyui-anima-tools",
