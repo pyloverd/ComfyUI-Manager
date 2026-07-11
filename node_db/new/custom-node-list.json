@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "KoishiAI",
+            "title": "LD ComfyUI Prompt Nodes",
+            "reference": "https://github.com/KoishiAI/LD-ComfyUI-Prompt-Nodes",
+            "files": [
+                "https://github.com/KoishiAI/LD-ComfyUI-Prompt-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Contains SlopPrompt and BooruPromptGenerator nodes to automate prompt generation for anime models. SlopPrompt allows natural language prompt generation or advanced formats like json and various conversions between them, while BooruPromptGenerator will let you generate random prompts anchored around tags you specify with various sampling options."
+        },
+        {
             "author": "TrophiHunter",
             "title": "ComfyUI-MLUT",
             "reference": "https://github.com/TrophiHunter/ComfyUI-MLUT",
