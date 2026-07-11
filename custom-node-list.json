@@ -54276,6 +54276,16 @@
             ],
             "install_type": "git-clone",
             "description": "A Power-Lora-Loader-style dynamic LoRA stack node with a real on-disk folder browser, drag-to-reorder, optional CLIP, and per-lora split model/clip strengths."
+        },
+        {
+            "author": "albert999-pixel",
+            "title": "comfyui-beeble-switchx",
+            "reference": "https://github.com/albert999-pixel/comfyui-beeble-switchx",
+            "files": [
+                "https://github.com/albert999-pixel/comfyui-beeble-switchx"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for Beeble SwitchX image and video workflows."
         }
     ]
 }

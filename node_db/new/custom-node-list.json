@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "albert999-pixel",
+            "title": "comfyui-beeble-switchx",
+            "reference": "https://github.com/albert999-pixel/comfyui-beeble-switchx",
+            "files": [
+                "https://github.com/albert999-pixel/comfyui-beeble-switchx"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for Beeble SwitchX image and video workflows."
+        },
+        {
             "author": "WaitWut",
             "title": "Ultimate Lora Loader",
             "reference": "https://github.com/WaitWut/comfyui-ultimate-lora-loader",
