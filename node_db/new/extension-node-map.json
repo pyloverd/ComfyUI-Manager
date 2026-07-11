@@ -7529,6 +7529,7 @@
             "BooleanSwitchNode",
             "CheckpointSelectorNode",
             "ClipSkipSliderNode",
+            "ConditionalVAEDecodePreview",
             "CountListNode",
             "DA_Base_KSampler",
             "DA_BusInNode",
@@ -24024,6 +24025,7 @@
             "StarPSDSaver2",
             "StarPSDSaverAdvLayers",
             "StarPaletteExtractor",
+            "StarPanoramaViewer",
             "StarPromptPicker",
             "StarQwenEditEncoder",
             "StarQwenEditPlusConditioner",
@@ -26642,6 +26644,8 @@
             "XB_WanInfiniteTalkToVideo_Single",
             "XB_WanInfiniteTalk_ParamBus",
             "XB_WanInfiniteTalk_RelayNode",
+            "XB_WanInfiniteTalk_RelayNode_AllInOne",
+            "XB_WanInfiniteTalk_RelayNode_MultiRef",
             "XB_WanInfiniteTalk_RelayNode_New",
             "XB_WanModelLoader",
             "XB_WanPhantomSubjectToVideo",
@@ -37409,6 +37413,7 @@
             "SamplerSASolver",
             "SamplerSEEDS2",
             "SamplingPercentToSigma",
+            "Save3DAdvanced",
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
@@ -37416,6 +37421,7 @@
             "SaveAudioMP3",
             "SaveAudioOpus",
             "SaveGLB",
+            "SaveGaussianSplat",
             "SaveImage",
             "SaveImageAdvanced",
             "SaveImageDataSetToFolder",
@@ -37423,12 +37429,19 @@
             "SaveImageWebsocket",
             "SaveLatent",
             "SaveLoRA",
+            "SavePointCloud",
             "SaveSVGNode",
+            "SaveText",
             "SaveTrainingDataset",
             "SaveVideo",
             "SaveWEBM",
             "ScaleROPE",
             "SeedNode",
+            "SeedVR2Conditioning",
+            "SeedVR2PostProcessing",
+            "SeedVR2Preprocess",
+            "SeedVR2TemporalChunk",
+            "SeedVR2TemporalMerge",
             "SelectCLIPDevice",
             "SelectModelDevice",
             "SelectVAEDevice",
@@ -39673,6 +39686,7 @@
             "DotsTTSEngineNode",
             "EchoTTSEngineNode",
             "F5TTSEngineNode",
+            "FishAudioS2EngineNode",
             "GraniteASREngineNode",
             "HiggsAudioEngineNode",
             "HiggsAudioV3EngineNode",
@@ -53116,7 +53130,8 @@
     ],
     "https://github.com/lovemachine100/ComfyUI-JITBlockSwap": [
         [
-            "BlockSwap"
+            "BlockSwap",
+            "BlockSwapLTX"
         ],
         {
             "title_aux": "ComfyUI-JITBlockSwap"
@@ -58968,6 +58983,7 @@
     ],
     "https://github.com/oumad/ComfyUI_Gear": [
         [
+            "GearACEScctDecodeSaveEXR",
             "GearColorGrade",
             "GearLogC3DecodeSaveEXR",
             "GearLogC4DecodeSaveEXR"
@@ -61663,7 +61679,6 @@
     "https://github.com/rickyars/comfyui-llm-tile": [
         [
             "LLMAdaptiveTileDetailer",
-            "LLMTileSequentialDetailer",
             "TiledImageGenerator",
             "TiledImageGeneratorAdvanced"
         ],
