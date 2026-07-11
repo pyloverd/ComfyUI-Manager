@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "WaitWut",
+            "title": "Ultimate Lora Loader",
+            "reference": "https://github.com/WaitWut/comfyui-ultimate-lora-loader",
+            "files": [
+                "https://github.com/WaitWut/comfyui-ultimate-lora-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A Power-Lora-Loader-style dynamic LoRA stack node with a real on-disk folder browser, drag-to-reorder, optional CLIP, and per-lora split model/clip strengths."
+        },
+        {
             "author": "m0rtus59",
             "title": "ComfyUI-ComfySidebar",
             "reference": "https://github.com/m0rtus59/ComfyUI-ComfySidebar",

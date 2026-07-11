@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "WaitWut",
-            "title": "Ultimate Lora Loader",
-            "reference": "https://github.com/WaitWut/comfyui-ultimate-lora-loader",
-            "files": [
-                "https://github.com/WaitWut/comfyui-ultimate-lora-loader"
-            ],
-            "install_type": "git-clone",
-            "description": "A Power-Lora-Loader-style dynamic LoRA stack node with a real on-disk folder browser, drag-to-reorder, optional CLIP, and per-lora split model/clip strengths."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -54276,6 +54266,16 @@
             ],
             "install_type": "git-clone",
             "description": "Restoring the ComfyUI frontend pre-vue update queue functionality, drag&drop support, quicksave, and more in a clean design that respects your screen area."
+        },
+        {
+            "author": "WaitWut",
+            "title": "Ultimate Lora Loader",
+            "reference": "https://github.com/WaitWut/comfyui-ultimate-lora-loader",
+            "files": [
+                "https://github.com/WaitWut/comfyui-ultimate-lora-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A Power-Lora-Loader-style dynamic LoRA stack node with a real on-disk folder browser, drag-to-reorder, optional CLIP, and per-lora split model/clip strengths."
         }
     ]
 }
