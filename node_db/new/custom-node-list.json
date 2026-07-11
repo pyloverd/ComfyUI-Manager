@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Anonymzx",
+            "title": "ComfyUI-Supertonic3TTS",
+            "reference": "https://github.com/Anonymzx/ComfyUI-Supertonic3TTS",
+            "files": [
+                "https://github.com/Anonymzx/ComfyUI-Supertonic3TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "custom nodes integrating Supertone's Supertonic-3 — a lightning-fast, on-device, multilingual Text-to-Speech system running natively via ONNX Runtime."
+        },
+        {
             "author": "vitacon",
             "title": "Retro Pixel-Matrix Dither 👾",
             "reference": "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither",
