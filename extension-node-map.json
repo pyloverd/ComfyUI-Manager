@@ -16055,6 +16055,7 @@
         [
             "AI2GoIdeogram4PromptBuilder",
             "AI2GoIdeogram4StyleWizard",
+            "AI2GoPromptBatch",
             "AI2GoResolutionSelector"
         ],
         {
@@ -40589,6 +40590,7 @@
             "CLIPScaleDualSDXLBlock",
             "CLIPScaleQwenBlock",
             "CLIPTextEncodeWithOffload",
+            "DebugModelKeys",
             "HDR Effects with LAB Adjust",
             "HDREffectsLabAdjust",
             "ImageDifferenceChecker",
@@ -68994,6 +68996,14 @@
         ],
         {
             "title_aux": "ComfyUI-Trellis2"
+        }
+    ],
+    "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither": [
+        [
+            "RetroPixelMatrixDither"
+        ],
+        {
+            "title_aux": "Retro Pixel-Matrix Dither \ud83d\udc7e"
         }
     ],
     "https://github.com/vito0131/ComfyUI-DepthNormalizer": [

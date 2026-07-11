@@ -54236,6 +54236,16 @@
             ],
             "install_type": "git-clone",
             "description": "Block Swap (RAM Offload) node for native ComfyUI MODEL - run DiT models larger than VRAM by streaming transformer blocks from system RAM."
+        },
+        {
+            "author": "vitacon",
+            "title": "Retro Pixel-Matrix Dither 👾",
+            "reference": "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither",
+            "files": [
+                "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced multi-ratio Bayer matrix dithering node for ComfyUI with edge protection."
         }
     ]
 }

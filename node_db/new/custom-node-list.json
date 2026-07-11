@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "vitacon",
+            "title": "Retro Pixel-Matrix Dither 👾",
+            "reference": "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither",
+            "files": [
+                "https://github.com/vitacon/ComfyUI-Retro-Pixel-Matrix-Dither"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced multi-ratio Bayer matrix dithering node for ComfyUI with edge protection."
+        },
+        {
             "author": "navalyalgam97",
             "title": "XFlow Resolution",
             "reference": "https://github.com/navalyalgam97/comfyui-xflow-resolution",
