@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "nnegret",
+            "title": "Anima-Tools",
+            "id": "comfyui-anima-tools",
+            "reference": "https://github.com/nregret/Comfyui-Anima-Tools",
+            "files": [
+                "https://github.com/nregret/Comfyui-Anima-Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for anime prompt selection, random prompt generation, background and character tag composition, and Anima LoRA search, download, and loading."
+        },
+        {
             "author": "ukr8b3g-cmyk",
             "title": "Empty Latent Image Plus",
             "reference": "https://github.com/ukr8b3g-cmyk/Empty-Latent-Image-Plus",
