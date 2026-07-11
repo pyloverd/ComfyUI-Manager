@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "TrophiHunter",
+            "title": "ComfyUI-MLUT",
+            "reference": "https://github.com/TrophiHunter/ComfyUI-MLUT",
+            "files": [
+                "https://github.com/TrophiHunter/ComfyUI-MLUT"
+            ],
+            "install_type": "git-clone",
+            "description": "Apply color **LUTs** and **swatches/palettes** to images in ComfyUI from one self-contained collection."
+        },
+        {
             "author": "albert999-pixel",
             "title": "comfyui-beeble-switchx",
             "reference": "https://github.com/albert999-pixel/comfyui-beeble-switchx",

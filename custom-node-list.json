@@ -29294,6 +29294,16 @@
             "description": "I wanted a way to batch add effects to images inside Comfyui so I made these nodes. Some of the effects should be ordered specifically so they stack and are effecting the image emulating camera effectsI made some workflows to show you the correct order."
         },
         {
+            "author": "TrophiHunter",
+            "title": "ComfyUI-MLUT",
+            "reference": "https://github.com/TrophiHunter/ComfyUI-MLUT",
+            "files": [
+                "https://github.com/TrophiHunter/ComfyUI-MLUT"
+            ],
+            "install_type": "git-clone",
+            "description": "Apply color **LUTs** and **swatches/palettes** to images in ComfyUI from one self-contained collection."
+        },
+        {
             "author": "magic-eraser-org",
             "title": "ComfyUI-Unwatermark",
             "reference": "https://github.com/magic-eraser-org/ComfyUI-Unwatermark",
