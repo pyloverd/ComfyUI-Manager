@@ -54357,6 +54357,47 @@
             ],
             "install_type": "git-clone",
             "description": "Object-avoiding orthogonal link routing for ComfyUI. Links automatically detour around nodes with smooth right-angle paths. Flow animation, hover highlight, floating control bar, and full settings panel. Pure frontend — zero impact on generation."
+        },
+        {
+            "author": "Yasei-no-otoko",
+            "title": "ComfyUI RDNA35 Attention",
+            "id": "rdna35-attention",
+            "reference": "https://github.com/Yasei-no-otoko/ComfyUI-RDNA35-Attention",
+            "files": [
+                "https://github.com/Yasei-no-otoko/ComfyUI-RDNA35-Attention"
+            ],
+            "install_type": "git-clone",
+            "description": "RDNA 3.5 attention research nodes for ComfyUI, including fixed-block, exact Triton, FlexAttention, and PISA paths with model-local fallback handling."
+        },
+        {
+            "author": "CocyNoric",
+            "title": "ComfyUI-Anima-TeaCache",
+            "reference": "https://github.com/CocyNoric/ComfyUI-Anima-TeaCache",
+            "files": [
+                "https://github.com/CocyNoric/ComfyUI-Anima-TeaCache"
+            ],
+            "install_type": "git-clone",
+            "description": "TeaCache acceleration for the native ComfyUI implementation of circlestone-labs/Anima."
+        },
+        {
+            "author": "TiwazM",
+            "title": "ComfyUI-Precision-Model-Save",
+            "reference": "https://github.com/TiwazM/ComfyUI-Precision-Model-Save",
+            "files": [
+                "https://github.com/TiwazM/ComfyUI-Precision-Model-Save"
+            ],
+            "install_type": "git-clone",
+            "description": "For users who merge models in ComfyUI and want the saved checkpoint to match the live merged model exactly. A small custom node for saving a live merged MODEL without using ComfyUI's normal ModelSave materialisation path."
+        },
+        {
+            "author": "luminatrix",
+            "title": "Lumina_NIVR2",
+            "reference": "https://github.com/Luminatrixx/NIVR2",
+            "files": [
+                "https://github.com/Luminatrixx/NIVR2"
+            ],
+            "install_type": "git-clone",
+            "description": "Native ComfyUI implementation of ByteDance SeedVR2 using ComfyUI's own model stack and core graph nodes."
         }
     ]
 }
