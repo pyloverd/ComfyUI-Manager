@@ -6050,6 +6050,14 @@
             "title_aux": "ComfyUI-Latent-Modifiers"
         }
     ],
+    "https://github.com/CocyNoric/ComfyUI-Anima-TeaCache": [
+        [
+            "AnimaTeaCache"
+        ],
+        {
+            "title_aux": "ComfyUI-Anima-TeaCache"
+        }
+    ],
     "https://github.com/Codes4Fun/c4f-wire-loom": [
         [
             "LoomInNode",
@@ -6513,6 +6521,16 @@
         ],
         {
             "title_aux": "comfyui-transparent-png-creator"
+        }
+    ],
+    "https://github.com/CovertBannana/ComfyUI-ImagePlus": [
+        [
+            "ImagePlusInspectorNode",
+            "ImagePlusKSamplerAdvNode",
+            "ImagePlusPromptNode"
+        ],
+        {
+            "title_aux": "ComfyUI-ImagePlus"
         }
     ],
     "https://github.com/CpreForEver/CFE_comfyui": [
@@ -16320,6 +16338,17 @@
             "title_aux": "Natural Prompt Editor"
         }
     ],
+    "https://github.com/Luminatrixx/NIVR2": [
+        [
+            "LuminaNIVR2ColorCorrection",
+            "LuminaNIVR2PatchDiT",
+            "LuminaNIVR2PatchVAE",
+            "LuminaNIVR2TextEmbedding"
+        ],
+        {
+            "title_aux": "Lumina_NIVR2"
+        }
+    ],
     "https://github.com/LuqP2/ImageMetaHub-ComfyUI-Save": [
         [
             "MetaHubInputNode",
@@ -25817,6 +25846,14 @@
             "title_aux": "ComfyUI_tinyterraNodes"
         }
     ],
+    "https://github.com/TiwazM/ComfyUI-Precision-Model-Save": [
+        [
+            "PrecisionModelSave"
+        ],
+        {
+            "title_aux": "ComfyUI-Precision-Model-Save"
+        }
+    ],
     "https://github.com/Tlant/ComfyUI-OllamaPromptsGeneratorTlant": [
         [
             "ExtractJsonFromPngTlant",
@@ -27538,6 +27575,21 @@
         ],
         {
             "title_aux": "ComfyUI-YarvixPA"
+        }
+    ],
+    "https://github.com/Yasei-no-otoko/ComfyUI-RDNA35-Attention": [
+        [
+            "RDNA35BlockAttentionDiagnostics",
+            "RDNA35FixedBlockAttentionBenchmark",
+            "RDNA35FullAttentionBenchmark",
+            "RDNA35GenericPISABenchmark",
+            "RDNA35PISAAttentionBenchmark",
+            "RDNA35PISARuntimeReport",
+            "RDNA35PatchAnimaPISAAttention",
+            "RDNA35PatchModelAttention"
+        ],
+        {
+            "title_aux": "ComfyUI RDNA35 Attention"
         }
     ],
     "https://github.com/YaserJaradeh/comfyui-yaser-nodes": [
