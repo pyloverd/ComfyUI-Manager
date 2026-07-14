@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "90-RED",
-            "title": "ComfyUI-LinkRouter",
-            "reference": "https://github.com/90-RED/ComfyUI-LinkRouter",
-            "files": [
-                "https://github.com/90-RED/ComfyUI-LinkRouter"
-            ],
-            "install_type": "git-clone",
-            "description": "Object-avoiding orthogonal link routing for ComfyUI. Links automatically detour around nodes with smooth right-angle paths. Flow animation, hover highlight, floating control bar, and full settings panel. Pure frontend — zero impact on generation."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -54357,6 +54347,16 @@
             ],
             "install_type": "git-clone",
             "description": "Extract the first and last frame from any video file or image batch in ComfyUI."
+        },
+        {
+            "author": "90-RED",
+            "title": "ComfyUI-LinkRouter",
+            "reference": "https://github.com/90-RED/ComfyUI-LinkRouter",
+            "files": [
+                "https://github.com/90-RED/ComfyUI-LinkRouter"
+            ],
+            "install_type": "git-clone",
+            "description": "Object-avoiding orthogonal link routing for ComfyUI. Links automatically detour around nodes with smooth right-angle paths. Flow animation, hover highlight, floating control bar, and full settings panel. Pure frontend — zero impact on generation."
         }
     ]
 }
