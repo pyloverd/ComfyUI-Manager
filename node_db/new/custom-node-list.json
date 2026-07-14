@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "CovertBannana",
+            "title": "ComfyUI-ImagePlus",
+            "reference": "https://github.com/CovertBannana/ComfyUI-ImagePlus",
+            "files": [
+                "https://github.com/CovertBannana/ComfyUI-ImagePlus"
+            ],
+            "install_type": "git-clone",
+            "description": "Unified nodes pack primarily for Image to Image generation with a toggleable Text to Image option for easy switch back. CivitAI and local image inspection."
+        },
+        {
             "author": "luminatrix",
             "title": "Lumina_NIVR2",
             "reference": "https://github.com/Luminatrixx/NIVR2",

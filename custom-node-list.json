@@ -54398,6 +54398,16 @@
             ],
             "install_type": "git-clone",
             "description": "Native ComfyUI implementation of ByteDance SeedVR2 using ComfyUI's own model stack and core graph nodes."
+        },
+        {
+            "author": "CovertBannana",
+            "title": "ComfyUI-ImagePlus",
+            "reference": "https://github.com/CovertBannana/ComfyUI-ImagePlus",
+            "files": [
+                "https://github.com/CovertBannana/ComfyUI-ImagePlus"
+            ],
+            "install_type": "git-clone",
+            "description": "Unified nodes pack primarily for Image to Image generation with a toggleable Text to Image option for easy switch back. CivitAI and local image inspection."
         }
     ]
 }
