@@ -2797,33 +2797,59 @@
     ],
     "https://github.com/Alexankharin/camera-comfyUI": [
         [
+            "BuildSplats4D",
             "CameraInterpolationNode",
             "CameraMotionNode",
             "CameraTrajectoryNode",
             "CombineDepthsNode",
+            "DepthEdgeFilter",
             "DepthEstimatorNode",
             "DepthFramesToVideo",
             "DepthRenormalizer",
+            "DepthScaleAnchor",
             "DepthToImageNode",
             "DepthToPointCloud",
+            "EstimateTracks",
             "FisheyeDepthEstimator",
+            "FisheyeToGaussian",
+            "FuseSplats",
+            "ImageToSplat",
+            "LoadPlySplat",
             "LoadPointCloud",
+            "LoadSplats4D",
             "LoadTrajectory",
+            "MergeSplats",
+            "MotionMaskFromDepth",
             "OutpaintAnyProjection",
             "PointCloudCleaner",
             "PointCloudUnion",
             "PointcloudTrajectoryEnricher",
             "ProjectAndClean",
             "ProjectPointCloud",
+            "RenderSplat",
+            "RenderSplats4DFrame",
+            "RenderSplats4DVideo",
             "ReprojectDepth",
             "ReprojectImage",
+            "RotateSplats",
+            "SavePlySplat",
             "SavePointCloud",
+            "SaveSplats4D",
             "SaveTrajectory",
+            "SphereSplatSeed",
+            "SplatPolish",
+            "SplatTrajectoryEnricher",
+            "SplitSplatsByMask",
+            "TracksToTrajectories",
+            "TrajectoryCompose",
+            "TrajectoryInvert",
             "TransformPointCloud",
             "TransformToMatrix",
             "TransformToMatrixManual",
             "VideoCameraMotionSequence",
             "VideoMetricDepthEstimate",
+            "VideoPoseEstimator",
+            "VideoToFusedSplats",
             "ZDepthToRayDepthNode"
         ],
         {
@@ -12513,6 +12539,7 @@
             "IAMCCS_CineFLFProductorDyno",
             "IAMCCS_CineFilmmaker",
             "IAMCCS_CineFilmmakerBackend",
+            "IAMCCS_CineFilmmakerCropGuides1to1",
             "IAMCCS_CineFilmmakerGuide",
             "IAMCCS_CineFilmmakerGuide1to1",
             "IAMCCS_CineFinalAudioMixer",
@@ -12520,6 +12547,10 @@
             "IAMCCS_CineInfo3",
             "IAMCCS_CineInfoV2",
             "IAMCCS_CineInfoV2V",
+            "IAMCCS_CineInfoV2VBackendRouter",
+            "IAMCCS_CineInfoV2VPoseTransfer",
+            "IAMCCS_CineInfoV2VScail",
+            "IAMCCS_CineInfoV2VWanAnimate",
             "IAMCCS_CineLTXSequencer",
             "IAMCCS_CineLTXSequencerExact",
             "IAMCCS_CineLatentDurationCrop",
@@ -12542,12 +12573,18 @@
             "IAMCCS_CineShotLineBuilder",
             "IAMCCS_CineShotPlanner",
             "IAMCCS_CineShotboardBackendPro",
+            "IAMCCS_CineShotboardFinalFrameTrim",
             "IAMCCS_CineShotboardLite",
             "IAMCCS_CineShotboardPlannerPro",
             "IAMCCS_CineShotboardPlannerProLegacy",
             "IAMCCS_CineShotboardPlannerProV2",
             "IAMCCS_CineShotboardPlannerV3",
+            "IAMCCS_CineShotboardPlannerV4",
+            "IAMCCS_CineShotboardTailTrimPolicy",
             "IAMCCS_CineShotboardTimelinePro",
+            "IAMCCS_CineShotboardV4Backend",
+            "IAMCCS_CineShotboardV4CropGuides",
+            "IAMCCS_CineShotboardV4Guide",
             "IAMCCS_CineSpeech1PromptCompiler",
             "IAMCCS_CineSpeechLength",
             "IAMCCS_CineStage2BypassSwitch",
@@ -12569,6 +12606,8 @@
             "IAMCCS_DetailAtelierSampler",
             "IAMCCS_DialogueAudioBoardBridge",
             "IAMCCS_DialogueTagEditor",
+            "IAMCCS_FlashVSRPanelBatchPrep",
+            "IAMCCS_FlashVSRPanelBatchRestore",
             "IAMCCS_FluxKleinMultiGen",
             "IAMCCS_FluxKleinRefine",
             "IAMCCS_GGUF_accelerator",
@@ -12580,9 +12619,12 @@
             "IAMCCS_HardMemoryPurge",
             "IAMCCS_HwSupporter",
             "IAMCCS_HwSupporterAny",
+            "IAMCCS_IdeoImageHashDebug",
             "IAMCCS_IdeoInfo",
             "IAMCCS_IdeoInpaintPrep",
             "IAMCCS_IdeoMaskedPixels",
+            "IAMCCS_IdeoNoiseDebug",
+            "IAMCCS_IdeoRandomNoiseNoCache",
             "IAMCCS_IdeoTranslate",
             "IAMCCS_IdeoboardPrompter",
             "IAMCCS_IdeogramJSONPreviewPass",
@@ -12645,6 +12687,7 @@
             "IAMCCS_LTX2_SegmentQueueLoop",
             "IAMCCS_LTX2_TimeFrameCount",
             "IAMCCS_LTX2_Validator",
+            "IAMCCS_LTXVideoDurationCrop",
             "IAMCCS_LatentTailSlice",
             "IAMCCS_LazyAnySwitch",
             "IAMCCS_LoadImagesFromDirLite",
@@ -12676,6 +12719,7 @@
             "IAMCCS_MultiTimelineBridge",
             "IAMCCS_MultiTimelineTakePicker",
             "IAMCCS_MultilinePromptSplitter8",
+            "IAMCCS_Navigator",
             "IAMCCS_ProjectTimelinePlanner",
             "IAMCCS_QWEN_VL_CineReferenceBoardAnalyzer",
             "IAMCCS_QWEN_VL_FLF",
@@ -12696,7 +12740,9 @@
             "IAMCCS_SelectScheduledWanModelPairFromConditioning",
             "IAMCCS_SetAutoLink",
             "IAMCCS_ShotboardPlannerV2V",
-            "IAMCCS_ShotboardVideoEditor",
+            "IAMCCS_ShotboardV4MultigenAdapter",
+            "IAMCCS_ShotboardVideoEditorRenderV1",
+            "IAMCCS_ShotboardVideoEditorV1",
             "IAMCCS_SourceFramesToDisk",
             "IAMCCS_SourceRangeFromSegmentPlan",
             "IAMCCS_StartDirToVideoLatent",
@@ -12709,16 +12755,24 @@
             "IAMCCS_StoryboardPromptContactSheet",
             "IAMCCS_SupernodeBase",
             "IAMCCS_SupernodeModule",
+            "IAMCCS_TakePackage",
+            "IAMCCS_TakeRouter",
             "IAMCCS_TargetCrop",
             "IAMCCS_ThreeSegmentPlanner",
             "IAMCCS_TwoSegmentPlanner",
+            "IAMCCS_V2VActiveBackendSwitch",
+            "IAMCCS_V2VBusToLTX",
+            "IAMCCS_V2VBusToPoseTransfer",
+            "IAMCCS_V2VBusToScail",
+            "IAMCCS_V2VBusToWanAnimate",
+            "IAMCCS_V2VStageSwitch",
             "IAMCCS_VAEDecodeTiledSafe",
             "IAMCCS_VAEDecodeToDisk",
             "IAMCCS_VRAMCleanup",
             "IAMCCS_VRAMFlushLatent",
+            "IAMCCS_VideoColorCorrectionControl",
             "IAMCCS_VideoCombineFromDir",
             "IAMCCS_VideoHardConcat",
-            "IAMCCS_VideoTakeCollector",
             "IAMCCS_WDC_LTXKeyframer",
             "IAMCCS_WDC_LTXSequencer",
             "IAMCCS_WDC_LTXSequencerFixed5",
@@ -16075,7 +16129,9 @@
             "AI2GoIdeogram4PromptBuilder",
             "AI2GoIdeogram4StyleWizard",
             "AI2GoPromptBatch",
-            "AI2GoResolutionSelector"
+            "AI2GoResolutionSelector",
+            "AI2GoSaveCivitaiMetadata",
+            "AI2GoSaveCivitaiMetadataAdvanced"
         ],
         {
             "title_aux": "ComfyUI-AI2Go-Utils"
@@ -19218,6 +19274,8 @@
     ],
     "https://github.com/PBandDev/comfyui-lora-tag-hash-metadata": [
         [
+            "CivitaiResourcesToHashMetadata",
+            "E2EDummyModel",
             "LoraTagsToHashMetadata"
         ],
         {
@@ -19594,11 +19652,12 @@
         [
             "MayoDropdown",
             "MayoLatent",
+            "MayoTextFormatter",
             "MayoTimeFormatter"
         ],
         {
             "author": "Mayo",
-            "description": "Just some nodes with niche usecases, mainly for myself, but maybe for others as well~",
+            "description": "Sleek and responsive custom nodes for latent aspect ratio management, time formatting, text formatting, and dynamic dropdown properties.",
             "nickname": "Mayo Nodes",
             "title": "Mayo Nodes",
             "title_aux": "Mayo Nodes"
@@ -20956,6 +21015,14 @@
         ],
         {
             "title_aux": "comfyui-library-finder"
+        }
+    ],
+    "https://github.com/RmaNMetaverse/ComfyUI-FirstframeLastframeExtractor": [
+        [
+            "FirstFrameLastFrameExtractor"
+        ],
+        {
+            "title_aux": "First Frame & Last Frame Extractor"
         }
     ],
     "https://github.com/RodrigoSKohl/ComfyUI-Panoramic-ImgStitcher": [
@@ -24015,6 +24082,7 @@
             "StarFiveWildcards",
             "StarFlux2Condition",
             "StarFlux2Conditioner",
+            "StarFlux2Inpainter",
             "StarFrameFromVideo",
             "StarGridCaptionsBatcher",
             "StarGridComposer",
@@ -24069,6 +24137,7 @@
             "StarTextFilter",
             "StarTextInput",
             "StarTextStorage",
+            "StarTiledSeedVRUpscaler",
             "StarVAE_LTXV_Load",
             "StarVAE_LTXV_Save",
             "StarVideoJoiner",
@@ -26610,6 +26679,7 @@
             "XB_BatchFolderLoader",
             "XB_BerniniConditioning",
             "XB_BerniniPromptRouter",
+            "XB_CLIPLoaderINT8ROCm",
             "XB_CLIPNameBroadcaster",
             "XB_CanvasLabel",
             "XB_CheckpointBlockSwap",
@@ -26617,9 +26687,15 @@
             "XB_ComicPromptParser",
             "XB_ComicTextRenderer",
             "XB_Dashboard_Zen",
+            "XB_DualCLIPLoaderINT8ROCm",
             "XB_DynamicBus",
             "XB_HumanSegModelLoader",
             "XB_HumanSegmentation",
+            "XB_INT8CLIPSaveROCm",
+            "XB_INT8GroupedLoraROCm",
+            "XB_INT8LoraROCm",
+            "XB_INT8ModelSaveROCm",
+            "XB_INT8PreLoraLoaderROCm",
             "XB_ImageParamsMaster",
             "XB_K2StyleRouter",
             "XB_KSampler",
@@ -26642,6 +26718,7 @@
             "XB_StoryboardSlicer",
             "XB_StringMerge",
             "XB_UNetBlockSwap",
+            "XB_UNetLoaderINTROCm",
             "XB_UNetNameBroadcaster",
             "XB_VAEDecode",
             "XB_VAEDecodeTiled",
@@ -30287,6 +30364,7 @@
             "Civitai Hash Fetcher (Image Saver)",
             "Conditioning Concat Optional (Image Saver)",
             "Edit Image Saver Pipe",
+            "Empty Latent (Image Saver)",
             "Float Literal (Image Saver)",
             "Image Saver",
             "Image Saver (From Pipe)",
@@ -33346,7 +33424,8 @@
             "LoadVideoLoraFromUrlOrPathSelect",
             "OpenRouterGeminiImage",
             "PasteImageByMask",
-            "SimpleMath+"
+            "SimpleMath+",
+            "SquareMaskRegion"
         ],
         {
             "title_aux": "ComfyUI-load-lora-from-url"
@@ -38563,6 +38642,14 @@
             "title_aux": "comfyui-cyberdelia-z-engineer"
         }
     ],
+    "https://github.com/cyberdeliaAI/comfyui-negpip-zimage": [
+        [
+            "ZImageNegPipPrompt"
+        ],
+        {
+            "title_aux": "NegPiP Prompt (Multi-Model)"
+        }
+    ],
     "https://github.com/cyberhirsch/seb_nodes": [
         [
             "AspectRatioSeb",
@@ -43124,7 +43211,9 @@
     ],
     "https://github.com/galigali-san/ComfyUI-PNGInfo": [
         [
-            "PNGInfoReadable"
+            "PNGInfoReadable",
+            "SafetensorsInfoReadable",
+            "SafetensorsMetadataCleaner"
         ],
         {
             "title_aux": "ComfyUI-PNGInfo"
@@ -45720,23 +45809,6 @@
             "title_aux": "comfyui-huyl2-nodes"
         }
     ],
-    "https://github.com/hvppycoding/comfyui-json-prompt-renderer": [
-        [
-            "ExtractJSON",
-            "TemplateRenderFromJSON"
-        ],
-        {
-            "title_aux": "json prompt renderer"
-        }
-    ],
-    "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps": [
-        [
-            "RandomSamplerSchedulerSteps"
-        ],
-        {
-            "title_aux": "RandomSamplerSchedulerSteps for ComfyUI"
-        }
-    ],
     "https://github.com/hwhaocool/ComfyUI-Select-Any": [
         [
             "SelectAnyValues"
@@ -46842,6 +46914,14 @@
             "FNI8ComponentLoader",
             "FNI8Multigpu",
             "FNI8PipelineParallel",
+            "FNI8StepController",
+            "FNI8TeaCache",
+            "SAM3DBodyLoaderFNI8",
+            "SAM3DBodyPredict",
+            "SAM3DObjectLoaderFNI8",
+            "SAM3DObjectPredict",
+            "SAM3LoaderFNI8",
+            "SAM3Predict",
             "TiledVAEDecode",
             "UnetLoaderFNI8",
             "VAETiledChunked"
@@ -53206,6 +53286,7 @@
     "https://github.com/lovemachine100/ComfyUI-JITBlockSwap": [
         [
             "BlockSwap",
+            "BlockSwapKrea2",
             "BlockSwapLTX"
         ],
         {
@@ -53291,6 +53372,7 @@
             "AUNSetCollapseAndBypassStateAdvanced",
             "AUNSetMuteByTitle",
             "AUNSetMuteStateGroup",
+            "AUNShowMultiText",
             "AUNShowTextWithTitle",
             "AUNSingleLabelSwitch",
             "AUNStringListBuilder",
@@ -55799,6 +55881,18 @@
             "BoundaryFrameExtractor",
             "BoundaryFrameSplicer",
             "Bundle",
+            "CCC_BBoxAbsoluteConverter",
+            "CCC_BBoxConverter",
+            "CCC_BranchGate",
+            "CCC_DatasetReviewer",
+            "CCC_FaceAreaBatchMerger",
+            "CCC_FaceAreaBatchSplitter",
+            "CCC_Ideogram4_LoRA_Tagger",
+            "CCC_ImageBatchLoader",
+            "CCC_PromptStudio",
+            "CCC_SEGSRelativeAreaFilter",
+            "CCC_ShowImageTextPairs",
+            "CCC_TextBatchLoader",
             "CheckOutput",
             "ClampFloat",
             "ComposeColorMatch",
@@ -58042,12 +58136,18 @@
     ],
     "https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance": [
         [
+            "Any",
             "ConditioningIdeogram4Rebalance",
             "ConditioningKrea2Rebalance",
+            "ConditioningMerge",
+            "ConditioningMergeAnchor",
+            "ConditioningMergeMulti",
             "Ideogram4EditRebalance",
             "Ideogram4EncodeRebalance",
+            "Input",
             "Krea2EditRebalance",
             "Krea2EncodeRebalance",
+            "LoadImages",
             "RebalanceCFG",
             "RebalanceGuider",
             "StepRebalance"
@@ -58691,6 +58791,7 @@
             "orex Crop",
             "orex Image Chunk Cut",
             "orex Image Chunk Stich",
+            "orex Image Merging",
             "orex Kontext Presets",
             "orex LMStudio",
             "orex Load Image",
@@ -59079,7 +59180,9 @@
     "https://github.com/oumad/ComfyUI_Gear": [
         [
             "GearACEScctDecodeSaveEXR",
+            "GearACEScctEncode",
             "GearColorGrade",
+            "GearLoadEXR",
             "GearLogC3DecodeSaveEXR",
             "GearLogC4DecodeSaveEXR"
         ],
@@ -65290,6 +65393,15 @@
         ],
         {
             "title_aux": "ComfyUI_UltraFlux"
+        }
+    ],
+    "https://github.com/smthemex/ComfyUI_UniBlockSwap": [
+        [
+            "UniBlockSwap",
+            "UniBlockSwapTE"
+        ],
+        {
+            "title_aux": "ComfyUI_UniBlockSwap"
         }
     ],
     "https://github.com/smthemex/ComfyUI_VisualCloze": [

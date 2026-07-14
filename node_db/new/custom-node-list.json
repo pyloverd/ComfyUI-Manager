@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "cyberdelia",
+            "title": "NegPiP Prompt (Multi-Model)",
+            "reference": "https://github.com/cyberdeliaAI/comfyui-negpip-zimage",
+            "files": [
+                "https://github.com/cyberdeliaAI/comfyui-negpip-zimage"
+            ],
+            "install_type": "git-clone",
+            "description": "One-node NegPiP prompting for Z-Image, SD1, SDXL, and Anima in ComfyUI."
+        },
+        {
+            "author": "smthemex",
+            "title": "ComfyUI_UniBlockSwap",
+            "reference": "https://github.com/smthemex/ComfyUI_UniBlockSwap",
+            "files": [
+                "https://github.com/smthemex/ComfyUI_UniBlockSwap"
+            ],
+            "install_type": "git-clone",
+            "description": "A universal swap node that supports ComfyUI native workflow, allowing 4_6G users to experience Klein9B or other large models"
+        },
+        {
+            "author": "RmaNMetaverse",
+            "title": "First Frame & Last Frame Extractor",
+            "reference": "https://github.com/RmaNMetaverse/ComfyUI-FirstframeLastframeExtractor",
+            "files": [
+                "https://github.com/RmaNMetaverse/ComfyUI-FirstframeLastframeExtractor"
+            ],
+            "install_type": "git-clone",
+            "description": "Extract the first and last frame from any video file or image batch in ComfyUI."
+        },
+        {
             "author": "galigali",
             "title": "ComfyUI-PNGInfo",
             "reference": "https://github.com/galigali-san/ComfyUI-PNGInfo",

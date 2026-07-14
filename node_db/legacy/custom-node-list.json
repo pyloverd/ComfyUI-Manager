@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "hvppycoding",
+            "title": "RandomSamplerSchedulerSteps for ComfyUI [REMOVED]",
+            "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
+            "files": [
+                "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that randomly selects a (Sampler, Scheduler, Steps) combination from user-defined presets."
+        },
+        {
+            "author": "hvppycoding",
+            "title": "json prompt renderer [REMOVED]",
+            "reference": "https://github.com/hvppycoding/comfyui-json-prompt-renderer",
+            "files": [
+                "https://github.com/hvppycoding/comfyui-json-prompt-renderer"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Extract JSON, 'Prompt: Render Template from JSON'"
+        },
+        {
             "author": "zhangrui",
             "title": "ComfyUI-QuickUseTools [REMOVED]",
             "reference": "https://github.com/cingee2016/ComfyUI-QuickUseTools",
