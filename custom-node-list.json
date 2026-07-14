@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Azornes",
+            "title": "ComfyUI Model Resolver",
+            "reference": "https://github.com/Azornes/Comfyui-Model-Resolver",
+            "files": [
+                "https://github.com/Azornes/Comfyui-Model-Resolver"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically resolves missing models in ComfyUI workflows using intelligent local fuzzy matching, online search, direct downloads, background download tracking, and in-place workflow updates."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
