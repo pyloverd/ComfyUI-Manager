@@ -54418,6 +54418,58 @@
             ],
             "install_type": "git-clone",
             "description": "Automatically resolves missing models in ComfyUI workflows using intelligent local fuzzy matching, online search, direct downloads, background download tracking, and in-place workflow updates."
+        },
+        {
+            "author": "gregowahoo",
+            "title": "ComfyUI Workflow Group Navigator",
+            "reference": "https://github.com/gregowahoo/comfyui-navigator",
+            "files": [
+                "https://github.com/gregowahoo/comfyui-navigator"
+            ],
+            "install_type": "git-clone",
+            "description": "Floating panel that lists every group in your ComfyUI workflow — jump to any group, toggle on/off via rgthree Fast Groups Muter, reorder via drag-and-drop, configurable keyboard shortcuts. Designed for large multi-stage workflows."
+        },
+        {
+            "author": "shootthesound",
+            "title": "ComfyUI-WorkflowDropZone",
+            "reference": "https://github.com/shootthesound/ComfyUI-WorkflowDropZone",
+            "files": [
+                "https://github.com/shootthesound/ComfyUI-WorkflowDropZone"
+            ],
+            "install_type": "git-clone",
+            "description": "A persistent drop zone for loading workflows from images or .json files — a reliable alternative to ComfyUI's built-in drag-and-drop, with crash-recovery snapshots, recents, favorites, paste and append."
+        },
+        {
+            "author": "VixDreamer",
+            "title": "Kontext ControlNet Fix",
+            "id": "kontext-controlnet-fix",
+            "reference": "https://github.com/VixDreamer/kontext-controlnet-fix",
+            "files": [
+                "https://github.com/VixDreamer/kontext-controlnet-fix"
+            ],
+            "install_type": "git-clone",
+            "description": "Runtime patch that fixes the shape-mismatch crash when combining Flux Kontext ReferenceLatent with any ControlNet node. No core files modified. Idempotent — skips if upstream fix (PR #9180) is already present."
+        },
+        {
+            "author": "wraith-executioner-year-2",
+            "title": "comfyui-misc",
+            "id": "wraith-executioner-year-2.comfyui-misc",
+            "reference": "https://github.com/wraith-executioner-year-2/comfyui-misc",
+            "files": [
+                "https://github.com/wraith-executioner-year-2/comfyui-misc"
+            ],
+            "install_type": "git-clone",
+            "description": "A small utility custom nodes."
+        },
+        {
+            "author": "rikunarita",
+            "title": "ComfyUI-ModelMergeCosmosPredict-2B-Slerp",
+            "reference": "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp",
+            "files": [
+                "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp"
+            ],
+            "install_type": "git-clone",
+            "description": "Slerp model merging node specifically for Cosmos Predict 2B. Supports layer-wise ratio adjustment."
         }
     ]
 }
