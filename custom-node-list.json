@@ -17153,6 +17153,16 @@
             "description": "A simple minimap in the bottom-right of the window showing the full workflow, left click to navigate"
         },
         {
+            "author": "OliverCrosby",
+            "title": "Universal Seamless Tiles",
+            "reference": "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles",
+            "files": [
+                "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles"
+            ],
+            "install_type": "git-clone",
+            "description": "Model-agnostic seamless / tileable image generation for ComfyUI — works on transformer/DiT models (Flux, Wan/Anima) as well as convolutional models (SD1.5, SDXL)."
+        },
+        {
             "author": "Sieyalixnet",
             "title": "ComfyUI_Textarea_Loaders",
             "reference": "https://github.com/Sieyalixnet/ComfyUI_Textarea_Loaders",
@@ -54470,6 +54480,16 @@
             ],
             "install_type": "git-clone",
             "description": "Slerp model merging node specifically for Cosmos Predict 2B. Supports layer-wise ratio adjustment."
+        },
+        {
+            "author": "Tsubasa109",
+            "title": "comfyui-manga-panel",
+            "reference": "https://github.com/Tsubasa109/comfyui_manga_panel",
+            "files": [
+                "https://github.com/Tsubasa109/comfyui_manga_panel"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for selecting, generating, and compositing rectangular manga panels"
         }
     ]
 }

@@ -4026,6 +4026,17 @@
             "title_aux": "Comfyui-LayerForge"
         }
     ],
+    "https://github.com/Azornes/Comfyui-Model-Resolver": [
+        [
+            "ModelResolverDependencyNode"
+        ],
+        {
+            "author": "Azornes",
+            "description": "Logging Configuration",
+            "title": "AzLogs",
+            "title_aux": "ComfyUI Model Resolver"
+        }
+    ],
     "https://github.com/Azornes/Comfyui-Resolution-Master": [
         [
             "ResolutionMaster"
@@ -7525,7 +7536,8 @@
     ],
     "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced": [
         [
-            "AspectRatioAdvanced"
+            "AspectRatioAdvanced",
+            "AspectRatioAdvancedV2"
         ],
         {
             "title_aux": "AspectRatioAdvanced"
@@ -15018,6 +15030,7 @@
     ],
     "https://github.com/Kurdknight/Kurdknight_comfycheck": [
         [
+            "ComfyDoctorReport",
             "SystemCheck",
             "SystemViz"
         ],
@@ -17551,7 +17564,7 @@
     "https://github.com/Mister-Link/link-comfy-nodes": [
         [
             "Add Image to Batch",
-            "Apply Palette",
+            "Apply Game Palette",
             "Auto Cropper",
             "Average Mask Region Size",
             "BatchImageSave",
@@ -17560,9 +17573,11 @@
             "ConvertToPixelArt",
             "Crop by BBox",
             "Crop to Content",
+            "Dropdown Select",
             "Farthest Color",
             "Fast Image Preview",
             "Hex or 24 Bit Color",
+            "Image Compare",
             "Image Rotator",
             "KSampler Advanced (Dual Output)",
             "Load Folder",
@@ -19180,6 +19195,15 @@
         ],
         {
             "title_aux": "comfyui-watdafox-nodes"
+        }
+    ],
+    "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles": [
+        [
+            "MakeCircularVAEDiT",
+            "SeamlessTileModelDiT"
+        ],
+        {
+            "title_aux": "Universal Seamless Tiles"
         }
     ],
     "https://github.com/OneThingAI/ComfyUI_Onething_CV": [
@@ -26074,6 +26098,16 @@
             "title_aux": "ComfyUI-0246"
         }
     ],
+    "https://github.com/Tsubasa109/comfyui_manga_panel": [
+        [
+            "ComfyUIMangaPanelComposite",
+            "ComfyUIMangaPanelResolution",
+            "ComfyUIMangaPanelSelector"
+        ],
+        {
+            "title_aux": "comfyui-manga-panel"
+        }
+    ],
     "https://github.com/Ttl/ComfyUi_NNLatentUpscale": [
         [
             "NNLatentUpscale",
@@ -30477,6 +30511,7 @@
             "BFSAnime2RealBerniniConditioning",
             "BFSHeadSwapBerniniConditioning",
             "BFSHeadSwapLoRADebug",
+            "BFSMultiRefSheetBuilder",
             "FaceSequenceBatch",
             "FrameRangedFaceLoader",
             "LTXIdentityCAN",
@@ -36494,6 +36529,7 @@
         [
             "Auto Model Downloader",
             "CivitAI Downloader",
+            "Downloaded Checkpoint Loader",
             "HF Downloader"
         ],
         {
@@ -37663,6 +37699,8 @@
             "StubMask",
             "StyleModelApply",
             "StyleModelLoader",
+            "SyncLipSyncNode",
+            "SyncTalkingImageNode",
             "T5TokenizerOptions",
             "TCFG",
             "TemporalScoreRescaling",
@@ -40777,10 +40815,12 @@
             "CLIPScaleDualSDXLBlock",
             "CLIPScaleQwenBlock",
             "CLIPTextEncodeWithOffload",
-            "DebugModelKeys",
             "HDR Effects with LAB Adjust",
             "HDREffectsLabAdjust",
             "ImageDifferenceChecker",
+            "KeyNameInspector",
+            "LoadCheckpointWithName",
+            "LoadDiffusionModelWithName",
             "LoadOriginalModel",
             "ModelMergeHiDream",
             "ModelMergeZImage",
@@ -58235,7 +58275,8 @@
             "AnimaPoseTagSelector",
             "AnimaPoseTagSelectorPlus",
             "AnimaPromptComposer",
-            "AnimaPromptPlus"
+            "AnimaPromptPlus",
+            "AnimaPromptPlusClipEncode"
         ],
         {
             "title_aux": "Anima-Tools"
@@ -70300,6 +70341,7 @@
             "CheckpointLoaderLM",
             "DebugMetadataLM",
             "LoraCyclerLM",
+            "LoraInfoLM",
             "LoraLoaderLM",
             "LoraPoolLM",
             "LoraRandomizerLM",
@@ -70702,6 +70744,20 @@
         ],
         {
             "title_aux": "ComfyUI-Chat-Image"
+        }
+    ],
+    "https://github.com/wraith-executioner-year-2/comfyui-misc": [
+        [
+            "MiscAnyOutputSwitch",
+            "MiscAnySplit",
+            "MiscAnySwitch",
+            "MiscCombinePrimitives",
+            "MiscEndForEach",
+            "MiscForEach",
+            "MiscSplitPrimitives"
+        ],
+        {
+            "title_aux": "comfyui-misc"
         }
     ],
     "https://github.com/writer-in-fancy-pants/octo_json_presets": [

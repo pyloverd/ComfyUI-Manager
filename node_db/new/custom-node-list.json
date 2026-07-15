@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Tsubasa109",
+            "title": "comfyui-manga-panel",
+            "reference": "https://github.com/Tsubasa109/comfyui_manga_panel",
+            "files": [
+                "https://github.com/Tsubasa109/comfyui_manga_panel"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for selecting, generating, and compositing rectangular manga panels"
+        },
+        {
+            "author": "OliverCrosby",
+            "title": "Universal Seamless Tiles",
+            "reference": "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles",
+            "files": [
+                "https://github.com/OliverCrosby/ComfyUI-Universal-Seamless-Tiles"
+            ],
+            "install_type": "git-clone",
+            "description": "Model-agnostic seamless / tileable image generation for ComfyUI — works on transformer/DiT models (Flux, Wan/Anima) as well as convolutional models (SD1.5, SDXL)."
+        },
+        {
             "author": "rikunarita",
             "title": "ComfyUI-ModelMergeCosmosPredict-2B-Slerp",
             "reference": "https://github.com/rikunarita/ComfyUI-ModelMergeCosmosPredict-2B-Slerp",
