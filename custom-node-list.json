@@ -54308,7 +54308,7 @@
             "description": "ComfyUI nodes for anime prompt selection, random prompt generation, background and character tag composition, and Anima LoRA search, download, and loading."
         },
         {
-            "author": "YOUR_COMFY_PUBLISHER_ID",
+            "author": "jsterlingvids",
             "title": "Undulating Glitch",
             "reference": "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch",
             "files": [
