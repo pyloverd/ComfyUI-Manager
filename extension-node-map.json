@@ -13116,19 +13116,6 @@
             "title_aux": "ComfyUI-Ruyi"
         }
     ],
-    "https://github.com/Ian2073/ComfyUI-MyLLMnode": [
-        [
-            "GemmaLLMNode",
-            "LlamaLLMNode",
-            "MistralLLMNode",
-            "PhiLLMNode",
-            "QwenLLMNode",
-            "YiLLMNode"
-        ],
-        {
-            "title_aux": "ComfyUI-MyLLMNode"
-        }
-    ],
     "https://github.com/IcelandicCenterArtificialIntelligence/ComfyUI-SamplerSchedulerMetricsTester": [
         [
             "SamplerSchedulerMetricsTester"
@@ -24142,6 +24129,7 @@
             "StarGridImageBatcher",
             "StarHDREffects",
             "StarIconExporter",
+            "StarImageCompare",
             "StarImageEditQwenKontext",
             "StarImageLoader1by1",
             "StarImageLoop",
@@ -24177,6 +24165,7 @@
             "StarQwenWanRatio",
             "StarRadialBlur",
             "StarRandomImageLoader",
+            "StarRealisticFilmGrain",
             "StarSDUpscaleRefiner",
             "StarSDUpscaleRefinerAdvanced",
             "StarSampler",
@@ -24186,6 +24175,7 @@
             "StarSaveSamplerSettings",
             "StarSimpleFilters",
             "StarSpecialFilters",
+            "StarSplitSamplerInfo",
             "StarStopAndGo",
             "StarTextFilter",
             "StarTextInput",
@@ -63119,23 +63109,6 @@
             "title_aux": "ComfyUI_SuperResolution"
         }
     ],
-    "https://github.com/rzgarespo/ComfyUI-diffusiondb": [
-        [
-            "SDPromptNode"
-        ],
-        {
-            "title_aux": "ComfyUI-diffusiondb"
-        }
-    ],
-    "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker": [
-        [
-            "QwenImageSize",
-            "QwenImageSizeSimple"
-        ],
-        {
-            "title_aux": "ComfyUI Qwen Image Size Picker"
-        }
-    ],
     "https://github.com/s9roll7/comfyui_cotracker_node": [
         [
             "CoTrackerNode",
@@ -66254,7 +66227,7 @@
             "FrameNumberOverlay",
             "LoadVideosFromFolderSimple",
             "VACEOutpaint",
-            "WanFirstLastMiddleFrameToVideo",
+            "WanFMLF2V",
             "WanVACEBatchContext",
             "WanVACEExtend",
             "WanVACEFirstMiddleLast",
@@ -68135,6 +68108,7 @@
             "LoadImageWithMetadata",
             "LoadPrediction",
             "LoadZIP",
+            "LocalLLM",
             "SaveAMDVideo",
             "SaveTextWithFilename"
         ],

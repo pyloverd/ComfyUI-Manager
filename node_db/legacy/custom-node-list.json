@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "rzgarespo",
+            "title": "ComfyUI-diffusiondb [REMOVED]",
+            "reference": "https://github.com/rzgarespo/ComfyUI-diffusiondb",
+            "files": [
+                "https://github.com/rzgarespo/ComfyUI-diffusiondb"
+            ],
+            "install_type": "git-clone",
+            "description": "This code gives you the quick access to 14 million text-to-image prompts from the DiffusionDB dataset."
+        },
+        {
+            "author": "Rzgar Espo",
+            "title": "ComfyUI Qwen Image Size Picker [REMOVED]",
+            "id": "QwenImg-latent",
+            "reference": "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker",
+            "files": [
+                "https://github.com/rzgarespo/ComfyUI-qwen-image-size-picker"
+            ],
+            "install_type": "git-clone",
+            "description": "An empty latent size picker with support for Qwen Image, SDXL, and Flux models."
+        },
+        {
+            "author": "Ian2073",
+            "title": "ComfyUI-MyLLMNode [REMOVED]",
+            "reference": "https://github.com/Ian2073/ComfyUI-MyLLMnode",
+            "files": [
+                "https://github.com/Ian2073/ComfyUI-MyLLMnode"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for running LLMs via HuggingFace pipeline. Supports both local paths and HuggingFace model names."
+        },
+        {
             "author": "hvppycoding",
             "title": "RandomSamplerSchedulerSteps for ComfyUI [REMOVED]",
             "reference": "https://github.com/hvppycoding/comfyui-random-sampler-scheduler-steps",
