@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+          "author": "sni10",
+          "title": "ComfyUI DeviantArt Sender",
+          "reference": "https://github.com/sni10/DWA",
+          "files": [
+            "https://github.com/sni10/DWA"
+          ],
+          "install_type": "git-clone",
+          "description": "Automated workflow tool for scheduling and publishing AI artwork directly to DeviantArt with full mature content controls."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
