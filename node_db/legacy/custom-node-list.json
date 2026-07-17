@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "fni8",
+            "title": "ComfyUI-fni8 (int8 dp4a / Volta) [REMOVED]",
+            "reference": "https://github.com/jajmangold/ComfyUI-fni8",
+            "files": [
+                "https://github.com/jajmangold/ComfyUI-fni8"
+            ],
+            "install_type": "git-clone",
+            "description": "int8 dp4a (sm_70/Volta) acceleration for diffusion DiTs in ComfyUI, over the fni8 kernels"
+        },
+        {
+            "author": "feice-huang",
+            "title": "joyai_image_comfyui_gguf [REMOVED]",
+            "reference": "https://github.com/feice-huang/joyai_image_comfyui_gguf",
+            "files": [
+                "https://github.com/feice-huang/joyai_image_comfyui_gguf"
+            ],
+            "install_type": "git-clone",
+            "description": "Unofficial GGUF companion package for JoyAI-Image-Edit, adding GGUF loader nodes as drop-in replacements for bf16 transformer and text encoder loaders."
+        },
+        {
             "author": "rzgarespo",
             "title": "ComfyUI-diffusiondb [REMOVED]",
             "reference": "https://github.com/rzgarespo/ComfyUI-diffusiondb",

@@ -3286,21 +3286,13 @@
     ],
     "https://github.com/ApexArtist/comfyui-apex-artist": [
         [
-            "ApexBatchInfo",
             "ApexBlur",
             "ApexDepthToNormal",
-            "ApexGetFrame",
-            "ApexJSON",
-            "ApexLastFrame",
-            "ApexLatentNoise",
             "ApexLayerBlend",
-            "ApexLoadImage",
-            "ApexPalette",
+            "ApexLoraLoader",
             "ApexPromptPreset",
-            "ApexRGBCurve",
             "ApexSharpen",
-            "ApexSmartResize",
-            "ApexUpscaleBy"
+            "ApexSmartResize"
         ],
         {
             "title_aux": "Apex Artist - Image Resize"
@@ -7052,10 +7044,12 @@
             "JLC_DynamicLoraLoaderModelOnly",
             "JLC_DynamicLoraLoaderSharedBlockWeightModelClip",
             "JLC_DynamicLoraLoaderSharedBlockWeightModelOnly",
+            "JLC_LoadAndResizeImage",
             "JLC_LoraLoaderBlockWeightTwo",
             "JLC_LoraLoaderTenStack",
             "JLC_PaddedImage",
             "JLC_PaddedLatent",
+            "JLC_ResizeImage",
             "JLC_SeedGenerator",
             "JLC_StageBoundaryVRAMCleanup"
         ],
@@ -7537,7 +7531,7 @@
     "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced": [
         [
             "AspectRatioAdvanced",
-            "AspectRatioAdvancedV2"
+            "dehypnotic_AspectRatio"
         ],
         {
             "title_aux": "AspectRatioAdvanced"
@@ -7555,7 +7549,8 @@
     ],
     "https://github.com/Dehypnotic/comfyui-numbered-text": [
         [
-            "NumberedText"
+            "NumberedText",
+            "dehypnotic_NumberedText"
         ],
         {
             "title_aux": "NumberedText"
@@ -8894,6 +8889,7 @@
             "EnviralLazyIndexSwitch",
             "EnviralLmstudioUnified",
             "EnviralLoadLora",
+            "EnviralLoadLoraFiltered",
             "EnviralLoadLoraModelOnly",
             "EnviralLoraName",
             "EnviralModelPatchTorchSettings",
@@ -14699,6 +14695,15 @@
             "title_aux": "LoRA Stacker CivitAI Tags"
         }
     ],
+    "https://github.com/KonokoAz/ComfyUI-Krea2-Reference": [
+        [
+            "Krea2ReferenceLoraLoader",
+            "TextEncodeKrea2Reference"
+        ],
+        {
+            "title_aux": "Krea 2 Reference"
+        }
+    ],
     "https://github.com/Koratahiu/ComfyUI-Diff2Flow": [
         [
             "Diff2FlowODESampler"
@@ -17246,7 +17251,8 @@
             "PiDPrepare",
             "PiDSample",
             "PiDTextPrompt",
-            "PiDUpscale"
+            "PiDUpscale",
+            "PixelDiTGenerate"
         ],
         {
             "title_aux": "ComfyUI-PiD"
@@ -17551,7 +17557,6 @@
     "https://github.com/Mister-Link/link-comfy-nodes": [
         [
             "Add Image to Batch",
-            "Apply Game Palette",
             "Auto Cropper",
             "Average Mask Region Size",
             "BatchImageSave",
@@ -17571,6 +17576,7 @@
             "Load VACE Module",
             "Match Color Palette",
             "Native Wan Pose Strength",
+            "Palettize",
             "Pixelate",
             "Preview (webm)",
             "PreviewAsMarkdown",
@@ -20846,6 +20852,7 @@
             "RSInsertCropImage",
             "RSOutpaint",
             "RSPrompts",
+            "RSRef2Latent",
             "RSSaveImage",
             "RS_ImageToLatent",
             "RS_ImageToLatent_Simplified",
@@ -21157,7 +21164,13 @@
             "STARFlowCheckpointLoader",
             "STARFlowSampler",
             "STARFlowT5TextEncode",
-            "STARFlowVAEDecode"
+            "STARFlowVAEDecode",
+            "STARFlowVCheckpointLoader",
+            "STARFlowVDecode",
+            "STARFlowVImageEncode",
+            "STARFlowVSampler",
+            "STARFlowVTextEncode",
+            "STARFlowVTextEncoderLoader"
         ],
         {
             "title_aux": "ComfyUI-STARFlow"
@@ -24136,6 +24149,7 @@
             "StarImageShifter",
             "StarImageSwitch",
             "StarImageSwitch2",
+            "StarKrea2Unbound",
             "StarLTXVGetLastFrame",
             "StarLTXVLoadLastImage",
             "StarLTXVideoSettings",
@@ -24149,12 +24163,14 @@
             "StarModelPacker",
             "StarMultiInputsToOne",
             "StarNewsScraper",
+            "StarOllamaPromptHelper",
             "StarOllamaSysprompterJC",
             "StarPSDSaver",
             "StarPSDSaver2",
             "StarPSDSaverAdvLayers",
             "StarPaletteExtractor",
             "StarPanoramaViewer",
+            "StarPanoramaViewerPro",
             "StarPromptPicker",
             "StarQwenEditEncoder",
             "StarQwenEditPlusConditioner",
@@ -26747,6 +26763,16 @@
             "XB_ChunkVisualization",
             "XB_ComicPromptParser",
             "XB_ComicTextRenderer",
+            "XB_CosyVoice3_AudioCrop",
+            "XB_CosyVoice3_CrossLingual",
+            "XB_CosyVoice3_Dialog",
+            "XB_CosyVoice3_Instruct2",
+            "XB_CosyVoice3_ModelLoader",
+            "XB_CosyVoice3_SaveSpeaker",
+            "XB_CosyVoice3_SpeakerClone",
+            "XB_CosyVoice3_SpeakerInstruct2",
+            "XB_CosyVoice3_VoiceConversion",
+            "XB_CosyVoice3_ZeroShot",
             "XB_Dashboard_Zen",
             "XB_DualCLIPLoaderINT8ROCm",
             "XB_DynamicBus",
@@ -26801,6 +26827,9 @@
             "XB_WanBlockSwap",
             "XB_WanCameraImageToVideo",
             "XB_WanCompileSettings",
+            "XB_WanDanceSwitcher",
+            "XB_WanDancerCombo",
+            "XB_WanDancerVideo",
             "XB_WanDecode",
             "XB_WanFirstLastFrameToVideo",
             "XB_WanFunControlToVideo",
@@ -37751,6 +37780,7 @@
             "TextEncodeAceStepAudio1.5",
             "TextEncodeBooguEdit",
             "TextEncodeHunyuanVideo_ImageToVideo",
+            "TextEncodeJoyImageEdit",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
             "TextEncodeZImageOmni",
@@ -38716,7 +38746,8 @@
     ],
     "https://github.com/cyberdeliaAI/comfyui-cyberdelia-z-engineer": [
         [
-            "CyberdeliaZEngineer"
+            "CyberdeliaZEngineer",
+            "CyberdeliaZEngineerInput"
         ],
         {
             "title_aux": "comfyui-cyberdelia-z-engineer"
@@ -42088,15 +42119,6 @@
         ],
         {
             "title_aux": "Chroma Cache"
-        }
-    ],
-    "https://github.com/feice-huang/joyai_image_comfyui_gguf": [
-        [
-            "JoyAIImageEditCLIPLoaderGGUF",
-            "JoyAIImageEditUNETLoaderGGUF"
-        ],
-        {
-            "title_aux": "joyai_image_comfyui_gguf"
         }
     ],
     "https://github.com/feixuetuba/Spleeter": [
@@ -46989,29 +47011,6 @@
             "title_aux": "ComfyUI_Wan2_1_lora_trainer"
         }
     ],
-    "https://github.com/jajmangold/ComfyUI-fni8": [
-        [
-            "ApplyTiledDiT",
-            "FNI8AttentionPatch",
-            "FNI8ComponentLoader",
-            "FNI8Multigpu",
-            "FNI8PipelineParallel",
-            "FNI8StepController",
-            "FNI8TeaCache",
-            "SAM3DBodyLoaderFNI8",
-            "SAM3DBodyPredict",
-            "SAM3DObjectLoaderFNI8",
-            "SAM3DObjectPredict",
-            "SAM3LoaderFNI8",
-            "SAM3Predict",
-            "TiledVAEDecode",
-            "UnetLoaderFNI8",
-            "VAETiledChunked"
-        ],
-        {
-            "title_aux": "ComfyUI-fni8 (int8 dp4a / Volta)"
-        }
-    ],
     "https://github.com/jajos12/Comfyui-WanVideo-Context": [
         [
             "WanVideoContextSelector"
@@ -47523,6 +47522,7 @@
             "GeminiImageGenerate",
             "GeminiStyleTransfer",
             "GeminiStyleTransferSettings",
+            "GeminiVideoOmniDirect",
             "PromptStudio",
             "PromptStudioSettings"
         ],
@@ -57676,7 +57676,9 @@
     ],
     "https://github.com/niknah/MiniT2I-ComfyUI": [
         [
-            "MiniT2I"
+            "MiniT2I",
+            "MiniT2ILoader",
+            "MiniT2ITextEncoder"
         ],
         {
             "title_aux": "MiniT2I"
@@ -60452,6 +60454,7 @@
     ],
     "https://github.com/princepainter/Comfyui-PainterAudioLength": [
         [
+            "PainterAudioCut",
             "PainterAudioLength"
         ],
         {
@@ -62620,6 +62623,8 @@
             "PageNarrationRemover",
             "QwenEditImageGeneration",
             "RuiMaskPreview",
+            "RuiSDMatte",
+            "RuiSDMatteLoader",
             "RuiSpriteSplitter",
             "RuiSpriteSplitterRGBA",
             "SaturationAdjustment",
@@ -65609,7 +65614,8 @@
             "SuperSVRCalcTiles",
             "SuperStitchTiles",
             "SuperWhiteBalanceCAT",
-            "User Error"
+            "User Error",
+            "WanSCAILToVideoLatentMasked"
         ],
         {
             "title_aux": "ComfyUI-SuperNodes"
@@ -69429,6 +69435,12 @@
             "IndexedImageFromFolder",
             "IndexedImageFromFolder_ForRemakeMode",
             "SRTLyricsMerger",
+            "VRGDGFaceFixComposite",
+            "VRGDGFaceFixCreateCropVideo",
+            "VRGDGFaceFixLTXInputs",
+            "VRGDGFaceFixLoadAnchorsMetaBatch",
+            "VRGDGFaceFixPrepare",
+            "VRGDGFaceFixStoreAnchors",
             "VRGDG_ArchiveLlmBatchFolders",
             "VRGDG_AudioCrop",
             "VRGDG_AudioCropTime",
@@ -69516,6 +69528,7 @@
             "VRGDG_NanoBananaPro",
             "VRGDG_NoteBox",
             "VRGDG_OptionalMultiLoraModelOnly",
+            "VRGDG_OptionalMultiLoraTwoPassStrengths",
             "VRGDG_PadVideoWithLastFrame",
             "VRGDG_Part2WorkflowUI",
             "VRGDG_Part3WorkflowUI",
@@ -70321,6 +70334,7 @@
             "LoraRandomizerLM",
             "LoraStackCombinerLM",
             "LoraStackerLM",
+            "LoraSyntaxToPath",
             "LoraTextLoaderLM",
             "PromptLM",
             "SaveImageLM",
