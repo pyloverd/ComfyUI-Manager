@@ -47268,6 +47268,17 @@
             "description": "A layer-based modal mask editor for ComfyUI with Photoshop-like controls. Features paint, color selection, alpha extraction, vector (Catmull-Rom spline), shape, and text tools, SAM3 AI segmentation, BiRefNet background removal, layer management with Undo/Redo (30 levels), ABR brush import, brush library, and multilingual UI (en/ja/zh)."
         },
         {
+            "author": "ketle-man",
+            "title": "ComfyUI Comic Creator",
+            "id": "comfyui-comic-creator",
+            "reference": "https://github.com/ketle-man/comfyui-comic-creator",
+            "files": [
+                "https://github.com/ketle-man/comfyui-comic-creator"
+            ],
+            "install_type": "git-clone",
+            "description": "A manga page creation SPA running on top of ComfyUI. Manage pages by 'works' (page groups), create pages from templates, and place images, speech balloons, text, shapes, and 3D poses into panels. Includes a layer-based image editor (layers, masks, adjustment layers), font manager with reusable style/preset system, AI image generation (Nanobanana/Gemini), script/storyboard management, and export to JPEG/PNG/WebP/PDF/EPUB. Multi-language UI (ja/en/zh)."
+        },
+        {
             "author": "senjinthedragon",
             "title": "ComfyUI Gender Tag Filter",
             "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
@@ -47891,6 +47902,16 @@
             ],
             "install_type": "git-clone",
             "description": "Anima Block Compile for ComfyUI: a one-purpose node that runs torch.compile on the Anima DiT per transformer block (diffusion_model.blocks.{i}) instead of the whole model. Faster compile, fewer graph breaks. A thin, Anima-named wrapper over ComfyUI core's set_torch_compile_wrapper."
+        },
+        {
+            "author": "sorryhyun",
+            "title": "Distilled ResShift SR",
+            "reference": "https://github.com/sorryhyun/ComfyUI-Distilled-ResShift",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-Distilled-ResShift"
+            ],
+            "install_type": "git-clone",
+            "description": "Distilled 1-step ResShift super-resolution (×4 or ×2) as a pixel-space IMAGE to IMAGE node. A ResShift student distilled from a 15-step teacher upsamples any RGB image in one stochastic step (scale dropdown). Self-contained vendored ResShift net (no xformers needed on any GPU); student + vq-f4 VQGAN auto-download on first use."
         },
         {
             "author": "spacewarpstudio",
@@ -53162,16 +53183,6 @@
             "description": "A small collection of ComfyUI audio nodes, starting with peak and RMS normalization."
         },
         {
-            "author": "feice-huang",
-            "title": "joyai_image_comfyui_gguf",
-            "reference": "https://github.com/feice-huang/joyai_image_comfyui_gguf",
-            "files": [
-                "https://github.com/feice-huang/joyai_image_comfyui_gguf"
-            ],
-            "install_type": "git-clone",
-            "description": "Unofficial GGUF companion package for JoyAI-Image-Edit, adding GGUF loader nodes as drop-in replacements for bf16 transformer and text encoder loaders."
-        },
-        {
             "author": "jieg9341-lab",
             "title": "ComfyUI-SCAIL2-Easy",
             "reference": "https://github.com/jieg9341-lab/ComfyUI-SCAIL2-Easy",
@@ -54207,16 +54218,6 @@
             "description": "Training-free Krea2 style reference nodes for ComfyUI, with LoRA-like single-image transfer, experimental two-reference blending, low content leakage, and preserved image quality."
         },
         {
-            "author": "fni8",
-            "title": "ComfyUI-fni8 (int8 dp4a / Volta)",
-            "reference": "https://github.com/jajmangold/ComfyUI-fni8",
-            "files": [
-                "https://github.com/jajmangold/ComfyUI-fni8"
-            ],
-            "install_type": "git-clone",
-            "description": "int8 dp4a (sm_70/Volta) acceleration for diffusion DiTs in ComfyUI, over the fni8 kernels"
-        },
-        {
             "author": "navalyalgam97",
             "title": "XFlow Resolution",
             "reference": "https://github.com/navalyalgam97/comfyui-xflow-resolution",
@@ -54459,6 +54460,38 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for selecting, generating, and compositing rectangular manga panels"
+        },
+        {
+            "author": "konokoaz",
+            "title": "Krea 2 Reference",
+            "reference": "https://github.com/KonokoAz/ComfyUI-Krea2-Reference",
+            "files": [
+                "https://github.com/KonokoAz/ComfyUI-Krea2-Reference"
+            ],
+            "install_type": "git-clone",
+            "description": "Reference images for Krea 2 via native Qwen3-VL vision tokens: character and style transfer with the companion reference LoRA (layered loader included)."
+        },
+        {
+            "author": "Gerbesh",
+            "title": "PNG Info for ComfyUI",
+            "id": "png-info",
+            "reference": "https://github.com/Gerbesh/png-info-for-comfyui",
+            "files": [
+                "https://github.com/Gerbesh/png-info-for-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Reads A1111 and ComfyUI PNG metadata and applies editable generation settings to bound checkpoint, LoRA, CLIP text encode, and KSampler nodes."
+        },
+        {
+            "author": "AI Embedded Systems",
+            "title": "ComfyUI Local Run Receipts",
+            "id": "local-run-receipts",
+            "reference": "https://github.com/nawnie/ComfyUI-Local-Run-Receipts",
+            "files": [
+                "https://github.com/nawnie/ComfyUI-Local-Run-Receipts"
+            ],
+            "install_type": "git-clone",
+            "description": "Local-only output nodes that derive a stable run key, save image hashes, and write a receipt beside ComfyUI images. Repeated identical outputs are reported without overwriting the completed receipt."
         }
     ]
 }

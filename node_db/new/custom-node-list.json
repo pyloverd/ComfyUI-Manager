@@ -1,6 +1,59 @@
 {
     "custom_nodes": [
         {
+            "author": "sorryhyun",
+            "title": "Distilled ResShift SR",
+            "reference": "https://github.com/sorryhyun/ComfyUI-Distilled-ResShift",
+            "files": [
+                "https://github.com/sorryhyun/ComfyUI-Distilled-ResShift"
+            ],
+            "install_type": "git-clone",
+            "description": "Distilled 1-step ResShift super-resolution (×4 or ×2) as a pixel-space IMAGE to IMAGE node. A ResShift student distilled from a 15-step teacher upsamples any RGB image in one stochastic step (scale dropdown). Self-contained vendored ResShift net (no xformers needed on any GPU); student + vq-f4 VQGAN auto-download on first use."
+        },
+        {
+            "author": "AI Embedded Systems",
+            "title": "ComfyUI Local Run Receipts",
+            "id": "local-run-receipts",
+            "reference": "https://github.com/nawnie/ComfyUI-Local-Run-Receipts",
+            "files": [
+                "https://github.com/nawnie/ComfyUI-Local-Run-Receipts"
+            ],
+            "install_type": "git-clone",
+            "description": "Local-only output nodes that derive a stable run key, save image hashes, and write a receipt beside ComfyUI images. Repeated identical outputs are reported without overwriting the completed receipt."
+        },
+        {
+            "author": "ketle-man",
+            "title": "ComfyUI Comic Creator",
+            "id": "comfyui-comic-creator",
+            "reference": "https://github.com/ketle-man/comfyui-comic-creator",
+            "files": [
+                "https://github.com/ketle-man/comfyui-comic-creator"
+            ],
+            "install_type": "git-clone",
+            "description": "A manga page creation SPA running on top of ComfyUI. Manage pages by 'works' (page groups), create pages from templates, and place images, speech balloons, text, shapes, and 3D poses into panels. Includes a layer-based image editor (layers, masks, adjustment layers), font manager with reusable style/preset system, AI image generation (Nanobanana/Gemini), script/storyboard management, and export to JPEG/PNG/WebP/PDF/EPUB. Multi-language UI (ja/en/zh)."
+        },
+        {
+            "author": "Gerbesh",
+            "title": "PNG Info for ComfyUI",
+            "id": "png-info",
+            "reference": "https://github.com/Gerbesh/png-info-for-comfyui",
+            "files": [
+                "https://github.com/Gerbesh/png-info-for-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Reads A1111 and ComfyUI PNG metadata and applies editable generation settings to bound checkpoint, LoRA, CLIP text encode, and KSampler nodes."
+        },
+        {
+            "author": "konokoaz",
+            "title": "Krea 2 Reference",
+            "reference": "https://github.com/KonokoAz/ComfyUI-Krea2-Reference",
+            "files": [
+                "https://github.com/KonokoAz/ComfyUI-Krea2-Reference"
+            ],
+            "install_type": "git-clone",
+            "description": "Reference images for Krea 2 via native Qwen3-VL vision tokens: character and style transfer with the companion reference LoRA (layered loader included)."
+        },
+        {
             "author": "Tsubasa109",
             "title": "comfyui-manga-panel",
             "reference": "https://github.com/Tsubasa109/comfyui_manga_panel",
