@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "designloves2",
+            "title": "ITDA",
+            "id": "itda",
+            "reference": "https://github.com/designloves2/itda",
+            "files": [
+                "https://github.com/designloves2/itda"
+            ],
+            "install_type": "git-clone",
+            "description": "Frame-accurate layered video editor inside ComfyUI for stitching AI-generated clips into one continuous piece. Auto Stitch recommends the best cut point between two clips using frame and motion matching; also scene/beat detection, version stacks, wipe compare, pre-render, and MP4/MOV/WebM export."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
