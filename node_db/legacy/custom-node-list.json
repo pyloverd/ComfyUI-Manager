@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "nujgnem",
+            "title": "comfyui-dream-machine [REMOVED]",
+            "reference": "https://github.com/nujgnem/ComfyUI-Dream-Machine",
+            "files": [
+                "https://github.com/nujgnem/ComfyUI-Dream-Machine"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI-native Deforum-inspired feedback animation with global anchoring"
+        },
+        {
             "author": "rafstahelin",
             "title": "ComfyUI_KieNanoBananaPro [REMOVED]",
             "reference": "https://github.com/rafstahelin/ComfyUI_KieNanoBananaPro",

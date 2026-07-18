@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "yitao2020",
+            "title": "ComfyUI-GPT-Image-2 [NAME CONFLICT]",
+            "reference": "https://github.com/yitao2020/ComfyUI-GPT-Image-2",
+            "files": [
+                "https://github.com/yitao2020/ComfyUI-GPT-Image-2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin for OpenAI's GPT Image 2 model supporting text-to-image, image editing, multi-image fusion, mask inpainting with 8 presets and custom sizes up to 4K. (Description by CC)"
+        },
+        {
             "author": "aadebuger",
             "title": "ComfyUI-Dramabox [NAME CONFLICT]",
             "reference": "https://github.com/aadebuger/ComfyUI-Dramabox",
