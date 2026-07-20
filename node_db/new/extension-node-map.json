@@ -28600,6 +28600,16 @@
             "title_aux": "DuoUmiWildcards"
         }
     ],
+    "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers": [
+        [
+            "FilterLoRATriggers",
+            "RegionalLayoutInfo",
+            "RegionalLayoutMasks"
+        ],
+        {
+            "title_aux": "ComfyUI-FilterLoRATriggers"
+        }
+    ],
     "https://github.com/UnlimitedEditing/ComfyUI-Hunyuan3D": [
         [
             "Hy3DLoadImageFromURL",
@@ -29227,6 +29237,7 @@
             "XB_ROCmVAEDecodeTemporal",
             "XB_ROCmVAEEncode",
             "XB_SageAttentionAccelerator",
+            "XB_Sage_BlockSwap",
             "XB_SamplerChunkMaster",
             "XB_SamplerCustom",
             "XB_SamplerCustomAdvanced",
@@ -34282,6 +34293,15 @@
             "title_aux": "ComfyUI-Arrssenne"
         }
     ],
+    "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency": [
+        [
+            "ArtfatFaceConsistencyBatch",
+            "ArtfatFaceConsistencySort"
+        ],
+        {
+            "title_aux": "Artfat Face Consistency"
+        }
+    ],
     "https://github.com/artfat-creator/ComfyUI-Face-Style-Preset-for-FaceDetailer-": [
         [
             "FaceStylePreset"
@@ -36737,15 +36757,6 @@
             "title_aux": "ComfyUI-OpenSoraPlan"
         }
     ],
-    "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI": [
-        [
-            "TeaCacheCoefficientCalculator",
-            "TeaCache_Lumina2"
-        ],
-        {
-            "title_aux": "Newbie-Teacache-ComfyUI"
-        }
-    ],
     "https://github.com/bombless/comfyUI-RememberingUtils": [
         [
             "RememberLastSeed",
@@ -37746,7 +37757,6 @@
             "Bbox_strToBbox",
             "CN_preset1_Unpack",
             "CN_preset1_pack",
-            "ChineseToEnglish",
             "Coordinate_Generator",
             "Coordinate_Index2Text",
             "Coordinate_MarkRender",
@@ -42202,6 +42212,7 @@
             "D2 Load Folder Images",
             "D2 Load Image",
             "D2 Load Lora",
+            "D2 Load Text",
             "D2 Model and CLIP Merge SDXL",
             "D2 Mosaic Filter",
             "D2 Multi Output",
@@ -42218,10 +42229,12 @@
             "D2 Regex Switcher",
             "D2 Resize Calculator",
             "D2 Save Audio Eagle",
+            "D2 Save Caption",
             "D2 Save Image",
             "D2 Save Image Eagle",
             "D2 Send File Eagle",
             "D2 Size Selector",
+            "D2 Tag Report",
             "D2 Token Counter",
             "D2 XY Annotation",
             "D2 XY Folder Images",
@@ -52147,6 +52160,14 @@
         ],
         {
             "title_aux": "ComfyUI-Prompt-Vault"
+        }
+    ],
+    "https://github.com/jeremieLouvaert/ComfyUI-Schematic": [
+        [
+            "SchematicOverlay"
+        ],
+        {
+            "title_aux": "ComfyUI Schematic"
         }
     ],
     "https://github.com/jeremieLouvaert/comfyui-prompt-assembler": [

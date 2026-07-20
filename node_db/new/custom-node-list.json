@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "akurate",
+            "title": "ComfyUI Schematic",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Schematic",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Schematic"
+            ],
+            "install_type": "git-clone",
+            "description": "Schematic/technical annotation overlay generator — detection circles, tangent chains, crosshair frames, and pixelation zones over any image"
+        },
+        {
+            "author": "unitas81",
+            "title": "ComfyUI-FilterLoRATriggers",
+            "reference": "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers",
+            "files": [
+                "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers"
+            ],
+            "install_type": "git-clone",
+            "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
+        },
+        {
+            "author": "artfat-creator",
+            "title": "Artfat Face Consistency",
+            "reference": "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency",
+            "files": [
+                "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency"
+            ],
+            "install_type": "git-clone",
+            "description": "Face-identity consistency scoring for ComfyUI (cv2 YuNet+SFace, CPU). Inline pass/fail sort + batch contact-sheet."
+        },
+        {
+            "author": "drksun81",
+            "title": "ComfyUI-FilterLoRATriggers",
+            "reference": "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers",
+            "files": [
+                "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers"
+            ],
+            "install_type": "git-clone",
+            "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
+        },
+        {
             "author": "palealloy2999-prog",
             "title": "ComfyUI-AnySwitchImage",
             "reference": "https://github.com/palealloy2999-prog/ComfyUI-AnySwitchImage",

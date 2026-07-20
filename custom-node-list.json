@@ -42624,16 +42624,6 @@
             "description": "Custom ComfyUI nodes designed to interface with a separate LM Studio instance for language model operations."
         },
         {
-            "author": "bombdefuser-124",
-            "title": "Newbie-Teacache-ComfyUI",
-            "reference": "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI",
-            "files": [
-                "https://github.com/bombdefuser-124/Newbie-Teacache-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "TeaCache optimization nodes for ComfyUI's NewBie implementation, featuring patched loader and coefficient calculator for faster inference with configurable quality. (Description by CC)"
-        },
-        {
             "author": "maxczc",
             "title": "comfyui-sora-node",
             "reference": "https://github.com/maxczc/comfyui-sora-node",
@@ -57055,6 +57045,16 @@
             "description": "All-in-one face styling node for ComfyUI: curated style presets with auto-fill prompts, FaceDetailer parameters, and a dynamic searchable LoRA stack. Outputs CONDITIONING + modified MODEL ready for FaceDetailer / KSampler."
         },
         {
+            "author": "artfat-creator",
+            "title": "Artfat Face Consistency",
+            "reference": "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency",
+            "files": [
+                "https://github.com/artfat-creator/ComfyUI-Artfat-FaceConsistency"
+            ],
+            "install_type": "git-clone",
+            "description": "Face-identity consistency scoring for ComfyUI (cv2 YuNet+SFace, CPU). Inline pass/fail sort + batch contact-sheet."
+        },
+        {
             "author": "fulletlab",
             "title": "Anima Style Explorer",
             "reference": "https://github.com/fulletLab/comfyui-anima-style-nodes",
@@ -57623,6 +57623,16 @@
             ],
             "install_type": "git-clone",
             "description": "A node suite for prompt engineering with persistent character and segment libraries."
+        },
+        {
+            "author": "drksun81",
+            "title": "ComfyUI-FilterLoRATriggers",
+            "reference": "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers",
+            "files": [
+                "https://github.com/DrkSun81/ComfyUI-FilterLoRATriggers"
+            ],
+            "install_type": "git-clone",
+            "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
         },
         {
             "author": "ETH-IVIA-Lab",
@@ -60773,6 +60783,26 @@
             ],
             "install_type": "git-clone",
             "description": "Dynamic block swap for Krea 2. Offloads transformer blocks to RAM to run on low-VRAM GPUs without quality loss."
+        },
+        {
+            "author": "unitas81",
+            "title": "ComfyUI-FilterLoRATriggers",
+            "reference": "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers",
+            "files": [
+                "https://github.com/Unitas81/ComfyUI-FilterLoRATriggers"
+            ],
+            "install_type": "git-clone",
+            "description": "Filter LoRA trigger pollution + RegionalLayoutMasks (!!/!!!/TB/TMB) for Attention Couple workflows"
+        },
+        {
+            "author": "akurate",
+            "title": "ComfyUI Schematic",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Schematic",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Schematic"
+            ],
+            "install_type": "git-clone",
+            "description": "Schematic/technical annotation overlay generator — detection circles, tangent chains, crosshair frames, and pixelation zones over any image"
         }
     ]
 }
