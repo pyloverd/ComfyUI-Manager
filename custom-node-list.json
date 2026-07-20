@@ -55059,6 +55059,16 @@
         },
         {
             "author": "ukr8b3g-cmyk",
+            "title": "Krea2 BBOX Prompter Suite",
+            "reference": "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter",
+            "files": [
+                "https://github.com/ukr8b3g-cmyk/Krea2-BBOX-Prompter"
+            ],
+            "install_type": "git-clone",
+            "description": "Krea2-focused BBOX canvas, prompt builder, export node, and prompt effect presets for ComfyUI."
+        },
+        {
+            "author": "ukr8b3g-cmyk",
             "title": "Empty Latent Image Plus",
             "reference": "https://github.com/ukr8b3g-cmyk/Empty-Latent-Image-Plus",
             "files": [
@@ -55972,7 +55982,7 @@
             "description": "ComfyUI nodes for anime prompt selection, random prompt generation, background and character tag composition, and Anima LoRA search, download, and loading."
         },
         {
-            "author": "YOUR_COMFY_PUBLISHER_ID",
+            "author": "jsterlingvids",
             "title": "Undulating Glitch",
             "reference": "https://github.com/jsterlingvids/ComfyUI-UndulatingGlitch",
             "files": [
