@@ -60823,6 +60823,17 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that randomly selects one input from multiple inputs of the same type."
+        },
+        {
+            "author": "djdzzzz",
+            "title": "ComfyUI-Bernini-PromptEnhancer",
+            "id": "bernini-prompt-enhancer",
+            "reference": "https://github.com/djdzzzz/ComfyUI-Bernini-PromptEnhancer",
+            "files": [
+                "https://github.com/djdzzzz/ComfyUI-Bernini-PromptEnhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "Bernini MLLM semantic planner for local prompt enhancement in ComfyUI — 12 task types, GGUF offline inference, zero VRAM residue"
         }
     ]
 }
