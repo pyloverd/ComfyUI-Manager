@@ -2383,11 +2383,13 @@
             "BooruGalleryNode",
             "CharacterFeatureSwapNode",
             "EnumSwitch",
+            "FetchFromKrita",
             "ParameterPanel",
             "ParameterReceiver",
             "PromptCleaningMaid",
             "PromptSelector",
             "QuickGroupManager",
+            "ResolutionPreset",
             "SimpleNotify",
             "SimpleStringSplit"
         ],
@@ -3702,6 +3704,7 @@
             "AGSoftReferenceToLatent",
             "AGSoftSaveImage",
             "AGSoftShowAny",
+            "AGSoftTextConcatenate",
             "AGSoftTextConcatenateX2",
             "AGSoftTextConcatenateX4",
             "AGSoftTextConcatenateX8",
@@ -8089,7 +8092,7 @@
         [
             "DehypnoticGetNode",
             "DehypnoticSetNode",
-            "RangeToString"
+            "dehypnotic_RangeToString"
         ],
         {
             "title_aux": "RangeToString"
@@ -8123,6 +8126,7 @@
             "ClipSkipSliderNode",
             "ConditionalVAEDecodePreview",
             "CountListNode",
+            "DA_AudioDebugNode",
             "DA_Base_KSampler",
             "DA_BusInNode",
             "DA_BusOutNode",
@@ -10846,35 +10850,6 @@
             "title_aux": "ComfyUI-Mana-Nodes"
         }
     ],
-    "https://github.com/FortunaCournot/comfyui_stereoscopic": [
-        [
-            "CalculateDimensions",
-            "ColorCorrectBatch",
-            "DecryptWatermark",
-            "EncryptWatermark",
-            "GetResolutionForVR",
-            "GradeVariant",
-            "ImageVRConverter",
-            "JoinVariantProperties",
-            "LinearFade",
-            "LoadImageAdvanced",
-            "RegexSubstitute",
-            "SaveAudioSimple",
-            "SaveStrippedUTF8File",
-            "ScaleByFactor",
-            "ScaleToResolution",
-            "SpecVariants",
-            "StripXML",
-            "VRwearePause",
-            "VRwearePauseLatent",
-            "VRweareResume",
-            "VariantPromptBuilder",
-            "strftime"
-        ],
-        {
-            "title_aux": "Stereoscopic"
-        }
-    ],
     "https://github.com/Fossiel/ComfyUI-Fossiel-QoL-Nodes": [
         [
             "FossielCentralControlLite",
@@ -13347,6 +13322,7 @@
             "IAMCCS_ApplyLoRAHooksToConditioning",
             "IAMCCS_ApplyScheduledWanLoRAFromConditioning",
             "IAMCCS_AudioBoardArranger",
+            "IAMCCS_AudioBoardDirectShotboardAdapter",
             "IAMCCS_AudioBoardMixer",
             "IAMCCS_AudioExtender",
             "IAMCCS_AudioExtensionMath",
@@ -13421,11 +13397,13 @@
             "IAMCCS_CineShotboardPlannerProV2",
             "IAMCCS_CineShotboardPlannerV3",
             "IAMCCS_CineShotboardPlannerV4",
+            "IAMCCS_CineShotboardPlannerV5V2V",
             "IAMCCS_CineShotboardTailTrimPolicy",
             "IAMCCS_CineShotboardTimelinePro",
             "IAMCCS_CineShotboardV4Backend",
             "IAMCCS_CineShotboardV4CropGuides",
             "IAMCCS_CineShotboardV4Guide",
+            "IAMCCS_CineShotboardV5V2VRouter",
             "IAMCCS_CineSpeech1PromptCompiler",
             "IAMCCS_CineSpeechLength",
             "IAMCCS_CineStage2BypassSwitch",
@@ -13661,6 +13639,7 @@
             "IAMCCS_WanSviFlfTimeline",
             "IAMCCS_WanSviFlfTimelinePick",
             "IAMCCS_bus_group",
+            "IAMCCS_shotboarder_aud+vid_exporter_PRO",
             "WanImageMotionPro",
             "WanImageMotionProLegacy",
             "WanImageMotionProPlus",
@@ -15565,14 +15544,17 @@
     ],
     "https://github.com/KillPhantom/ai-fashion-studio": [
         [
+            "AFS_AnalyzeProduct",
             "AFS_AnalyzeProductMock",
             "AFS_Diagnostics",
+            "AFS_EvaluateImageCandidates",
             "AFS_EvaluateImageCandidatesMock",
             "AFS_EvaluateVideoMock",
             "AFS_ExportRun",
             "AFS_ImageToVideoMock",
             "AFS_LoadProductAssets",
             "AFS_RankCandidates",
+            "AFS_SceneEdit",
             "AFS_VirtualTryOnCandidatesMock"
         ],
         {
@@ -27664,7 +27646,8 @@
             "Krea2IdentityEdit",
             "Krea2Moodboard",
             "Krea2MoodboardEncode",
-            "Krea2MoodboardIdentityFusion"
+            "Krea2MoodboardIdentityFusion",
+            "Krea2Rebalance"
         ],
         {
             "title_aux": "ComfyUI-Krea2Moodboard"
@@ -28070,10 +28053,14 @@
         [
             "Auto Seed",
             "CSV Parser",
+            "Calculate Flux.2 Image Size",
+            "Combine Florence2 Caption Data",
             "Combine Lists",
             "Combine Properties",
+            "Crop/Grow Image to Bounds",
             "Decorate List",
             "Dictionary Lookup",
+            "Empty String To Null",
             "Encode Any Properties (Dynamic)",
             "Encode Any Property",
             "Face Body Aspect Bounds",
@@ -28085,6 +28072,7 @@
             "Float to Int",
             "Float to String",
             "Floats to Rect",
+            "Florence2 Caption Data Parser",
             "Force Aspect On Bounds",
             "Get File List",
             "Get List From File",
@@ -28109,7 +28097,9 @@
             "List Count",
             "Load Image Batch from Zip",
             "Load Image w/Meta",
+            "Load String from File",
             "None Image",
+            "Null To String",
             "Pad Image In Place",
             "Process Path Name",
             "Prompt Splitter",
@@ -28120,6 +28110,7 @@
             "Randomize Image Batch",
             "Randomize List",
             "Rect From Image",
+            "Rect To Mask",
             "Rect to Floats",
             "Rect to Ints",
             "Replace List",
@@ -31605,6 +31596,14 @@
             "title_aux": "comfyui-ksampler-batch"
         }
     ],
+    "https://github.com/adbrasi/facetaggg": [
+        [
+            "FaceTagCrop"
+        ],
+        {
+            "title_aux": "facetaggg"
+        }
+    ],
     "https://github.com/adbrasi/loppiner": [
         [
             "LoppinerLoopExtractor"
@@ -33319,6 +33318,7 @@
         [
             "BFSAmvGuideBuilder",
             "BFSAnime2RealBerniniConditioning",
+            "BFSEntitySheet2x2",
             "BFSHeadSwapBerniniConditioning",
             "BFSHeadSwapLoRADebug",
             "BFSMultiRefSheetBuilder",
@@ -33329,6 +33329,7 @@
             "LTXIdentityMultiAngle",
             "LTXIdentityOverlapConditioning",
             "LTXIdentityTransfer",
+            "LTXTrimFirstFrames",
             "LTXVApplyNeutralMask",
             "LTXVEditAnythingLoopingSampler",
             "LTXVEditAnythingModuleLoader",
@@ -40748,6 +40749,8 @@
             "LoadMoGeModel",
             "LoadTrainingDataset",
             "LoadVideo",
+            "LoadVideoDataSetFromFolder",
+            "LoadVideoTextDataSetFromFolder",
             "LoraLoader",
             "LoraLoaderBypass",
             "LoraLoaderBypassModelOnly",
@@ -41003,6 +41006,8 @@
             "SetLatentNoiseMask",
             "SetUnionControlNetType",
             "ShuffleImageTextDataset",
+            "ShuffleVideoDataset",
+            "ShuffleVideoTextDataset",
             "SkipLayerGuidanceDiT",
             "SkipLayerGuidanceDiTSimple",
             "SkipLayerGuidanceSD3",
@@ -41160,7 +41165,10 @@
             "Veo3VideoGenerationNode",
             "VeoVideoGenerationNode",
             "Video Slice",
+            "VideoFrameSample",
             "VideoLinearCFGGuidance",
+            "VideoRandomTemporalCrop",
+            "VideoTemporalCrop",
             "VideoTriangleCFGGuidance",
             "Vidu2ImageToVideoNode",
             "Vidu2ReferenceVideoNode",
@@ -45042,6 +45050,7 @@
     ],
     "https://github.com/ericpaulsnowden/comfyui-photoshop-bridge": [
         [
+            "PhotoshopAction",
             "PhotoshopAnnotate",
             "PhotoshopBridge",
             "PhotoshopComposePSD",
@@ -50460,9 +50469,21 @@
             "ROCMSamplerCustomAdvancedBenchmark",
             "ROCMSamplerPerformanceMonitor",
             "ROCMVAEPerformanceMonitor",
+            "ROCmCheckpointLoader",
             "ROCmDiffusionLoader",
+            "ROCmFluxBenchmark",
             "ROCmGGUFLoader",
-            "ROCmTextGenerateLTX2Prompt"
+            "ROCmKSampler",
+            "ROCmKSamplerAdvanced",
+            "ROCmLoRALoader",
+            "ROCmMemoryOptimizer",
+            "ROCmSamplerCustomAdvanced",
+            "ROCmSamplerCustomAdvancedBenchmark",
+            "ROCmSamplerPerformanceMonitor",
+            "ROCmTextGenerateLTX2Prompt",
+            "ROCmVAEDecode",
+            "ROCmVAEDecodeTiled",
+            "ROCmVAEPerformanceMonitor"
         ],
         {
             "title_aux": "RocM Ninodes"
@@ -53554,8 +53575,10 @@
     "https://github.com/jzhang-POP/ComfyUI-Outpainting-Gemini": [
         [
             "GeminiComposite",
+            "GeminiFillSeamRepair",
             "GeminiImageGenerate",
-            "GeminiPadCalculator"
+            "GeminiPadCalculator",
+            "GeminiPromptBuilder"
         ],
         {
             "title_aux": "ComfyUI-Outpainting-Gemini"
@@ -63654,12 +63677,14 @@
     ],
     "https://github.com/nofunstudio/Node_Fun_ComfyUI": [
         [
+            "BWToMaskAlpha",
             "DynamicQueueCounter",
             "FalAPI_Flux2KleinEdit",
             "FalAPI_Flux2LoraEdit",
             "FalAPI_Flux2TurboEdit",
             "FalAPI_NanoBananaPro",
             "FalAPI_QwenEditPlus",
+            "FalAPI_SeedreamV5ProEdit",
             "FalAPI_kling_video",
             "FalAPI_ltx2_video",
             "FalAPI_recraft_upscale",
@@ -64478,6 +64503,8 @@
             "OreXLMStudio",
             "OreXOllama",
             "OreX_Scail",
+            "OrexImageMerging",
+            "OrexStyleSelector",
             "orex Advanced Video Load",
             "orex Audio load",
             "orex Cip Text Encode",
@@ -68611,7 +68638,8 @@
             "SaturationAdjustment",
             "ShotSplitter",
             "TextList",
-            "UTF8Converter"
+            "UTF8Converter",
+            "ZenMuxAPINode"
         ],
         {
             "title_aux": "RUI-Nodes"
@@ -74690,6 +74718,22 @@
             "title_aux": "ComfyUI-load-image-from-url"
         }
     ],
+    "https://github.com/tttamaki/ComfyUI-RandomSwitch": [
+        [
+            "RandomSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-RandomSwitch"
+        }
+    ],
+    "https://github.com/tttamaki/ComfyUI-StringListConcat": [
+        [
+            "StringListConcat"
+        ],
+        {
+            "title_aux": "ComfyUI-StringListConcat"
+        }
+    ],
     "https://github.com/ttulttul/Better-Gemini": [
         [
             "BetterGemini",
@@ -75172,7 +75216,7 @@
             "Krea2ElementJSONExportV1"
         ],
         {
-            "title_aux": "Krea2-BBOX-Prompter"
+            "title_aux": "Krea2 BBOX Prompter Suite"
         }
     ],
     "https://github.com/umiyuki/comfyui-pad-to-eight": [
@@ -77040,6 +77084,7 @@
     "https://github.com/willmiao/ComfyUI-Lora-Manager": [
         [
             "CheckpointLoaderLM",
+            "CreateHookLoraLM",
             "DebugMetadataLM",
             "LoraCyclerLM",
             "LoraInfoLM",
