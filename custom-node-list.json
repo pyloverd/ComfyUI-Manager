@@ -59755,16 +59755,6 @@
             "description": "Custom nodes for ComfyUI that help iterate over and save image/caption datasets, useful for preparing training data for fine-tuning diffusion models."
         },
         {
-            "author": "sni10",
-            "title": "DWA",
-            "reference": "https://github.com/sni10/DWA",
-            "files": [
-                "https://github.com/sni10/DWA"
-            ],
-            "install_type": "git-clone",
-            "description": "Automatically publish your generated images to DeviantArt straight from ComfyUI."
-        },
-        {
             "author": "sossuzumiyaharuhi",
             "title": "comfyui-checkpoints-with-trigger",
             "reference": "https://github.com/sossuzumiyaharuhi/comfyui-checkpoints-with-trigger",
