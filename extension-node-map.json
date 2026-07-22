@@ -3942,7 +3942,6 @@
             "GPTImageNode",
             "GeminiChatNode",
             "GeminiDiarisationAPI",
-            "GeminiSegmentationNode",
             "GeminiTTSNode",
             "GoogleImagenEditNode",
             "GoogleImagenNode",
@@ -27647,7 +27646,10 @@
             "Krea2Moodboard",
             "Krea2MoodboardEncode",
             "Krea2MoodboardIdentityFusion",
-            "Krea2Rebalance"
+            "Krea2Rebalance",
+            "Krea2RedNode",
+            "Krea2RedNodeSettings",
+            "RedNodePromptCombine"
         ],
         {
             "title_aux": "ComfyUI-Krea2Moodboard"
@@ -29292,6 +29294,18 @@
             "XB_Wan_InfiniteRelayNode_New",
             "XB_Wan_ParamBus",
             "XB_Wan_RelayNode",
+            "XB_llamaBBox2Mask",
+            "XB_llamaBBox2SEGS",
+            "XB_llamaBBoxes2BBox",
+            "XB_llamaCleanStates",
+            "XB_llamaInstruct",
+            "XB_llamaJSON2BBox",
+            "XB_llamaModelLoader",
+            "XB_llamaParameters",
+            "XB_llamaParseJSON",
+            "XB_llamaPromptEnhancer",
+            "XB_llamaUnloadModel",
+            "XB_llamaUnpackCodeBlock",
             "XTX_Data_Radar"
         ],
         {
@@ -33329,6 +33343,7 @@
             "LTXIdentityMultiAngle",
             "LTXIdentityOverlapConditioning",
             "LTXIdentityTransfer",
+            "LTXMultipleControls",
             "LTXTrimFirstFrames",
             "LTXVApplyNeutralMask",
             "LTXVEditAnythingLoopingSampler",
@@ -41219,6 +41234,7 @@
             "WanTextToImageApi",
             "WanTextToVideoApi",
             "WanTrackToVideo",
+            "WanUni3CControlnetApply",
             "WanVaceToVideo",
             "WavespeedFlashVSRNode",
             "WavespeedImageUpscaleNode",
@@ -43527,6 +43543,15 @@
         ],
         {
             "title_aux": "a-person-mask-generator"
+        }
+    ],
+    "https://github.com/djdzzzz/ComfyUI-Bernini-PromptEnhancer": [
+        [
+            "BerniniMLLMPromptEnhancer",
+            "Qwen35PromptEnhancer"
+        ],
+        {
+            "title_aux": "ComfyUI-Bernini-PromptEnhancer"
         }
     ],
     "https://github.com/dlliang14/dll-comfyui-node": [
@@ -56251,6 +56276,14 @@
             "title_aux": "comfyui-prompt-clean-append"
         }
     ],
+    "https://github.com/ku1x/ComfyUI-MaskCanvasEditor": [
+        [
+            "MaskCanvasEditor"
+        ],
+        {
+            "title_aux": "ComfyUI-MaskCanvasEditor"
+        }
+    ],
     "https://github.com/kuangrenaigc-stack/ComfyUI-Volcengine-Seedance": [
         [
             "VolcengineSeedanceGenerate",
@@ -61326,6 +61359,10 @@
             "MaskExists",
             "MatchModeSwitch",
             "MultiChannelSlicer",
+            "OpenPoseImageToKeypoints",
+            "OpenPosePartCrop",
+            "OpenPosePartMask",
+            "OpenPosePartStitch",
             "PoseKeypointToMask",
             "PreprocessSettings",
             "PreprocessSettingsSimple",
@@ -64504,6 +64541,7 @@
             "OreXOllama",
             "OreX_Scail",
             "OrexImageMerging",
+            "OrexImageMergingV2",
             "OrexStyleSelector",
             "orex Advanced Video Load",
             "orex Audio load",
@@ -76376,6 +76414,7 @@
             "vsLinx_GroupBookmarks",
             "vsLinx_ImageToPixelArt",
             "vsLinx_ImpactMultilineWildcardText",
+            "vsLinx_IntToBool",
             "vsLinx_InteractiveDetailer",
             "vsLinx_LoadLastGeneratedImage",
             "vsLinx_LoadSelectedImagesBatch",
@@ -77243,6 +77282,7 @@
             "WizdroidCharacterPromptFemale",
             "WizdroidCharacterPromptMale",
             "WizdroidCinematicShotDesigner",
+            "WizdroidFemalePoseArchitect",
             "WizdroidGenerateFilename",
             "WizdroidI2VAnimationDescriber",
             "WizdroidImageEdit",
@@ -77255,9 +77295,11 @@
             "WizdroidPhotographyStyleNode",
             "WizdroidPromptCombiner",
             "WizdroidPromptRelayGenerator",
+            "WizdroidQwenMultiAngleLoraNode",
             "WizdroidSceneGenerator",
             "WizdroidSearchReplace",
             "WizdroidShortenText",
+            "WizdroidStyleConditioningNode",
             "WizdroidStyleTransferNode",
             "WizdroidTemporalScenePlanner",
             "WizdroidVideoNegativePrompt",
@@ -80162,6 +80204,14 @@
         ],
         {
             "title_aux": "ComfyUI-Fast-Style-Transfer"
+        }
+    ],
+    "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res": [
+        [
+            "JigsawHiRes"
+        ],
+        {
+            "title_aux": "comfyUI-JigSaw-Hi-Res"
         }
     ],
     "https://github.com/zfrsgtcu/ComfyUI-TypeConverters": [

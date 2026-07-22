@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "ku1x",
+            "title": "ComfyUI-MaskCanvasEditor",
+            "reference": "https://github.com/ku1x/ComfyUI-MaskCanvasEditor",
+            "files": [
+                "https://github.com/ku1x/ComfyUI-MaskCanvasEditor"
+            ],
+            "install_type": "git-clone",
+            "description": "Mask Canvas Editor is a ComfyUI custom node that provides an interactive visual editor for positioning a background image behind a mask region."
+        },
+        {
+            "author": "zeus-onl",
+            "title": "comfyUI-JigSaw-Hi-Res",
+            "reference": "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res",
+            "files": [
+                "https://github.com/zeus-onl/comfyUI-JigSaw-Hi-Res"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node extending Flux/Krea2 model image generation beyond native resolution using YaRN and NTK-aware frequency scaling to prevent repeating-pattern artifacts. (Description by CC)"
+        },
+        {
             "author": "tttamaki",
             "title": "ComfyUI-RandomSwitch",
             "reference": "https://github.com/tttamaki/ComfyUI-RandomSwitch",
