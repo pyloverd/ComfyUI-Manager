@@ -24609,13 +24609,13 @@
         },
         {
             "author": "Dehypnotic",
-            "title": "Dehypnotic Save nodes",
-            "reference": "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes",
+            "title": "Dehypnotic",
+            "reference": "https://github.com/Dehypnotic/ComfyUI-Dehypnotic",
             "files": [
-                "https://github.com/Dehypnotic/comfyui-dehypnotic-save-nodes"
+                "https://github.com/Dehypnotic/ComfyUI-Dehypnotic"
             ],
             "install_type": "git-clone",
-            "description": "Save toolkit for audio, image, and video: MP3 audio export with VBR/CBR options, multi-format image saving with workflow/thumbnail metadata, and video + frame encoding (MP4/MKV/WEBM/MOV) — all sharing whitelist-safe paths and rich placeholder templating."
+            "description": "Creative suite for ComfyUI: Aspect Ratio, Numbered Text, Save-nodes (MP3 Audio, Images, and Video), Range To String, and Set/Get."
         },
         {
             "author": "feixuetuba",
@@ -34930,16 +34930,6 @@
             "description": "Smart dynamic layer swapping between GPU and CPU for optimal inference performance with comprehensive mixed precision handling and copy-compute overlap optimization. Enables running much larger models on limited VRAM setups."
         },
         {
-            "author": "Dehypnotic",
-            "title": "NumberedText",
-            "reference": "https://github.com/Dehypnotic/comfyui-numbered-text",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-numbered-text"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight node to number text divisions (one per newline) and select single/multiple divisions by index with an optional separator"
-        },
-        {
             "author": "rickrender",
             "title": "Vectorizer API",
             "reference": "https://github.com/rickrender/ComfyUI-Vectorizer-API",
@@ -35074,16 +35064,6 @@
                 "scipy>=1.10.0",
                 "color-matcher>=0.3.0"
             ]
-        },
-        {
-            "author": "Dehypnotic",
-            "title": "RangeToString",
-            "reference": "https://github.com/Dehypnotic/comfyui-range-to-string",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-range-to-string"
-            ],
-            "install_type": "git-clone",
-            "description": "Lightweight node that generates a string of numbers between a start and end value. Supports positive and negative steps, configurable separators, and inclusive/exclusive end values."
         },
         {
             "author": "KY-2000",
@@ -35727,16 +35707,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node for generating synchronized audio for videos using the HunyuanVideo-Foley model."
-        },
-        {
-            "author": "Dehypnotic",
-            "title": "AspectRatioAdvanced",
-            "reference": "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced",
-            "files": [
-                "https://github.com/Dehypnotic/comfyui-aspect-ratio-advanced"
-            ],
-            "install_type": "git-clone",
-            "description": "An advanced aspect ratio calculator and image scaler with flexible scaling modes and intelligent image handling."
         },
         {
             "author": "GsusGG",

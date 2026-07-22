@@ -14,7 +14,6 @@ import git
 import glob
 import json
 from datetime import datetime
-from contextlib import contextmanager
 
 from server import PromptServer
 import manager_core as core
@@ -318,7 +317,6 @@ setup_environment()
 
 from aiohttp import web
 import aiohttp
-import json
 import zipfile
 import urllib.request
 
@@ -890,7 +888,7 @@ async def get_node_types_in_workflows(request):
                 # iterate over each node in the workflow
                 for node in workflow_file_data["nodes"]:
                     if "id" not in node:
-                        logging.warning(f"Found a node with no ID - possibly corrupt/invalid workflow?")
+                        logging.warning("Found a node with no ID - possibly corrupt/invalid workflow?")
                         continue
                     # if there's no type, throw a warning
                     if "type" not in node:
