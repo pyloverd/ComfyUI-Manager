@@ -60889,6 +60889,6 @@
             ],
             "install_type": "git-clone",
             "description": "Cycle through the number input fields on a node using Tab / Shift+Tab. Classic UI QoL extension."
-        },
+        }
     ]
 }
