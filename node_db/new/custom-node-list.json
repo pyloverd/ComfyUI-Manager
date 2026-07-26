@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "muerrilla",
+            "title": "ComfyUI Tab Cycle",
+            "id": "ComfyUI-Tab-Cycle",
+            "reference": "https://github.com/muerrilla/ComfyUI-Tab-Cycle",
+            "files": [
+                "https://github.com/muerrilla/ComfyUI-Tab-Cycle"
+            ],
+            "install_type": "git-clone",
+            "description": "Cycle through the number input fields on a node using Tab / Shift+Tab. Classic UI QoL extension."
+        },
+        {
             "author": "0xBeycan",
             "title": "ComfyUI-SocialMediaExport",
             "reference": "https://github.com/0xBeycan/ComfyUI-SocialMediaExport",
