@@ -71,6 +71,26 @@
             "title_aux": "ComfyUI-ImageQualityGate"
         }
     ],
+    "https://github.com/0xBeycan/ComfyUI-PostFx": [
+        [
+            "PostFxApply",
+            "PostFxCustomLook",
+            "PostFxLut",
+            "PostFxSignatureSheet",
+            "PostFxTheme"
+        ],
+        {
+            "title_aux": "ComfyUI-PostFx"
+        }
+    ],
+    "https://github.com/0xBeycan/ComfyUI-SocialMediaExport": [
+        [
+            "SocialMediaExport"
+        ],
+        {
+            "title_aux": "ComfyUI-SocialMediaExport"
+        }
+    ],
     "https://github.com/0xDELUXA/ComfyUI-DN_AimdoMonitor": [
         [
             "AimdoVRAMMonitor",
@@ -73080,6 +73100,7 @@
             "NukeDefocus",
             "NukeExposure",
             "NukeExposureAdvanced",
+            "NukeFrameHold",
             "NukeGrade",
             "NukeKeymix",
             "NukeLevels",
@@ -73094,6 +73115,7 @@
             "NukeRead",
             "NukeReadInfo",
             "NukeReadMultiPass",
+            "NukeReformat",
             "NukeShufflePass",
             "NukeTransform",
             "NukeVectorfield",
