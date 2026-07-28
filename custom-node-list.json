@@ -1,17 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "Zoltar358",
-            "title": "ComfyUI-Universal-Model-Loader",
-            "id": "ComfyUI-Universal-Model-Loader",
-            "reference": "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader",
-            "files": [
-                "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
-            ],
-            "install_type": "git-clone",
-            "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, CLIP and VAE with a dynamic polished UI."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -60932,6 +60921,17 @@
             "install_type": "git-clone",
             "nodename_pattern": "MoodSiteUpload",
             "description": "Uploads image(s) to a mood.site board as PNG, replicating the mood.site upload Apple Shortcut."
+        },
+        {
+            "author": "Zoltar358",
+            "title": "ComfyUI-Universal-Model-Loader",
+            "id": "ComfyUI-Universal-Model-Loader",
+            "reference": "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader",
+            "files": [
+                "https://github.com/Zoltar358-ComfyUI/ComfyUI-Universal-Model-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Universal ComfyUI model loader for checkpoints, diffusers, diffusion models, UNet, GGUF, CLIP and VAE with a dynamic polished UI."
         }
     ]
 }
