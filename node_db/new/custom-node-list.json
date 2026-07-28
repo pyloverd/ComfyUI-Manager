@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "wuwukaka",
+            "title": "ComfyUI-WanAnimatePlus",
+            "id": "ComfyUI-WanAnimatePlus",
+            "reference": "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus",
+            "files": [
+                "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus"
+            ],
+            "install_type": "git-clone",
+            "description": "Seamless video connection and multi-reference image support for Wan Animate and Scail-2."
+        },
+        {
             "author": "Zoltar358",
             "title": "ComfyUI-Universal-Model-Loader",
             "id": "ComfyUI-Universal-Model-Loader",

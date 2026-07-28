@@ -50548,6 +50548,17 @@
             "description": "A project for pose alignment and human body proportion mapping based on SDPose."
         },
         {
+            "author": "wuwukaka",
+            "title": "ComfyUI-WanAnimatePlus",
+            "id": "ComfyUI-WanAnimatePlus",
+            "reference": "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus",
+            "files": [
+                "https://github.com/wuwukaka/ComfyUI-WanAnimatePlus"
+            ],
+            "install_type": "git-clone",
+            "description": "Seamless video connection and multi-reference image support for Wan Animate and Scail-2."
+        },
+        {
             "author": "KingManiya",
             "title": "LLM Text Processor",
             "reference": "https://github.com/KingManiya/ComfyUI-LLM-text-processor",
