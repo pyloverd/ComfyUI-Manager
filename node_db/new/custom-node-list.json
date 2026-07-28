@@ -1,6 +1,18 @@
 {
     "custom_nodes": [
         {
+            "author": "kkukshtel",
+            "title": "mood.site Upload",
+            "id": "mood-site-upload",
+            "reference": "https://github.com/kkukshtel/comfyui_mood",
+            "files": [
+                "https://github.com/kkukshtel/comfyui_mood"
+            ],
+            "install_type": "git-clone",
+            "nodename_pattern": "MoodSiteUpload",
+            "description": "Uploads image(s) to a mood.site board as PNG, replicating the mood.site upload Apple Shortcut."
+        },
+        {
             "author": "muerrilla",
             "title": "ComfyUI Tab Cycle",
             "id": "ComfyUI-Tab-Cycle",
