@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "scarlotsoft",
+            "title": "ComfyUI_ScarlotSoft",
+            "reference": "https://github.com/scarlotsoft/ComfyUI_ScarlotSoft",
+            "files": [
+                "https://github.com/scarlotsoft/ComfyUI_ScarlotSoft"
+            ],
+            "install_type": "git-clone",
+            "description": "Personalized suite of nodes including a specialized LoRA Detailer, a custom WD14 Tagger, and precise MM-DD-YYYY image saving."
+        },
+        {
             "author": "StyleRef",
             "title": "StyleRef nodes for ComfyUI",
             "id": "styleref-comfyui",
