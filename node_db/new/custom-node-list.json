@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "azhagurajpandians",
+            "title": "ComfyUI ACES EXR Toolkit",
+            "reference": "https://github.com/azhagurajpandians/ComfyUI-ACES-EXR-Toolkit",
+            "files": [
+                "https://github.com/azhagurajpandians/ComfyUI-ACES-EXR-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional ACES and EXR workflow nodes with OCIO 2.1 support and sequence loading.",
+            "pip": ["opencolorio>=2.2.0", "openexr>=3.2.0"]
+        },
+        {
             "author": "DIIIUA",
             "title": "Singularity - Tail 5 Continuation Gate",
             "id": "comfyui-singularity",
