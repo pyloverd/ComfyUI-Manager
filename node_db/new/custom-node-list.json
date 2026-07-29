@@ -1,6 +1,28 @@
 {
     "custom_nodes": [
         {
+            "author": "DIIIUA",
+            "title": "Singularity - Tail 5 Continuation Gate",
+            "id": "comfyui-singularity",
+            "reference": "https://github.com/DIIIUA/ComfyUI-Event-Equality-Core",
+            "files": [
+                "https://github.com/DIIIUA/ComfyUI-Event-Equality-Core"
+            ],
+            "install_type": "git-clone",
+            "description": "Public-alpha ComfyUI node for Wan I2V/V2V cascade continuation. R178 adds the Tail 5 Continuation Gate: pause at cascade boundaries, inspect the source plus five tail-frame candidates, choose the best continuation frame, resume the same run, save one stitched video, and write a detailed report. Defaults stay conservative with Observe Only math, Report Only prompt analysis, no prompt text injection, and experimental research modes kept out of the public default path."
+        },
+        {
+            "author": "Alexander Guryev",
+            "title": "ComfyUI-GU_Nodepack",
+            "id": "comfyui-gu-nodepack",
+            "reference": "https://github.com/alexguryev/ComfyUI-GU_Nodepack",
+            "files": [
+                "https://github.com/alexguryev/ComfyUI-GU_Nodepack"
+            ],
+            "install_type": "git-clone",
+            "description": "Several utility nodes for ComfyUI: LoRA management, image annotation, project organization, sampling utilities, system integration."
+        },
+        {
             "author": "scarlotsoft",
             "title": "ComfyUI_ScarlotSoft",
             "reference": "https://github.com/scarlotsoft/ComfyUI_ScarlotSoft",
