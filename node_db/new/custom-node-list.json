@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Neurad",
+            "title": "ComfyUI-Visual-LoRA-Loader",
+            "reference": "https://github.com/DarthNeurad/ComfyUI-Visual-LoRA-Loader",
+            "files": [
+                "https://github.com/DarthNeurad/ComfyUI-Visual-LoRA-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Visual interface for LoRA management with tabs, drag-and-drop, and automatic CivitAI metadata fetching."
+        },
+        {
             "author": "azhagurajpandians",
             "title": "ComfyUI ACES EXR Toolkit",
             "reference": "https://github.com/azhagurajpandians/ComfyUI-ACES-EXR-Toolkit",
