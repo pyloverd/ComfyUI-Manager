@@ -91,15 +91,6 @@
             "title_aux": "ComfyUI-SocialMediaExport"
         }
     ],
-    "https://github.com/0xDELUXA/ComfyUI-DN_AimdoMonitor": [
-        [
-            "AimdoVRAMMonitor",
-            "AimdoVRAMMonitorModel"
-        ],
-        {
-            "title_aux": "ComfyUI-DN_AimdoMonitor"
-        }
-    ],
     "https://github.com/0xDELUXA/ComfyUI-DN_PatchFlashAttention": [
         [
             "PatchFlashAttentionDN"
@@ -2860,14 +2851,6 @@
         ],
         {
             "title_aux": "comfyui-rekogniflow"
-        }
-    ],
-    "https://github.com/Aishor/comfyui-meta-sampler-guiado": [
-        [
-            "MetaSamplerGuiado"
-        ],
-        {
-            "title_aux": "Meta-Sampler Guiado (Seed-WAN)"
         }
     ],
     "https://github.com/AkashKarnatak/ComfyUI_faishme": [
@@ -10945,8 +10928,8 @@
             "MultiLoraCombine",
             "MultiLoraSplitter",
             "MultiLoraStackerLM",
+            "PromptBrowser",
             "PromptComposer",
-            "PromptComposerManager",
             "PromptExtractor",
             "PromptGenOptions",
             "PromptGenerator",
@@ -14599,14 +14582,6 @@
             "title_aux": "Comfy Latent Tools"
         }
     ],
-    "https://github.com/JVsup/ComfyUI-SettingsToText": [
-        [
-            "SettingsToText"
-        ],
-        {
-            "title_aux": "ComfyUI-SettingsToText"
-        }
-    ],
     "https://github.com/JWLHS/ComfyUI-TINT4": [
         [
             "TINT4LTX2Loader",
@@ -18034,15 +18009,6 @@
             "title_aux": "ComfyI2I"
         }
     ],
-    "https://github.com/MarceloSaldias/ComfyUI-PhotoHandler": [
-        [
-            "PhotoHandlerDescription",
-            "PhotoHandlerDescriptionByImage"
-        ],
-        {
-            "title_aux": "ComfyUI-PhotoHandler"
-        }
-    ],
     "https://github.com/MarcusNyne/m9-prompts-comfyui": [
         [
             "ScramblePrompts_m9",
@@ -19733,48 +19699,6 @@
         ],
         {
             "title_aux": "Image Captioning and Tagging Assistor Nodes"
-        }
-    ],
-    "https://github.com/NOLABEL-VFX/ComfyUI-NL_Nodes": [
-        [
-            "CustomImageNode",
-            "Gemma API Text Encode",
-            "GemmaAPITextEncode",
-            "GeneratedPartnerNode",
-            "LTXVAddGuideAdvanced",
-            "LTXVGemmaTextEncoder",
-            "LTXVImgToVideoConditionOnly",
-            "LtxvApiTextToVideo",
-            "NLBerniniPromptEnhancer",
-            "NLConstantColor",
-            "NLContextDebug",
-            "NLEdit",
-            "NLFitFrame",
-            "NLFromModelSpace",
-            "NLGrade",
-            "NLImageInfoDebug",
-            "NLLTXVImgToVideoInplaceAtIndex",
-            "NLLinearToLog",
-            "NLLogToLinear",
-            "NLMatch",
-            "NLMerge",
-            "NLOCIOConvert",
-            "NLPreview",
-            "NLRead",
-            "NLShuffle",
-            "NLToModelSpace",
-            "NLWanVideoImageToVideoEncodeV2",
-            "NLWorkflowColorContext",
-            "NLWorkflowFPS",
-            "NLWorkflowFrameRange",
-            "NLWorkflowProjectPath",
-            "NLWorkflowResolution",
-            "NLWrite",
-            "OpenAIGPTImageNodeV2",
-            "OpenAIInputFiles"
-        ],
-        {
-            "title_aux": "ComfyUI-NL_Nodes"
         }
     ],
     "https://github.com/NUVoize/ComfyUI-BRKN-Prompt-Randomizer": [
@@ -30956,15 +30880,6 @@
             "title_aux": "comfyui-portrait-master-zh-cn"
         }
     ],
-    "https://github.com/ZL1417896412/comfyui_toriigate_widgetfix": [
-        [
-            "ToriiGate_Captioner",
-            "ToriiGate_GroundingBuilder"
-        ],
-        {
-            "title_aux": "comfyui_toriigate_widgetfix"
-        }
-    ],
     "https://github.com/ZUENS2020/ComfyUI-Gemini-LiteLLM": [
         [
             "ChatParams",
@@ -40775,6 +40690,7 @@
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
             "EmptyLatentImage",
+            "EmptyMiniMaxH3LatentAV",
             "EmptyMochiLatentVideo",
             "EmptyQwenImageLayeredLatentImage",
             "EmptySD3LatentImage",
@@ -41027,6 +40943,9 @@
             "MeshyRigModelNode",
             "MeshyTextToModelNode",
             "MeshyTextureNode",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3ReferenceToVideo",
+            "MiniMaxH3SigmaShift",
             "MinimaxHailuo03FirstLastFrameNode",
             "MinimaxHailuo03ReferenceNode",
             "MinimaxHailuo03TextToVideoNode",
@@ -42523,35 +42442,17 @@
     ],
     "https://github.com/dadoirie/ComfyUI_Dados_Nodes": [
         [
+            "DN_Base64ToImageNode",
             "DN_CSVMultiDropDownNode",
-            "DN_ChutesChromaImageNode",
-            "DN_ChutesFluxImageNode",
-            "DN_ChutesHiDreamNode",
-            "DN_ChutesHunyuanImage3Node",
-            "DN_ChutesIllustriousNode",
-            "DN_ChutesImageGenNode",
-            "DN_ChutesImageToVideoNode",
-            "DN_ChutesLLMNode",
-            "DN_ChutesNetaLuminaNode",
-            "DN_ChutesParallelImageNode",
-            "DN_ChutesQwenImageEditNode",
-            "DN_ChutesQwenImageNode",
-            "DN_ChutesSDxlNode",
-            "DN_ChutesTextToVideoNode",
-            "DN_GroqLLMNode",
             "DN_ImageBatcher",
-            "DN_JoyTaggerNode",
+            "DN_ImageToBase64Node",
             "DN_MemoryStorage",
             "DN_MultilineString",
-            "DN_PixAITaggerNode",
             "DN_PreviewImage",
-            "DN_PromptSectionsExtractor",
-            "DN_SmolVLMNode",
-            "DN_TagOpsNode",
-            "DN_TextConcatenateNode",
-            "DN_TextDropDownNode",
-            "DN_WildcardPromptEditorNode",
-            "DN_WildcardSelectorComposerV2",
+            "DN_PythonCode",
+            "DN_ReplicateNodeAlpha",
+            "DN_VideoLastFrame",
+            "DN_VideoMerge",
             "DN_WildcardsProcessor",
             "DN_pyPinNode"
         ],
@@ -54593,24 +54494,6 @@
             "title_aux": "BetterNormalCrafterWrapper"
         }
     ],
-    "https://github.com/kaski23/Lidl_Comfy_Nodes": [
-        [
-            "AsyncDelay_LIDL",
-            "ExtractID_LIDL",
-            "GenerateID_LIDL",
-            "LoadImageWithFilename_LIDL",
-            "LoadVideoWithFilename_LIDL",
-            "ModifyID_LIDL",
-            "NanobananaPro_LIDL",
-            "NanobananaSettings_LIDL",
-            "StringSplitSelect_LIDL",
-            "VideoSizeLengthConformer_LIDL",
-            "WanVaceInputConform_LIDL"
-        ],
-        {
-            "title_aux": "Lidl_Comfy_Nodes"
-        }
-    ],
     "https://github.com/kasukanra/ComfyUI_StringToHex": [
         [
             "ColorNameToHex"
@@ -58992,6 +58875,7 @@
             "AUNPathFilenameVideoResolved",
             "AUNPathFilenameVideoV2",
             "AUNPromptCycler",
+            "AUNRIFE",
             "AUNRandomAnySwitch",
             "AUNRandomIndexSwitch",
             "AUNRandomLoraModelOnly",
@@ -60180,6 +60064,7 @@
             "MoonMultiPassSampler",
             "MoonQuickstart",
             "MoonRegionalSampler",
+            "MoonSEGSToIndexedMasks",
             "MoonSimpleWildcards"
         ],
         {
@@ -64580,6 +64465,7 @@
             "CCIPJudge_CCIPScore",
             "CCIPJudge_ImageRouter",
             "CCIPJudge_OKSScore",
+            "CCIPJudge_ReachScore",
             "CCIPJudge_ScoreOverlay",
             "CCIPJudge_ThreeStageFilter"
         ],
@@ -71028,7 +70914,8 @@
             "TextEncoderPruneKeys",
             "TextEncoderRenameKeys",
             "TextEncoderThreeMerger",
-            "TextEncoderTwoMerger"
+            "TextEncoderTwoMerger",
+            "_CWBMergerNode"
         ],
         {
             "title_aux": "Model Utility Toolkit"
@@ -77934,42 +77821,6 @@
         ],
         {
             "title_aux": "mpx-comfyui-nodes"
-        }
-    ],
-    "https://github.com/wizdroid/wizdroid-character": [
-        [
-            "WizdroidBackground",
-            "WizdroidCharacterEdit",
-            "WizdroidCharacterPromptFemale",
-            "WizdroidCharacterPromptMale",
-            "WizdroidCinematicShotDesigner",
-            "WizdroidFemalePoseArchitect",
-            "WizdroidGenerateFilename",
-            "WizdroidI2VAnimationDescriber",
-            "WizdroidImageEdit",
-            "WizdroidImageToVideoAdapter",
-            "WizdroidLoRADataset",
-            "WizdroidMetaPrompt",
-            "WizdroidMotionChoreographer",
-            "WizdroidMultiClipStoryPlanner",
-            "WizdroidPhotoAspect",
-            "WizdroidPhotographyStyleNode",
-            "WizdroidPromptCombiner",
-            "WizdroidPromptRelayGenerator",
-            "WizdroidQwenMultiAngleLoraNode",
-            "WizdroidSceneGenerator",
-            "WizdroidSearchReplace",
-            "WizdroidShortenText",
-            "WizdroidStyleConditioningNode",
-            "WizdroidStyleTransferNode",
-            "WizdroidTemporalScenePlanner",
-            "WizdroidVideoNegativePrompt",
-            "WizdroidVideoPromptBuilder",
-            "WizdroidVideoSceneExpander",
-            "WizdroidWanImageToVideoLatent"
-        ],
-        {
-            "title_aux": "Wizdroid Character Nodes for ComfyUI"
         }
     ],
     "https://github.com/wjie98/comfyui-svdint4": [
