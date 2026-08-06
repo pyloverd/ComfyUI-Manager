@@ -11,6 +11,17 @@
             "description": "ComfyUI custom nodes providing styled draggable float slider widgets"
         },
         {
+            "author": "uron83",
+            "title": "ComfyUI-Qwen-FrameKit",
+            "id": "qwen-framekit",
+            "reference": "https://github.com/uron83/ComfyUI-Qwen-FrameKit",
+            "files": [
+                "https://github.com/uron83/ComfyUI-Qwen-FrameKit"
+            ],
+            "install_type": "git-clone",
+            "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
+        },
+        {
             "author": "18yz153",
             "title": "ComfyUI-Persona-Director",
             "reference": "https://github.com/c/ComfyUI-Persona-Director",
