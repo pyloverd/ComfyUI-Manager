@@ -60988,6 +60988,16 @@
             ],
             "install_type": "git-clone",
             "description": "Multi-point white balance and exposure correction for e-commerce product images."
+        },
+        {
+            "author": "DumiFlex",
+            "title": "Wildcard Pipeline",
+            "reference": "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline",
+            "files": [
+                "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Modular procedural prompt generation — wildcards, fixed values, combines, derivations and constraints resolved in a context pipeline, with a manager UI for a reusable module library."
         }
     ]
 }
