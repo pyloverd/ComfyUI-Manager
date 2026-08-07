@@ -61009,6 +61009,16 @@
             ],
             "install_type": "git-clone",
             "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
+        },
+        {
+            "author": "stompy001",
+            "title": "ComfyUI-Quick-Merge",
+            "reference": "https://github.com/stompy001/ComfyUI-Quick-Merge",
+            "files": [
+                "https://github.com/stompy001/ComfyUI-Quick-Merge"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for image layering, blending, compositing, and batch processing."
         }
     ]
 }
