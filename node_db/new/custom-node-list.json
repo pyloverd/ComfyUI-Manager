@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "uron83",
+            "title": "ComfyUI-Qwen-FrameKit",
+            "id": "qwen-framekit",
+            "reference": "https://github.com/uron83/ComfyUI-Qwen-FrameKit",
+            "files": [
+                "https://github.com/uron83/ComfyUI-Qwen-FrameKit"
+            ],
+            "install_type": "git-clone",
+            "description": "Visual camera-angle LoRA control and smart aspect-ratio resizing for Qwen image editing in ComfyUI."
+        },
+        {
+            "author": "DumiFlex",
+            "title": "Wildcard Pipeline",
+            "reference": "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline",
+            "files": [
+                "https://github.com/DumiFlex/ComfyUI-Wildcard-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Modular procedural prompt generation — wildcards, fixed values, combines, derivations and constraints resolved in a context pipeline, with a manager UI for a reusable module library."
+        },
+        {
             "author": "MengYe-Z",
             "title": "ComfyUI MultiPoint White Balance",
             "reference": "https://github.com/MengYe-Z/ComfyUI-MultiPointWhiteBalance",
