@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "ANe5s",
+            "title": "ComfyUI MiniMax H3 Hybrid",
+            "id": "comfyui-minimax-h3-hybrid",
+            "reference": "https://github.com/ANe5s/ComfyUI-MiniMax-H3-Hybrid",
+            "files": [
+                "https://github.com/ANe5s/ComfyUI-MiniMax-H3-Hybrid"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for loading a MiniMax H3 FL2VA/Ref2VA hybrid model with ComfyUI DynamicVRAM/AIMDO-aware loading and matched checkpoint memory behavior."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
