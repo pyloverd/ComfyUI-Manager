@@ -5467,6 +5467,116 @@
       "size": "0.30GB"
     },
     {
+      "name": "LTX-2.3 22B IC-LoRA Ingredients",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for reference-sheet control, keeping characters, props, and locations consistent across generated videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients",
+      "filename": "ltx-2.3-22b-ic-lora-ingredients-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Ingredients/resolve/main/ltx-2.3-22b-ic-lora-ingredients-0.9.safetensors",
+      "size": "1.31GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA In-Outpainting",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for video inpainting and outpainting.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting",
+      "filename": "ltx-2.3-22b-ic-lora-in-outpainting-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting/resolve/main/ltx-2.3-22b-ic-lora-in-outpainting-0.9.safetensors",
+      "size": "1.31GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA Pixel Spatial Upscaler x2",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for generative 2x pixel spatial upscaling of videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler",
+      "filename": "ltx-2.3-22b-ic-lora-pixel-spatial-upscaler-x2-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler/resolve/main/ltx-2.3-22b-ic-lora-pixel-spatial-upscaler-x2-0.9.safetensors",
+      "size": "0.65GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA Pixel Spatial Upscaler x4",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for generative 4x pixel spatial upscaling of videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler",
+      "filename": "ltx-2.3-22b-ic-lora-pixel-spatial-upscaler-x4-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler/resolve/main/ltx-2.3-22b-ic-lora-pixel-spatial-upscaler-x4-0.9.safetensors",
+      "size": "0.65GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA Deblur",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for deblurring videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Deblur",
+      "filename": "ltx-2.3-22b-ic-lora-deblur-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Deblur/resolve/main/ltx-2.3-22b-ic-lora-deblur-0.9.safetensors",
+      "size": "0.91GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA Decompression",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for decompression / artifact cleanup of videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Decompression",
+      "filename": "ltx-2.3-22b-ic-lora-decompression-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Decompression/resolve/main/ltx-2.3-22b-ic-lora-decompression-0.9.safetensors",
+      "size": "0.91GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA Colorization",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for video colorization.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Colorization",
+      "filename": "ltx-2.3-22b-ic-lora-colorization-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Colorization/resolve/main/ltx-2.3-22b-ic-lora-colorization-0.9.safetensors",
+      "size": "0.91GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA Clean Plate",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for clean-plate generation from videos.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate",
+      "filename": "ltx-2.3-22b-ic-lora-clean-plate-1.0.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate/resolve/main/ltx-2.3-22b-ic-lora-clean-plate-1.0.safetensors",
+      "size": "0.33GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA DubIt",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for video dubbing / revoicing workflows.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-DubIt",
+      "filename": "ltx-2.3-22b-ic-lora-dubit-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-DubIt/resolve/main/ltx-2.3-22b-ic-lora-dubit-0.9.safetensors",
+      "size": "2.47GB"
+    },
+    {
+      "name": "LTX-2.3 22B IC-LoRA HDR",
+      "type": "lora",
+      "base": "LTX-2.3",
+      "save_path": "loras/ltxv/ltx2",
+      "description": "In-Context LoRA (IC LoRA) for 16-bit HDR video generation and SDR-to-HDR conversion.",
+      "reference": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-HDR",
+      "filename": "ltx-2.3-22b-ic-lora-hdr-0.9.safetensors",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-HDR/resolve/main/ltx-2.3-22b-ic-lora-hdr-0.9.safetensors",
+      "size": "0.33GB"
+    },
+    {
       "name": "LTX-2.3 Spatial Upscaler x2 1.1",
       "type": "upscale",
       "base": "upscale",
