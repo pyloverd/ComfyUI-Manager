@@ -1467,7 +1467,7 @@ export class CustomNodesManager {
 			});
 
 			if (res.status != 200) {
-				errorMsg = `'${item.title}': `;
+				errorMsg = `'${sanitizeHTML(String(item.title))}': `;
 
 				if(res.status == 403) {
 					try {
@@ -1481,7 +1481,7 @@ export class CustomNodesManager {
 						errorMsg += `This action is not allowed with this security level configuration.\n`;
 					}
 				} else {
-					errorMsg += await res.text() + '\n';
+					errorMsg += sanitizeHTML(await res.text()) + '\n';
 				}
 
 				break;

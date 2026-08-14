@@ -659,12 +659,12 @@ export async function uninstallNodes(nodeList, options = {}) {
 		});
 
 		if (res.status != 200) {
-			errorMsg = `'${nodeItem.title || nodeItem.name}': `;
+			errorMsg = `'${sanitizeHTML(String(nodeItem.title || nodeItem.name))}': `;
 
 			if (res.status == 403) {
 				errorMsg += `This action is not allowed with this security level configuration.\n`;
 			} else {
-				errorMsg += await res.text() + '\n';
+				errorMsg += sanitizeHTML(await res.text()) + '\n';
 			}
 
 			break;
