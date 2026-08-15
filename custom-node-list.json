@@ -61103,6 +61103,16 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI node for loading a MiniMax H3 FL2VA/Ref2VA hybrid model with ComfyUI DynamicVRAM/AIMDO-aware loading and matched checkpoint memory behavior."
+        },
+        {
+            "author": "DenRakEiw",
+            "title": "ComfyGotchi",
+            "reference": "https://github.com/DenRakEiw/ComfyGotchi",
+            "files": [
+                "https://github.com/DenRakEiw/ComfyGotchi"
+            ],
+            "install_type": "git-clone",
+            "description": "A Tamagotchi that lives inside ComfyUI — feeds on your AI slop, evolves, feels love from API nodes."
         }
     ]
 }

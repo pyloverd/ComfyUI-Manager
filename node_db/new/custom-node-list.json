@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "DenRakEiw",
+            "title": "ComfyGotchi",
+            "reference": "https://github.com/DenRakEiw/ComfyGotchi",
+            "files": [
+                "https://github.com/DenRakEiw/ComfyGotchi"
+            ],
+            "install_type": "git-clone",
+            "description": "A Tamagotchi that lives inside ComfyUI — feeds on your AI slop, evolves, feels love from API nodes."
+        },
+        {
             "author": "ANe5s",
             "title": "ComfyUI MiniMax H3 Hybrid",
             "id": "comfyui-minimax-h3-hybrid",
