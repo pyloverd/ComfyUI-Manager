@@ -61029,6 +61029,17 @@
             ],
             "install_type": "git-clone",
             "description": "OpenAI API based prompt rewriting agents for MiniMax H3 T2VA/I2VA/L2VA/FL2VA and Ref2VA workflows, using the official H3 skill files."
+        },
+        {
+            "author": "mickmumpitz",
+            "title": "ComfyUI-SplatKit",
+            "id": "splatkit",
+            "reference": "https://github.com/mickmumpitz/ComfyUI-SplatKit",
+            "files": [
+                "https://github.com/mickmumpitz/ComfyUI-SplatKit"
+            ],
+            "install_type": "git-clone",
+            "description": "Build 3D Gaussian Splat training datasets from a single 360 panorama, inside ComfyUI."
         }
     ]
 }
