@@ -15089,6 +15089,16 @@
             "description": "Multitrack stem mixer node. Load stems directly into the node, add multi effects per track, mix with faders/mute/solo, preview in real time, and produce a final mix on workflow execution."
         },
         {
+            "author": "tritant",
+            "title": "ModelMerge Krea 2 + Quant (INT8/INT4)",
+            "reference": "https://github.com/tritant/ComfyUI_Krea2_ModelMerger_Converter_int8_int4",
+            "files": [
+                "https://github.com/tritant/ComfyUI_Krea2_ModelMerger_Converter_int8_int4"
+            ],
+            "install_type": "git-clone",
+            "description": "This node lets you merge two full Krea 2 bf16 models and up to three LoRAs and quantize to int8/int4"
+        },
+        {
             "author": "metncelik",
             "title": "comfyui_met_suite",
             "reference": "https://github.com/metncelik/comfyui_met_suite",
@@ -24576,6 +24586,16 @@
             ],
             "install_type": "git-clone",
             "description": "Gradual IC-LoRA time-curve nodes for LTX-2.3 (ComfyUI). Modulate IC-LoRA strength over the output clip via a user-drawn curve, applied as a per-token runtime adapter."
+        },
+        {
+            "author": "Burgstall-labs",
+            "title": "ComfyUI-SAM3D-BodyMod",
+            "reference": "https://github.com/Burgstall-labs/ComfyUI-SAM3D-BodyMod",
+            "files": [
+                "https://github.com/Burgstall-labs/ComfyUI-SAM3D-BodyMod"
+            ],
+            "install_type": "git-clone",
+            "description": "Fit, stylize, transfer, and camera-drive SAM3D Body MHR pose data in ComfyUI."
         },
         {
             "author": "Kidev",
@@ -61034,6 +61054,57 @@
             ],
             "install_type": "git-clone",
             "description": "Measure the combined wall-clock time of a section of ComfyUI nodes."
+        },
+        {
+            "author": "Tutu",
+            "title": "ComfyUI-TutuKrea2T-Enhancer",
+            "reference": "https://github.com/zhaotututu/ComfyUI-TutuKrea2T-Enhancer",
+            "files": [
+                "https://github.com/zhaotututu/ComfyUI-TutuKrea2T-Enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "Tutu-maintained Krea2 Turbo prompt-adherence enhancer for ComfyUI"
+        },
+        {
+            "author": "redwing",
+            "title": "ComfyUI-StringKit",
+            "reference": "https://github.com/luku756/ComfyUI-StringKit",
+            "files": [
+                "https://github.com/luku756/ComfyUI-StringKit"
+            ],
+            "install_type": "git-clone",
+            "description": "String utility nodes for ComfyUI: attach titles to prompts, loop them through your workflow, assemble save paths, and derive a distinct seed per image."
+        },
+        {
+            "author": "lvquan",
+            "title": "CS Hybrid 4K Image-to-Video",
+            "reference": "https://github.com/lvqunx/comfyui-cs-hybrid",
+            "files": [
+                "https://github.com/lvqunx/comfyui-cs-hybrid"
+            ],
+            "install_type": "git-clone",
+            "description": "Compressed-sensing hybrid 4K image-to-video: RAFT flow transfer, dual-channel Laplacian recompose, CS tile scheduler, keyframe refresh helpers."
+        },
+        {
+            "author": "lokitsar",
+            "title": "Krea2 Multi-LoRA Composer",
+            "reference": "https://github.com/lokitsar/ComfyUI-Krea2-MultiLoRA-Composer",
+            "files": [
+                "https://github.com/lokitsar/ComfyUI-Krea2-MultiLoRA-Composer"
+            ],
+            "install_type": "git-clone",
+            "description": "Token-aware spatial Multi-LoRA composition and transparent supersampling for Krea 2 in ComfyUI."
+        },
+        {
+            "author": "ketle-man",
+            "title": "Chat TE",
+            "id": "chat-te",
+            "reference": "https://github.com/ketle-man/comfyui-chat-te",
+            "files": [
+                "https://github.com/ketle-man/comfyui-chat-te"
+            ],
+            "install_type": "git-clone",
+            "description": "Chat with an already-loaded Qwen2.5-VL / Qwen3-VL text encoder instead of loading a separate LLM -- multi-turn, vision-capable chat sharing the same VRAM. Exposes both a sidebar panel and an OpenAI-compatible /v1/chat/completions endpoint."
         }
     ]
 }
