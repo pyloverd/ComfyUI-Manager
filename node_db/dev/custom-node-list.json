@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "mickmumpitz",
+            "title": "ComfyUI-SplatKit [SECURITY ISSUE]",
+            "id": "splatkit",
+            "reference": "https://github.com/mickmumpitz/ComfyUI-SplatKit",
+            "files": [
+                "https://github.com/mickmumpitz/ComfyUI-SplatKit"
+            ],
+            "install_type": "git-clone",
+            "description": "Build 3D Gaussian Splat training datasets from a single 360 panorama, inside ComfyUI."
+        },
+        {
             "author": "yitao2020",
             "title": "ComfyUI-GPT-Image-2 [NAME CONFLICT]",
             "reference": "https://github.com/yitao2020/ComfyUI-GPT-Image-2",

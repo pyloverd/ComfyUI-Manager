@@ -223,17 +223,6 @@
             "description": "A ComfyUI custom node pack for image captioning and text generation with ToriiGate-0.5, a fine-tuned Qwen3.5-4B model."
         },
         {
-            "author": "mickmumpitz",
-            "title": "ComfyUI-SplatKit",
-            "id": "splatkit",
-            "reference": "https://github.com/mickmumpitz/ComfyUI-SplatKit",
-            "files": [
-                "https://github.com/mickmumpitz/ComfyUI-SplatKit"
-            ],
-            "install_type": "git-clone",
-            "description": "Build 3D Gaussian Splat training datasets from a single 360 panorama, inside ComfyUI."
-        },
-        {
             "author": "Andy294753951",
             "title": "ComfyUI-Flow-Wrangler",
             "reference": "https://github.com/Andy294753951/ComfyUI-Flow-Wrangler",
