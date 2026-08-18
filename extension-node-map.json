@@ -3739,6 +3739,7 @@
             "AGSoftVideoFrameExtractor",
             "AGSoftVideoFreezeFrame",
             "AGSoftVideoOverlay",
+            "AGSoftVideoSave",
             "AGSoftVideoSpeedRamp",
             "AGSoftVideoSplit",
             "AGSoftVideoTimeEffects",
@@ -5168,13 +5169,17 @@
             "BV Regional Color Control Image",
             "BV Regional Debug",
             "BV Regional Deconstructor",
+            "BV Regional FLUX.2 Klein 9B Attention",
             "BV Regional Image Save",
             "BV Regional Image Send",
+            "BV Regional Krea 2 Attention",
             "BV Regional Mask Render",
             "BV Regional Native Conditioning",
             "BV Regional Prompt",
             "BV Regional Prompt Extract",
+            "BV Regional SDXL Attention",
             "BV Regional Select",
+            "BV Regional Z-Image Attention",
             "BV Seed",
             "BV Smart Pipe",
             "BV Smart Pipe Merge",
@@ -5561,6 +5566,17 @@
         ],
         {
             "title_aux": "ComfyUI-Gradual-IC-LoRA"
+        }
+    ],
+    "https://github.com/Burgstall-labs/ComfyUI-SAM3D-BodyMod": [
+        [
+            "SAM3DBodyMod_ApplyShape",
+            "SAM3DBodyMod_BodyTypePreset",
+            "SAM3DBodyMod_CameraDrive",
+            "SAM3DBodyMod_DetectShape"
+        ],
+        {
+            "title_aux": "ComfyUI-SAM3D-BodyMod"
         }
     ],
     "https://github.com/Burve/ComfyUI_Burve_Tools": [
@@ -15232,6 +15248,7 @@
     "https://github.com/Jonseed/ComfyUI-Detail-Daemon": [
         [
             "DetailDaemonGraphSigmasNode",
+            "DetailDaemonSamplerGUINode",
             "DetailDaemonSamplerNode",
             "LyingSigmaSampler",
             "MultiplySigmas"
@@ -33786,8 +33803,11 @@
             "LTXIdentityMultiAngle",
             "LTXIdentityOverlapConditioning",
             "LTXIdentityTransfer",
+            "LTXMultiReferenceSlots",
             "LTXMultipleControls",
             "LTXMultishotPrompt",
+            "LTXReferenceImages",
+            "LTXReferenceTags",
             "LTXTrimFirstFrames",
             "LTXVApplyNeutralMask",
             "LTXVEditAnythingLoopingSampler",
@@ -55131,6 +55151,14 @@
             "title_aux": "ComfyUI 2D Pose Editor"
         }
     ],
+    "https://github.com/ketle-man/comfyui-chat-te": [
+        [
+            "QwenChatBridgeLoader"
+        ],
+        {
+            "title_aux": "Chat TE"
+        }
+    ],
     "https://github.com/ketle-man/comfyui-mask-editor-one": [
         [
             "MaskEditorOne"
@@ -58281,6 +58309,17 @@
             "AEUnmultRGBA",
             "FastBottomFitOverlay",
             "FastGiftPostFX",
+            "GiftChromaMaster",
+            "GiftChromaMasterCleaner",
+            "GiftChromaMasterDespill",
+            "GiftChromaMasterDiagnostics",
+            "GiftChromaMasterKeyer",
+            "GiftChromaMasterPackRGBA",
+            "GiftChromaMasterPreview",
+            "GiftFrameSlice",
+            "GiftMaskBlend",
+            "GiftMaskFadeInOut",
+            "GiftMaskRamp",
             "VideoTimeRemapSpeedPresets"
         ],
         {
@@ -58988,6 +59027,15 @@
         ],
         {
             "title_aux": "ComfyUI-Offload-Models"
+        }
+    ],
+    "https://github.com/lokitsar/ComfyUI-Krea2-MultiLoRA-Composer": [
+        [
+            "Krea2CharacterRouter",
+            "Krea2SupersampledKSampler"
+        ],
+        {
+            "title_aux": "Krea2 Multi-LoRA Composer"
         }
     ],
     "https://github.com/lololerigolo60/comfyui-ComfyUI-Basic-Drawing": [
@@ -60184,6 +60232,20 @@
             "title_aux": "ComfyUI-Latent-Reverb"
         }
     ],
+    "https://github.com/luku756/ComfyUI-StringKit": [
+        [
+            "StringKit_BuildPath",
+            "StringKit_JoinTexts",
+            "StringKit_LoopTexts",
+            "StringKit_SeedList",
+            "StringKit_SplitText",
+            "StringKit_TitledText",
+            "StringKit_UnpackText"
+        ],
+        {
+            "title_aux": "ComfyUI-StringKit"
+        }
+    ],
     "https://github.com/lum3on/ComfyUI-FrameUtilitys": [
         [
             "FrameClipper",
@@ -60387,6 +60449,20 @@
         {
             "nodename_pattern": "ForbiddenVision",
             "title_aux": "Forbidden Vision"
+        }
+    ],
+    "https://github.com/lvqunx/comfyui-cs-hybrid": [
+        [
+            "CSBatchStride",
+            "CSConcatImages",
+            "CSDetailRecompose",
+            "CSFlowEstimate",
+            "CSGOPRecompose",
+            "CSReplaceKeyframes",
+            "CSTileScheduler"
+        ],
+        {
+            "title_aux": "CS Hybrid 4K Image-to-Video"
         }
     ],
     "https://github.com/lxe/ComfyUI-OpenAI-Compat-LLM-Node": [
@@ -62096,6 +62172,9 @@
             "MatchModeSwitch",
             "MickmumpitzPanoEstimateFOV",
             "MickmumpitzPanoHarmonizeBoundary",
+            "MickmumpitzPanoKrea2Reference",
+            "MickmumpitzPanoRollHorizontal",
+            "MickmumpitzPanoSeamMask",
             "MickmumpitzPanoSeamRoll",
             "MickmumpitzPanoStageSwitch",
             "MickmumpitzPanoUnfilledMask",
@@ -66318,12 +66397,17 @@
             "Gen2_ApplyQwenControlNetFun",
             "Gen2_Checkerboard",
             "Gen2_CombineFlux2FunControls",
+            "Gen2_ComposeIdeogram4V9TriggerActivator",
             "Gen2_DwposeThreshold",
             "Gen2_Flux2KleinFix",
             "Gen2_Ideogram4AITKLoRALoader",
+            "Gen2_Ideogram4V9TriggerDiagnostics",
+            "Gen2_Ideogram4V9TriggerTextEncode",
             "Gen2_InputPanel",
             "Gen2_LanPaintSoftDenoisePatch",
             "Gen2_LoadFlux2FunControlNet",
+            "Gen2_LoadIdeogram4V9TriggerEmbedding",
+            "Gen2_LoadIdeogram4V9TriggerTEAdapter",
             "Gen2_LoadQwenControlNetFun",
             "Gen2_LoadQwenLora",
             "Gen2_LoadQwenVAE",
@@ -66715,6 +66799,7 @@
             "PixaromaLoopEngine",
             "PixaromaLoopStart",
             "PixaromaLoraLoader",
+            "PixaromaMusicPrompt",
             "PixaromaMuteSwitch",
             "PixaromaNote",
             "PixaromaNumber",
@@ -69661,6 +69746,7 @@
             "QwenEditImageGeneration",
             "RuiEightDirSplit",
             "RuiFeyNobg",
+            "RuiLoadVideoAlpha",
             "RuiLucida",
             "RuiMaskPreview",
             "RuiPixelate",
@@ -71461,6 +71547,7 @@
             "LoRAMultiMerge",
             "LoRAMultiMergeDARE",
             "LoRAMultiMergeDAREEnhanced",
+            "LoRANormalizeAlpha",
             "LoRAPruneKeys",
             "LoRARenameKeys",
             "LoRAResizeCumulative",
@@ -75730,6 +75817,14 @@
             "title_aux": "ComfyUI_Kitchen_nvfp4_Converter"
         }
     ],
+    "https://github.com/tritant/ComfyUI_Krea2_ModelMerger_Converter_int8_int4": [
+        [
+            "ModelMergeKrea2Quant"
+        ],
+        {
+            "title_aux": "ModelMerge Krea 2 + Quant (INT8/INT4)"
+        }
+    ],
     "https://github.com/tritant/ComfyUI_Layers_Utility": [
         [
             "LayerSystem"
@@ -78524,6 +78619,8 @@
             "TuringUtilsH3ConcatAVLatent",
             "TuringUtilsH3SeparateAVLatent",
             "TuringUtilsMiniMaxH3BlockCachePatch",
+            "TuringUtilsMiniMaxH3LatentUpscale",
+            "TuringUtilsMiniMaxH3LatentUpscaleModelLoader",
             "TuringUtilsMiniMaxH3VideoFramesPadding",
             "TuringUtilsMiniMaxH3VideoVAEDecode",
             "TuringUtilsMiniMaxH3VideoVAEEncode",
@@ -81767,6 +81864,14 @@
         ],
         {
             "title_aux": "ComfyUI-Tutu-360VR-Tools"
+        }
+    ],
+    "https://github.com/zhaotututu/ComfyUI-TutuKrea2T-Enhancer": [
+        [
+            "TutuKrea2TEnhancer"
+        ],
+        {
+            "title_aux": "ComfyUI-TutuKrea2T-Enhancer"
         }
     ],
     "https://github.com/zhinangubei/Comfyui-ZNGB-SceneDetect": [

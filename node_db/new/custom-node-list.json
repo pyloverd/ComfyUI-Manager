@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "fatak98",
+            "title": "Eulerian Motion Fluid Animator",
+            "reference": "https://github.com/Fatak98/ComfyUI-Eulerian-Motion",
+            "files": [
+                "https://github.com/Fatak98/ComfyUI-Eulerian-Motion"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node wrapping Meta AI's Eulerian Motion Fields research model for fluid cinemagraphs."
+        },
+        {
+            "author": "local",
+            "title": "ComfyUI Force Cleanup",
+            "reference": "https://github.com/3289004205/ComfyUI-Force-Cleanup",
+            "files": [
+                "https://github.com/3289004205/ComfyUI-Force-Cleanup"
+            ],
+            "install_type": "git-clone",
+            "description": "Schedule native ComfyUI model and execution-cache cleanup after a prompt."
+        },
+        {
+            "author": "hearmeman24",
+            "title": "Fast Upscale Model - HearmemanAI",
+            "reference": "https://github.com/Hearmeman24/ComfyUI-HearmemanAI-Upscale",
+            "files": [
+                "https://github.com/Hearmeman24/ComfyUI-HearmemanAI-Upscale"
+            ],
+            "install_type": "git-clone",
+            "description": "A fast drop-in replacement for ComfyUI's Upscale Image (using Model). Batches frames, blends tiles on the GPU, and defaults to no tiling."
+        },
+        {
+            "author": "cicalooo",
+            "title": "Krea2-UniDepth",
+            "reference": "https://github.com/cicalooo/ComfyUI-Krea2-UniDepth",
+            "files": [
+                "https://github.com/cicalooo/ComfyUI-Krea2-UniDepth"
+            ],
+            "install_type": "git-clone",
+            "description": "Krea2-UniDepth native functional depth and image-reference conditioning."
+        },
+        {
+            "author": "EternalShade3D",
+            "title": "Aspect Ratio Size Picker",
+            "reference": "https://github.com/EternalShade3D/ComfyUI-AspectRatioSizePicker",
+            "files": [
+                "https://github.com/EternalShade3D/ComfyUI-AspectRatioSizePicker"
+            ],
+            "install_type": "git-clone",
+            "description": "A single, no-nonsense node to pick text-to-image dimensions from an aspect-ratio dropdown, a long-edge slider, and an invert toggle. Outputs width/height (INT) plus an info STRING that previews the resolved size, orientation and common long-edge reference sizes."
+        },
+        {
+            "author": "alexw5702-afk",
+            "title": "Krea 2 AnyPaint",
+            "reference": "https://github.com/alexw5702-afk/krea2-anypaint",
+            "files": [
+                "https://github.com/alexw5702-afk/krea2-anypaint"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Krea 2 AnyPaint arbitrary-mask inpainting and outpainting"
+        },
+        {
             "author": "ketle-man",
             "title": "Chat TE",
             "id": "chat-te",
