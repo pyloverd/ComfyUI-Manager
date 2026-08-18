@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "artfat-creator",
+            "title": "Artfat Resolution",
+            "reference": "https://github.com/artfat-creator/ComfyUI-Artfat-Resolution",
+            "files": [
+                "https://github.com/artfat-creator/ComfyUI-Artfat-Resolution"
+            ],
+            "install_type": "git-clone",
+            "description": "Resolution picker for low-base + upscale workflows: preset sizes, custom ratio or exact manual W×H, two upscale stages (base → mid → final), plus an empty LATENT and a live readout. Built for Krea 2 / Selfism."
+        },
+        {
+            "author": "Latentnaut",
+            "title": "comfyui-311-inpaint",
+            "reference": "https://github.com/Latentnaut/ComfyUI-311-Inpaint",
+            "files": [
+                "https://github.com/Latentnaut/ComfyUI-311-Inpaint"
+            ],
+            "install_type": "git-clone",
+            "description": "Inpaint helper nodes for ComfyUI (311 series). First node: Add Margins — pad an image and its mask with extra width/height, centered on a configurable fill color."
+        },
+        {
+            "author": "aoiro0x0",
+            "title": "Interval Timer",
+            "reference": "https://github.com/aoiro0X0/ComfyUI-Interval-Timer",
+            "files": [
+                "https://github.com/aoiro0X0/ComfyUI-Interval-Timer"
+            ],
+            "install_type": "git-clone",
+            "description": "Measure the combined wall-clock time of a section of ComfyUI nodes."
+        },
+        {
+            "author": "kasunmalinda",
+            "title": "ComfyUI-KM-VideoReview",
+            "reference": "https://github.com/KasunMalinda/ComfyUI-KM-VideoReview",
+            "files": [
+                "https://github.com/KasunMalinda/ComfyUI-KM-VideoReview"
+            ],
+            "install_type": "git-clone",
+            "description": "RV-style interactive A/B video review player node for ComfyUI - wipe, side-by-side, difference, frame-accurate transport"
+        },
+        {
+            "author": "sparknight",
+            "title": "Lazy Fallback Switch",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-LazyFallbackSwitch",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-LazyFallbackSwitch"
+            ],
+            "install_type": "git-clone",
+            "description": "Lazy indexed switches with a default route for ComfyUI."
+        },
+        {
+            "author": "wcde",
+            "title": "Ideogram 4 VAE Coordinate Bridge",
+            "reference": "https://github.com/wcde/ComfyUI-Ideogram4-VAE-Coordinate-Bridge",
+            "files": [
+                "https://github.com/wcde/ComfyUI-Ideogram4-VAE-Coordinate-Bridge"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI node that bridges Ideogram 4 model latents to the connected Flux.2 VAE normalization."
+        },
+        {
             "author": "DenRakEiw",
             "title": "ComfyGotchi",
             "reference": "https://github.com/DenRakEiw/ComfyGotchi",

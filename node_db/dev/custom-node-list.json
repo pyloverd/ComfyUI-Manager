@@ -1141,16 +1141,6 @@
             "description": "Collection of useful custom nodes for ComfyUI including Save Image with Caption node for saving images and prompts."
         },
         {
-            "author": "wxytjustb",
-            "title": "ComfyUI-CustomNodes [NAME CONFLICT]",
-            "reference": "https://github.com/wxytjustb/ComfyUI-CustomNodes",
-            "files": [
-                "https://github.com/wxytjustb/ComfyUI-CustomNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI AI node system supporting multiple API providers including Google Gemini, OpenAI, OpenRouter, and VectorEngine with configuration-driven provider and model management."
-        },
-        {
             "author": "romandev-codex",
             "title": "ComfyUI-Downloader [NAME CONFLICT]",
             "reference": "https://github.com/romandev-codex/ComfyUI-Downloader",
@@ -8419,16 +8409,6 @@
             ],
             "description": "NODES: CropTransparent, RestoreCrop, ExpandMultiple, CropReapply",
             "install_type": "git-clone"
-        },
-        {
-            "author": "AkiEvansDev",
-            "title": "ComfyUI-Tools",
-            "reference": "https://github.com/AkiEvansDev/ComfyUI-Tools",
-            "files": [
-                "https://github.com/AkiEvansDev/ComfyUI-Tools"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for basic actions."
         },
         {
             "author": "longzoho",
