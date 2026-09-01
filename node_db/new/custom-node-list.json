@@ -1,6 +1,68 @@
 {
     "custom_nodes": [
         {
+            "author": "ethanfel",
+            "title": "H3 Prompt IDE",
+            "id": "h3-prompt-ide",
+            "reference": "https://github.com/ethanfel/ComfyUI-H3-Prompt-IDE",
+            "files": [
+                "https://github.com/ethanfel/ComfyUI-H3-Prompt-IDE"
+            ],
+            "install_type": "git-clone",
+            "description": "VS Code-inspired MiniMax H3 prompt editor with strict prompt sections, completions, reference media previews, and plain STRING output."
+        },
+        {
+            "author": "artttaku",
+            "title": "ComfyUI Batch Video Loader",
+            "id": "batchvideoloader",
+            "reference": "https://github.com/artttaku/ComfyUI-BatchVideoLoader",
+            "files": [
+                "https://github.com/artttaku/ComfyUI-BatchVideoLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "Batch-processes every video in a folder through a single-video workflow — no loop nodes or external scripts needed. Advances to the next video each time the prompt is queued, so a whole folder can be processed by queuing N times. Also includes an 'Ensure Even Dimensions' node to prevent odd-resolution encoder crashes with yuv420p/H.264 output."
+        },
+        {
+            "author": "rattskr",
+            "title": "ComfyUI Civitai Advanced Loader",
+            "reference": "https://github.com/rattskr/ComfyUI_CivitaiAdvanceLoader",
+            "files": [
+                "https://github.com/rattskr/ComfyUI_CivitaiAdvanceLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "LoRA and Checkpoint loader nodes with integrated Civitai metadata, preview images, trigger word management, and a full-featured model manager UI. Features auto-fetch from Civitai API, multi-threaded downloads, retry logic, and structured metadata storage."
+        },
+        {
+            "author": "Winlensky",
+            "title": "ComfyUI Custom Nodes for Latent Diffusion (CompVis F8 Large)",
+            "reference": "https://github.com/Winlensky/comfyui_compvis_ldm",
+            "files": [
+                "https://github.com/Winlensky/comfyui_compvis_ldm"
+            ],
+            "install_type": "git-clone",
+            "description": "Native custom nodes to initialize and run original Latent Diffusion Model (LDM) F8 Large architecture from CompVis with a BERT text encoder."
+        },
+        {
+            "author": "entropicnoise",
+            "title": "MiniMax H3 Combined Model Loader",
+            "reference": "https://github.com/entropicnoise/MiniMax-H3-Combined-Model-Loader",
+            "files": [
+                "https://github.com/entropicnoise/MiniMax-H3-Combined-Model-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "A single ComfyUI loader node for MiniMax H3 FL2VA and REF2VA diffusion models, for combined i2i+ref2i inference using ComfyUi MiniMax H3 Image And Reference To Video node."
+        },
+        {
+            "author": "entropicnoise",
+            "title": "MiniMax H3 Combined Image And Reference to Video",
+            "reference": "https://github.com/entropicnoise/MiniMax-H3-Combined-Image-And-Reference-to-Video",
+            "files": [
+                "https://github.com/entropicnoise/MiniMax-H3-Combined-Image-And-Reference-to-Video"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that combines MiniMax H3 target-frame image conditioning and Ref2VA reference conditioning in a single node."
+        },
+        {
             "author": "zzczzcx1",
             "title": "ComfyUI-BatchAnimeTimm",
             "reference": "https://github.com/zzczzcx1/ComfyUI-BatchAnimeTimm",
