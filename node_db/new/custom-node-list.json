@@ -232,13 +232,13 @@
         },
         {
             "author": "Newaiguy",
-            "title": "h3_sage_amd",
+            "title": "MiniMax H3 Memory Efficient Sage Attention (AMD gfx12)",
             "reference": "https://github.com/Newaiguy/ComfyUI-h3_sage_amd",
             "files": [
                 "https://github.com/Newaiguy/ComfyUI-h3_sage_amd"
             ],
             "install_type": "git-clone",
-            "description": "AMD gfx12 Memory-Efficient Sage Attention for MiniMax H3"
+            "description": "AMD gfx12 (RX 9070/9070 XT) memory-efficient Sage Attention for MiniMax H3. Uses native HIP kernel, saves 33% VRAM. Mirrors KJNodes NVIDIA patch."
         },
         {
             "author": "bennydaball",
