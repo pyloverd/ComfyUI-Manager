@@ -61179,6 +61179,17 @@
             "description": "A ComfyUI custom node that combines MiniMax H3 target-frame image conditioning and Ref2VA reference conditioning in a single node."
         },
         {
+            "author": "SgtSauv",
+            "title": "SSG Smart Suite",
+            "id": "ComfyUI-SSG-Smart-Suite",
+            "reference": "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite",
+            "files": [
+                "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite"
+            ],
+            "install_type": "git-clone",
+            "description": "A native, high-performance signal-routing, workflow-organization, and virtual-memory architecture for ComfyUI"
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
@@ -61396,17 +61407,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "SgtSauv",
-            "title": "SSG Smart Suite",
-            "id": "ComfyUI-SSG-Smart-Suite",
-            "reference": "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite",
-            "files": [
-                "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite"
-            ],
-            "install_type": "git-clone",
-            "description": "A native, high-performance signal-routing, workflow-organization, and virtual-memory architecture for ComfyUI"
         }
     ]
 }

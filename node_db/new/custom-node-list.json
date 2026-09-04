@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "SgtSauv",
+            "title": "SSG Smart Suite",
+            "id": "ComfyUI-SSG-Smart-Suite",
+            "reference": "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite",
+            "files": [
+                "https://github.com/SgtSauv/ComfyUI-SSG-Smart-Suite"
+            ],
+            "install_type": "git-clone",
+            "description": "A native, high-performance signal-routing, workflow-organization, and virtual-memory architecture for ComfyUI"
+        },
+        {
             "author": "ethanfel",
             "title": "H3 Prompt IDE",
             "id": "h3-prompt-ide",
