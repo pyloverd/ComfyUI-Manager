@@ -45004,7 +45004,7 @@
             "install_type": "git-clone",
             "description": "Passthrough node that instantly unloads any running ollama model mid workflow. No API calls, just accepts plain string as a model name and executes 'ollama stop <model>' command in your system."
         },
-		{
+        {
             "author": "DemonAlone",
             "title": "DemonAlone-nodes-ComfyUI",
             "reference": "https://github.com/DemonAlone/DemonAlone-nodes-ComfyUI",
@@ -45014,7 +45014,7 @@
             "install_type": "git-clone",
             "description": "A collection of nodes that provide dynamic dropdown selectors for Samplers, Schedulers, Checkpoints, and Diffusion Models, outputting a comma-separated string for use in XY plots."
         },
-		{
+        {
             "author": "DemonAlone",
             "title": "DemonAlone-StyleSelector-ComfyUI",
             "reference": "https://github.com/DemonAlone/DemonAlone-StyleSelector-ComfyUI",
