@@ -46564,7 +46564,7 @@
                 "https://github.com/huchukato/ComfyUI-PerfectVideoResolution"
             ],
             "install_type": "git-clone",
-            "description": "Automatically calculates and applies the optimal resolution for video generation models (WAN, HunyuanVideo, LTX-Video, CogVideoX, MiniMax, Mochi) based on aspect ratio and model requirements."
+            "description": "Automatically calculates and applies the optimal resolution for Wan 2.2, MiniMax H3, and LTX video generation models based on aspect ratio and model requirements."
         },
         {
             "author": "kadima-tech",
