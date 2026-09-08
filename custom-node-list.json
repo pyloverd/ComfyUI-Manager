@@ -61469,6 +61469,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "modelscope",
+            "title": "DiffSynth-ComfyUI",
+            "reference": "https://github.com/modelscope/DiffSynth-ComfyUI",
+            "files": [
+                "https://github.com/modelscope/DiffSynth-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node plugin for DiffSynth-Studio, enabling low-VRAM inference through configurable VRAM management, NF4 quantization, and model offloading. Supports image, video, and audio generation and editing across 20+ diffusion models."
         }
     ]
 }
