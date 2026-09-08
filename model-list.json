@@ -6258,7 +6258,8 @@
     "description": "Anime eye detector (YOLOv8n). Detects eyes in anime-style character art for use with BboxDetectorSEGS/Detailer workflows.",
     "reference": "https://huggingface.co/killjoyelite/anime-eye-yolov8n",
     "filename": "eye_yolov8n.pt",
-    "url": "https://huggingface.co/killjoyelite/anime-eye-yolov8n/resolve/main/eye_yolov8n.pt"
+    "url": "https://huggingface.co/killjoyelite/anime-eye-yolov8n/resolve/main/eye_yolov8n.pt",
+    "size": "6.24MB"
     }
   ]
 }
