@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "FugitiveExpert01",
+            "title": "ComfyUI-FEnodes",
+            "reference": "https://github.com/FugitiveExpert01/ComfyUI-FEnodes",
+            "files": [
+                "https://github.com/FugitiveExpert01/ComfyUI-FEnodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Tiling and text utility nodes for VFX production pipelines in ComfyUI."
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
