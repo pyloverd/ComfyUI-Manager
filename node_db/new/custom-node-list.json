@@ -1,6 +1,58 @@
 {
     "custom_nodes": [
         {
+            "author": "modelscope",
+            "title": "DiffSynth-ComfyUI",
+            "reference": "https://github.com/modelscope/DiffSynth-ComfyUI",
+            "files": [
+                "https://github.com/modelscope/DiffSynth-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node plugin for DiffSynth-Studio, enabling low-VRAM inference through configurable VRAM management, NF4 quantization, and model offloading. Supports image, video, and audio generation and editing across 20+ diffusion models."
+        },
+        {
+            "author": "loyal1365s",
+            "title": "ComfyUI Smooth Organizer",
+            "reference": "https://github.com/loyal1365s/comfyui-smooth-organizer",
+            "files": [
+                "https://github.com/loyal1365s/comfyui-smooth-organizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional extension to automatically arrange nodes with Grid and Flow layouts, fully respecting groups."
+        },
+        {
+            "author": "qjxmgs",
+            "title": "ComfyUI-Prompt-Weaver",
+            "id": "comfyui-prompt-weaver",
+            "reference": "https://github.com/qjxmgs/ComfyUI-Prompt-Weaver",
+            "files": [
+                "https://github.com/qjxmgs/ComfyUI-Prompt-Weaver"
+            ],
+            "install_type": "git-clone",
+            "description": "Prompt management extension providing a prompt toggle grid, global archives, tag autocomplete, localization, and a desktop workflow bridge for ComfyUI."
+        },
+        {
+            "author": "Rimor-dev",
+            "title": "ComfyUI-CFG-Sculptor",
+            "reference": "https://github.com/Rimor-dev/ComfyUI-CFG-Sculptor",
+            "files": [
+                "https://github.com/Rimor-dev/ComfyUI-CFG-Sculptor"
+            ],
+            "install_type": "git-clone",
+            "description": "Dynamic CFG sculpting with envelopes, waveforms, hysteresis, and snapshots"
+        },
+        {
+            "author": "yuyuki",
+            "title": "MiniMax H3 Novel Pipeline",
+            "id": "comfyui-minimax_h3_novel_pipeline",
+            "reference": "https://github.com/yuyuki/ComfyUI-Minimax_H3_Novel_Pipeline",
+            "files": [
+                "https://github.com/yuyuki/ComfyUI-Minimax_H3_Novel_Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes that turn novel chapters into continuity-aware MiniMax H3 prompts using an LM Studio OpenAI-compatible server."
+        },
+        {
             "author": "inspectagadget",
             "title": "Character Architect",
             "reference": "https://github.com/InspectaGadget/ComfyUI-CharacterArchitect",
