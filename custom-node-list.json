@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "mariobilly",
-            "title": "MSCH Nodes",
-            "reference": "https://github.com/mariobilly/msch-comfyui-nodes",
-            "files": [
-                "https://github.com/mariobilly/msch-comfyui-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "One install for the full MSCH collection: 35 video effects, slideshow, typography, lyric-sync and MiniMax H3 nodes, plus theme and editor bridge. Replaces the separate msch-* packs."
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -61234,6 +61224,16 @@
             ],
             "install_type": "git-clone",
             "description": "Tag autocomplete, prompt formatting, and dynamic prompt expansion extension for ComfyUI."
+        },
+        {
+            "author": "mariobilly",
+            "title": "MSCH Nodes",
+            "reference": "https://github.com/mariobilly/msch-comfyui-nodes",
+            "files": [
+                "https://github.com/mariobilly/msch-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "One install for the full MSCH collection: 35 video effects, slideshow, typography, lyric-sync and MiniMax H3 nodes, plus theme and editor bridge. Replaces the separate msch-* packs."
         },
         {
             "author": "ntdviet",
