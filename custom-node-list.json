@@ -45014,7 +45014,7 @@
             "install_type": "git-clone",
             "description": "Prompt Style Selector with Preview, Multiple Selecting, Search and Local Base."
         },
-		{
+        {
             "author": "DemonAlone",
             "title": "DemonAlone-JS_Addon-ComfyUI",
             "reference": "https://github.com/DemonAlone/DemonAlone-JS_Addon-ComfyUI",
@@ -46498,59 +46498,18 @@
                 "https://github.com/huchukato/ComfyUI-QwenVL-Mod"
             ],
             "install_type": "git-clone",
-            "description": "Enhanced QwenVL node with Smart Prompt Caching, multilingual WAN 2.2 presets, comprehensive visual style detection, and NSFW support. Latest v2.0.8 with bug fixes and stability improvements for professional multimodal workflows.",
-            "category": "image",
-            "tags": [
-                "vision",
-                "language",
-                "multimodal",
-                "qwen",
-                "smart_caching",
-                "prompt_caching",
-                "multilingual",
-                "style_detection",
-                "performance",
-                "wan2.2",
-                "video",
-                "i2v",
-                "t2v",
-                "cinematography",
-                "abliterated",
-                "nsfw",
-                "enhanced",
-                "fork",
-                "stable"
-            ],
-            "version": "2.0.8"
+            "description": "Enhanced QwenVL node with MiniMax H3 loop mode and presets, multilingual prompt generation, camera & style tag dropdowns, Pony prompt converters, Qwen 3.8 uncensored models, GGUF backend, LTX 2.3 FL2VA presets, and local model discovery for professional multimodal video workflows."
         },
         {
             "author": "huchukato",
-            "title": "ComfyUI-TagComplete",
-            "id": "comfy-tagcomplete",
-            "reference": "https://github.com/huchukato/comfy-tagcomplete",
+            "title": "ComfyUI-TagForge",
+            "id": "comfy-tagforge",
+            "reference": "https://github.com/huchukato/ComfyUI-TagForge",
             "files": [
-                "https://github.com/huchukato/comfy-tagcomplete"
+                "https://github.com/huchukato/ComfyUI-TagForge"
             ],
             "install_type": "git-clone",
-            "description": "Tag completion with a1111-sd-webui-tagcomplete style wildcard sub-selection, supporting CSV files and multiple wildcard sources. Features smart parsing, text overflow handling, and full compatibility with existing wildcard files. v2.0.0 with major wildcard workflow improvements.",
-            "category": "utility",
-            "tags": [
-                "tag",
-                "completion",
-                "autocomplete",
-                "wildcard",
-                "csv",
-                "suggestion",
-                "sub-selection",
-                "a1111",
-                "danbooru",
-                "e621",
-                "prompt",
-                "utility",
-                "enhanced",
-                "stable"
-            ],
-            "version": "2.0.0"
+            "description": "Tag completion with a1111-style wildcard sub-selection, CSV database support (Danbooru, e621), multiple wildcard sources, and smart parsing for professional prompt engineering in ComfyUI."
         },
         {
             "author": "huchukato",
@@ -46561,23 +46520,7 @@
                 "https://github.com/huchukato/ComfyUI-RIFE-TensorRT-Auto"
             ],
             "install_type": "git-clone",
-            "description": "Ultra fast frame interpolation using Rife TensorRT with fully automatic installation and optimization. Features automatic TensorRT engine building, CUDA toolkit detection, and resolution profiles for optimal performance. 2-4x faster than original RIFE implementation with enhanced stability and memory management.",
-            "category": "video",
-            "tags": [
-                "video",
-                "interpolation",
-                "rife",
-                "tensorrt",
-                "cuda",
-                "performance",
-                "frame",
-                "motion",
-                "automatic",
-                "optimization",
-                "enhanced",
-                "fork",
-                "stable"
-            ]
+            "description": "Ultra fast video frame interpolation for ComfyUI using RIFE with TensorRT acceleration. Auto-detects CUDA version, installs matching TensorRT wheels, and downloads RIFE models automatically."
         },
         {
             "author": "huchukato",
@@ -46588,25 +46531,7 @@
                 "https://github.com/huchukato/ComfyUI-Upscaler-TensorRT-Auto"
             ],
             "install_type": "git-clone",
-            "description": "2-4x faster ComfyUI image upscaling using TensorRT with automatic installation and model optimization. Supports popular upscaling models with automatic TensorRT engine building, CUDA toolkit detection, and memory-efficient processing. Enhanced performance and stability over original implementation.",
-            "category": "image",
-            "tags": [
-                "image",
-                "upscale",
-                "tensorrt",
-                "cuda",
-                "performance",
-                "enhancement",
-                "automatic",
-                "optimization",
-                "esrgan",
-                "edsr",
-                "memory",
-                "efficient",
-                "enhanced",
-                "fork",
-                "stable"
-            ]
+            "description": "Fast image upscaling for ComfyUI using TensorRT acceleration (2-4x faster than standard methods). Auto-detects CUDA version and installs matching TensorRT wheels. Supports multiple upscaling models with automatic engine building and optimized inference for NVIDIA GPUs."
         },
         {
             "author": "huchukato",
@@ -46617,23 +46542,18 @@
                 "https://github.com/huchukato/ComfyUI-HuggingFace"
             ],
             "install_type": "git-clone",
-            "description": "HuggingFace model downloader for ComfyUI with advanced search and intelligent download system. Search, browse, and download models directly from HuggingFace repository without leaving ComfyUI interface. Features API token support, model type filtering, and migration path from Civicomfy with enhanced stability.",
-            "category": "utility",
-            "tags": [
-                "huggingface",
-                "model",
-                "download",
-                "search",
-                "browse",
-                "api",
-                "repository",
-                "management",
-                "interface",
-                "migration",
-                "civicomfy",
-                "enhanced",
-                "stable"
-            ]
+            "description": "HuggingFace model downloader for ComfyUI — search, download, and organize AI models directly within your workflow with integrated Civitai repository access and batch download support."
+        },
+        {
+            "author": "huchukato",
+            "title": "Perfect Video Resolution",
+            "id": "perfect-video-resolution",
+            "reference": "https://github.com/huchukato/ComfyUI-PerfectVideoResolution",
+            "files": [
+                "https://github.com/huchukato/ComfyUI-PerfectVideoResolution"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically calculates and applies the optimal resolution for Wan 2.2, MiniMax H3, and LTX video generation models based on aspect ratio and model requirements."
         },
         {
             "author": "kadima-tech",
@@ -60680,7 +60600,10 @@
             ],
             "install_type": "git-clone",
             "description": "Professional ACES and EXR workflow nodes with OCIO 2.1 support and sequence loading.",
-            "pip": ["opencolorio>=2.2.0", "openexr>=3.2.0"]
+            "pip": [
+                "opencolorio>=2.2.0",
+                "openexr>=3.2.0"
+            ]
         },
         {
             "author": "Neurad",
