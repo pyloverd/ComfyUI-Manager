@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "michikora",
+            "title": "Autocomplete++",
+            "reference": "https://github.com/michikora/ComfyUI-Autocomplete-Plus-Plus",
+            "files": [
+                "https://github.com/michikora/ComfyUI-Autocomplete-Plus-Plus"
+            ],
+            "install_type": "git-clone",
+            "description": "Tag autocomplete, prompt formatting, and dynamic prompt expansion extension for ComfyUI."
+        },
+        {
+            "author": "huchukato",
+            "title": "Perfect Video Resolution",
+            "id": "perfect-video-resolution",
+            "reference": "https://github.com/huchukato/ComfyUI-PerfectVideoResolution",
+            "files": [
+                "https://github.com/huchukato/ComfyUI-PerfectVideoResolution"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically calculates and applies the optimal resolution for Wan 2.2, MiniMax H3, and LTX video generation models based on aspect ratio and model requirements."
+        },
+        {
             "author": "modelscope",
             "title": "DiffSynth-ComfyUI",
             "reference": "https://github.com/modelscope/DiffSynth-ComfyUI",
