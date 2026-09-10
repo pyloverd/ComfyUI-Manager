@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "inspectagadget",
+            "title": "Character Architect",
+            "reference": "https://github.com/InspectaGadget/ComfyUI-CharacterArchitect",
+            "files": [
+                "https://github.com/InspectaGadget/ComfyUI-CharacterArchitect"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI character prompt builder with high ethnicity adherence for Krea 2, conflict-aware randomization, and Identity Forge compatibility."
+        },
+        {
+            "author": "ComfyUI Palette Toolkit contributors",
+            "title": "comfyui-palette-toolkit",
+            "reference": "https://github.com/CrimsonEarth/ComfyUI-Palette-Toolkit",
+            "files": [
+                "https://github.com/CrimsonEarth/ComfyUI-Palette-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Model-independent hex palette construction and perceptual image harmonization for ComfyUI."
+        },
+        {
+            "author": "ZeronoFreya",
+            "title": "comfyui-friendly-string",
+            "reference": "https://github.com/ZeronoFreya/ComfyUI-Friendly-String",
+            "files": [
+                "https://github.com/ZeronoFreya/ComfyUI-Friendly-String"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin providing named-field string formatting nodes that support template embedding, allowing flexible field binding by name rather than input order. (Description by CC)"
+        },
+        {
+            "author": "nobutakakuroki",
+            "title": "ComfyUI-Wavelet-2D",
+            "reference": "https://github.com/NobutakaKuroki/comfyui-wavelet-2d",
+            "files": [
+                "https://github.com/NobutakaKuroki/comfyui-wavelet-2d"
+            ],
+            "install_type": "git-clone",
+            "description": "2D Discrete Wavelet Transform (DWT) nodes for ComfyUI. Requires comfyui-signed-image (install separately)."
+        },
+        {
+            "author": "palealloy",
+            "title": "ComfyUI-DynamicPipe",
+            "reference": "https://github.com/palealloy2999-prog/ComfyUI-DynamicPipe",
+            "files": [
+                "https://github.com/palealloy2999-prog/ComfyUI-DynamicPipe"
+            ],
+            "install_type": "git-clone",
+            "description": "Pack and unpack any number of typed values through a dynamic pipe in ComfyUI."
+        },
+        {
+            "author": "local",
+            "title": "ComfyUI-Spectrum-Anima",
+            "reference": "https://github.com/Nif00/ComfyUI-Spectrum-Anima",
+            "files": [
+                "https://github.com/Nif00/ComfyUI-Spectrum-Anima"
+            ],
+            "install_type": "git-clone",
+            "description": "Spectrum spectral feature forecasting for native ComfyUI Anima models."
+        },
+        {
             "author": "ethanfel",
             "title": "Meta SAM-Audio",
             "id": "comfyui-meta-sam-audio",
