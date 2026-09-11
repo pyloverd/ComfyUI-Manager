@@ -61453,6 +61453,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "0xBeycan",
+            "title": "ComfyUI-PreFlight",
+            "reference": "https://github.com/0xBeycan/ComfyUI-PreFlight",
+            "files": [
+                "https://github.com/0xBeycan/ComfyUI-PreFlight"
+            ],
+            "install_type": "git-clone",
+            "description": "Predict how Instagram, TikTok and X will treat your content before you post it. Local Qwen-VL observation + deterministic rules engine. No API keys, runs fully offline."
         }
     ]
 }
