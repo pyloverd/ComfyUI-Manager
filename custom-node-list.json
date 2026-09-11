@@ -44841,7 +44841,7 @@
                 "https://github.com/MajoorWaldi/ComfyUI-Majoor-OmniCam"
             ],
             "install_type": "git-clone",
-            "description": "Interactive camera authoring and proxy-reference playblasts for ComfyUI video models."
+            "description": "Interactive 3D camera authoring and proxy-reference playblasts for ComfyUI video models."
         },
         {
             "author": "sinanzoo2nd",
