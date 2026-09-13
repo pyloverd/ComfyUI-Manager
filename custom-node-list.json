@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "v3rm1ll1on",
+            "title": "ComfyUI Expert Wildcard Prompt",
+            "reference": "https://github.com/v3rm1ll1on/ComfyUI-Expert-Wildcard-Prompt",
+            "files": [
+                "https://github.com/v3rm1ll1on/ComfyUI-Expert-Wildcard-Prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "AST-based prompt parser with inline negative routing, smart percentage wildcards, and visual debugging"
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
