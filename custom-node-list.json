@@ -1,16 +1,6 @@
 {
     "custom_nodes": [
         {
-            "author": "v3rm1ll1on",
-            "title": "ComfyUI Expert Wildcard Prompt",
-            "reference": "https://github.com/v3rm1ll1on/ComfyUI-Expert-Wildcard-Prompt",
-            "files": [
-                "https://github.com/v3rm1ll1on/ComfyUI-Expert-Wildcard-Prompt"
-            ],
-            "install_type": "git-clone",
-            "description": "AST-based prompt parser with inline negative routing, smart percentage wildcards, and visual debugging"
-        },
-        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
@@ -47232,6 +47222,16 @@
             "description": "ComfyUI node for postfx library - Theme-based image post-processing & film-emulation pipeline — pure Python, CPU, no GPU."
         },
         {
+            "author": "0xBeycan",
+            "title": "ComfyUI-PreFlight",
+            "reference": "https://github.com/0xBeycan/ComfyUI-PreFlight",
+            "files": [
+                "https://github.com/0xBeycan/ComfyUI-PreFlight"
+            ],
+            "install_type": "git-clone",
+            "description": "Predict how Instagram, TikTok and X will treat your content before you post it. Local Qwen-VL observation + deterministic rules engine. No API keys, runs fully offline."
+        },
+        {
             "author": "nic-schi",
             "title": "Open Images for ComfyUI",
             "id": "openimage",
@@ -60214,6 +60214,26 @@
             "description": "Suite of native custom nodes for high-precision multi-frame storyboard generation, structural isolation, frame extraction, and cinematic tuning. (Description by CC)"
         },
         {
+            "author": "domg73",
+            "title": "ComfyUI-LoadImageCrop",
+            "reference": "https://github.com/domg73/ComfyUI-LoadImageCrop",
+            "files": [
+                "https://github.com/domg73/ComfyUI-LoadImageCrop"
+            ],
+            "install_type": "git-clone",
+            "description": "An extended Load Image node with an aspect-ratio-locked, WYSIWYG crop rectangle that outputs the cropped IMAGE and MASK."
+        },
+        {
+            "author": "domg73",
+            "title": "ComfyUI-LoadVideoCrop",
+            "reference": "https://github.com/domg73/ComfyUI-LoadVideoCrop",
+            "files": [
+                "https://github.com/domg73/ComfyUI-LoadVideoCrop"
+            ],
+            "install_type": "git-clone",
+            "description": "An extended Load Video node with an aspect-ratio-locked, WYSIWYG crop rectangle that outputs the cropped VIDEO."
+        },
+        {
             "author": "cody-li",
             "title": "ComfyUI-LTX2PromptArchitectOllama",
             "reference": "https://github.com/cody-li/ComfyUI-LTX2PromptArchitectOllama",
@@ -61287,6 +61307,16 @@
             "description": "Small ComfyUI nodes that remove needless workflow friction."
         },
         {
+            "author": "v3rm1ll1on",
+            "title": "ComfyUI Expert Wildcard Prompt",
+            "reference": "https://github.com/v3rm1ll1on/ComfyUI-Expert-Wildcard-Prompt",
+            "files": [
+                "https://github.com/v3rm1ll1on/ComfyUI-Expert-Wildcard-Prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "AST-based prompt parser with inline negative routing, smart percentage wildcards, and visual debugging"
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
@@ -61504,16 +61534,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "0xBeycan",
-            "title": "ComfyUI-PreFlight",
-            "reference": "https://github.com/0xBeycan/ComfyUI-PreFlight",
-            "files": [
-                "https://github.com/0xBeycan/ComfyUI-PreFlight"
-            ],
-            "install_type": "git-clone",
-            "description": "Predict how Instagram, TikTok and X will treat your content before you post it. Local Qwen-VL observation + deterministic rules engine. No API keys, runs fully offline."
         }
     ]
 }
