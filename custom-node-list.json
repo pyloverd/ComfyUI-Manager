@@ -44843,6 +44843,17 @@
             "description": "A custom node extension that adds project management functionality to ComfyUI."
         },
         {
+            "author": "MajoorWaldi",
+            "title": "H3 GuideMaster",
+            "id": "comfyui-majoor-h3-guidemaster",
+            "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-H3-GuideMaster",
+            "files": [
+                "https://github.com/MajoorWaldi/ComfyUI-Majoor-H3-GuideMaster"
+            ],
+            "install_type": "git-clone",
+            "description": "A MiniMax H3 guide, local filmstrip, and endpoint-anchor timeline for ComfyUI."
+        },
+        {
             "author": "sinanzoo2nd",
             "title": "ComfyUI Seed Wildcard Pack",
             "reference": "https://github.com/sinanzoo2nd/ComfyUI-Seed-Wildcard-Pack",
