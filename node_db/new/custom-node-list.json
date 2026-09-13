@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "easygoing0114",
+            "title": "Cliption Integrated",
+            "reference": "https://github.com/easygoing0114/ComfyUI-cliption-integrated",
+            "files": [
+                "https://github.com/easygoing0114/ComfyUI-cliption-integrated"
+            ],
+            "install_type": "git-clone",
+            "description": "Integrated beam-search-only fork of pharmapsychotic's ComfyUI-Cliption, combining the CLIPtion loader and beam search into a single node"
+        },
+        {
+            "author": "ssain3d-lgtm",
+            "title": "Run Once Group Toggle",
+            "reference": "https://github.com/ssain3d-lgtm/comfyui-run-once-group",
+            "files": [
+                "https://github.com/ssain3d-lgtm/comfyui-run-once-group"
+            ],
+            "install_type": "git-clone",
+            "description": "Switch chosen groups to Bypass, Mute or Active for one queue submit, then put every node back to the mode it actually had."
+        },
+        {
+            "author": "cpzombie",
+            "title": "Cpzombie",
+            "reference": "https://github.com/ConnorPietrasik/ComfyUI-Prompt-Rewriters",
+            "files": [
+                "https://github.com/ConnorPietrasik/ComfyUI-Prompt-Rewriters"
+            ],
+            "install_type": "git-clone",
+            "description": "A couple nodes to rewrite prompts using your local LLM (or other api I guess) because copy/paste is a lot of work. Currently only for MiniMax H3 Text to Video and Ref to Video."
+        },
+        {
+            "author": "nobutakakuroki",
+            "title": "ComfyUI-FFT-2D",
+            "reference": "https://github.com/NobutakaKuroki/ComfyUI-FFT-2D",
+            "files": [
+                "https://github.com/NobutakaKuroki/ComfyUI-FFT-2D"
+            ],
+            "install_type": "git-clone",
+            "description": "2D frequency-domain image processing nodes for ComfyUI."
+        },
+        {
+            "author": "cephy",
+            "title": "Cephy Lazy Nodes",
+            "reference": "https://github.com/Molinist/ComfyUI-Cephy-Lazy-Nodes",
+            "files": [
+                "https://github.com/Molinist/ComfyUI-Cephy-Lazy-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Small ComfyUI nodes that remove needless workflow friction."
+        },
+        {
+            "author": "vjumpkung",
+            "title": "ComfyUI SCAIL-2 Loop Sampler",
+            "reference": "https://github.com/vjumpkung/comfyui-scail-2-loop-sampler",
+            "files": [
+                "https://github.com/vjumpkung/comfyui-scail-2-loop-sampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatic multi-segment SCAIL-2 character replacement sampling for ComfyUI."
+        },
+        {
             "author": "mariobilly",
             "title": "MSCH Nodes",
             "reference": "https://github.com/mariobilly/msch-comfyui-nodes",
