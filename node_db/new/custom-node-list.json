@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "mengshengzhijie",
+            "title": "ComfyUI-Bilingual-Prompt-Inspector",
+            "reference": "https://github.com/mengshengzhijie/ComfyUI-Bilingual-Prompt-Inspector",
+            "files": [
+                "https://github.com/mengshengzhijie/ComfyUI-Bilingual-Prompt-Inspector"
+            ],
+            "install_type": "git-clone",
+            "description": "Prompt translator and manager: bilingual Chinese-English tag view with drag-to-reorder and temporary hiding, upstream prompt interception, favorites, multiple translation services, and a sidebar dictionary manager."
+        },
+        {
+            "author": "SamurAIGPT",
+            "title": "muapi-comfyui",
+            "reference": "https://github.com/SamurAIGPT/muapi-comfyui",
+            "files": [
+                "https://github.com/SamurAIGPT/muapi-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for AI image and video generation through MuAPI, including Seedance, Kling, Veo3, Flux, HiDream, GPT-image, and Imagen4. Requires a MuAPI API key from https://muapi.ai."
+        },
+        {
             "author": "ThinkingBells",
             "title": "comfyui_venice_api_v3",
             "id": "comfyui_venice_api_v3",
