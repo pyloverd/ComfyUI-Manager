@@ -44878,6 +44878,17 @@
         },
         {
             "author": "MajoorWaldi",
+            "title": "Majoor OmniCam",
+            "id": "majoor-omnicam",
+            "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-OmniCam",
+            "files": [
+                "https://github.com/MajoorWaldi/ComfyUI-Majoor-OmniCam"
+            ],
+            "install_type": "git-clone",
+            "description": "Camera authoring, motion-scene editing, and model-native monitor pipeline for ComfyUI."
+        },
+        {
+            "author": "MajoorWaldi",
             "title": "H3 GuideMaster",
             "id": "comfyui-majoor-h3-guidemaster",
             "reference": "https://github.com/MajoorWaldi/ComfyUI-Majoor-H3-GuideMaster",
