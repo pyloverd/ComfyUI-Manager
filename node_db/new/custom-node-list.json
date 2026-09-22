@@ -9086,6 +9086,18 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI custom nodes for LongCat Video Avatar 1.5 audio-driven human video generation."
+        },
+        {
+            "author": "blackbossokok",
+            "title": "Comfyui-EzFlex-Presets",
+            "id": "comfyui-ezflex-presets",
+            "version": "1.2.4",
+            "reference": "https://github.com/blackbossokok/Comfyui-EzFlex-Presets",
+            "files": [
+                "https://github.com/blackbossokok/Comfyui-EzFlex-Presets"
+            ],
+            "install_type": "git-clone",
+            "description": "EzFlex preset suite for ComfyUI: models combo loader, resolution/latent selector, node switch master & group presets, parameter presets, preview any, prompt helper, media loader/output."
         }
     ]
 }
