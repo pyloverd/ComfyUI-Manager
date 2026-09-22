@@ -61623,6 +61623,17 @@
             "description": "ComfyUI custom node for Venice.ai text generation with E2EE support (v3 schema). Includes ECDH secp256k1 + AES-256-GCM end-to-end encryption for e2ee- models."
         },
         {
+            "author": "Rebellion Pictures",
+            "title": "VALYDA Protocol",
+            "id": "valyda-protocol",
+            "reference": "https://github.com/RebellionPictures/Valyda-Protocol",
+            "files": [
+                "https://github.com/RebellionPictures/Valyda-Protocol"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates EU AI Act Article 50 disclosure records as PDF and JSON from the executed workflow. Three nodes: Creator, Broadcast, Project."
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
