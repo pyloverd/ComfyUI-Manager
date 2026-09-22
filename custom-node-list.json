@@ -61634,6 +61634,18 @@
             "description": "Generates EU AI Act Article 50 disclosure records as PDF and JSON from the executed workflow. Three nodes: Creator, Broadcast, Project."
         },
         {
+            "author": "blackbossokok",
+            "title": "Comfyui-EzFlex-Presets",
+            "id": "comfyui-ezflex-presets",
+            "version": "1.2.4",
+            "reference": "https://github.com/blackbossokok/Comfyui-EzFlex-Presets",
+            "files": [
+                "https://github.com/blackbossokok/Comfyui-EzFlex-Presets"
+            ],
+            "install_type": "git-clone",
+            "description": "EzFlex preset suite for ComfyUI: models combo loader, resolution/latent selector, node switch master & group presets, parameter presets, preview any, prompt helper, media loader/output."
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
