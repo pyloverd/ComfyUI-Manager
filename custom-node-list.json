@@ -61863,6 +61863,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "KOFiblto",
+            "title": "ComfyUI-SaturnNodes",
+            "reference": "https://github.com/KOFiblto/ComfyUI-SaturnNodes",
+            "files": [
+                "https://github.com/KOFiblto/ComfyUI-SaturnNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Essential workflow controls: mid-generation pause, persistent queue auto-recovery, visual LoRA/image loaders, prompt queue iterator, interactive decision nodes, and local file runner."
         }
     ]
 }
