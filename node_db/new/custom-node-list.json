@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "bada-ya",
+            "title": "ComfyUI-Bada-Utils",
+            "reference": "https://github.com/bada-ya/ComfyUI-Bada-Utils",
+            "files": [
+                "https://github.com/bada-ya/ComfyUI-Bada-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "All-in-One Quality of Life, Smart Presets Hub, Auto Model Assigner & Visual Regional Prompting Suite for ComfyUI"
+        },
+        {
             "author": "DenRakEiw",
             "title": "DenRakEiw Nodes",
             "reference": "https://github.com/DenRakEiw/DenRakEiw_Nodes",

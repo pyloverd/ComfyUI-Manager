@@ -61726,6 +61726,16 @@
             "description": "Local metadata backend for ComfyUI Prompt Workbench: offline safetensors trigger scanning, editable character/outfit groups and output organization. Optional explicit online scans query Civitai using SHA-256 hashes. No models or personal database bundled; no standalone panel."
         },
         {
+            "author": "bada-ya",
+            "title": "ComfyUI-Bada-Utils",
+            "reference": "https://github.com/bada-ya/ComfyUI-Bada-Utils",
+            "files": [
+                "https://github.com/bada-ya/ComfyUI-Bada-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "All-in-One Quality of Life, Smart Presets Hub, Auto Model Assigner & Visual Regional Prompting Suite for ComfyUI"
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
@@ -61943,16 +61953,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "bada-ya",
-            "title": "ComfyUI-Bada-Utils",
-            "reference": "https://github.com/bada-ya/ComfyUI-Bada-Utils",
-            "files": [
-                "https://github.com/bada-ya/ComfyUI-Bada-Utils"
-            ],
-            "install_type": "git-clone",
-            "description": "All-in-One Quality of Life, Smart Presets Hub, Auto Model Assigner & Visual Regional Prompting Suite for ComfyUI"
         }
     ]
 }
