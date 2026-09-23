@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "CoolBreeze164",
+            "title": "ComfyUI CoolB Nodes",
+            "id": "ComfyUI-CoolB-Nodes",
+            "reference": "https://github.com/CoolBreeze164/ComfyUI-CoolB-Nodes",
+            "files": [
+                "https://github.com/CoolBreeze164/ComfyUI-CoolB-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple pack of utility nodes for ComfyUI featuring saving/loading speakers with transcripts (useful alongside TTS packs), execution flow control (muting/bypassing nodes and groups on trigger to actively change the workflow state from run to run), some useful text file utilities (including save/load text file) and data type conversion."
+        },
+        {
             "author": "bada-ya",
             "title": "ComfyUI-Bada-Utils",
             "reference": "https://github.com/bada-ya/ComfyUI-Bada-Utils",
