@@ -61676,6 +61676,16 @@
             "description": "Review a predicted first frame, then continue the same MiniMax H3 sampling state with Preview/GO safety, Reference, structured BBOX, and Multi-Key support."
         },
         {
+            "author": "D33MO",
+            "title": "ComfyUI Prompt Warehouse",
+            "reference": "https://github.com/D33MO/ComfyUI-Prompt-Warehouse",
+            "files": [
+                "https://github.com/D33MO/ComfyUI-Prompt-Warehouse"
+            ],
+            "install_type": "git-clone",
+            "description": "Prompt warehouse and workflow utility nodes for ComfyUI, including reusable prompts, multiline prompt editing, a persistent multi-LoRA loader, and deletable image output."
+        },
+        {
             "author": "ntdviet",
             "title": "ntdviet/comfyui-ext",
             "reference": "https://github.com/ntdviet/comfyui-ext",
