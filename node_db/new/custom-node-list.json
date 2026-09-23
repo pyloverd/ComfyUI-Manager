@@ -189,15 +189,15 @@
             "description": "Drop an image and get the ComfyUI workflow back: a Civitai link, a PNG with metadata, or your own output. Unbake reads the PNG info — prompt, seed, sampler, steps, CFG, LoRAs — rebuilds the graph, and sorts the missing models by how you would obtain them. Then it runs a validated XY plot (parameter sweep) that throws if anything other than the axis you declared has moved, so the comparison you are looking at is actually a comparison."
         },
         {
-            "author": "xzbdqian10nian",
-            "title": "Qwen3.8 VL",
+            "author": "Tank",
+            "title": "TankNodes",
             "id": "qwen38-vl",
-            "reference": "https://github.com/xzbdqian10nian/ComfyUI-Qwen3.8-VL",
+            "reference": "https://github.com/xzbdqian10nian/ComfyUI-TankNodes",
             "files": [
-                "https://github.com/xzbdqian10nian/ComfyUI-Qwen3.8-VL"
+                "https://github.com/xzbdqian10nian/ComfyUI-TankNodes"
             ],
             "install_type": "git-clone",
-            "description": "Qwen3.8 VL multimodal vision-language nodes for ComfyUI. Supports local GGUF inference through llama.cpp and OpenAI-compatible API backends for text, images, image batches, and video frames."
+            "description": "ComfyUI nodes by Tank for local Qwen3.8 GGUF multimodal inference and OpenAI-compatible API chat with text, images and video. Includes reasoning controls, model unloading and interruptible API requests."
         },
         {
             "author": "vdeng-ai",
