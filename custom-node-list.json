@@ -60643,6 +60643,17 @@
             "description": "Multi-GPU (Ulysses sequence-parallel) inference for MiniMax-H3: drop-in UNETLoader replacement sharding the packed video+audio sequence across 2/4/7/8 GPUs, bit-identical output. Requires ComfyUI >= 0.30.0 and Linux or WSL2 (NCCL; no native Windows)."
         },
         {
+            "author": "buqi-code",
+            "title": "buqi-qwen-image-2.1-multigpu",
+            "reference": "https://github.com/buqi-code/buqi-qwen-image-2.1-multigpu",
+            "files": [
+                "https://github.com/buqi-code/buqi-qwen-image-2.1-multigpu"
+            ],
+            "nodename_pattern": "QwenImage21SP.*",
+            "install_type": "git-clone",
+            "description": "ComfyUI-native Ulysses sequence-parallel inference for Qwen-Image 2.1 across 1/2/4/8 GPUs, including text-to-image, multi-reference editing, and distributed prefix caching. Requires ComfyUI >= 0.37.0 and Linux or WSL2 with NCCL; native Windows is not supported."
+        },
+        {
             "author": "ANe5s",
             "title": "ComfyUI MiniMax H3 Hybrid",
             "id": "comfyui-minimax-h3-hybrid",
