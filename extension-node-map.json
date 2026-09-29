@@ -39025,6 +39025,15 @@
             "title_aux": "buqi-minimax-h3-multigpu"
         }
     ],
+    "https://github.com/buqi-code/buqi-qwen-image-2.1-multigpu": [
+        [
+            "QwenImage21SPUNETLoader"
+        ],
+        {
+            "nodename_pattern": "QwenImage21SP.*",
+            "title_aux": "buqi-qwen-image-2.1-multigpu"
+        }
+    ],
     "https://github.com/burnsbert/ComfyUI-EBU-LMStudio": [
         [
             "EbuLMStudioBrainstormer",
@@ -47434,7 +47443,7 @@
             "title_aux": "MiniMax H3 Edit"
         }
     ],
-    "https://github.com/ethanfel/ComfyUI-MiniMaxH3-Contex-Loop": [
+    "https://github.com/ethanfel/ComfyUI-MiniMaxH3-Context-Loop": [
         [
             "H3ConditioningSyncFromLatents",
             "MiniMaxH3AdvancedPolicy",
@@ -47529,7 +47538,7 @@
             "MiniMaxH3UpscaleReferencePromptOverride"
         ],
         {
-            "title_aux": "MiniMax H3 Contex Loop"
+            "title_aux": "MiniMax H3 Context Loop"
         }
     ],
     "https://github.com/ethanfel/ComfyUI-MiniMaxH3-PerRowMasking": [
@@ -64954,6 +64963,7 @@
             "RT_LTX2_STG_Guider",
             "RT_LTX2_SelfRefiningPatch",
             "RT_LTX2_Video_LoRA_Injector",
+            "RT_ModelMemoryLeakDetector",
             "RT_QI21_NAG",
             "RT_QI21_NAG_Guider",
             "RT_QI21_NAG_Model",
@@ -65519,6 +65529,7 @@
             "DetailerForEach",
             "Direct",
             "DirectNode",
+            "EasyAnimaSafePAG",
             "EasyUseAnima29BLoraStackLoader",
             "EasyUseAnimaAIOGenerator",
             "EasyUseAnimaAIOHookCombine",
@@ -66614,6 +66625,8 @@
     ],
     "https://github.com/noembryo/ComfyUI-noEmbryo": [
         [
+            "H3AVLatentFromVideo",
+            "H3ClipRefiner",
             "H3ContextLatentConverter",
             "H3MotionContextClipPurge",
             "H3MotionContextClipStitcher",
@@ -73490,6 +73503,14 @@
             "title_aux": "ComfyUI-Angelo"
         }
     ],
+    "https://github.com/shootthesound/ComfyUI-Fizgig-H3-Tweaks": [
+        [
+            "FizgigH3Tweaks"
+        ],
+        {
+            "title_aux": "Fizgig H3 Tweaks"
+        }
+    ],
     "https://github.com/shootthesound/ComfyUI-KreaReason": [
         [
             "KreaReason"
@@ -78708,6 +78729,21 @@
         ],
         {
             "title_aux": "Anima Regional Canvas"
+        }
+    ],
+    "https://github.com/ukr8b3g-cmyk/ComfyUI-ForgeNeo-Bridge": [
+        [
+            "ForgeCompatNoise",
+            "ForgeCompatSampler",
+            "ForgeCompatSpec",
+            "ForgeCompatText",
+            "ForgeNeoBridgeKSampler",
+            "ForgeNeoBridgeScheduler",
+            "ForgeNeoBridgeSettings",
+            "ForgeNeoBridgeTextEncode"
+        ],
+        {
+            "title_aux": "ForgeNeo Bridge"
         }
     ],
     "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum": [
